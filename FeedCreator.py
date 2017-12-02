@@ -1,6 +1,7 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import git
 import requests
 import re
 import os
@@ -107,7 +108,6 @@ with open(good_feed_name, 'w') as good:
 with open(bad_feed_name, 'w') as bad:
     bad.write(bad_text)
 
-import git
 repo = git.Repo( '../rss-classifier' )
 print(repo.git.add( '.' ))
 
