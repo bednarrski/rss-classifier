@@ -112,7 +112,7 @@ repo = git.Repo( '../rss-classifier' )
 print(repo.git.add( '.' ))
 
 timestring = strftime("%Y%m%d_%H%M%S", gmtime())
-message = 'Update at ' + timestring
+message = '"Update at ' + timestring + '"'
 
 print(repo.git.commit( m=message ))
 print(repo.git.push())
