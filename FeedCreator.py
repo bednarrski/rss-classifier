@@ -1,6 +1,15 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import sys
+print(sys.version)
+
+import os
+os.system('which python')
+
+from time import gmtime, strftime
+print(strftime("%Y%m%d_%H%M%S", gmtime()))
+
 import git
 import requests
 import re
@@ -78,8 +87,8 @@ urls = [
     'http://arxiv.org/rss/cs.AI',
     'http://arxiv.org/rss/stat.ML'
 ]
-good_feed_name = 'papers_good.xml'
-bad_feed_name = 'papers_bad.xml'
+good_feed_name = '/home/piotr.bednarski/Repositories/rss-classifier/papers_good.xml'
+bad_feed_name = '/home/piotr.bednarski/Repositories/rss-classifier/papers_bad.xml'
 
 articles_info_classified_list = []
 for url in urls:
