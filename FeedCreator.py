@@ -108,7 +108,7 @@ with open(good_feed_name, 'w') as good:
 with open(bad_feed_name, 'w') as bad:
     bad.write(bad_text)
 
-repo = git.Repo( '../rss-classifier' )
+repo = git.Repo( '/home/piotr.bednarski/Repositories/rss-classifier' )
 print(repo.git.add( '.' ))
 
 timestring = strftime("%Y%m%d_%H%M%S", gmtime())
