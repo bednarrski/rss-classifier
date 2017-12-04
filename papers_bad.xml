@@ -15,7 +15,7 @@
 <link>http://arxiv.org/</link>
 <description rdf:parseType="Literal">The Bad Papers on ML, AI and Statistics</description>
 <dc:language>en-us</dc:language>
-<dc:date>2017-11-30T20:30:00-05:00</dc:date>
+<dc:date>2017-12-03T20:30:00-05:00</dc:date>
 <dc:publisher>help@arxiv.org</dc:publisher>
 <dc:subject>Statistics -- Machine Learning</dc:subject>
 <syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
@@ -23,7 +23,7 @@
 <syn:updatePeriod>daily</syn:updatePeriod>
 <items>
  <rdf:Seq>
-<rdf:li rdf:resource="http://arxiv.org/abs/1711.11293"/></rdf:Seq>
+</rdf:Seq>
 </items>
 <image rdf:resource="http://arxiv.org/icons/sfx.gif" />
 </channel>
@@ -31,29 +31,4 @@
 <title>arXiv.org</title>
 <url>http://arxiv.org/icons/sfx.gif</url>
 <link>http://arxiv.org/</link>
-</image><item rdf:about="http://arxiv.org/abs/1711.11293">
-<title>Parallel-Data-Free Voice Conversion Using Cycle-Consistent Adversarial Networks. (arXiv:1711.11293v1 [stat.ML])</title>
-<link>http://arxiv.org/abs/1711.11293</link>
-<description rdf:parseType="Literal">&lt;p&gt;We propose a parallel-data-free voice conversion (VC) method that can learn a
-mapping from source to target speech without relying on parallel data. The
-proposed method is general-purpose, high quality, and parallel-data-free, which
-works without any extra data, modules, or alignment procedure. It is also
-noteworthy that it avoids over-smoothing, which occurs in many conventional
-statistical model-based VC methods. Our method uses a cycle-consistent
-adversarial network (CycleGAN) with gated convolutional neural networks (CNNs)
-and an identity-mapping loss. The CycleGAN learns forward and inverse mappings
-simultaneously using adversarial and cycle-consistency losses. This makes it
-possible to find an optimal pseudo pair from unpaired data. Furthermore, the
-adversarial loss contributes to reducing over-smoothing of the converted
-feature sequence. We configure a CycleGAN with gated CNNs and train it with an
-identity-mapping loss. This allows the mapping function to capture sequential
-and hierarchical structures while preserving linguistic information. We
-evaluated our method on a parallel-data-free VC task. An objective evaluation
-showed that the converted feature sequence was near natural in terms of global
-variance and modulation spectra. A subjective evaluation showed that the
-quality of the converted speech was comparable to that obtained with the
-GMM-based method under advantageous conditions with parallel data.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Kaneko_T/0/1/0/all/0/1&quot;&gt;Takuhiro Kaneko&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Kameoka_H/0/1/0/all/0/1&quot;&gt;Hirokazu Kameoka&lt;/a&gt;</dc:creator>
-</item></rdf:RDF>
+</image></rdf:RDF>
