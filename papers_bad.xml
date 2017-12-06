@@ -15,7 +15,7 @@
 <link>http://arxiv.org/</link>
 <description rdf:parseType="Literal">The Bad Papers on ML, AI and Statistics</description>
 <dc:language>en-us</dc:language>
-<dc:date>2017-12-04T20:30:00-05:00</dc:date>
+<dc:date>2017-12-05T20:30:00-05:00</dc:date>
 <dc:publisher>help@arxiv.org</dc:publisher>
 <dc:subject>Statistics -- Machine Learning</dc:subject>
 <syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
@@ -23,7 +23,8 @@
 <syn:updatePeriod>daily</syn:updatePeriod>
 <items>
  <rdf:Seq>
-</rdf:Seq>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.01769"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.01818"/></rdf:Seq>
 </items>
 <image rdf:resource="http://arxiv.org/icons/sfx.gif" />
 </channel>
@@ -31,4 +32,51 @@
 <title>arXiv.org</title>
 <url>http://arxiv.org/icons/sfx.gif</url>
 <link>http://arxiv.org/</link>
-</image></rdf:RDF>
+</image><item rdf:about="http://arxiv.org/abs/1712.01769">
+<title>State-of-the-art Speech Recognition With Sequence-to-Sequence Models. (arXiv:1712.01769v1 [cs.CL])</title>
+<link>http://arxiv.org/abs/1712.01769</link>
+<description rdf:parseType="Literal">&lt;p&gt;Attention-based encoder-decoder architectures such as Listen, Attend, and
+Spell (LAS), subsume the acoustic, pronunciation and language model components
+of a traditional automatic speech recognition (ASR) system into a single neural
+network. In our previous work, we have shown that such architectures are
+comparable to state-of-the-art ASR systems on dictation tasks, but it was not
+clear if such architectures would be practical for more challenging tasks such
+as voice search. In this work, we explore a variety of structural and
+optimization improvements to our LAS model which significantly improve
+performance. On the structural side, we show that word piece models can be used
+instead of graphemes. We introduce a novel multi-head attention architecture,
+which offers improvements over the commonly-used single-head attention. On the
+optimization side, we explore techniques such as synchronous training,
+scheduled sampling, label smoothing, and applying minimum word error rate
+optimization, which are all shown to improve accuracy. We present results with
+a unidirectional LSTM encoder for streaming recognition. On a 12,500~hour voice
+search task, we find that the proposed changes improve the WER of the LAS
+system from 9.2% to 5.8%, which corresponds to a 13% relative improvement over
+the best conventional system which achieves 6.7% WER.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chiu_C/0/1/0/all/0/1&quot;&gt;Chung-Cheng Chiu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sainath_T/0/1/0/all/0/1&quot;&gt;Tara N. Sainath&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wu_Y/0/1/0/all/0/1&quot;&gt;Yonghui Wu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Prabhavalkar_R/0/1/0/all/0/1&quot;&gt;Rohit Prabhavalkar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nguyen_P/0/1/0/all/0/1&quot;&gt;Patrick Nguyen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_Z/0/1/0/all/0/1&quot;&gt;Zhifeng Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kannan_A/0/1/0/all/0/1&quot;&gt;Anjuli Kannan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Weiss_R/0/1/0/all/0/1&quot;&gt;Ron J. Weiss&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Rao_K/0/1/0/all/0/1&quot;&gt;Kanishka Rao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gonina_K/0/1/0/all/0/1&quot;&gt;Katya Gonina&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jaitly_N/0/1/0/all/0/1&quot;&gt;Navdeep Jaitly&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_B/0/1/0/all/0/1&quot;&gt;Bo Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chorowski_J/0/1/0/all/0/1&quot;&gt;Jan Chorowski&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bacchiani_M/0/1/0/all/0/1&quot;&gt;Michiel Bacchiani&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1712.01818">
+<title>Minimum Word Error Rate Training for Attention-based Sequence-to-Sequence Models. (arXiv:1712.01818v1 [cs.CL])</title>
+<link>http://arxiv.org/abs/1712.01818</link>
+<description rdf:parseType="Literal">&lt;p&gt;Sequence-to-sequence models, such as attention-based models in automatic
+speech recognition (ASR), are typically trained to optimize the cross-entropy
+criterion which corresponds to improving the log-likelihood of the data.
+However, system performance is usually measured in terms of word error rate
+(WER), not log-likelihood. Traditional ASR systems benefit from discriminative
+sequence training which optimizes criteria such as the state-level minimum
+Bayes risk (sMBR) which are more closely related to WER. In the present work,
+we explore techniques to train attention-based models to directly minimize
+expected word error rate. We consider two loss functions which approximate the
+expected number of word errors: either by sampling from the model, or by using
+N-best lists of decoded hypotheses, which we find to be more effective than the
+sampling-based method. In experimental evaluations, we find that the proposed
+training procedure improves performance by up to 8.2% relative to the baseline
+system. This allows us to train grapheme-based, uni-directional attention-based
+models which match the performance of a traditional, state-of-the-art,
+discriminative sequence-trained system on a mobile voice-search task.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Prabhavalkar_R/0/1/0/all/0/1&quot;&gt;Rohit Prabhavalkar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sainath_T/0/1/0/all/0/1&quot;&gt;Tara N. Sainath&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wu_Y/0/1/0/all/0/1&quot;&gt;Yonghui Wu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nguyen_P/0/1/0/all/0/1&quot;&gt;Patrick Nguyen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_Z/0/1/0/all/0/1&quot;&gt;Zhifeng Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chiu_C/0/1/0/all/0/1&quot;&gt;Chung-Cheng Chiu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kannan_A/0/1/0/all/0/1&quot;&gt;Anjuli Kannan&lt;/a&gt;</dc:creator>
+</item></rdf:RDF>
