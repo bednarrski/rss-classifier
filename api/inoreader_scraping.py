@@ -8,6 +8,8 @@ def scrape(feed, start_time, file_name):
     while current_time > start_time:
         answer = inoreader_api.inoreader_request('stream/contents/'+feed+mods)
         batch = answer['items']
+        if 'continuation' not in answer:
+            break
         mods = '?c=' + answer['continuation']
         current_time = (batch[0])['published']
         all_articles=all_articles+batch
