@@ -7,7 +7,7 @@ from sklearn.svm import SVC
 
 #import numpy as np
 
-def classify(articles_info_pd):
+def classify2(articles_info_pd):
     
     articles_info_pd['class'] = True
     
@@ -15,11 +15,11 @@ def classify(articles_info_pd):
     
     return articles_info_pd
 
-def classify2(articles_info_pd):
-    models = pickle.load(open( 'rss_models_171215.pickle', "rb" ))
+def classify(articles_info_pd):
+    models = pickle.load(open( '/home/piotr.bednarski/Repositories/rss-classifier/rss_models_171215.pickle', "rb" ))
     print(models)
     
-    articles_info_pd['class'] = 'test'
+    articles_info_pd['class'] = True
     svc = models['svc']
     
     for i in range(len(articles_info_pd['class'])):
@@ -27,6 +27,8 @@ def classify2(articles_info_pd):
                 +articles_info_pd.iloc[i]['authors']+' '\
                 +articles_info_pd.iloc[i]['abstract']
         #articles_info_pd.at[i]['class'] = temp
+        #print(svc.predict_proba([temp])[0])
+        temp = ((svc.predict_proba([temp])[0])[1] > 0.14)
         articles_info_pd.set_value(i, 'class', temp)
     
     return articles_info_pd
