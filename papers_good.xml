@@ -15,7 +15,7 @@
 <link>http://arxiv.org/</link>
 <description rdf:parseType="Literal">The Good Papers on ML, AI and Statistics</description>
 <dc:language>en-us</dc:language>
-<dc:date>2017-12-20T20:30:00-05:00</dc:date>
+<dc:date>2017-12-21T20:30:00-05:00</dc:date>
 <dc:publisher>help@arxiv.org</dc:publisher>
 <dc:subject>Statistics -- Machine Learning</dc:subject>
 <syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
@@ -23,18 +23,12 @@
 <syn:updatePeriod>daily</syn:updatePeriod>
 <items>
  <rdf:Seq>
-<rdf:li rdf:resource="http://arxiv.org/abs/1710.11622"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.07296"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.07305"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.07316"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.07203"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.07240"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.07420"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.07424"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.07436"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.07557"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1706.08566"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1710.10161"/></rdf:Seq>
+<rdf:li rdf:resource="http://arxiv.org/abs/1705.08927"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.05881"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.08091"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.08104"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1401.8008"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1708.05207"/></rdf:Seq>
 </items>
 <image rdf:resource="http://arxiv.org/icons/sfx.gif" />
 </channel>
@@ -42,273 +36,127 @@
 <title>arXiv.org</title>
 <url>http://arxiv.org/icons/sfx.gif</url>
 <link>http://arxiv.org/</link>
-</image><item rdf:about="http://arxiv.org/abs/1710.11622">
-<title>Meta-Learning and Universality: Deep Representations and Gradient Descent can Approximate any Learning Algorithm. (arXiv:1710.11622v2 [cs.LG] UPDATED)</title>
-<link>http://arxiv.org/abs/1710.11622</link>
-<description rdf:parseType="Literal">&lt;p&gt;Learning to learn is a powerful paradigm for enabling models to learn from
-data more effectively and efficiently. A popular approach to meta-learning is
-to train a recurrent model to read in a training dataset as input and output
-the parameters of a learned model, or output predictions for new test inputs.
-Alternatively, a more recent approach to meta-learning aims to acquire deep
-representations that can be effectively fine-tuned, via standard gradient
-descent, to new tasks. In this paper, we consider the meta-learning problem
-from the perspective of universality, formalizing the notion of learning
-algorithm approximation and comparing the expressive power of the
-aforementioned recurrent models to the more recent approaches that embed
-gradient descent into the meta-learner. In particular, we seek to answer the
-following question: does deep representation combined with standard gradient
-descent have sufficient capacity to approximate any learning algorithm? We find
-that this is indeed true, and further find, in our experiments, that
-gradient-based meta-learning consistently leads to learning strategies that
-generalize more widely compared to those represented by recurrent models.
+</image><item rdf:about="http://arxiv.org/abs/1705.08927">
+<title>Compiling quantum circuits to realistic hardware architectures using temporal planners. (arXiv:1705.08927v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/1705.08927</link>
+<description rdf:parseType="Literal">&lt;p&gt;To run quantum algorithms on emerging gate-model quantum hardware, quantum
+circuits must be compiled to take into account constraints on the hardware. For
+near-term hardware, with only limited means to mitigate decoherence, it is
+critical to minimize the duration of the circuit. We investigate the
+application of temporal planners to the problem of compiling quantum circuits
+to newly emerging quantum hardware. While our approach is general, we focus on
+compiling to superconducting hardware architectures with nearest neighbor
+constraints. Our initial experiments focus on compiling Quantum Alternating
+Operator Ansatz (QAOA) circuits whose high number of commuting gates allow
+great flexibility in the order in which the gates can be applied. That freedom
+makes it more challenging to find optimal compilations but also means there is
+a greater potential win from more optimized compilation than for less flexible
+circuits. We map this quantum circuit compilation problem to a temporal
+planning problem, and generated a test suite of compilation problems for QAOA
+circuits of various sizes to a realistic hardware architecture. We report
+compilation results from several state-of-the-art temporal planners on this
+test set. This early empirical evaluation demonstrates that temporal planning
+is a viable approach to quantum circuit compilation.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Finn_C/0/1/0/all/0/1&quot;&gt;Chelsea Finn&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Levine_S/0/1/0/all/0/1&quot;&gt;Sergey Levine&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Venturelli_D/0/1/0/all/0/1&quot;&gt;Davide Venturelli&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Do_M/0/1/0/all/0/1&quot;&gt;Minh Do&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Rieffel_E/0/1/0/all/0/1&quot;&gt;Eleanor Rieffel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Frank_J/0/1/0/all/0/1&quot;&gt;Jeremy Frank&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1712.07296">
-<title>Block-diagonal Hessian-free Optimization for Training Neural Networks. (arXiv:1712.07296v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1712.07296</link>
-<description rdf:parseType="Literal">&lt;p&gt;Second-order methods for neural network optimization have several advantages
-over methods based on first-order gradient descent, including better scaling to
-large mini-batch sizes and fewer updates needed for convergence. But they are
-rarely applied to deep learning in practice because of high computational cost
-and the need for model-dependent algorithmic variations. We introduce a variant
-of the Hessian-free method that leverages a block-diagonal approximation of the
-generalized Gauss-Newton matrix. Our method computes the curvature
-approximation matrix only for pairs of parameters from the same layer or block
-of the neural network and performs conjugate gradient updates independently for
-each block. Experiments on deep autoencoders, deep convolutional networks, and
-multilayer LSTMs demonstrate better convergence and generalization compared to
-the original Hessian-free approach and the Adam method.
+<item rdf:about="http://arxiv.org/abs/1712.05881">
+<title>Morphology dictates a robot&apos;s ability to ground crowd-proposed language. (arXiv:1712.05881v2 [cs.AI] UPDATED)</title>
+<link>http://arxiv.org/abs/1712.05881</link>
+<description rdf:parseType="Literal">&lt;p&gt;As more robots act in physical proximity to people, it is essential to ensure
+they make decisions and execute actions that align with human values. To do so,
+robots need to understand the true intentions behind human-issued commands. In
+this paper, we define a safe robot as one that receives a natural-language
+command from humans, considers an action in response to that command, and
+accurately predicts how humans will judge that action if is executed in
+reality. Our contribution is two-fold: First, we introduce a web platform for
+human users to propose commands to simulated robots. The robots receive
+commands and act based on those proposed commands, and then the users provide
+positive and/or negative reinforcement. Next, we train a critic for each robot
+to predict the crowd&apos;s responses to one of the crowd-proposed commands. Second,
+we show that the morphology of a robot plays a role in the way it grounds
+language: The critics show that two of the robots used in the experiment
+achieve a lower prediction error than the others. Thus, those two robots are
+safer, according to our definition, since they ground the proposed command more
+accurately.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_H/0/1/0/all/0/1&quot;&gt;Huishuai Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xiong_C/0/1/0/all/0/1&quot;&gt;Caiming Xiong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bradbury_J/0/1/0/all/0/1&quot;&gt;James Bradbury&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Socher_R/0/1/0/all/0/1&quot;&gt;Richard Socher&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mahoor_Z/0/1/0/all/0/1&quot;&gt;Zahra Mahoor&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Felag_J/0/1/0/all/0/1&quot;&gt;Jack Felag&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bongard_J/0/1/0/all/0/1&quot;&gt;Josh Bongard&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1712.07305">
-<title>Revisiting the Master-Slave Architecture in Multi-Agent Deep Reinforcement Learning. (arXiv:1712.07305v1 [cs.AI])</title>
-<link>http://arxiv.org/abs/1712.07305</link>
-<description rdf:parseType="Literal">&lt;p&gt;Many tasks in artificial intelligence require the collaboration of multiple
-agents. We exam deep reinforcement learning for multi-agent domains. Recent
-research efforts often take the form of two seemingly conflicting perspectives,
-the decentralized perspective, where each agent is supposed to have its own
-controller; and the centralized perspective, where one assumes there is a
-larger model controlling all agents. In this regard, we revisit the idea of the
-master-slave architecture by incorporating both perspectives within one
-framework. Such a hierarchical structure naturally leverages advantages from
-one another. The idea of combining both perspectives is intuitive and can be
-well motivated from many real world systems, however, out of a variety of
-possible realizations, we highlights three key ingredients, i.e. composed
-action representation, learnable communication and independent reasoning. With
-network designs to facilitate these explicitly, our proposal consistently
-outperforms latest competing methods both in synthetic experiments and when
-applied to challenging StarCraft micromanagement tasks.
+<item rdf:about="http://arxiv.org/abs/1712.08091">
+<title>Multiview Deep Learning for Predicting Twitter Users&apos; Location. (arXiv:1712.08091v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1712.08091</link>
+<description rdf:parseType="Literal">&lt;p&gt;The problem of predicting the location of users on large social networks like
+Twitter has emerged from real-life applications such as social unrest detection
+and online marketing. Twitter user geolocation is a difficult and active
+research topic with a vast literature. Most of the proposed methods follow
+either a content-based or a network-based approach. The former exploits
+user-generated content while the latter utilizes the connection or interaction
+between Twitter users. In this paper, we introduce a novel method combining the
+strength of both approaches. Concretely, we propose a multi-entry neural
+network architecture named MENET leveraging the advances in deep learning and
+multiview learning. The generalizability of MENET enables the integration of
+multiple data representations. In the context of Twitter user geolocation, we
+realize MENET with textual, network, and metadata features. Considering the
+natural distribution of Twitter users across the concerned geographical area,
+we subdivide the surface of the earth into multi-scale cells and train MENET
+with the labels of the cells. We show that our method outperforms the state of
+the art by a large margin on three benchmark datasets.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kong_X/0/1/0/all/0/1&quot;&gt;Xiangyu Kong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xin_B/0/1/0/all/0/1&quot;&gt;Bo Xin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_F/0/1/0/all/0/1&quot;&gt;Fangchen Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_Y/0/1/0/all/0/1&quot;&gt;Yizhou Wang&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Do_T/0/1/0/all/0/1&quot;&gt;Tien Huu Do&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nguyen_D/0/1/0/all/0/1&quot;&gt;Duc Minh Nguyen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tsiligianni_E/0/1/0/all/0/1&quot;&gt;Evaggelia Tsiligianni&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cornelis_B/0/1/0/all/0/1&quot;&gt;Bruno Cornelis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Deligiannis_N/0/1/0/all/0/1&quot;&gt;Nikos Deligiannis&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1712.07316">
-<title>A Flexible Approach to Automated RNN Architecture Generation. (arXiv:1712.07316v1 [cs.CL])</title>
-<link>http://arxiv.org/abs/1712.07316</link>
-<description rdf:parseType="Literal">&lt;p&gt;The process of designing neural architectures requires expert knowledge and
-extensive trial and error. While automated architecture search may simplify
-these requirements, the recurrent neural network (RNN) architectures generated
-by existing methods are limited in both flexibility and components. We propose
-a domain-specific language (DSL) for use in automated architecture search which
-can produce novel RNNs of arbitrary depth and width. The DSL is flexible enough
-to define standard architectures such as the Gated Recurrent Unit and Long
-Short Term Memory and allows the introduction of non-standard RNN components
-such as trigonometric curves and layer normalization. Using two different
-candidate generation techniques, random search with a ranking function and
-reinforcement learning, we explore the novel architectures produced by the RNN
-DSL for language modeling and machine translation domains. The resulting
-architectures do not follow human intuition yet perform well on their targeted
-tasks, suggesting the space of usable RNN architectures is far larger than
-previously assumed.
+<item rdf:about="http://arxiv.org/abs/1712.08104">
+<title>Truncated Variational Sampling for &quot;Black Box&quot; Optimization of Generative Models. (arXiv:1712.08104v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/1712.08104</link>
+<description rdf:parseType="Literal">&lt;p&gt;We investigate the optimization of two generative models with binary hidden
+variables using a novel variational EM approach. The novel approach
+distinguishes itself from previous variational approaches by using hidden
+states as variational parameters. Here we use efficient and general purpose
+sampling procedures to vary the hidden states, and investigate the &quot;black box&quot;
+applicability of the resulting optimization procedure. For general purpose
+applicability, samples are drawn from approximate marginal distributions of the
+considered generative model and from the prior distribution of a given
+generative model. As such, sampling is defined in a generic form with no
+additional derivations required. As a proof of concept, we then apply the novel
+procedure (A) to Binary Sparse Coding (a model with continuous observables),
+and (B) to basic Sigmoid Belief Networks (which are models with binary
+observables). The approach is applicable without any further analytical steps
+and efficiently as well as effectively increases the variational free-energy
+objective.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Schrimpf_M/0/1/0/all/0/1&quot;&gt;Martin Schrimpf&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Merity_S/0/1/0/all/0/1&quot;&gt;Stephen Merity&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bradbury_J/0/1/0/all/0/1&quot;&gt;James Bradbury&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Socher_R/0/1/0/all/0/1&quot;&gt;Richard Socher&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Lucke_J/0/1/0/all/0/1&quot;&gt;J&amp;#xf6;rg L&amp;#xfc;cke&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Dai_Z/0/1/0/all/0/1&quot;&gt;Zhenwen Dai&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Exarchakis_G/0/1/0/all/0/1&quot;&gt;Georgios Exarchakis&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1712.07203">
-<title>Discovery of Shifting Patterns in Sequence Classification. (arXiv:1712.07203v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1712.07203</link>
-<description rdf:parseType="Literal">&lt;p&gt;In this paper, we investigate the multi-variate sequence classification
-problem from a multi-instance learning perspective. Real-world sequential data
-commonly show discriminative patterns only at specific time periods. For
-instance, we can identify a cropland during its growing season, but it looks
-similar to a barren land after harvest or before planting. Besides, even within
-the same class, the discriminative patterns can appear in different periods of
-sequential data. Due to such property, these discriminative patterns are also
-referred to as shifting patterns. The shifting patterns in sequential data
-severely degrade the performance of traditional classification methods without
-sufficient training data.
-&lt;/p&gt;
-&lt;p&gt;We propose a novel sequence classification method by automatically mining
-shifting patterns from multi-variate sequence. The method employs a
-multi-instance learning approach to detect shifting patterns while also
-modeling temporal relationships within each multi-instance bag by an LSTM model
-to further improve the classification performance. We extensively evaluate our
-method on two real-world applications - cropland mapping and affective state
-recognition. The experiments demonstrate the superiority of our proposed method
-in sequence classification performance and in detecting discriminative shifting
-patterns.
+<item rdf:about="http://arxiv.org/abs/1401.8008">
+<title>Support vector comparison machines. (arXiv:1401.8008v2 [stat.ML] UPDATED)</title>
+<link>http://arxiv.org/abs/1401.8008</link>
+<description rdf:parseType="Literal">&lt;p&gt;In ranking problems, the goal is to learn a ranking function from labeled
+pairs of input points. In this paper, we consider the related comparison
+problem, where the label indicates which element of the pair is better, or if
+there is no significant difference. We cast the learning problem as a margin
+maximization, and show that it can be solved by converting it to a standard
+SVM. We use simulated nonlinear patterns, a real learning to rank sushi data
+set, and a chess data set to show that our proposed SVMcompare algorithm
+outperforms SVMrank when there are equality pairs.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jia_X/0/1/0/all/0/1&quot;&gt;Xiaowei Jia&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Khandelwal_A/0/1/0/all/0/1&quot;&gt;Ankush Khandelwal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Karpatne_A/0/1/0/all/0/1&quot;&gt;Anuj Karpatne&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kumar_V/0/1/0/all/0/1&quot;&gt;Vipin Kumar&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Venuto_D/0/1/0/all/0/1&quot;&gt;David Venuto&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Hocking_T/0/1/0/all/0/1&quot;&gt;Toby Dylan Hocking&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Sphanurattana_L/0/1/0/all/0/1&quot;&gt;Lakjaree Sphanurattana&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Sugiyama_M/0/1/0/all/0/1&quot;&gt;Masashi Sugiyama&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1712.07240">
-<title>Metadynamics for Training Neural Network Model Chemistries: a Competitive Assessment. (arXiv:1712.07240v1 [physics.chem-ph])</title>
-<link>http://arxiv.org/abs/1712.07240</link>
-<description rdf:parseType="Literal">&lt;p&gt;Neural network (NN) model chemistries (MCs) promise to facilitate the
-accurate exploration of chemical space and simulation of large reactive
-systems. One important path to improving these models is to add layers of
-physical detail, especially long-range forces. At short range, however, these
-models are data driven and data limited. Little is systematically known about
-how data should be sampled, and `test data&apos; chosen randomly from some sampling
-techniques can provide poor information about generality. If the sampling
-method is narrow `test error&apos; can appear encouragingly tiny while the model
-fails catastrophically elsewhere. In this manuscript we competitively evaluate
-two common sampling methods: molecular dynamics (MD), normal-mode sampling
-(NMS) and one uncommon alternative, Metadynamics (MetaMD), for preparing
-training geometries. We show that MD is an inefficient sampling method in the
-sense that additional samples do not improve generality. We also show MetaMD is
-easily implemented in any NNMC software package with cost that scales linearly
-with the number of atoms in a sample molecule. MetaMD is a black-box way to
-ensure samples always reach out to new regions of chemical space, while
-remaining relevant to chemistry near $k_bT$. It is one cheap tool to address
-the issue of generalization.
+<item rdf:about="http://arxiv.org/abs/1708.05207">
+<title>Learning Universal Adversarial Perturbations with Generative Models. (arXiv:1708.05207v2 [cs.CR] UPDATED)</title>
+<link>http://arxiv.org/abs/1708.05207</link>
+<description rdf:parseType="Literal">&lt;p&gt;Neural networks are known to be vulnerable to adversarial examples, inputs
+that have been intentionally perturbed to remain visually similar to the source
+input, but cause a misclassification. It was recently shown that given a
+dataset and classifier, there exists so called universal adversarial
+perturbations, a single perturbation that causes a misclassification when
+applied to any input. In this work, we introduce universal adversarial
+networks, a generative network that is capable of fooling a target classifier
+when it&apos;s generated output is added to a clean sample from a dataset. We show
+that this technique improves on known universal adversarial attacks.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Herr_J/0/1/0/all/0/1&quot;&gt;John E. Herr&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Yao_K/0/1/0/all/0/1&quot;&gt;Kun Yao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+McIntyre_R/0/1/0/all/0/1&quot;&gt;Ryker McIntyre&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Toth_D/0/1/0/all/0/1&quot;&gt;David Toth&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Parkhill_J/0/1/0/all/0/1&quot;&gt;John Parkhill&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1712.07420">
-<title>Finding Competitive Network Architectures Within a Day Using UCT. (arXiv:1712.07420v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1712.07420</link>
-<description rdf:parseType="Literal">&lt;p&gt;The design of neural network architectures for a new data set is a laborious
-task which requires human deep learning expertise. In order to make deep
-learning available for a broader audience, automated methods for finding a
-neural network architecture are vital. Recently proposed methods can already
-achieve human expert level performances. However, these methods have run times
-of months or even years of GPU computing time, ignoring hardware constraints as
-faced by many researchers and companies. We propose the use of Monte Carlo
-planning in combination with two different UCT (upper confidence bound applied
-to trees) derivations to search for network architectures. We adapt the UCT
-algorithm to the needs of network architecture search by proposing two ways of
-sharing information between different branches of the search tree. In an
-empirical study we are able to demonstrate that this method is able to find
-competitive networks for MNIST, SVHN and CIFAR-10 in just a single GPU day.
-Extending the search time to five GPU days, we are able to outperform human
-architectures and our competitors which consider the same types of layers.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wistuba_M/0/1/0/all/0/1&quot;&gt;Martin Wistuba&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1712.07424">
-<title>ADINE: An Adaptive Momentum Method for Stochastic Gradient Descent. (arXiv:1712.07424v1 [stat.ML])</title>
-<link>http://arxiv.org/abs/1712.07424</link>
-<description rdf:parseType="Literal">&lt;p&gt;Two major momentum-based techniques that have achieved tremendous success in
-optimization are Polyak&apos;s heavy ball method and Nesterov&apos;s accelerated
-gradient. A crucial step in all momentum-based methods is the choice of the
-momentum parameter $m$ which is always suggested to be set to less than $1$.
-Although the choice of $m &amp;lt; 1$ is justified only under very strong theoretical
-assumptions, it works well in practice even when the assumptions do not
-necessarily hold. In this paper, we propose a new momentum based method
-$\textit{ADINE}$, which relaxes the constraint of $m &amp;lt; 1$ and allows the
-learning algorithm to use adaptive higher momentum. We motivate our hypothesis
-on $m$ by experimentally verifying that a higher momentum ($\ge 1$) can help
-escape saddles much faster. Using this motivation, we propose our method
-$\textit{ADINE}$ that helps weigh the previous updates more (by setting the
-momentum parameter $&amp;gt; 1$), evaluate our proposed algorithm on deep neural
-networks and show that $\textit{ADINE}$ helps the learning algorithm to
-converge much faster without compromising on the generalization error.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Srinivasan_V/0/1/0/all/0/1&quot;&gt;Vishwak Srinivasan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Sankar_A/0/1/0/all/0/1&quot;&gt;Adepu Ravi Sankar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Balasubramanian_V/0/1/0/all/0/1&quot;&gt;Vineeth N Balasubramanian&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1712.07436">
-<title>Incremental Adversarial Domain Adaptation. (arXiv:1712.07436v1 [stat.ML])</title>
-<link>http://arxiv.org/abs/1712.07436</link>
-<description rdf:parseType="Literal">&lt;p&gt;Continuous appearance shifts such as changes in weather and lighting
-conditions can impact the performance of deployed machine learning models.
-Unsupervised domain adaptation aims to address this challenge, though current
-approaches do not utilise the continuity of the occurring shifts. Many robotic
-applications exhibit these conditions and thus facilitate the potential to
-incrementally adapt a learnt model over minor shifts which integrate to massive
-differences over time. Our work presents an adversarial approach for lifelong,
-incremental domain adaptation which benefits from unsupervised alignment to a
-series of sub-domains which successively diverge from the labelled source
-domain. We demonstrate on a drivable-path segmentation task that our
-incremental approach can better handle large appearance changes, e.g. day to
-night, compared with a prior single alignment step approach. Furthermore, by
-approximating the marginal feature distribution for the source domain with a
-generative adversarial network, the deployment module can be rendered fully
-independent of retaining potentially large amounts of the related source
-training data for only a minor reduction in performance.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Wulfmeier_M/0/1/0/all/0/1&quot;&gt;Markus Wulfmeier&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Bewley_A/0/1/0/all/0/1&quot;&gt;Alex Bewley&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Posner_I/0/1/0/all/0/1&quot;&gt;Ingmar Posner&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1712.07557">
-<title>Differentially Private Federated Learning: A Client Level Perspective. (arXiv:1712.07557v1 [cs.CR])</title>
-<link>http://arxiv.org/abs/1712.07557</link>
-<description rdf:parseType="Literal">&lt;p&gt;Federated learning is a recent advance in privacy protection. In this
-context, a trusted curator aggregates parameters optimized in decentralized
-fashion by multiple clients. The resulting model is then distributed back to
-all clients, ultimately converging to a joint representative model without
-explicitly having to share the data. However, the protocol is vulnerable to
-differential attacks, which could originate from any party contributing during
-federated optimization. In such an attack, a client&apos;s contribution during
-training and information about their data set is revealed through analyzing the
-distributed model. We tackle this problem and propose an algorithm for client
-sided differential privacy preserving federated optimization. The aim is to
-hide clients&apos; contributions during training, balancing the trade-off between
-privacy loss and model performance. Empirical studies suggest that given a
-sufficiently large number of participating clients, our proposed procedure can
-maintain client-level differential privacy at only a minor cost in model
-performance.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Geyer_R/0/1/0/all/0/1&quot;&gt;Robin C. Geyer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Klein_T/0/1/0/all/0/1&quot;&gt;Tassilo Klein&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nabi_M/0/1/0/all/0/1&quot;&gt;Moin Nabi&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1706.08566">
-<title>SchNet: A continuous-filter convolutional neural network for modeling quantum interactions. (arXiv:1706.08566v5 [stat.ML] UPDATED)</title>
-<link>http://arxiv.org/abs/1706.08566</link>
-<description rdf:parseType="Literal">&lt;p&gt;Deep learning has the potential to revolutionize quantum chemistry as it is
-ideally suited to learn representations for structured data and speed up the
-exploration of chemical space. While convolutional neural networks have proven
-to be the first choice for images, audio and video data, the atoms in molecules
-are not restricted to a grid. Instead, their precise locations contain
-essential physical information, that would get lost if discretized. Thus, we
-propose to use continuous-filter convolutional layers to be able to model local
-correlations without requiring the data to lie on a grid. We apply those layers
-in SchNet: a novel deep learning architecture modeling quantum interactions in
-molecules. We obtain a joint model for the total energy and interatomic forces
-that follows fundamental quantum-chemical principles. This includes
-rotationally invariant energy predictions and a smooth, differentiable
-potential energy surface. Our architecture achieves state-of-the-art
-performance for benchmarks of equilibrium molecules and molecular dynamics
-trajectories. Finally, we introduce a more challenging benchmark with chemical
-and structural variations that suggests the path for further work.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Schutt_K/0/1/0/all/0/1&quot;&gt;Kristof T. Sch&amp;#xfc;tt&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Kindermans_P/0/1/0/all/0/1&quot;&gt;Pieter-Jan Kindermans&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Sauceda_H/0/1/0/all/0/1&quot;&gt;Huziel E. Sauceda&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Chmiela_S/0/1/0/all/0/1&quot;&gt;Stefan Chmiela&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Tkatchenko_A/0/1/0/all/0/1&quot;&gt;Alexandre Tkatchenko&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Muller_K/0/1/0/all/0/1&quot;&gt;Klaus-Robert M&amp;#xfc;ller&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1710.10161">
-<title>Development and analysis of a Bayesian water balance model for large lake systems. (arXiv:1710.10161v2 [stat.AP] UPDATED)</title>
-<link>http://arxiv.org/abs/1710.10161</link>
-<description rdf:parseType="Literal">&lt;p&gt;Water balance models are often employed to improve understanding of drivers
-of change in regional hydrologic cycles. Most of these models, however, are
-physically-based, and few employ state-of-the-art statistical methods to
-reconcile measurement uncertainty and bias. Here, we introduce a framework for
-developing, analyzing, and selecting among alternative formulations of a
-statistical water balance model for large lake systems that addresses this
-research gap. We demonstrate our new analytical framework using a model
-customized for Lakes Superior and Michigan-Huron, the two largest lakes on
-Earth by surface area. The selected model (from among 26 alternatives) closed
-the water balance across both lakes with an order of magnitude less computation
-time than prototype versions of the same model. We expect our new framework
-will be used to improve computational efficiency and skill of water balance
-models for other lakes around the world.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Smith_J/0/1/0/all/0/1&quot;&gt;Joeseph P. Smith&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Gronewold_A/0/1/0/all/0/1&quot;&gt;Andrew D. Gronewold&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hayes_J/0/1/0/all/0/1&quot;&gt;Jamie Hayes&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Danezis_G/0/1/0/all/0/1&quot;&gt;George Danezis&lt;/a&gt;</dc:creator>
 </item></rdf:RDF>
