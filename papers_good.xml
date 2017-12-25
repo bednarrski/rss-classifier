@@ -15,7 +15,7 @@
 <link>http://arxiv.org/</link>
 <description rdf:parseType="Literal">The Good Papers on ML, AI and Statistics</description>
 <dc:language>en-us</dc:language>
-<dc:date>2017-12-21T20:30:00-05:00</dc:date>
+<dc:date>2017-12-24T20:30:00-05:00</dc:date>
 <dc:publisher>help@arxiv.org</dc:publisher>
 <dc:subject>Statistics -- Machine Learning</dc:subject>
 <syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
@@ -23,12 +23,19 @@
 <syn:updatePeriod>daily</syn:updatePeriod>
 <items>
  <rdf:Seq>
-<rdf:li rdf:resource="http://arxiv.org/abs/1705.08927"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.05881"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.08091"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.08104"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1401.8008"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1708.05207"/></rdf:Seq>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.08314"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.08608"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1612.02734"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.08163"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.08290"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.08296"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1611.02654"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1702.08484"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.08160"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.08197"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.08244"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1709.01867"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.02369"/></rdf:Seq>
 </items>
 <image rdf:resource="http://arxiv.org/icons/sfx.gif" />
 </channel>
@@ -36,127 +43,286 @@
 <title>arXiv.org</title>
 <url>http://arxiv.org/icons/sfx.gif</url>
 <link>http://arxiv.org/</link>
-</image><item rdf:about="http://arxiv.org/abs/1705.08927">
-<title>Compiling quantum circuits to realistic hardware architectures using temporal planners. (arXiv:1705.08927v2 [quant-ph] UPDATED)</title>
-<link>http://arxiv.org/abs/1705.08927</link>
-<description rdf:parseType="Literal">&lt;p&gt;To run quantum algorithms on emerging gate-model quantum hardware, quantum
-circuits must be compiled to take into account constraints on the hardware. For
-near-term hardware, with only limited means to mitigate decoherence, it is
-critical to minimize the duration of the circuit. We investigate the
-application of temporal planners to the problem of compiling quantum circuits
-to newly emerging quantum hardware. While our approach is general, we focus on
-compiling to superconducting hardware architectures with nearest neighbor
-constraints. Our initial experiments focus on compiling Quantum Alternating
-Operator Ansatz (QAOA) circuits whose high number of commuting gates allow
-great flexibility in the order in which the gates can be applied. That freedom
-makes it more challenging to find optimal compilations but also means there is
-a greater potential win from more optimized compilation than for less flexible
-circuits. We map this quantum circuit compilation problem to a temporal
-planning problem, and generated a test suite of compilation problems for QAOA
-circuits of various sizes to a realistic hardware architecture. We report
-compilation results from several state-of-the-art temporal planners on this
-test set. This early empirical evaluation demonstrates that temporal planning
-is a viable approach to quantum circuit compilation.
+</image><item rdf:about="http://arxiv.org/abs/1712.08314">
+<title>Benchmarking Decoupled Neural Interfaces with Synthetic Gradients. (arXiv:1712.08314v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1712.08314</link>
+<description rdf:parseType="Literal">&lt;p&gt;Artifical Neural Network are a particular class of learning system modeled
+after biological neural functions with an interesting penchant for Hebbian
+learning, that is &quot;neurons that wire together, fire together&quot;. However, unlike
+their natural counterparts, artificial neural networks have a close and
+stringent coupling between the modules of neurons in the network. This coupling
+or locking imposes upon the network a strict and inflexible structure that
+prevent layers in the network from updating their weights until a full
+feed-forward and backward pass has occurred. Such a constraint though may have
+sufficed for a while, is now no longer feasible in the era of very-large-scale
+machine learning, coupled with the increased desire for parallelization of the
+learning process across multiple computing infrastructures. To solve this
+problem, synthetic gradients (SG) with decoupled neural interfaces (DNI) are
+introduced as a viable alternative to the backpropagation algorithm. This paper
+performs a speed benchmark to compare the speed and accuracy capabilities of
+SG-DNI as over to a standard neural interface using multilayer perceptron MLP.
+SG-DNI shows good promise, in that it not only captures the learning problem,
+it is also over 3-fold faster due to it asynchronous learning capabilities.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Venturelli_D/0/1/0/all/0/1&quot;&gt;Davide Venturelli&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Do_M/0/1/0/all/0/1&quot;&gt;Minh Do&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Rieffel_E/0/1/0/all/0/1&quot;&gt;Eleanor Rieffel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Frank_J/0/1/0/all/0/1&quot;&gt;Jeremy Frank&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bisong_E/0/1/0/all/0/1&quot;&gt;Ekaba Bisong&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1712.05881">
-<title>Morphology dictates a robot&apos;s ability to ground crowd-proposed language. (arXiv:1712.05881v2 [cs.AI] UPDATED)</title>
-<link>http://arxiv.org/abs/1712.05881</link>
-<description rdf:parseType="Literal">&lt;p&gt;As more robots act in physical proximity to people, it is essential to ensure
-they make decisions and execute actions that align with human values. To do so,
-robots need to understand the true intentions behind human-issued commands. In
-this paper, we define a safe robot as one that receives a natural-language
-command from humans, considers an action in response to that command, and
-accurately predicts how humans will judge that action if is executed in
-reality. Our contribution is two-fold: First, we introduce a web platform for
-human users to propose commands to simulated robots. The robots receive
-commands and act based on those proposed commands, and then the users provide
-positive and/or negative reinforcement. Next, we train a critic for each robot
-to predict the crowd&apos;s responses to one of the crowd-proposed commands. Second,
-we show that the morphology of a robot plays a role in the way it grounds
-language: The critics show that two of the robots used in the experiment
-achieve a lower prediction error than the others. Thus, those two robots are
-safer, according to our definition, since they ground the proposed command more
-accurately.
+<item rdf:about="http://arxiv.org/abs/1712.08608">
+<title>Learning in the Machine: the Symmetries of the Deep Learning Channel. (arXiv:1712.08608v1 [cs.NE])</title>
+<link>http://arxiv.org/abs/1712.08608</link>
+<description rdf:parseType="Literal">&lt;p&gt;In a physical neural system, learning rules must be local both in space and
+time. In order for learning to occur, non-local information must be
+communicated to the deep synapses through a communication channel, the deep
+learning channel. We identify several possible architectures for this learning
+channel (Bidirectional, Conjoined, Twin, Distinct) and six symmetry challenges:
+1) symmetry of architectures; 2) symmetry of weights; 3) symmetry of neurons;
+4) symmetry of derivatives; 5) symmetry of processing; and 6) symmetry of
+learning rules. Random backpropagation (RBP) addresses the second and third
+symmetry, and some of its variations, such as skipped RBP (SRBP) address the
+first and the fourth symmetry. Here we address the last two desirable
+symmetries showing through simulations that they can be achieved and that the
+learning channel is particularly robust to symmetry variations. Specifically,
+random backpropagation and its variations can be performed with the same
+non-linear neurons used in the main input-output forward channel, and the
+connections in the learning channel can be adapted using the same algorithm
+used in the forward channel, removing the need for any specialized hardware in
+the learning channel. Finally, we provide mathematical results in simple cases
+showing that the learning equations in the forward and backward channels
+converge to fixed points, for almost any initial conditions. In symmetric
+architectures, if the weights in both channels are small at initialization,
+adaptation in both channels leads to weights that are essentially symmetric
+during and after learning. Biological connections are discussed.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mahoor_Z/0/1/0/all/0/1&quot;&gt;Zahra Mahoor&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Felag_J/0/1/0/all/0/1&quot;&gt;Jack Felag&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bongard_J/0/1/0/all/0/1&quot;&gt;Josh Bongard&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Baldi_P/0/1/0/all/0/1&quot;&gt;Pierre Baldi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sadowski_P/0/1/0/all/0/1&quot;&gt;Peter Sadowski&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lu_Z/0/1/0/all/0/1&quot;&gt;Zhiqin Lu&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1712.08091">
-<title>Multiview Deep Learning for Predicting Twitter Users&apos; Location. (arXiv:1712.08091v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1712.08091</link>
-<description rdf:parseType="Literal">&lt;p&gt;The problem of predicting the location of users on large social networks like
-Twitter has emerged from real-life applications such as social unrest detection
-and online marketing. Twitter user geolocation is a difficult and active
-research topic with a vast literature. Most of the proposed methods follow
-either a content-based or a network-based approach. The former exploits
-user-generated content while the latter utilizes the connection or interaction
-between Twitter users. In this paper, we introduce a novel method combining the
-strength of both approaches. Concretely, we propose a multi-entry neural
-network architecture named MENET leveraging the advances in deep learning and
-multiview learning. The generalizability of MENET enables the integration of
-multiple data representations. In the context of Twitter user geolocation, we
-realize MENET with textual, network, and metadata features. Considering the
-natural distribution of Twitter users across the concerned geographical area,
-we subdivide the surface of the earth into multi-scale cells and train MENET
-with the labels of the cells. We show that our method outperforms the state of
-the art by a large margin on three benchmark datasets.
+<item rdf:about="http://arxiv.org/abs/1612.02734">
+<title>Learning in the Machine: Random Backpropagation and the Deep Learning Channel. (arXiv:1612.02734v2 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/1612.02734</link>
+<description rdf:parseType="Literal">&lt;p&gt;Random backpropagation (RBP) is a variant of the backpropagation algorithm
+for training neural networks, where the transpose of the forward matrices are
+replaced by fixed random matrices in the calculation of the weight updates. It
+is remarkable both because of its effectiveness, in spite of using random
+matrices to communicate error information, and because it completely removes
+the taxing requirement of maintaining symmetric weights in a physical neural
+system. To better understand random backpropagation, we first connect it to the
+notions of local learning and learning channels. Through this connection, we
+derive several alternatives to RBP, including skipped RBP (SRPB), adaptive RBP
+(ARBP), sparse RBP, and their combinations (e.g. ASRBP) and analyze their
+computational complexity. We then study their behavior through simulations
+using the MNIST and CIFAR-10 bechnmark datasets. These simulations show that
+most of these variants work robustly, almost as well as backpropagation, and
+that multiplication by the derivatives of the activation functions is
+important. As a follow-up, we study also the low-end of the number of bits
+required to communicate error information over the learning channel. We then
+provide partial intuitive explanations for some of the remarkable properties of
+RBP and its variations. Finally, we prove several mathematical results,
+including the convergence to fixed points of linear chains of arbitrary length,
+the convergence to fixed points of linear autoencoders with decorrelated data,
+the long-term existence of solutions for linear systems with a single hidden
+layer and convergence in special cases, and the convergence to fixed points of
+non-linear chains, when the derivative of the activation functions is included.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Do_T/0/1/0/all/0/1&quot;&gt;Tien Huu Do&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nguyen_D/0/1/0/all/0/1&quot;&gt;Duc Minh Nguyen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tsiligianni_E/0/1/0/all/0/1&quot;&gt;Evaggelia Tsiligianni&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cornelis_B/0/1/0/all/0/1&quot;&gt;Bruno Cornelis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Deligiannis_N/0/1/0/all/0/1&quot;&gt;Nikos Deligiannis&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Baldi_P/0/1/0/all/0/1&quot;&gt;Pierre Baldi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sadowski_P/0/1/0/all/0/1&quot;&gt;Peter Sadowski&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lu_Z/0/1/0/all/0/1&quot;&gt;Zhiqin Lu&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1712.08104">
-<title>Truncated Variational Sampling for &quot;Black Box&quot; Optimization of Generative Models. (arXiv:1712.08104v1 [stat.ML])</title>
-<link>http://arxiv.org/abs/1712.08104</link>
-<description rdf:parseType="Literal">&lt;p&gt;We investigate the optimization of two generative models with binary hidden
-variables using a novel variational EM approach. The novel approach
-distinguishes itself from previous variational approaches by using hidden
-states as variational parameters. Here we use efficient and general purpose
-sampling procedures to vary the hidden states, and investigate the &quot;black box&quot;
-applicability of the resulting optimization procedure. For general purpose
-applicability, samples are drawn from approximate marginal distributions of the
-considered generative model and from the prior distribution of a given
-generative model. As such, sampling is defined in a generic form with no
-additional derivations required. As a proof of concept, we then apply the novel
-procedure (A) to Binary Sparse Coding (a model with continuous observables),
-and (B) to basic Sigmoid Belief Networks (which are models with binary
-observables). The approach is applicable without any further analytical steps
-and efficiently as well as effectively increases the variational free-energy
-objective.
+<item rdf:about="http://arxiv.org/abs/1712.08163">
+<title>Reachable Set Computation and Safety Verification for Neural Networks with ReLU Activations. (arXiv:1712.08163v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1712.08163</link>
+<description rdf:parseType="Literal">&lt;p&gt;Neural networks have been widely used to solve complex real-world problems.
+Due to the complicate, nonlinear, non-convex nature of neural networks, formal
+safety guarantees for the output behaviors of neural networks will be crucial
+for their applications in safety-critical systems.In this paper, the output
+reachable set computation and safety verification problems for a class of
+neural networks consisting of Rectified Linear Unit (ReLU) activation functions
+are addressed. A layer-by-layer approach is developed to compute output
+reachable set. The computation is formulated in the form of a set of
+manipulations for a union of polyhedra, which can be efficiently applied with
+the aid of polyhedron computation tools. Based on the output reachable set
+computation results, the safety verification for a ReLU neural network can be
+performed by checking the intersections of unsafe regions and output reachable
+set described by a union of polyhedra. A numerical example of a randomly
+generated ReLU neural network is provided to show the effectiveness of the
+approach developed in this paper.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Lucke_J/0/1/0/all/0/1&quot;&gt;J&amp;#xf6;rg L&amp;#xfc;cke&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Dai_Z/0/1/0/all/0/1&quot;&gt;Zhenwen Dai&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Exarchakis_G/0/1/0/all/0/1&quot;&gt;Georgios Exarchakis&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xiang_W/0/1/0/all/0/1&quot;&gt;Weiming Xiang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tran_H/0/1/0/all/0/1&quot;&gt;Hoang-Dung Tran&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Johnson_T/0/1/0/all/0/1&quot;&gt;Taylor T. Johnson&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1401.8008">
-<title>Support vector comparison machines. (arXiv:1401.8008v2 [stat.ML] UPDATED)</title>
-<link>http://arxiv.org/abs/1401.8008</link>
-<description rdf:parseType="Literal">&lt;p&gt;In ranking problems, the goal is to learn a ranking function from labeled
-pairs of input points. In this paper, we consider the related comparison
-problem, where the label indicates which element of the pair is better, or if
-there is no significant difference. We cast the learning problem as a margin
-maximization, and show that it can be solved by converting it to a standard
-SVM. We use simulated nonlinear patterns, a real learning to rank sushi data
-set, and a chess data set to show that our proposed SVMcompare algorithm
-outperforms SVMrank when there are equality pairs.
+<item rdf:about="http://arxiv.org/abs/1712.08290">
+<title>CSGNet: Neural Shape Parser for Constructive Solid Geometry. (arXiv:1712.08290v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1712.08290</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present a neural architecture that takes as input a 2D or 3D shape and
+induces a program to generate it. The in- structions in our program are based
+on constructive solid geometry principles, i.e., a set of boolean operations on
+shape primitives defined recursively. Bottom-up techniques for this task that
+rely on primitive detection are inherently slow since the search space over
+possible primitive combi- nations is large. In contrast, our model uses a
+recurrent neural network conditioned on the input shape to produce a sequence
+of instructions in a top-down manner and is sig- nificantly faster. It is also
+more effective as a shape detec- tor than existing state-of-the-art detection
+techniques. We also demonstrate that our network can be trained on novel
+datasets without ground-truth program annotations through policy gradient
+techniques.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Venuto_D/0/1/0/all/0/1&quot;&gt;David Venuto&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Hocking_T/0/1/0/all/0/1&quot;&gt;Toby Dylan Hocking&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Sphanurattana_L/0/1/0/all/0/1&quot;&gt;Lakjaree Sphanurattana&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Sugiyama_M/0/1/0/all/0/1&quot;&gt;Masashi Sugiyama&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sharma_G/0/1/0/all/0/1&quot;&gt;Gopal Sharma&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Goyal_R/0/1/0/all/0/1&quot;&gt;Rishabh Goyal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_D/0/1/0/all/0/1&quot;&gt;Difan Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kalogerakis_E/0/1/0/all/0/1&quot;&gt;Evangelos Kalogerakis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Maji_S/0/1/0/all/0/1&quot;&gt;Subhransu Maji&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1708.05207">
-<title>Learning Universal Adversarial Perturbations with Generative Models. (arXiv:1708.05207v2 [cs.CR] UPDATED)</title>
-<link>http://arxiv.org/abs/1708.05207</link>
-<description rdf:parseType="Literal">&lt;p&gt;Neural networks are known to be vulnerable to adversarial examples, inputs
-that have been intentionally perturbed to remain visually similar to the source
-input, but cause a misclassification. It was recently shown that given a
-dataset and classifier, there exists so called universal adversarial
-perturbations, a single perturbation that causes a misclassification when
-applied to any input. In this work, we introduce universal adversarial
-networks, a generative network that is capable of fooling a target classifier
-when it&apos;s generated output is added to a clean sample from a dataset. We show
-that this technique improves on known universal adversarial attacks.
+<item rdf:about="http://arxiv.org/abs/1712.08296">
+<title>Intelligent Device Discovery in the Internet of Things - Enabling the Robot Society. (arXiv:1712.08296v1 [cs.AI])</title>
+<link>http://arxiv.org/abs/1712.08296</link>
+<description rdf:parseType="Literal">&lt;p&gt;The Internet of Things (IoT) is continuously growing to connect billions of
+smart devices anywhere and anytime in an Internet-like structure, which enables
+a variety of applications, services and interactions between human and objects.
+In the future, the smart devices are supposed to be able to autonomously
+discover a target device with desired features and generate a set of entirely
+new services and applications that are not supervised or even imagined by human
+beings. The pervasiveness of smart devices, as well as the heterogeneity of
+their design and functionalities, raise a major concern: How can a smart device
+efficiently discover a desired target device? In this paper, we propose a
+Social-Aware and Distributed (SAND) scheme that achieves a fast, scalable and
+efficient device discovery in the IoT. The proposed SAND scheme adopts a novel
+device ranking criteria that measures the device&apos;s degree, social relationship
+diversity, clustering coefficient and betweenness. Based on the device ranking
+criteria, the discovery request can be guided to travel through critical
+devices that stand at the major intersections of the network, and thus quickly
+reach the desired target device by contacting only a limited number of
+intermediate devices. With the help of such an intelligent device discovery as
+SAND, the IoT devices, as well as other computing facilities, software and data
+on the Internet, can autonomously establish new social connections with each
+other as human being do. They can formulate self-organized computing groups to
+perform required computing tasks, facilitate a fusion of a variety of computing
+service, network service and data to generate novel applications and services,
+evolve from the individual aritificial intelligence to the collaborative
+intelligence, and eventually enable the birth of a robot society.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hayes_J/0/1/0/all/0/1&quot;&gt;Jamie Hayes&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Danezis_G/0/1/0/all/0/1&quot;&gt;George Danezis&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sunthonlap_J/0/1/0/all/0/1&quot;&gt;James Sunthonlap&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nguyen_P/0/1/0/all/0/1&quot;&gt;Phuoc Nguyen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ye_Z/0/1/0/all/0/1&quot;&gt;Zilong Ye&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1611.02654">
+<title>Sentence Ordering and Coherence Modeling using Recurrent Neural Networks. (arXiv:1611.02654v2 [cs.CL] UPDATED)</title>
+<link>http://arxiv.org/abs/1611.02654</link>
+<description rdf:parseType="Literal">&lt;p&gt;Modeling the structure of coherent texts is a key NLP problem. The task of
+coherently organizing a given set of sentences has been commonly used to build
+and evaluate models that understand such structure. We propose an end-to-end
+unsupervised deep learning approach based on the set-to-sequence framework to
+address this problem. Our model strongly outperforms prior methods in the order
+discrimination task and a novel task of ordering abstracts from scientific
+articles. Furthermore, our work shows that useful text representations can be
+obtained by learning to order sentences. Visualizing the learned sentence
+representations shows that the model captures high-level logical structure in
+paragraphs. Our representations perform comparably to state-of-the-art
+pre-training methods on sentence similarity and paraphrase detection tasks.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Logeswaran_L/0/1/0/all/0/1&quot;&gt;Lajanugen Logeswaran&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lee_H/0/1/0/all/0/1&quot;&gt;Honglak Lee&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Radev_D/0/1/0/all/0/1&quot;&gt;Dragomir Radev&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1702.08484">
+<title>Boosted Generative Models. (arXiv:1702.08484v2 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/1702.08484</link>
+<description rdf:parseType="Literal">&lt;p&gt;We propose a novel approach for using unsupervised boosting to create an
+ensemble of generative models, where models are trained in sequence to correct
+earlier mistakes. Our meta-algorithmic framework can leverage any existing base
+learner that permits likelihood evaluation, including recent deep expressive
+models. Further, our approach allows the ensemble to include discriminative
+models trained to distinguish real data from model-generated data. We show
+theoretical conditions under which incorporating a new model in the ensemble
+will improve the fit and empirically demonstrate the effectiveness of our
+black-box boosting algorithms on density estimation, classification, and sample
+generation on benchmark datasets for a wide range of generative models.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Grover_A/0/1/0/all/0/1&quot;&gt;Aditya Grover&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ermon_S/0/1/0/all/0/1&quot;&gt;Stefano Ermon&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1712.08160">
+<title>Combining Static and Dynamic Features for Multivariate Sequence Classification. (arXiv:1712.08160v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1712.08160</link>
+<description rdf:parseType="Literal">&lt;p&gt;Model precision in a classification task is highly dependent on the feature
+space that is used to train the model. Moreover, whether the features are
+sequential or static will dictate which classification method can be applied as
+most of the machine learning algorithms are designed to deal with either one or
+another type of data. In real-life scenarios, however, it is often the case
+that both static and dynamic features are present, or can be extracted from the
+data. In this work, we demonstrate how generative models such as Hidden Markov
+Models (HMM) and Long Short-Term Memory (LSTM) artificial neural networks can
+be used to extract temporal information from the dynamic data. We explore how
+the extracted information can be combined with the static features in order to
+improve the classification performance. We evaluate the existing techniques and
+suggest a hybrid approach, which outperforms other methods on several public
+datasets.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Leontjeva_A/0/1/0/all/0/1&quot;&gt;Anna Leontjeva&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kuzovkin_I/0/1/0/all/0/1&quot;&gt;Ilya Kuzovkin&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1712.08197">
+<title>Fair Forests: Regularized Tree Induction to Minimize Model Bias. (arXiv:1712.08197v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/1712.08197</link>
+<description rdf:parseType="Literal">&lt;p&gt;The potential lack of fairness in the outputs of machine learning algorithms
+has recently gained attention both within the research community as well as in
+society more broadly. Surprisingly, there is no prior work developing
+tree-induction algorithms for building fair decision trees or fair random
+forests. These methods have widespread popularity as they are one of the few to
+be simultaneously interpretable, non-linear, and easy-to-use. In this paper we
+develop, to our knowledge, the first technique for the induction of fair
+decision trees. We show that our &quot;Fair Forest&quot; retains the benefits of the
+tree-based approach, while providing both greater accuracy and fairness than
+other alternatives, for both &quot;group fairness&quot; and &quot;individual fairness.&apos;&quot; We
+also introduce new measures for fairness which are able to handle multinomial
+and continues attributes as well as regression problems, as opposed to binary
+attributes and labels only. Finally, we demonstrate a new, more robust
+evaluation procedure for algorithms that considers the dataset in its entirety
+rather than only a specific protected attribute.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Raff_E/0/1/0/all/0/1&quot;&gt;Edward Raff&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Sylvester_J/0/1/0/all/0/1&quot;&gt;Jared Sylvester&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Mills_S/0/1/0/all/0/1&quot;&gt;Steven Mills&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1712.08244">
+<title>How Well Can Generative Adversarial Networks (GAN) Learn Densities: A Nonparametric View. (arXiv:1712.08244v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/1712.08244</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study in this paper the rate of convergence for learning densities under
+the Generative Adversarial Networks (GANs) framework, borrowing insights from
+nonparametric statistics. We introduce an improved GAN estimator that achieves
+a faster rate, through leveraging the level of smoothness in the target density
+and the evaluation metric, which in theory remedies the mode collapse problem
+reported in the literature. A minimax lower bound is constructed to show that
+when the dimension is large, the exponent in the rate for the new GAN estimator
+is near optimal. One can view our results as answering in a quantitative way
+how well GAN learns a wide range of densities with different smoothness
+properties, under a hierarchy of evaluation metrics. As a byproduct, we also
+obtain improved bounds for GAN with deeper ReLU discriminator network.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Liang_T/0/1/0/all/0/1&quot;&gt;Tengyuan Liang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1709.01867">
+<title>Neural Networks Regularization Through Class-wise Invariant Representation Learning. (arXiv:1709.01867v4 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/1709.01867</link>
+<description rdf:parseType="Literal">&lt;p&gt;Training deep neural networks is known to require a large number of training
+samples. However, in many applications only few training samples are available.
+In this work, we tackle the issue of training neural networks for
+classification task when few training samples are available. We attempt to
+solve this issue by proposing a new regularization term that constrains the
+hidden layers of a network to learn class-wise invariant representations. In
+our regularization framework, learning invariant representations is generalized
+to the class membership where samples with the same class should have the same
+representation. Numerical experiments over MNIST and its variants showed that
+our proposal helps improving the generalization of neural network particularly
+when trained with few samples. We provide the source code of our framework
+https://github.com/sbelharbi/learning-class-invariant-features .
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Belharbi_S/0/1/0/all/0/1&quot;&gt;Soufiane Belharbi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chatelain_C/0/1/0/all/0/1&quot;&gt;Cl&amp;#xe9;ment Chatelain&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Herault_R/0/1/0/all/0/1&quot;&gt;Romain H&amp;#xe9;rault&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Adam_S/0/1/0/all/0/1&quot;&gt;S&amp;#xe9;bastien Adam&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1712.02369">
+<title>Achieving the time of $1$-NN, but the accuracy of $k$-NN. (arXiv:1712.02369v2 [math.ST] UPDATED)</title>
+<link>http://arxiv.org/abs/1712.02369</link>
+<description rdf:parseType="Literal">&lt;p&gt;We propose a simple approach which, given distributed computing resources,
+can nearly achieve the accuracy of $k$-NN prediction, while matching (or
+improving) the faster prediction time of $1$-NN. The approach consists of
+aggregating denoised $1$-NN predictors over a small number of distributed
+subsamples. We show, both theoretically and experimentally, that small
+subsample sizes suffice to attain similar performance as $k$-NN, without
+sacrificing the computational efficiency of $1$-NN.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Xue_L/0/1/0/all/0/1&quot;&gt;Lirong Xue&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Kpotufe_S/0/1/0/all/0/1&quot;&gt;Samory Kpotufe&lt;/a&gt;</dc:creator>
 </item></rdf:RDF>
