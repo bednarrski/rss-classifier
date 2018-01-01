@@ -15,7 +15,7 @@
 <link>http://arxiv.org/</link>
 <description rdf:parseType="Literal">The Good Papers on ML, AI and Statistics</description>
 <dc:language>en-us</dc:language>
-<dc:date>2017-12-28T20:30:00-05:00</dc:date>
+<dc:date>2017-12-31T20:30:00-05:00</dc:date>
 <dc:publisher>help@arxiv.org</dc:publisher>
 <dc:subject>Statistics -- Machine Learning</dc:subject>
 <syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
@@ -23,18 +23,14 @@
 <syn:updatePeriod>daily</syn:updatePeriod>
 <items>
  <rdf:Seq>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.09662"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.09687"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.09926"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1709.03082"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.09444"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.09923"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.09943"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.09482"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.09685"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.09763"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1705.07220"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.08968"/></rdf:Seq>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.10158"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.10050"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.10179"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1711.07170"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.10082"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.10107"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.10321"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1606.04080"/></rdf:Seq>
 </items>
 <image rdf:resource="http://arxiv.org/icons/sfx.gif" />
 </channel>
@@ -42,270 +38,187 @@
 <title>arXiv.org</title>
 <url>http://arxiv.org/icons/sfx.gif</url>
 <link>http://arxiv.org/</link>
-</image><item rdf:about="http://arxiv.org/abs/1712.09662">
-<title>CNN Is All You Need. (arXiv:1712.09662v1 [cs.CL])</title>
-<link>http://arxiv.org/abs/1712.09662</link>
-<description rdf:parseType="Literal">&lt;p&gt;The Convolution Neural Network (CNN) has demonstrated the unique advantage in
-audio, image and text learning; recently it has also challenged Recurrent
-Neural Networks (RNNs) with long short-term memory cells (LSTM) in
-sequence-to-sequence learning, since the computations involved in CNN are
-easily parallelizable whereas those involved in RNN are mostly sequential,
-leading to a performance bottleneck. However, unlike RNN, the native CNN lacks
-the history sensitivity required for sequence transformation; therefore
-enhancing the sequential order awareness, or position-sensitivity, becomes the
-key to make CNN the general deep learning model. In this work we introduce an
-extended CNN model with strengthen position-sensitivity, called PoseNet. A
-notable feature of PoseNet is the asymmetric treatment of position information
-in the encoder and the decoder. Experiments shows that PoseNet allows us to
-improve the accuracy of CNN based sequence-to-sequence learning significantly,
-achieving around 33-36 BLEU scores on the WMT 2014 English-to-German
-translation task, and around 44-46 BLEU scores on the English-to-French
-translation task.
+</image><item rdf:about="http://arxiv.org/abs/1712.10158">
+<title>Non-linear motor control by local learning in spiking neural networks. (arXiv:1712.10158v1 [q-bio.NC])</title>
+<link>http://arxiv.org/abs/1712.10158</link>
+<description rdf:parseType="Literal">&lt;p&gt;Learning weights in a spiking neural network with hidden neurons, using
+local, stable and online rules, to control non-linear body dynamics is an open
+problem. Here, we employ a supervised scheme, Feedback-based Online Local
+Learning Of Weights (FOLLOW), to train a network of heterogeneous spiking
+neurons with hidden layers, to control a two-link arm so as to reproduce a
+desired state trajectory. The network first learns an inverse model of the
+non-linear dynamics, i.e. from state trajectory as input to the network, it
+learns to infer the continuous-time command that produced the trajectory.
+Connection weights are adjusted via a local plasticity rule that involves
+pre-synaptic firing and post-synaptic feedback of the error in the inferred
+command. We choose a network architecture, termed differential feedforward,
+that gives the lowest test error from different feedforward and recurrent
+architectures. The learned inverse model is then used to generate a
+continuous-time motor command to control the arm, given a desired trajectory.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_Q/0/1/0/all/0/1&quot;&gt;Qiming Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wu_R/0/1/0/all/0/1&quot;&gt;Ren Wu&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Gilra_A/0/1/0/all/0/1&quot;&gt;Aditya Gilra&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Gerstner_W/0/1/0/all/0/1&quot;&gt;Wulfram Gerstner&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1712.09687">
-<title>Combining Representation Learning with Logic for Language Processing. (arXiv:1712.09687v1 [cs.NE])</title>
-<link>http://arxiv.org/abs/1712.09687</link>
-<description rdf:parseType="Literal">&lt;p&gt;The current state-of-the-art in many natural language processing and
-automated knowledge base completion tasks is held by representation learning
-methods which learn distributed vector representations of symbols via
-gradient-based optimization. They require little or no hand-crafted features,
-thus avoiding the need for most preprocessing steps and task-specific
-assumptions. However, in many cases representation learning requires a large
-amount of annotated training data to generalize well to unseen data. Such
-labeled training data is provided by human annotators who often use formal
-logic as the language for specifying annotations. This thesis investigates
-different combinations of representation learning methods with logic for
-reducing the need for annotated training data, and for improving
-generalization.
+<item rdf:about="http://arxiv.org/abs/1712.10050">
+<title>Kernel Robust Bias-Aware Prediction under Covariate Shift. (arXiv:1712.10050v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1712.10050</link>
+<description rdf:parseType="Literal">&lt;p&gt;Under covariate shift, training (source) data and testing (target) data
+differ in input space distribution, but share the same conditional label
+distribution. This poses a challenging machine learning task. Robust Bias-Aware
+(RBA) prediction provides the conditional label distribution that is robust to
+the worstcase logarithmic loss for the target distribution while matching
+feature expectation constraints from the source distribution. However,
+employing RBA with insufficient feature constraints may result in high
+certainty predictions for much of the source data, while leaving too much
+uncertainty for target data predictions. To overcome this issue, we extend the
+representer theorem to the RBA setting, enabling minimization of regularized
+expected target risk by a reweighted kernel expectation under the source
+distribution. By applying kernel methods, we establish consistency guarantees
+and demonstrate better performance of the RBA classifier than competing methods
+on synthetically biased UCI datasets as well as datasets that have natural
+covariate shift.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Rocktaschel_T/0/1/0/all/0/1&quot;&gt;Tim Rockt&amp;#xe4;schel&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_A/0/1/0/all/0/1&quot;&gt;Anqi Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Fathony_R/0/1/0/all/0/1&quot;&gt;Rizal Fathony&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ziebart_B/0/1/0/all/0/1&quot;&gt;Brian D. Ziebart&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1712.09926">
-<title>Learning Rapid-Temporal Adaptations. (arXiv:1712.09926v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1712.09926</link>
-<description rdf:parseType="Literal">&lt;p&gt;A hallmark of human intelligence and cognition is its flexibility. One of the
-long-standing goals in AI research is to replicate this flexibility in a
-learning machine. In this work we describe a mechanism by which artificial
-neural networks can learn rapid-temporal adaptation - the ability to adapt
-quickly to new environments or tasks - that we call adaptive neurons. Adaptive
-neurons modify their activations with task-specific values retrieved from a
-working memory. On standard metalearning and few-shot learning benchmarks in
-both vision and language domains, models augmented with adaptive neurons
-achieve state-of-the-art results.
+<item rdf:about="http://arxiv.org/abs/1712.10179">
+<title>RedDwarfData: a simplified dataset of StarCraft matches. (arXiv:1712.10179v1 [cs.AI])</title>
+<link>http://arxiv.org/abs/1712.10179</link>
+<description rdf:parseType="Literal">&lt;p&gt;The game Starcraft is one of the most interesting arenas to test new machine
+learning and computational intelligence techniques; however, StarCraft matches
+take a long time and creating a good dataset for training can be hard. Besides,
+analyzing match logs to extract the main characteristics can also be done in
+many different ways to the point that extracting and processing data itself can
+take an inordinate amount of time and of course, depending on what you choose,
+can bias learning algorithms. In this paper we present a simplified dataset
+extracted from the set of matches published by Robinson and Watson, which we
+have called RedDwarfData, containing several thousand matches processed to
+frames, so that temporal studies can also be undertaken. This dataset is
+available from GitHub under a free license. An initial analysis and appraisal
+of these matches is also made.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Munkhdalai_T/0/1/0/all/0/1&quot;&gt;Tsendsuren Munkhdalai&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yuan_X/0/1/0/all/0/1&quot;&gt;Xingdi Yuan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mehri_S/0/1/0/all/0/1&quot;&gt;Soroush Mehri&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_T/0/1/0/all/0/1&quot;&gt;Tong Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Trischler_A/0/1/0/all/0/1&quot;&gt;Adam Trischler&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Merelo_Guervos_J/0/1/0/all/0/1&quot;&gt;Juan J. Merelo-Guerv&amp;#xf3;s&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Fernandez_Ares_A/0/1/0/all/0/1&quot;&gt;Antonio Fern&amp;#xe1;ndez-Ares&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Caballero_A/0/1/0/all/0/1&quot;&gt;Antonio &amp;#xc1;lvarez Caballero&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Garcia_Sanchez_P/0/1/0/all/0/1&quot;&gt;Pablo Garc&amp;#xed;a-S&amp;#xe1;nchez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Rivas_V/0/1/0/all/0/1&quot;&gt;Victor Rivas&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1709.03082">
-<title>A Neural Network Architecture Combining Gated Recurrent Unit (GRU) and Support Vector Machine (SVM) for Intrusion Detection in Network Traffic Data. (arXiv:1709.03082v6 [cs.NE] UPDATED)</title>
-<link>http://arxiv.org/abs/1709.03082</link>
-<description rdf:parseType="Literal">&lt;p&gt;Gated Recurrent Unit (GRU) is a recently-developed variation of the long
-short-term memory (LSTM) unit, both of which are types of recurrent neural
-network (RNN). Through empirical evidence, both models have been proven to be
-effective in a wide variety of machine learning tasks such as natural language
-processing (Wen et al., 2015), speech recognition (Chorowski et al., 2015), and
-text classification (Yang et al., 2016). Conventionally, like most neural
-networks, both of the aforementioned RNN variants employ the Softmax function
-as its final output layer for its prediction, and the cross-entropy function
-for computing its loss. In this paper, we present an amendment to this norm by
-introducing linear support vector machine (SVM) as the replacement for Softmax
-in the final output layer of a GRU model. Furthermore, the cross-entropy
-function shall be replaced with a margin-based function. While there have been
-similar studies (Alalshekmubarak &amp;amp; Smith, 2013; Tang, 2013), this proposal is
-primarily intended for binary classification on intrusion detection using the
-2013 network traffic data from the honeypot systems of Kyoto University.
-Results show that the GRU-SVM model performs relatively higher than the
-conventional GRU-Softmax model. The proposed model reached a training accuracy
-of ~81.54% and a testing accuracy of ~84.15%, while the latter was able to
-reach a training accuracy of ~63.07% and a testing accuracy of ~70.75%. In
-addition, the juxtaposition of these two final output layers indicate that the
-SVM would outperform Softmax in prediction time - a theoretical implication
-which was supported by the actual training and testing time in the study.
+<item rdf:about="http://arxiv.org/abs/1711.07170">
+<title>Parameter Reference Loss for Unsupervised Domain Adaptation. (arXiv:1711.07170v2 [cs.CV] CROSS LISTED)</title>
+<link>http://arxiv.org/abs/1711.07170</link>
+<description rdf:parseType="Literal">&lt;p&gt;The success of deep learning in computer vision is mainly attributed to an
+abundance of data. However, collecting large-scale data is not always possible,
+especially for the supervised labels. Unsupervised domain adaptation (UDA) aims
+to utilize labeled data from a source domain to learn a model that generalizes
+to a target domain of unlabeled data. A large amount of existing work uses
+Siamese network-based models, where two streams of neural networks process the
+source and the target domain data respectively. Nevertheless, most of these
+approaches focus on minimizing the domain discrepancy, overlooking the
+importance of preserving the discriminative ability for target domain features.
+Another important problem in UDA research is how to evaluate the methods
+properly. Common evaluation procedures require target domain labels for
+hyper-parameter tuning and model selection, contradicting the definition of the
+UDA task. Hence we propose a more reasonable evaluation principle that avoids
+this contradiction by simply adopting the latest snapshot of a model for
+evaluation. This adds an extra requirement for UDA methods besides the main
+performance criteria: the stability during training. We design a novel method
+that connects the target domain stream to the source domain stream with a
+Parameter Reference Loss (PRL) to solve these problems simultaneously.
+Experiments on various datasets show that the proposed PRL not only improves
+the performance on the target domain, but also stabilizes the training
+procedure. As a result, PRL based models do not need the contradictory model
+selection, and thus are more suitable for practical applications.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Agarap_A/0/1/0/all/0/1&quot;&gt;Abien Fred Agarap&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jin_J/0/1/0/all/0/1&quot;&gt;Jiren Jin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Calland_R/0/1/0/all/0/1&quot;&gt;Richard G. Calland&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Miyato_T/0/1/0/all/0/1&quot;&gt;Takeru Miyato&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Vogel_B/0/1/0/all/0/1&quot;&gt;Brian K. Vogel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nakayama_H/0/1/0/all/0/1&quot;&gt;Hideki Nakayama&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1712.09444">
-<title>Letter-Based Speech Recognition with Gated ConvNets. (arXiv:1712.09444v1 [cs.CL])</title>
-<link>http://arxiv.org/abs/1712.09444</link>
-<description rdf:parseType="Literal">&lt;p&gt;In this paper we introduce a new speech recognition system, leveraging a
-simple letter-based ConvNet acoustic model. The acoustic model requires -- only
-audio transcription for training -- no alignment annotations, nor any forced
-alignment step is needed. At inference, our decoder takes only a word list and
-a language model, and is fed with letter scores from the -- acoustic model --
-no phonetic word lexicon is needed. Key ingredients for the acoustic model are
-Gated Linear Units and high dropout. We show near state-of-the-art results in
-word error rate on the LibriSpeech corpus using log-mel filterbanks, both on
-the &quot;clean&quot; and &quot;other&quot; configurations.
+<item rdf:about="http://arxiv.org/abs/1712.10082">
+<title>Application of Convolutional Neural Network to Predict Airfoil Lift Coefficient. (arXiv:1712.10082v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/1712.10082</link>
+<description rdf:parseType="Literal">&lt;p&gt;The adaptability of the convolutional neural network (CNN) technique for
+aerodynamic meta-modeling tasks is probed in this work. The primary objective
+is to develop suitable CNN architecture for variable flow conditions and object
+geometry, in addition to identifying a sufficient data preparation process.
+Multiple CNN structures were trained to learn the lift coefficients of the
+airfoils with a variety of shapes in multiple flow Mach numbers, Reynolds
+numbers, and diverse angles of attack. This is conducted to illustrate the
+concept of the technique. A multi-layered perceptron (MLP) is also used for the
+training sets. The MLP results are compared with that of the CNN results. The
+newly proposed meta-modeling concept has been found to be comparable with the
+MLP in learning capability; and more importantly, our CNN model exhibits a
+competitive prediction accuracy with minimal constraints in a geometric
+representation.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liptchinsky_V/0/1/0/all/0/1&quot;&gt;Vitaliy Liptchinsky&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Synnaeve_G/0/1/0/all/0/1&quot;&gt;Gabriel Synnaeve&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Collobert_R/0/1/0/all/0/1&quot;&gt;Ronan Collobert&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Zhang_Y/0/1/0/all/0/1&quot;&gt;Yao Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Sung_W/0/1/0/all/0/1&quot;&gt;Woong-Je Sung&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Mavris_D/0/1/0/all/0/1&quot;&gt;Dimitri Mavris&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1712.09923">
-<title>What do we need to build explainable AI systems for the medical domain?. (arXiv:1712.09923v1 [cs.AI])</title>
-<link>http://arxiv.org/abs/1712.09923</link>
-<description rdf:parseType="Literal">&lt;p&gt;Artificial intelligence (AI) generally and machine learning (ML) specifically
-demonstrate impressive practical success in many different application domains,
-e.g. in autonomous driving, speech recognition, or recommender systems. Deep
-learning approaches, trained on extremely large data sets or using
-reinforcement learning methods have even exceeded human performance in visual
-tasks, particularly on playing games such as Atari, or mastering the game of
-Go. Even in the medical domain there are remarkable results. The central
-problem of such models is that they are regarded as black-box models and even
-if we understand the underlying mathematical principles, they lack an explicit
-declarative knowledge representation, hence have difficulty in generating the
-underlying explanatory structures. This calls for systems enabling to make
-decisions transparent, understandable and explainable. A huge motivation for
-our approach are rising legal and privacy aspects. The new European General
-Data Protection Regulation entering into force on May 25th 2018, will make
-black-box approaches difficult to use in business. This does not imply a ban on
-automatic learning approaches or an obligation to explain everything all the
-time, however, there must be a possibility to make the results re-traceable on
-demand. In this paper we outline some of our research topics in the context of
-the relatively new area of explainable-AI with a focus on the application in
-medicine, which is a very special domain. This is due to the fact that medical
-professionals are working mostly with distributed heterogeneous and complex
-sources of data. In this paper we concentrate on three sources: images, *omics
-data and text. We argue that research in explainable-AI would generally help to
-facilitate the implementation of AI/ML in the medical domain, and specifically
-help to facilitate transparency and trust.
+<item rdf:about="http://arxiv.org/abs/1712.10107">
+<title>Objective evaluation metrics for automatic classification of EEG events. (arXiv:1712.10107v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1712.10107</link>
+<description rdf:parseType="Literal">&lt;p&gt;The evaluation of machine learning algorithms in biomedical fields for
+applications involving sequential data lacks standardization. Common
+quantitative scalar evaluation metrics such as sensitivity and specificity can
+often be misleading depending on the requirements of the application.
+Evaluation metrics must ultimately reflect the needs of users yet be
+sufficiently sensitive to guide algorithm development. Feedback from critical
+care clinicians who use automated event detection software in clinical
+applications has been overwhelmingly emphatic that a low false alarm rate,
+typically measured in units of the number of errors per 24 hours, is the single
+most important criterion for user acceptance. Though using a single metric is
+not often as insightful as examining performance over a range of operating
+conditions, there is a need for a single scalar figure of merit. In this paper,
+we discuss the deficiencies of existing metrics for a seizure detection task
+and propose several new metrics that offer a more balanced view of performance.
+We demonstrate these metrics on a seizure detection task based on the TUH EEG
+Corpus. We show that two promising metrics are a measure based on a concept
+borrowed from the spoken term detection literature, Actual Term-Weighted Value,
+and a new metric, Time-Aligned Event Scoring (TAES), that accounts for the
+temporal alignment of the hypothesis to the reference annotation. We also
+demonstrate that state of the art technology based on deep learning, though
+impressive in its performance, still needs significant improvement before it
+will meet very strict user acceptance guidelines.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Holzinger_A/0/1/0/all/0/1&quot;&gt;Andreas Holzinger&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Biemann_C/0/1/0/all/0/1&quot;&gt;Chris Biemann&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pattichis_C/0/1/0/all/0/1&quot;&gt;Constantinos S. Pattichis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kell_D/0/1/0/all/0/1&quot;&gt;Douglas B. Kell&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ziyabari_S/0/1/0/all/0/1&quot;&gt;Saeedeh Ziyabari&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shah_V/0/1/0/all/0/1&quot;&gt;Vinit Shah&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Golmohammadi_M/0/1/0/all/0/1&quot;&gt;Meysam Golmohammadi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Obeid_I/0/1/0/all/0/1&quot;&gt;Iyad Obeid&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Picone_J/0/1/0/all/0/1&quot;&gt;Joseph Picone&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1712.09943">
-<title>Toward Continual Learning for Conversational Agents. (arXiv:1712.09943v1 [cs.CL])</title>
-<link>http://arxiv.org/abs/1712.09943</link>
-<description rdf:parseType="Literal">&lt;p&gt;While end-to-end neural conversation models have led to promising advances in
-reducing hand-crafted features and errors induced by the traditional complex
-system architecture, they typically require an enormous amount of data.
-Previous studies adopted a hybrid approach with knowledge-based components to
-abstract out domain-specific things or to augment data to cover more diverse
-patterns. On the contrary, we propose to directly address the problem using the
-recent development in the space of continual learning for neural models.
-Specifically, we adopt a domain-independent neural conversational model and
-introduce a novel neural continual learning algorithm that allows the
-conversational agent to accumulate skills across different tasks in a
-data-efficient way. To the best of our knowledge, this is the first work that
-applies continual learning for conversation systems. We verified the efficacy
-of our method through a conversational skill transfer from synthetic dialogs or
-human-human dialogs to human-computer conversations in a customer support
-domain.
+<item rdf:about="http://arxiv.org/abs/1712.10321">
+<title>CaloGAN: Simulating 3D High Energy Particle Showers in Multi-Layer Electromagnetic Calorimeters with Generative Adversarial Networks. (arXiv:1712.10321v1 [hep-ex])</title>
+<link>http://arxiv.org/abs/1712.10321</link>
+<description rdf:parseType="Literal">&lt;p&gt;The precise modeling of subatomic particle interactions and propagation
+through matter is paramount for the advancement of nuclear and particle physics
+searches and precision measurements. The most computationally expensive step in
+the simulation pipeline of a typical experiment at the Large Hadron Collider
+(LHC) is the detailed modeling of the full complexity of physics processes that
+govern the motion and evolution of particle showers inside calorimeters. We
+introduce \textsc{CaloGAN}, a new fast simulation technique based on generative
+adversarial networks (GANs). We apply these neural networks to the modeling of
+electromagnetic showers in a longitudinally segmented calorimeter, and achieve
+speedup factors comparable to or better than existing full simulation
+techniques on CPU ($100\times$-$1000\times$) and even faster on GPU (up to
+$\sim10^5\times$). There are still challenges for achieving precision across
+the entire phase space, but our solution can reproduce a variety of geometric
+shower shape properties of photons, positrons and charged pions. This
+represents a significant stepping stone toward a full neural network-based
+detector simulation that could save significant computing time and enable many
+analyses now and in the future.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lee_S/0/1/0/all/0/1&quot;&gt;Sungjin Lee&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ex/1/au:+Paganini_M/0/1/0/all/0/1&quot;&gt;Michela Paganini&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ex/1/au:+Oliveira_L/0/1/0/all/0/1&quot;&gt;Luke de Oliveira&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ex/1/au:+Nachman_B/0/1/0/all/0/1&quot;&gt;Benjamin Nachman&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1712.09482">
-<title>Robust Loss Functions under Label Noise for Deep Neural Networks. (arXiv:1712.09482v1 [stat.ML])</title>
-<link>http://arxiv.org/abs/1712.09482</link>
-<description rdf:parseType="Literal">&lt;p&gt;In many applications of classifier learning, training data suffers from label
-noise. Deep networks are learned using huge training data where the problem of
-noisy labels is particularly relevant. The current techniques proposed for
-learning deep networks under label noise focus on modifying the network
-architecture and on algorithms for estimating true labels from noisy labels. An
-alternate approach would be to look for loss functions that are inherently
-noise-tolerant. For binary classification there exist theoretical results on
-loss functions that are robust to label noise. In this paper, we provide some
-sufficient conditions on a loss function so that risk minimization under that
-loss function would be inherently tolerant to label noise for multiclass
-classification problems. These results generalize the existing results on
-noise-tolerant loss functions for binary classification. We study some of the
-widely used loss functions in deep networks and show that the loss function
-based on mean absolute value of error is inherently robust to label noise. Thus
-standard back propagation is enough to learn the true classifier even under
-label noise. Through experiments, we illustrate the robustness of risk
-minimization with such loss functions for learning neural networks.
+<item rdf:about="http://arxiv.org/abs/1606.04080">
+<title>Matching Networks for One Shot Learning. (arXiv:1606.04080v2 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/1606.04080</link>
+<description rdf:parseType="Literal">&lt;p&gt;Learning from a few examples remains a key challenge in machine learning.
+Despite recent advances in important domains such as vision and language, the
+standard supervised deep learning paradigm does not offer a satisfactory
+solution for learning new concepts rapidly from little data. In this work, we
+employ ideas from metric learning based on deep neural features and from recent
+advances that augment neural networks with external memories. Our framework
+learns a network that maps a small labelled support set and an unlabelled
+example to its label, obviating the need for fine-tuning to adapt to new class
+types. We then define one-shot learning problems on vision (using Omniglot,
+ImageNet) and language tasks. Our algorithm improves one-shot accuracy on
+ImageNet from 87.6% to 93.2% and from 88.0% to 93.8% on Omniglot compared to
+competing approaches. We also demonstrate the usefulness of the same model on
+language modeling by introducing a one-shot task on the Penn Treebank.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Ghosh_A/0/1/0/all/0/1&quot;&gt;Aritra Ghosh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Kumar_H/0/1/0/all/0/1&quot;&gt;Himanshu Kumar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Sastry_P/0/1/0/all/0/1&quot;&gt;P.S. Sastry&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1712.09685">
-<title>Neural network augmented inverse problems for PDEs. (arXiv:1712.09685v1 [stat.ML])</title>
-<link>http://arxiv.org/abs/1712.09685</link>
-<description rdf:parseType="Literal">&lt;p&gt;In this paper we show how to augment classical methods for inverse problems
-with artificial neural networks. The neural network acts as a parametric
-container for the coefficient to be estimated from noisy data. Neural networks
-are global, smooth function approximators and as such they do not require
-regularization of the error functional to recover smooth solutions and
-coefficients. We give detailed examples using the Poisson equation in 1, 2, and
-3 space dimensions and show that the neural network augmentation is robust with
-respect to noisy data, mesh, and geometry.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Berg_J/0/1/0/all/0/1&quot;&gt;Jens Berg&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Nystrom_K/0/1/0/all/0/1&quot;&gt;Kaj Nystr&amp;#xf6;m&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1712.09763">
-<title>PixelSNAIL: An Improved Autoregressive Generative Model. (arXiv:1712.09763v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1712.09763</link>
-<description rdf:parseType="Literal">&lt;p&gt;Autoregressive generative models consistently achieve the best results in
-density estimation tasks involving high dimensional data, such as images or
-audio. They pose density estimation as a sequence modeling task, where a
-recurrent neural network (RNN) models the conditional distribution over the
-next element conditioned on all previous elements. In this paradigm, the
-bottleneck is the extent to which the RNN can model long-range dependencies,
-and the most successful approaches rely on causal convolutions, which offer
-better access to earlier parts of the sequence than conventional RNNs. Taking
-inspiration from recent work in meta reinforcement learning, where dealing with
-long-range dependencies is also essential, we introduce a new generative model
-architecture that combines causal convolutions with self attention. In this
-note, we describe the resulting model and present state-of-the-art
-log-likelihood results on CIFAR-10 (2.85 bits per dim) and $32 \times 32$
-ImageNet (3.80 bits per dim). Our implementation is available at
-https://github.com/neocxi/pixelsnail-public
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_X/0/1/0/all/0/1&quot;&gt;Xi Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mishra_N/0/1/0/all/0/1&quot;&gt;Nikhil Mishra&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Rohaninejad_M/0/1/0/all/0/1&quot;&gt;Mostafa Rohaninejad&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Abbeel_P/0/1/0/all/0/1&quot;&gt;Pieter Abbeel&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1705.07220">
-<title>Data-adaptive Active Sampling for Efficient Graph-Cognizant Classification. (arXiv:1705.07220v3 [stat.ML] UPDATED)</title>
-<link>http://arxiv.org/abs/1705.07220</link>
-<description rdf:parseType="Literal">&lt;p&gt;The present work deals with active sampling of graph nodes representing
-training data for binary classification. The graph may be given or constructed
-using similarity measures among nodal features. Leveraging the graph for
-classification builds on the premise that labels across neighboring nodes are
-correlated according to a categorical Markov random field (MRF). This model is
-further relaxed to a Gaussian (G)MRF with labels taking continuous values - an
-approximation that not only mitigates the combinatorial complexity of the
-categorical model, but also offers optimal unbiased soft predictors of the
-unlabeled nodes. The proposed sampling strategy is based on querying the node
-whose label disclosure is expected to inflict the largest change on the GMRF,
-and in this sense it is the most informative on average. Such a strategy
-subsumes several measures of expected model change, including uncertainty
-sampling, variance minimization, and sampling based on the $\Sigma-$optimality
-criterion. A simple yet effective heuristic is also introduced for increasing
-the exploration capabilities of the sampler, and reducing bias of the resultant
-classifier, by taking into account the confidence on the model label
-predictions. The novel sampling strategies are based on quantities that are
-readily available without the need for model retraining, rendering them
-computationally efficient and scalable to large graphs. Numerical tests using
-synthetic and real data demonstrate that the proposed methods achieve accuracy
-that is comparable or superior to the state-of-the-art even at reduced runtime.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Berberidis_D/0/1/0/all/0/1&quot;&gt;Dimitris Berberidis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Giannakis_G/0/1/0/all/0/1&quot;&gt;Georgios B. Giannakis&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1712.08968">
-<title>Spurious Local Minima are Common in Two-Layer ReLU Neural Networks. (arXiv:1712.08968v2 [cs.LG] UPDATED)</title>
-<link>http://arxiv.org/abs/1712.08968</link>
-<description rdf:parseType="Literal">&lt;p&gt;We consider the optimization problem associated with training simple ReLU
-neural networks of the form $\mathbf{x}\mapsto
-\sum_{i=1}^{k}\max\{0,\mathbf{w}_i^\top \mathbf{x}\}$ with respect to the
-squared loss. We provide a computer-assisted proof that even if the input
-distribution is standard Gaussian, even if the dimension is unrestricted, and
-even if the target values are generated by such a network, with orthonormal
-parameter vectors, the problem can still have spurious local minima once $k\geq
-6$. By a continuity argument, this implies that in high dimensions,
-\emph{nearly all} target networks of the relevant sizes lead to spurious local
-minima. Moreover, we conduct experiments which show that the probability of
-hitting such local minima is quite high, and increasing with the network size.
-On the positive side, mild over-parameterization appears to drastically reduce
-such local minima, indicating that an over-parameterization assumption is
-necessary to get a positive result in this setting.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Safran_I/0/1/0/all/0/1&quot;&gt;Itay Safran&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shamir_O/0/1/0/all/0/1&quot;&gt;Ohad Shamir&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Vinyals_O/0/1/0/all/0/1&quot;&gt;Oriol Vinyals&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Blundell_C/0/1/0/all/0/1&quot;&gt;Charles Blundell&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lillicrap_T/0/1/0/all/0/1&quot;&gt;Timothy Lillicrap&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kavukcuoglu_K/0/1/0/all/0/1&quot;&gt;Koray Kavukcuoglu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wierstra_D/0/1/0/all/0/1&quot;&gt;Daan Wierstra&lt;/a&gt;</dc:creator>
 </item></rdf:RDF>
