@@ -27,7 +27,6 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.05295"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.05372"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.05394"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.05398"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1409.8498"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1703.06207"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1709.00084"/>
@@ -38,6 +37,7 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.05039"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.05055"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.05141"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.05398"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.05413"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1510.02786"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1703.02089"/>
@@ -148,27 +148,6 @@ significantly better performance than previous methods.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lee_W/0/1/0/all/0/1&quot;&gt;Wei-Han Lee&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ortiz_J/0/1/0/all/0/1&quot;&gt;Jorge Ortiz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ko_B/0/1/0/all/0/1&quot;&gt;Bongjun Ko&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lee_R/0/1/0/all/0/1&quot;&gt;Ruby Lee&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1801.05398">
-<title>On the Direction of Discrimination: An Information-Theoretic Analysis of Disparate Impact in Machine Learning. (arXiv:1801.05398v1 [cs.IT])</title>
-<link>http://arxiv.org/abs/1801.05398</link>
-<description rdf:parseType="Literal">&lt;p&gt;In the context of machine learning, disparate impact refers to a form of
-systematic discrimination whereby the output distribution of a model depends on
-the value of a sensitive attribute (e.g., race or gender). In this paper, we
-present an information-theoretic framework to analyze the disparate impact of a
-binary classification model. We view the model as a fixed channel, and quantify
-disparate impact as the divergence in output distributions over two groups. We
-then aim to find a \textit{correction function} that can be used to perturb the
-input distributions of each group in order to align their output distributions.
-We present an optimization problem that can be solved to obtain a correction
-function that will make the output distributions statistically
-indistinguishable. We derive closed-form expression for the correction function
-that can be used to compute it efficiently. We illustrate the use of the
-correction function for a recidivism prediction application derived from the
-ProPublica COMPAS dataset.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_H/0/1/0/all/0/1&quot;&gt;Hao Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ustun_B/0/1/0/all/0/1&quot;&gt;Berk Ustun&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Calmon_F/0/1/0/all/0/1&quot;&gt;Flavio P. Calmon&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1409.8498">
 <title>Robust Learning for Repeated Stochastic Games via Meta-Gaming. (arXiv:1409.8498v2 [cs.GT] UPDATED)</title>
@@ -390,6 +369,27 @@ convolutional autoencoder.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Haque_K/0/1/0/all/0/1&quot;&gt;Kazi Nazmul Haque&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Yousuf_M/0/1/0/all/0/1&quot;&gt;Mohammad Abu Yousuf&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Rana_R/0/1/0/all/0/1&quot;&gt;Rajib Rana&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1801.05398">
+<title>On the Direction of Discrimination: An Information-Theoretic Analysis of Disparate Impact in Machine Learning. (arXiv:1801.05398v1 [cs.IT])</title>
+<link>http://arxiv.org/abs/1801.05398</link>
+<description rdf:parseType="Literal">&lt;p&gt;In the context of machine learning, disparate impact refers to a form of
+systematic discrimination whereby the output distribution of a model depends on
+the value of a sensitive attribute (e.g., race or gender). In this paper, we
+present an information-theoretic framework to analyze the disparate impact of a
+binary classification model. We view the model as a fixed channel, and quantify
+disparate impact as the divergence in output distributions over two groups. We
+then aim to find a \textit{correction function} that can be used to perturb the
+input distributions of each group in order to align their output distributions.
+We present an optimization problem that can be solved to obtain a correction
+function that will make the output distributions statistically
+indistinguishable. We derive closed-form expression for the correction function
+that can be used to compute it efficiently. We illustrate the use of the
+correction function for a recidivism prediction application derived from the
+ProPublica COMPAS dataset.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_H/0/1/0/all/0/1&quot;&gt;Hao Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ustun_B/0/1/0/all/0/1&quot;&gt;Berk Ustun&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Calmon_F/0/1/0/all/0/1&quot;&gt;Flavio P. Calmon&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1801.05413">
 <title>Combinatorial Preconditioners for Proximal Algorithms on Graphs. (arXiv:1801.05413v1 [math.OC])</title>
