@@ -24,12 +24,12 @@
 <items>
  <rdf:Seq>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.05156"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.05387"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1705.08142"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.05032"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.05075"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.05088"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.05159"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.05387"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.05062"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.05134"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.05236"/>
@@ -67,6 +67,34 @@ training, testing, and usage phases to be treated in exactly the same manner.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Baluja_S/0/1/0/all/0/1&quot;&gt;Shumeet Baluja&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1801.05387">
+<title>StressedNets: Efficient Feature Representations via Stress-induced Evolutionary Synthesis of Deep Neural Networks. (arXiv:1801.05387v1 [cs.AI])</title>
+<link>http://arxiv.org/abs/1801.05387</link>
+<description rdf:parseType="Literal">&lt;p&gt;The computational complexity of leveraging deep neural networks for
+extracting deep feature representations is a significant barrier to its
+widespread adoption, particularly for use in embedded devices. One particularly
+promising strategy to addressing the complexity issue is the notion of
+evolutionary synthesis of deep neural networks, which was demonstrated to
+successfully produce highly efficient deep neural networks while retaining
+modeling performance. Here, we further extend upon the evolutionary synthesis
+strategy for achieving efficient feature extraction via the introduction of a
+stress-induced evolutionary synthesis framework, where stress signals are
+imposed upon the synapses of a deep neural network during training to induce
+stress and steer the synthesis process towards the production of more efficient
+deep neural networks over successive generations and improved model fidelity at
+a greater efficiency. The proposed stress-induced evolutionary synthesis
+approach is evaluated on a variety of different deep neural network
+architectures (LeNet5, AlexNet, and YOLOv2) on different tasks (object
+classification and object detection) to synthesize efficient StressedNets over
+multiple generations. Experimental results demonstrate the efficacy of the
+proposed framework to synthesize StressedNets with significant improvement in
+network architecture efficiency (e.g., 40x for AlexNet and 33x for YOLOv2) and
+speed improvements (e.g., 5.5x inference speed-up for YOLOv2 on an Nvidia Tegra
+X1 mobile processor).
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shafiee_M/0/1/0/all/0/1&quot;&gt;Mohammad Javad Shafiee&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chwyl_B/0/1/0/all/0/1&quot;&gt;Brendan Chwyl&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_F/0/1/0/all/0/1&quot;&gt;Francis Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_R/0/1/0/all/0/1&quot;&gt;Rongyan Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Karg_M/0/1/0/all/0/1&quot;&gt;Michelle Karg&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Scharfenberger_C/0/1/0/all/0/1&quot;&gt;Christian Scharfenberger&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wong_A/0/1/0/all/0/1&quot;&gt;Alexander Wong&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1705.08142">
 <title>Learning what to share between loosely related tasks. (arXiv:1705.08142v2 [stat.ML] UPDATED)</title>
@@ -191,34 +219,6 @@ problem specific neural search space.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bennani_Smires_K/0/1/0/all/0/1&quot;&gt;Kamil Bennani-Smires&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Musat_C/0/1/0/all/0/1&quot;&gt;Claudiu Musat&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hossmann_A/0/1/0/all/0/1&quot;&gt;Andreea Hossmann&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Baeriswyl_M/0/1/0/all/0/1&quot;&gt;Michael Baeriswyl&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1801.05387">
-<title>StressedNets: Efficient Feature Representations via Stress-induced Evolutionary Synthesis of Deep Neural Networks. (arXiv:1801.05387v1 [cs.AI])</title>
-<link>http://arxiv.org/abs/1801.05387</link>
-<description rdf:parseType="Literal">&lt;p&gt;The computational complexity of leveraging deep neural networks for
-extracting deep feature representations is a significant barrier to its
-widespread adoption, particularly for use in embedded devices. One particularly
-promising strategy to addressing the complexity issue is the notion of
-evolutionary synthesis of deep neural networks, which was demonstrated to
-successfully produce highly efficient deep neural networks while retaining
-modeling performance. Here, we further extend upon the evolutionary synthesis
-strategy for achieving efficient feature extraction via the introduction of a
-stress-induced evolutionary synthesis framework, where stress signals are
-imposed upon the synapses of a deep neural network during training to induce
-stress and steer the synthesis process towards the production of more efficient
-deep neural networks over successive generations and improved model fidelity at
-a greater efficiency. The proposed stress-induced evolutionary synthesis
-approach is evaluated on a variety of different deep neural network
-architectures (LeNet5, AlexNet, and YOLOv2) on different tasks (object
-classification and object detection) to synthesize efficient StressedNets over
-multiple generations. Experimental results demonstrate the efficacy of the
-proposed framework to synthesize StressedNets with significant improvement in
-network architecture efficiency (e.g., 40x for AlexNet and 33x for YOLOv2) and
-speed improvements (e.g., 5.5x inference speed-up for YOLOv2 on an Nvidia Tegra
-X1 mobile processor).
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shafiee_M/0/1/0/all/0/1&quot;&gt;Mohammad Javad Shafiee&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chwyl_B/0/1/0/all/0/1&quot;&gt;Brendan Chwyl&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_F/0/1/0/all/0/1&quot;&gt;Francis Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_R/0/1/0/all/0/1&quot;&gt;Rongyan Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Karg_M/0/1/0/all/0/1&quot;&gt;Michelle Karg&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Scharfenberger_C/0/1/0/all/0/1&quot;&gt;Christian Scharfenberger&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wong_A/0/1/0/all/0/1&quot;&gt;Alexander Wong&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1801.05062">
 <title>Multi-Label Learning from Medical Plain Text with Convolutional Residual Models. (arXiv:1801.05062v1 [stat.ML])</title>
