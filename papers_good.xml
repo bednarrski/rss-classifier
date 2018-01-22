@@ -15,7 +15,7 @@
 <link>http://arxiv.org/</link>
 <description rdf:parseType="Literal">The Good Papers on ML, AI and Statistics</description>
 <dc:language>en-us</dc:language>
-<dc:date>2018-01-18T20:30:00-05:00</dc:date>
+<dc:date>2018-01-21T20:30:00-05:00</dc:date>
 <dc:publisher>help@arxiv.org</dc:publisher>
 <dc:subject>Statistics -- Machine Learning</dc:subject>
 <syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
@@ -23,14 +23,14 @@
 <syn:updatePeriod>daily</syn:updatePeriod>
 <items>
  <rdf:Seq>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.06105"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.06176"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.05853"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.05931"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.06024"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.05894"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.05922"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.01769"/></rdf:Seq>
+<rdf:li rdf:resource="http://arxiv.org/abs/1608.01818"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.06294"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.06316"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1704.01006"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1712.05785"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.06287"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.06309"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.06397"/></rdf:Seq>
 </items>
 <image rdf:resource="http://arxiv.org/icons/sfx.gif" />
 </channel>
@@ -38,183 +38,149 @@
 <title>arXiv.org</title>
 <url>http://arxiv.org/icons/sfx.gif</url>
 <link>http://arxiv.org/</link>
-</image><item rdf:about="http://arxiv.org/abs/1801.06105">
-<title>Overcoming the vanishing gradient problem in plain recurrent networks. (arXiv:1801.06105v1 [cs.NE])</title>
-<link>http://arxiv.org/abs/1801.06105</link>
-<description rdf:parseType="Literal">&lt;p&gt;Plain recurrent networks greatly suffer from the vanishing gradient problem
-while Gated Neural Networks (GNNs) such as Long-short Term Memory (LSTM) and
-Gated Recurrent Unit (GRU) deliver promising results in many sequence learning
-tasks through sophisticated network designs. This paper shows how we can
-address this problem in a plain recurrent network by analyzing the gating
-mechanisms in GNNs. We propose a novel network called the Recurrent Identity
-Network (RIN) which allows a plain recurrent network to overcome the vanishing
-gradient problem while training very deep models without the use of gates. We
-compare this model with IRNNs and LSTMs on multiple sequence modeling
-benchmarks. The RINs demonstrate competitive performance and converge faster in
-all tasks. Notably, small RIN models produce 12%--67% higher accuracy on the
-Sequential and Permuted MNIST datasets and reach state-of-the-art performance
-on the bAbI question answering dataset.
+</image><item rdf:about="http://arxiv.org/abs/1608.01818">
+<title>The BioDynaMo Project: a platform for computer simulations of biological dynamics. (arXiv:1608.01818v2 [cs.NE] UPDATED)</title>
+<link>http://arxiv.org/abs/1608.01818</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper is a brief update on developments in the BioDynaMo project, a new
+platform for computer simulations for biological research. We will discuss the
+new capabilities of the simulator, important new concepts simulation
+methodology as well as its numerous applications to the computational biology
+and nanoscience communities.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hu_Y/0/1/0/all/0/1&quot;&gt;Yuhuang Hu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Huber_A/0/1/0/all/0/1&quot;&gt;Adrian Huber&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Anumula_J/0/1/0/all/0/1&quot;&gt;Jithendar Anumula&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_S/0/1/0/all/0/1&quot;&gt;Shih-Chii Liu&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Johard_L/0/1/0/all/0/1&quot;&gt;Leonard Johard&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Breitwieser_L/0/1/0/all/0/1&quot;&gt;Lukas Breitwieser&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Meglio_A/0/1/0/all/0/1&quot;&gt;Alberto Di Meglio&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Manca_M/0/1/0/all/0/1&quot;&gt;Marco Manca&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mazzara_M/0/1/0/all/0/1&quot;&gt;Manuel Mazzara&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Talanov_M/0/1/0/all/0/1&quot;&gt;Max Talanov&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1801.06176">
-<title>Integrating planning for task-completion dialogue policy learning. (arXiv:1801.06176v1 [cs.CL])</title>
-<link>http://arxiv.org/abs/1801.06176</link>
-<description rdf:parseType="Literal">&lt;p&gt;Training a task-completion dialogue agent with real users via reinforcement
-learning (RL) could be prohibitively expensive, because it requires many
-interactions with users. One alternative is to resort to a user simulator,
-while the discrepancy of between simulated and real users makes the learned
-policy unreliable in practice. This paper addresses these challenges by
-integrating planning into the dialogue policy learning based on Dyna-Q
-framework, and provides a more sample-efficient approach to learn the dialogue
-polices. The proposed agent consists of a planner trained on-line with limited
-real user experience that can generate large amounts of simulated experience to
-supplement with limited real user experience, and a policy model trained on
-these hybrid experiences. The effectiveness of our approach is validated on a
-movie-booking task in both a simulation setting and a human-in-the-loop
-setting.
+<item rdf:about="http://arxiv.org/abs/1801.06294">
+<title>Multi-Task Pharmacovigilance Mining from Social Media Posts. (arXiv:1801.06294v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1801.06294</link>
+<description rdf:parseType="Literal">&lt;p&gt;Social media has grown to be a crucial information source for
+pharmacovigilance studies where an increasing number of people post adverse
+reactions to medical drugs that are previously unreported. Aiming to
+effectively monitor various aspects of Adverse Drug Reactions (ADRs) from
+diversely expressed social medical posts, we propose a multi-task neural
+network framework that learns several tasks associated with ADR monitoring with
+different levels of supervisions collectively. Besides being able to correctly
+classify ADR posts and accurately extract ADR mentions from online posts, the
+proposed framework is also able to further understand reasons for which the
+drug is being taken, known as &apos;indication&apos;, from the given social media post. A
+coverage-based attention mechanism is adopted in our framework to help the
+model properly identify &apos;phrasal&apos; ADRs and Indications that are attentive to
+multiple words in a post. Our framework is applicable in situations where
+limited parallel data for different pharmacovigilance tasks are available.We
+evaluate the proposed framework on real-world Twitter datasets, where the
+proposed model outperforms the state-of-the-art alternatives of each individual
+task consistently.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Peng_B/0/1/0/all/0/1&quot;&gt;Baolin Peng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_X/0/1/0/all/0/1&quot;&gt;Xiujun Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gao_J/0/1/0/all/0/1&quot;&gt;Jianfeng Gao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_J/0/1/0/all/0/1&quot;&gt;Jingjing Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wong_K/0/1/0/all/0/1&quot;&gt;Kam-Fai Wong&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chowdhury_S/0/1/0/all/0/1&quot;&gt;Shaika Chowdhury&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_C/0/1/0/all/0/1&quot;&gt;Chenwei Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yu_P/0/1/0/all/0/1&quot;&gt;Philip S. Yu&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1801.05853">
-<title>Time Matters: Multi-scale Temporalization of Social Media Popularity. (arXiv:1801.05853v1 [cs.SI])</title>
-<link>http://arxiv.org/abs/1801.05853</link>
-<description rdf:parseType="Literal">&lt;p&gt;The evolution of social media popularity exhibits rich temporality, i.e.,
-popularities change over time at various levels of temporal granularity. This
-is influenced by temporal variations of public attentions or user activities.
-For example, popularity patterns of street snap on Flickr are observed to
-depict distinctive fashion styles at specific time scales, such as season-based
-periodic fluctuations for Trench Coat or one-off peak in days for Evening
-Dress. However, this fact is often overlooked by existing research of
-popularity modeling. We present the first study to incorporate multiple
-time-scale dynamics into predicting online popularity. We propose a novel
-computational framework in the paper, named Multi-scale Temporalization, for
-estimating popularity based on multi-scale decomposition and structural
-reconstruction in a tensor space of user, post, and time by joint low-rank
-constraints. By considering the noise caused by context inconsistency, we
-design a data rearrangement step based on context aggregation as preprocessing
-to enhance contextual relevance of neighboring data in the tensor space. As a
-result, our approach can leverage multiple levels of temporal characteristics
-and reduce the noise of data decomposition to improve modeling effectiveness.
-We evaluate our approach on two large-scale Flickr image datasets with over 1.8
-million photos in total, for the task of popularity prediction. The results
-show that our approach significantly outperforms state-of-the-art popularity
-prediction techniques, with a relative improvement of 10.9%-47.5% in terms of
-prediction accuracy.
+<item rdf:about="http://arxiv.org/abs/1801.06316">
+<title>Demonstration of Topological Data Analysis on a Quantum Processor. (arXiv:1801.06316v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/1801.06316</link>
+<description rdf:parseType="Literal">&lt;p&gt;Topological data analysis offers a robust way to extract useful information
+from noisy, unstructured data by identifying its underlying structure.
+Recently, an efficient quantum algorithm was proposed [Lloyd, Garnerone,
+Zanardi, Nat. Commun. 7, 10138 (2016)] for calculating Betti numbers of data
+points -- topological features that count the number of topological holes of
+various dimensions in a scatterplot. Here, we implement a proof-of-principle
+demonstration of this quantum algorithm by employing a six-photon quantum
+processor to successfully analyze the topological features of Betti numbers of
+a network including three data points, providing new insights into data
+analysis in the era of quantum computing.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wu_B/0/1/0/all/0/1&quot;&gt;Bo Wu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cheng_W/0/1/0/all/0/1&quot;&gt;Wen-Huang Cheng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_Y/0/1/0/all/0/1&quot;&gt;Yongdong Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mei_T/0/1/0/all/0/1&quot;&gt;Tao Mei&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Huang_H/0/1/0/all/0/1&quot;&gt;He-Liang Huang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Wang_X/0/1/0/all/0/1&quot;&gt;Xi-Lin Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Rohde_P/0/1/0/all/0/1&quot;&gt;Peter P. Rohde&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Luo_Y/0/1/0/all/0/1&quot;&gt;Yi-Han Luo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Zhao_Y/0/1/0/all/0/1&quot;&gt;You-Wei Zhao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Liu_C/0/1/0/all/0/1&quot;&gt;Chang Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Li_L/0/1/0/all/0/1&quot;&gt;Li Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Liu_N/0/1/0/all/0/1&quot;&gt;Nai-Le Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Lu_C/0/1/0/all/0/1&quot;&gt;Chao-Yang Lu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Pan_J/0/1/0/all/0/1&quot;&gt;Jian-Wei Pan&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1801.05931">
-<title>Faster Algorithms for Large-scale Machine Learning using Simple Sampling Techniques. (arXiv:1801.05931v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1801.05931</link>
-<description rdf:parseType="Literal">&lt;p&gt;Now a days, the major challenge in machine learning is the `Big~Data&apos;
-challenge. The big data problems due to large number of data points or large
-number of features in each data point, or both, the training of models have
-become very slow. The training time has two major components: Time to access
-the data and time to process the data. In this paper, we have proposed one
-possible solution to handle the big data problems in machine learning. The
-focus is on reducing the training time through reducing data access time by
-proposing systematic sampling and cyclic/sequential sampling to select
-mini-batches from the dataset. To prove the effectiveness of proposed sampling
-techniques, we have used Empirical Risk Minimization, which is commonly used
-machine learning problem, for strongly convex and smooth case. The problem has
-been solved using SAG, SAGA, SVRG, SAAG-II and MBSGD (Mini-batched SGD), each
-using two step determination techniques, namely, constant step size and
-backtracking line search method. Theoretical results prove the same convergence
-for systematic sampling, cyclic sampling and the widely used random sampling
-technique, in expectation. Experimental results with bench marked datasets
-prove the efficacy of the proposed sampling techniques.
+<item rdf:about="http://arxiv.org/abs/1704.01006">
+<title>Ontology based Scene Creation for the Development of Automated Vehicles. (arXiv:1704.01006v4 [cs.AI] UPDATED)</title>
+<link>http://arxiv.org/abs/1704.01006</link>
+<description rdf:parseType="Literal">&lt;p&gt;The introduction of automated vehicles without permanent human supervision
+demands a functional system description, including functional system boundaries
+and a comprehensive safety analysis. These inputs to the technical development
+can be identified and analyzed by a scenario-based approach. Furthermore, to
+establish an economical test and release process, a large number of scenarios
+must be identified to obtain meaningful test results. Experts are doing well to
+identify scenarios that are difficult to handle or unlikely to happen. However,
+experts are unlikely to identify all scenarios possible based on the knowledge
+they have on hand. Expert knowledge modeled for computer aided processing may
+help for the purpose of providing a wide range of scenarios. This contribution
+reviews ontologies as knowledge-based systems in the field of automated
+vehicles, and proposes a generation of traffic scenes in natural language as a
+basis for a scenario creation.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chauhan_V/0/1/0/all/0/1&quot;&gt;Vinod Kumar Chauhan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Dahiya_K/0/1/0/all/0/1&quot;&gt;Kalpana Dahiya&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sharma_A/0/1/0/all/0/1&quot;&gt;Anuj Sharma&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bagschik_G/0/1/0/all/0/1&quot;&gt;Gerrit Bagschik&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Menzel_T/0/1/0/all/0/1&quot;&gt;Till Menzel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Maurer_M/0/1/0/all/0/1&quot;&gt;Markus Maurer&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1801.06024">
-<title>Natural Language Multitasking: Analyzing and Improving Syntactic Saliency of Hidden Representations. (arXiv:1801.06024v1 [cs.CL])</title>
-<link>http://arxiv.org/abs/1801.06024</link>
-<description rdf:parseType="Literal">&lt;p&gt;We train multi-task autoencoders on linguistic tasks and analyze the learned
-hidden sentence representations. The representations change significantly when
-translation and part-of-speech decoders are added. The more decoders a model
-employs, the better it clusters sentences according to their syntactic
-similarity, as the representation space becomes less entangled. We explore the
-structure of the representation space by interpolating between sentences, which
-yields interesting pseudo-English sentences, many of which have recognizable
-syntactic structure. Lastly, we point out an interesting property of our
-models: The difference-vector between two sentences can be added to change a
-third sentence with similar features in a meaningful way.
+<item rdf:about="http://arxiv.org/abs/1712.05785">
+<title>Sentiment Predictability for Stocks. (arXiv:1712.05785v2 [cs.CL] UPDATED)</title>
+<link>http://arxiv.org/abs/1712.05785</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this work, we present our findings and experiments for stock-market
+prediction using various textual sentiment analysis tools, such as mood
+analysis and event extraction, as well as prediction models, such as LSTMs and
+specific convolutional architectures.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Brunner_G/0/1/0/all/0/1&quot;&gt;Gino Brunner&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_Y/0/1/0/all/0/1&quot;&gt;Yuyi Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wattenhofer_R/0/1/0/all/0/1&quot;&gt;Roger Wattenhofer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Weigelt_M/0/1/0/all/0/1&quot;&gt;Michael Weigelt&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Prosky_J/0/1/0/all/0/1&quot;&gt;Jordan Prosky&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Song_X/0/1/0/all/0/1&quot;&gt;Xingyou Song&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tan_A/0/1/0/all/0/1&quot;&gt;Andrew Tan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhao_M/0/1/0/all/0/1&quot;&gt;Michael Zhao&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1801.05894">
-<title>Deep Learning: An Introduction for Applied Mathematicians. (arXiv:1801.05894v1 [math.HO])</title>
-<link>http://arxiv.org/abs/1801.05894</link>
-<description rdf:parseType="Literal">&lt;p&gt;Multilayered artificial neural networks are becoming a pervasive tool in a
-host of application fields. At the heart of this deep learning revolution are
-familiar concepts from applied and computational mathematics; notably, in
-calculus, approximation theory, optimization and linear algebra. This article
-provides a very brief introduction to the basic ideas that underlie deep
-learning from an applied mathematics perspective. Our target audience includes
-postgraduate and final year undergraduate students in mathematics who are keen
-to learn about the area. The article may also be useful for instructors in
-mathematics who wish to enliven their classes with references to the
-application of deep learning techniques. We focus on three fundamental
-questions: what is a deep neural network? how is a network trained? what is the
-stochastic gradient method? We illustrate the ideas with a short MATLAB code
-that sets up and trains a network. We also show the use of state-of-the art
-software on a large scale image classification problem. We finish with
-references to the current literature.
+<item rdf:about="http://arxiv.org/abs/1801.06287">
+<title>What Does a TextCNN Learn?. (arXiv:1801.06287v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/1801.06287</link>
+<description rdf:parseType="Literal">&lt;p&gt;TextCNN, the convolutional neural network for text, is a useful deep learning
+algorithm for sentence classification tasks such as sentiment analysis and
+question classification. However, neural networks have long been known as black
+boxes because interpreting them is a challenging task. Researchers have
+developed several tools to understand a CNN for image classification by deep
+visualization, but research about deep TextCNNs is still insufficient. In this
+paper, we are trying to understand what a TextCNN learns on two classical NLP
+datasets. Our work focuses on functions of different convolutional kernels and
+correlations between convolutional kernels.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Higham_C/0/1/0/all/0/1&quot;&gt;Catherine F. Higham&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Higham_D/0/1/0/all/0/1&quot;&gt;Desmond J. Higham&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Gong_L/0/1/0/all/0/1&quot;&gt;Linyuan Gong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Ji_R/0/1/0/all/0/1&quot;&gt;Ruyi Ji&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1801.05922">
-<title>Graph Based Analysis for Gene Segment Organization In a Scrambled Genome. (arXiv:1801.05922v1 [stat.ML])</title>
-<link>http://arxiv.org/abs/1801.05922</link>
-<description rdf:parseType="Literal">&lt;p&gt;DNA rearrangement processes recombine gene segments that are organized on the
-chromosome in a variety of ways. The segments can overlap, interleave or one
-may be a subsegment of another. We use directed graphs to represent segment
-organizations on a given locus where contigs containing rearranged segments
-represent vertices and the edges correspond to the segment relationships. Using
-graph properties we associate a point in a higher dimensional Euclidean space
-to each graph such that cluster formations and analysis can be performed with
-methods from topological data analysis. The method is applied to a recently
-sequenced model organism \textit{Oxytricha trifallax}, a species of ciliate
-with highly scrambled genome that undergoes massive rearrangement process after
-conjugation. The analysis shows some emerging star-like graph structures
-indicating that segments of a single gene can interleave, or even contain all
-of the segments from fifteen or more other genes in between its segments. We
-also observe that as many as six genes can have their segments mutually
-interleaving or overlapping.
+<item rdf:about="http://arxiv.org/abs/1801.06309">
+<title>Composite Functional Gradient Learning of Generative Adversarial Models. (arXiv:1801.06309v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/1801.06309</link>
+<description rdf:parseType="Literal">&lt;p&gt;Generative adversarial networks (GAN) have become popular for generating data
+that mimic observations by learning a suitable variable transformation from a
+random variable. However, empirically, GAN is known to suffer from instability.
+Also, the theory provided based on the minimax optimization formulation of GAN
+cannot explain the widely-used practical procedure that uses the so-called logd
+trick. This paper provides a different theoretical foundation for generative
+adversarial methods which does not rely on the minimax formulation. We show
+that with a strong discriminator, it is possible to learn a good variable
+transformation via functional gradient learning, which updates the functional
+definition of a generator model, instead of updating only the model parameters
+as in GAN. The theory guarantees that the learned generator improves the
+KL-divergence between the probability distributions of real data and generated
+data after each functional gradient step, until the KL-divergence converges to
+zero. This new point of view leads to enhanced stable procedures for training
+generative models that can utilize arbitrary learning algorithms. It also gives
+a new theoretical insight into the original GAN procedure both with and without
+the logd trick. Empirical results are shown on image generation to illustrate
+the effectiveness of our new method.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Hajij_M/0/1/0/all/0/1&quot;&gt;Mustafa Hajij&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Jonoska_N/0/1/0/all/0/1&quot;&gt;Nata&amp;#x161;a Jonoska&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Kukushkin_D/0/1/0/all/0/1&quot;&gt;Denys Kukushkin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Saito_M/0/1/0/all/0/1&quot;&gt;Masahico Saito&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Johnson_R/0/1/0/all/0/1&quot;&gt;Rie Johnson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Zhang_T/0/1/0/all/0/1&quot;&gt;Tong Zhang&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1712.01769">
-<title>State-of-the-art Speech Recognition With Sequence-to-Sequence Models. (arXiv:1712.01769v5 [cs.CL] UPDATED)</title>
-<link>http://arxiv.org/abs/1712.01769</link>
-<description rdf:parseType="Literal">&lt;p&gt;Attention-based encoder-decoder architectures such as Listen, Attend, and
-Spell (LAS), subsume the acoustic, pronunciation and language model components
-of a traditional automatic speech recognition (ASR) system into a single neural
-network. In our previous work, we have shown that such architectures are
-comparable to state-of-the-art ASR systems on dictation tasks, but it was not
-clear if such architectures would be practical for more challenging tasks such
-as voice search. In this work, we explore a variety of structural and
-optimization improvements to our LAS model which significantly improve
-performance. On the structural side, we show that word piece models can be used
-instead of graphemes. We introduce a multi-head attention architecture, which
-offers improvements over the commonly-used single-head attention. On the
-optimization side, we explore techniques such as synchronous training,
-scheduled sampling, label smoothing, and minimum word error rate optimization,
-which are all shown to improve accuracy. We present results with a
-unidirectional LSTM encoder for streaming recognition. On a 12,500 hour voice
-search task, we find that the proposed changes improve the WER of the LAS
-system from 9.2% to 5.6%, while the best conventional system achieve 6.7% WER.
-We also test both models on a dictation dataset, and our model provide 4.1% WER
-while the conventional system provides 5% WER.
+<item rdf:about="http://arxiv.org/abs/1801.06397">
+<title>What Makes Good Synthetic Training Data for Learning Disparity and Optical Flow Estimation?. (arXiv:1801.06397v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1801.06397</link>
+<description rdf:parseType="Literal">&lt;p&gt;The finding that very large networks can be trained efficiently and reliably
+has led to a paradigm shift in computer vision from engineered solutions to
+learning formulations. As a result, the research challenge shifts from devising
+algorithms to creating suitable and abundant training data for supervised
+learning. How to efficiently create such training data? The dominant data
+acquisition method in visual recognition is based on web data and manual
+annotation. Yet, for many computer vision problems, such as stereo or optical
+flow estimation, this approach is not feasible because humans cannot manually
+enter a pixel-accurate flow field. In this paper, we promote the use of
+synthetically generated data for the purpose of training deep networks on such
+tasks.We suggest multiple ways to generate such data and evaluate the influence
+of dataset properties on the performance and generalization properties of the
+resulting networks. We also demonstrate the benefit of learning schedules that
+use different types of data at selected stages of the training process.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chiu_C/0/1/0/all/0/1&quot;&gt;Chung-Cheng Chiu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sainath_T/0/1/0/all/0/1&quot;&gt;Tara N. Sainath&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wu_Y/0/1/0/all/0/1&quot;&gt;Yonghui Wu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Prabhavalkar_R/0/1/0/all/0/1&quot;&gt;Rohit Prabhavalkar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nguyen_P/0/1/0/all/0/1&quot;&gt;Patrick Nguyen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_Z/0/1/0/all/0/1&quot;&gt;Zhifeng Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kannan_A/0/1/0/all/0/1&quot;&gt;Anjuli Kannan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Weiss_R/0/1/0/all/0/1&quot;&gt;Ron J. Weiss&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Rao_K/0/1/0/all/0/1&quot;&gt;Kanishka Rao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gonina_E/0/1/0/all/0/1&quot;&gt;Ekaterina Gonina&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jaitly_N/0/1/0/all/0/1&quot;&gt;Navdeep Jaitly&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_B/0/1/0/all/0/1&quot;&gt;Bo Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chorowski_J/0/1/0/all/0/1&quot;&gt;Jan Chorowski&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bacchiani_M/0/1/0/all/0/1&quot;&gt;Michiel Bacchiani&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mayer_N/0/1/0/all/0/1&quot;&gt;Nikolaus Mayer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ilg_E/0/1/0/all/0/1&quot;&gt;Eddy Ilg&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Fischer_P/0/1/0/all/0/1&quot;&gt;Philipp Fischer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hazirbas_C/0/1/0/all/0/1&quot;&gt;Caner Hazirbas&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cremers_D/0/1/0/all/0/1&quot;&gt;Daniel Cremers&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Dosovitskiy_A/0/1/0/all/0/1&quot;&gt;Alexey Dosovitskiy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Brox_T/0/1/0/all/0/1&quot;&gt;Thomas Brox&lt;/a&gt;</dc:creator>
 </item></rdf:RDF>
