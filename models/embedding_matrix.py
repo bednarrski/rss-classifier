@@ -1,7 +1,6 @@
 import numpy as np
 
-def create_embedding_matrix(we_file_path, max_nb_words, embedding_dim, word_list):
-    
+def create_embedding_dictionary(we_file_path):    
     # Indexing word vectors
     print('Indexing word vectors.')
 
@@ -15,6 +14,10 @@ def create_embedding_matrix(we_file_path, max_nb_words, embedding_dim, word_list
     f.close()
 
     print('Found %s word vectors.' % len(embeddings_index))
+    return embeddings_index
+
+def create_embedding_matrix(we_file_path, max_nb_words, embedding_dim, word_list):
+    embeddings_index = create_embedding_dictionary(we_file_path)
     
     # Preparing embedding matrix
     print('Creating Word Embeddings matrix...')
