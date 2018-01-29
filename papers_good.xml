@@ -15,7 +15,7 @@
 <link>http://arxiv.org/</link>
 <description rdf:parseType="Literal">The Good Papers on ML, AI and Statistics</description>
 <dc:language>en-us</dc:language>
-<dc:date>2018-01-25T20:30:00-05:00</dc:date>
+<dc:date>2018-01-28T20:30:00-05:00</dc:date>
 <dc:publisher>help@arxiv.org</dc:publisher>
 <dc:subject>Statistics -- Machine Learning</dc:subject>
 <syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
@@ -23,17 +23,13 @@
 <syn:updatePeriod>daily</syn:updatePeriod>
 <items>
  <rdf:Seq>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.08230"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1711.04574"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.08212"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.08295"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.08459"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.04486"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.08573"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.07791"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.08284"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.08383"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1707.00372"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1711.01970"/></rdf:Seq>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.08459"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.08640"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.08660"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.08702"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.08712"/></rdf:Seq>
 </items>
 <image rdf:resource="http://arxiv.org/icons/sfx.gif" />
 </channel>
@@ -41,134 +37,23 @@
 <title>arXiv.org</title>
 <url>http://arxiv.org/icons/sfx.gif</url>
 <link>http://arxiv.org/</link>
-</image><item rdf:about="http://arxiv.org/abs/1801.08230">
-<title>Deep Interactive Evolution. (arXiv:1801.08230v1 [cs.NE])</title>
-<link>http://arxiv.org/abs/1801.08230</link>
-<description rdf:parseType="Literal">&lt;p&gt;This paper describes an approach that combines generative adversarial
-networks (GANs) with interactive evolutionary computation (IEC). While GANs can
-be trained to produce lifelike images, they are normally sampled randomly from
-the learned distribution, providing limited control over the resulting output.
-On the other hand, interactive evolution has shown promise in creating various
-artifacts such as images, music and 3D objects, but traditionally relies on a
-hand-designed evolvable representation of the target domain. The main insight
-in this paper is that a GAN trained on a specific target domain can act as a
-compact and robust genotype-to-phenotype mapping (i.e. most produced phenotypes
-do resemble valid domain artifacts). Once such a GAN is trained, the latent
-vector given as input to the GAN&apos;s generator network can be put under
-evolutionary control, allowing controllable and high-quality image generation.
-In this paper, we demonstrate the advantage of this novel approach through a
-user study in which participants were able to evolve images that strongly
-resemble specific target images.
+</image><item rdf:about="http://arxiv.org/abs/1801.08573">
+<title>Etymo: A New Discovery Engine for AI Research. (arXiv:1801.08573v1 [cs.IR])</title>
+<link>http://arxiv.org/abs/1801.08573</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present Etymo (https://etymo.io), a discovery engine to facilitate
+artificial intelligence (AI) research and development. It aims to help readers
+navigate a large number of AI-related papers published every week by using a
+novel form of search that finds relevant papers and displays related papers in
+a graphical interface. Etymo constructs and maintains an adaptive
+similarity-based network of research papers as an all-purpose knowledge graph
+for ranking, recommendation, and visualisation. The network is constantly
+evolving and can learn from user feedback to adjust itself.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bontrager_P/0/1/0/all/0/1&quot;&gt;Philip Bontrager&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lin_W/0/1/0/all/0/1&quot;&gt;Wending Lin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Togelius_J/0/1/0/all/0/1&quot;&gt;Julian Togelius&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Risi_S/0/1/0/all/0/1&quot;&gt;Sebastian Risi&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1711.04574">
-<title>Learning Explanatory Rules from Noisy Data. (arXiv:1711.04574v2 [cs.NE] UPDATED)</title>
-<link>http://arxiv.org/abs/1711.04574</link>
-<description rdf:parseType="Literal">&lt;p&gt;Artificial Neural Networks are powerful function approximators capable of
-modelling solutions to a wide variety of problems, both supervised and
-unsupervised. As their size and expressivity increases, so too does the
-variance of the model, yielding a nearly ubiquitous overfitting problem.
-Although mitigated by a variety of model regularisation methods, the common
-cure is to seek large amounts of training data---which is not necessarily
-easily obtained---that sufficiently approximates the data distribution of the
-domain we wish to test on. In contrast, logic programming methods such as
-Inductive Logic Programming offer an extremely data-efficient process by which
-models can be trained to reason on symbolic domains. However, these methods are
-unable to deal with the variety of domains neural networks can be applied to:
-they are not robust to noise in or mislabelling of inputs, and perhaps more
-importantly, cannot be applied to non-symbolic domains where the data is
-ambiguous, such as operating on raw pixels. In this paper, we propose a
-Differentiable Inductive Logic framework, which can not only solve tasks which
-traditional ILP systems are suited for, but shows a robustness to noise and
-error in the training data which ILP cannot cope with. Furthermore, as it is
-trained by backpropagation against a likelihood objective, it can be hybridised
-by connecting it with neural networks over ambiguous data in order to be
-applied to domains which ILP cannot address, while providing data efficiency
-and generalisation beyond what neural networks on their own can achieve.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Evans_R/0/1/0/all/0/1&quot;&gt;Richard Evans&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Grefenstette_E/0/1/0/all/0/1&quot;&gt;Edward Grefenstette&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1801.08212">
-<title>Multi-optional Many-sorted Past Present Future structures and its description. (arXiv:1801.08212v1 [cs.LO])</title>
-<link>http://arxiv.org/abs/1801.08212</link>
-<description rdf:parseType="Literal">&lt;p&gt;The cognitive theory of true conditions (CTTC) is a proposal to describe the
-model-theoretic semantics of symbolic cognitive architectures and design the
-implementation of cognitive abilities. The CTTC is formulated mathematically
-using the multi-optional many-sorted past present future(MMPPF) structures.
-This article defines mathematically the MMPPF structures and the formal
-languages proposed to describe them by the CTTC.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tome_S/0/1/0/all/0/1&quot;&gt;Sergio Miguel Tom&amp;#xe9;&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1801.08295">
-<title>Discovering Markov Blanket from Multiple interventional Datasets. (arXiv:1801.08295v1 [cs.AI])</title>
-<link>http://arxiv.org/abs/1801.08295</link>
-<description rdf:parseType="Literal">&lt;p&gt;In this paper, we study the problem of discovering the Markov blanket (MB) of
-a target variable from multiple interventional datasets. Datasets attained from
-interventional experiments contain richer causal information than passively
-observed data (observational data) for MB discovery. However, almost all
-existing MB discovery methods are designed for finding MBs from a single
-observational dataset. To identify MBs from multiple interventional datasets,
-we face two challenges: (1) unknown intervention variables; (2) nonidentical
-data distributions. To tackle the challenges, we theoretically analyze (a)
-under what conditions we can find the correct MB of a target variable, and (b)
-under what conditions we can identify the causes of the target variable via
-discovering its MB. Based on the theoretical analysis, we propose a new
-algorithm for discovering MBs from multiple interventional datasets, and
-present the conditions/assumptions which assure the correctness of the
-algorithm. To our knowledge, this work is the first to present the theoretical
-analyses about the conditions for MB discovery in multiple interventional
-datasets and the algorithm to find the MBs in relation to the conditions. Using
-benchmark Bayesian networks and real-world datasets, the experiments have
-validated the effectiveness and efficiency of the proposed algorithm in the
-paper.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yu_K/0/1/0/all/0/1&quot;&gt;Kui Yu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_L/0/1/0/all/0/1&quot;&gt;Lin Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_J/0/1/0/all/0/1&quot;&gt;Jiuyong Li&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1801.08459">
-<title>Finding ReMO (Related Memory Object): A Simple Neural Architecture for Text based Reasoning. (arXiv:1801.08459v1 [cs.AI])</title>
-<link>http://arxiv.org/abs/1801.08459</link>
-<description rdf:parseType="Literal">&lt;p&gt;To solve the text-based question and answering task that requires relational
-reasoning, it is necessary to memorize a large amount of information and find
-out the question relevant information from the memory. Most approaches were
-based on external memory and four components proposed by Memory Network. The
-distinctive component among them was the way of finding the necessary
-information and it contributes to the performance. Recently, a simple but
-powerful neural network module for reasoning called Relation Network (RN) has
-been introduced. We analyzed RN from the view of Memory Network, and realized
-that its MLP component is able to reveal the complicate relation between
-question and object pair. Motivated from it, we introduce which uses MLP to
-find out relevant information on Memory Network architecture. It shows new
-state-of-the-art results in jointly trained bAbI-10k story-based question
-answering tasks and bAbI dialog-based question answering tasks.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Moon_i/0/1/0/all/0/1&quot;&gt;ihyung Moon&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yang_H/0/1/0/all/0/1&quot;&gt;Hyochang Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cho_S/0/1/0/all/0/1&quot;&gt;Sungzoon Cho&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1801.04486">
-<title>Can Computers Create Art?. (arXiv:1801.04486v3 [cs.AI] UPDATED)</title>
-<link>http://arxiv.org/abs/1801.04486</link>
-<description rdf:parseType="Literal">&lt;p&gt;This paper discusses whether computers, using Artifical Intelligence (AI),
-could create art. The first part concerns AI-based tools for assisting with art
-making. The history of technologies that automated aspects of art is covered,
-including photography and animation. In each case, we see initial fears and
-denial of the technology, followed by a blossoming of new creative and
-professional opportunities for artists. The hype and reality of Artificial
-Intelligence (AI) tools for art making is discussed, together with predictions
-about how AI tools will be used. The second part speculates about whether it
-could ever happen that AI systems could conceive of artwork, and be credited
-with authorship of an artwork.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hertzmann_A/0/1/0/all/0/1&quot;&gt;Aaron Hertzmann&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_W/0/1/0/all/0/1&quot;&gt;Weijian Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Deakin_J/0/1/0/all/0/1&quot;&gt;Jonathan Deakin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Higham_N/0/1/0/all/0/1&quot;&gt;Nicholas J. Higham&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_S/0/1/0/all/0/1&quot;&gt;Shuaiqiang Wang&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1801.07791">
-<title>PointCNN. (arXiv:1801.07791v2 [cs.CV] UPDATED)</title>
+<title>PointCNN. (arXiv:1801.07791v3 [cs.CV] UPDATED)</title>
 <link>http://arxiv.org/abs/1801.07791</link>
 <description rdf:parseType="Literal">&lt;p&gt;We present a simple and general framework for feature learning from point
 cloud. The key to the success of CNNs is the convolution operator that is
@@ -188,98 +73,114 @@ challenging benchmark datasets and tasks.
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_Y/0/1/0/all/0/1&quot;&gt;Yangyan Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bu_R/0/1/0/all/0/1&quot;&gt;Rui Bu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sun_M/0/1/0/all/0/1&quot;&gt;Mingchao Sun&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_B/0/1/0/all/0/1&quot;&gt;Baoquan Chen&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1801.08284">
-<title>DKN: Deep Knowledge-Aware Network for News Recommendation. (arXiv:1801.08284v1 [stat.ML])</title>
-<link>http://arxiv.org/abs/1801.08284</link>
-<description rdf:parseType="Literal">&lt;p&gt;Online news recommender systems aim to address the information explosion of
-news and make personalized recommendation for users. In general, news language
-is highly condensed, full of knowledge entities and common sense. However,
-existing methods are unaware of such external knowledge and cannot fully
-discover latent knowledge-level connections among news. The recommended results
-for a user are consequently limited to simple patterns and cannot be extended
-reasonably. Moreover, news recommendation also faces the challenges of high
-time-sensitivity of news and dynamic diversity of users&apos; interests. To solve
-the above problems, in this paper, we propose a deep knowledge-aware network
-(DKN) that incorporates knowledge graph representation into news
-recommendation. DKN is a content-based deep recommendation framework for
-click-through rate prediction. The key component of DKN is a multi-channel and
-word-entity-aligned knowledge-aware convolutional neural network (KCNN) that
-fuses semantic-level and knowledge-level representations of news. KCNN treats
-words and entities as multiple channels, and explicitly keeps their alignment
-relationship during convolution. In addition, to address users&apos; diverse
-interests, we also design an attention module in DKN to dynamically aggregate a
-user&apos;s history with respect to current candidate news. Through extensive
-experiments on a real online news platform, we demonstrate that DKN achieves
-substantial gains over state-of-the-art deep recommendation models. We also
-validate the efficacy of the usage of knowledge in DKN.
+<item rdf:about="http://arxiv.org/abs/1801.08459">
+<title>Finding ReMO (Related Memory Object): A Simple Neural Architecture for Text based Reasoning. (arXiv:1801.08459v2 [cs.AI] UPDATED)</title>
+<link>http://arxiv.org/abs/1801.08459</link>
+<description rdf:parseType="Literal">&lt;p&gt;To solve the text-based question and answering task that requires relational
+reasoning, it is necessary to memorize a large amount of information and find
+out the question relevant information from the memory. Most approaches were
+based on external memory and four components proposed by Memory Network. The
+distinctive component among them was the way of finding the necessary
+information and it contributes to the performance. Recently, a simple but
+powerful neural network module for reasoning called Relation Network (RN) has
+been introduced. We analyzed RN from the view of Memory Network, and realized
+that its MLP component is able to reveal the complicate relation between
+question and object pair. Motivated from it, we introduce which uses MLP to
+find out relevant information on Memory Network architecture. It shows new
+state-of-the-art results in jointly trained bAbI-10k story-based question
+answering tasks and bAbI dialog-based question answering tasks.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Wang_H/0/1/0/all/0/1&quot;&gt;Hongwei Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Zhang_F/0/1/0/all/0/1&quot;&gt;Fuzheng Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Xie_X/0/1/0/all/0/1&quot;&gt;Xing Xie&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Guo_M/0/1/0/all/0/1&quot;&gt;Minyi Guo&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Moon_J/0/1/0/all/0/1&quot;&gt;Jihyung Moon&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yang_H/0/1/0/all/0/1&quot;&gt;Hyochang Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cho_S/0/1/0/all/0/1&quot;&gt;Sungzoon Cho&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1801.08383">
-<title>Data-Driven Impulse Response Regularization via Deep Learning. (arXiv:1801.08383v1 [cs.SY])</title>
-<link>http://arxiv.org/abs/1801.08383</link>
-<description rdf:parseType="Literal">&lt;p&gt;We consider the problem of impulse response estimation for stable linear
-single-input single-output systems. It is a well-studied problem where flexible
-non-parametric models recently offered a leap in performance compared to the
-classical finite-dimensional model structures. Inspired by this development and
-the success of deep learning we propose a new flexible data-driven model. Our
-experiments indicate that the new model is capable of exploiting even more of
-the hidden patterns that are present in the input-output data as compared to
-the non-parametric models.
+<item rdf:about="http://arxiv.org/abs/1801.08640">
+<title>Transparent Model Distillation. (arXiv:1801.08640v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/1801.08640</link>
+<description rdf:parseType="Literal">&lt;p&gt;Model distillation was originally designed to distill knowledge from a large,
+complex teacher model to a faster, simpler student model without significant
+loss in prediction accuracy. We investigate model distillation for another goal
+-- transparency -- investigating if fully-connected neural networks can be
+distilled into models that are transparent or interpretable in some sense. Our
+teacher models are multilayer perceptrons, and we try two types of student
+models: (1) tree-based generalized additive models (GA2Ms), a type of boosted,
+short tree (2) gradient boosted trees (GBTs). More transparent student models
+are forthcoming. Our results are not yet conclusive. GA2Ms show some promise
+for distilling binary classification teachers, but not yet regression. GBTs are
+not &quot;directly&quot; interpretable but may be promising for regression teachers. GA2M
+models may provide a computationally viable alternative to additive
+decomposition methods for global function approximation.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Andersson_C/0/1/0/all/0/1&quot;&gt;Carl Andersson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wahlstrom_N/0/1/0/all/0/1&quot;&gt;Niklas Wahlstr&amp;#xf6;m&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Schon_T/0/1/0/all/0/1&quot;&gt;Thomas B. Sch&amp;#xf6;n&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Tan_S/0/1/0/all/0/1&quot;&gt;Sarah Tan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Caruana_R/0/1/0/all/0/1&quot;&gt;Rich Caruana&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Hooker_G/0/1/0/all/0/1&quot;&gt;Giles Hooker&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Gordo_A/0/1/0/all/0/1&quot;&gt;Albert Gordo&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1707.00372">
-<title>Deep Convolutional Framelets: A General Deep Learning Framework for Inverse Problems. (arXiv:1707.00372v5 [stat.ML] UPDATED)</title>
-<link>http://arxiv.org/abs/1707.00372</link>
-<description rdf:parseType="Literal">&lt;p&gt;Recently, deep learning approaches with various network architectures have
-achieved significant performance improvement over existing iterative
-reconstruction methods in various imaging problems. However, it is still
-unclear why these deep learning architectures work for specific inverse
-problems. To address these issues, here we show that the long-searched-for
-missing link is the convolution framelets for representing a signal by
-convolving local and non-local bases. The convolution framelets was originally
-developed to generalize the theory of low-rank Hankel matrix approaches for
-inverse problems, and this paper further extends the idea so that we can obtain
-a deep neural network using multilayer convolution framelets with perfect
-reconstruction (PR) under rectilinear linear unit nonlinearity (ReLU). Our
-analysis also shows that the popular deep network components such as residual
-block, redundant filter channels, and concatenated ReLU (CReLU) do indeed help
-to achieve the PR, while the pooling and unpooling layers should be augmented
-with high-pass branches to meet the PR condition. Moreover, by changing the
-number of filter channels and bias, we can control the shrinkage behaviors of
-the neural network. This discovery leads us to propose a novel theory for deep
-convolutional framelets neural network. Using numerical experiments with
-various inverse problems, we demonstrated that our deep convolution framelets
-network shows consistent improvement over existing deep architectures.This
-discovery suggests that the success of deep learning is not from a magical
-power of a black-box, but rather comes from the power of a novel signal
-representation using non-local basis combined with data-driven local basis,
-which is indeed a natural extension of classical signal processing theory.
+<item rdf:about="http://arxiv.org/abs/1801.08660">
+<title>Context Models for OOV Word Translation in Low-Resource Languages. (arXiv:1801.08660v1 [cs.CL])</title>
+<link>http://arxiv.org/abs/1801.08660</link>
+<description rdf:parseType="Literal">&lt;p&gt;Out-of-vocabulary word translation is a major problem for the translation of
+low-resource languages that suffer from a lack of parallel training data. This
+paper evaluates the contributions of target-language context models towards the
+translation of OOV words, specifically in those cases where OOV translations
+are derived from external knowledge sources, such as dictionaries. We develop
+both neural and non-neural context models and evaluate them within both
+phrase-based and self-attention based neural machine translation systems. Our
+results show that neural language models that integrate additional context
+beyond the current sentence are the most effective in disambiguating possible
+OOV word translations. We present an efficient second-pass lattice-rescoring
+method for wide-context neural language models and demonstrate performance
+improvements over state-of-the-art self-attention based neural MT systems in
+five out of six low-resource language pairs.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Ye_J/0/1/0/all/0/1&quot;&gt;Jong Chul Ye&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Han_Y/0/1/0/all/0/1&quot;&gt;Yoseob Han&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Cha_E/0/1/0/all/0/1&quot;&gt;Eunju Cha&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_A/0/1/0/all/0/1&quot;&gt;Angli Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kirchhoff_K/0/1/0/all/0/1&quot;&gt;Katrin Kirchhoff&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1711.01970">
-<title>Optimal transport maps for distribution preserving operations on latent spaces of Generative Models. (arXiv:1711.01970v2 [cs.LG] UPDATED)</title>
-<link>http://arxiv.org/abs/1711.01970</link>
-<description rdf:parseType="Literal">&lt;p&gt;Generative models such as Variational Auto Encoders (VAEs) and Generative
-Adversarial Networks (GANs) are typically trained for a fixed prior
-distribution in the latent space, such as uniform or Gaussian. After a trained
-model is obtained, one can sample the Generator in various forms for
-exploration and understanding, such as interpolating between two samples,
-sampling in the vicinity of a sample or exploring differences between a pair of
-samples applied to a third sample. In this paper, we show that the latent space
-operations used in the literature so far induce a distribution mismatch between
-the resulting outputs and the prior distribution the model was trained on. To
-address this, we propose to use distribution matching transport maps to ensure
-that such latent space operations preserve the prior distribution, while
-minimally modifying the original operation. Our experimental results validate
-that the proposed operations give higher quality samples compared to the
-original operations.
+<item rdf:about="http://arxiv.org/abs/1801.08702">
+<title>Improving Bi-directional Generation between Different Modalities with Variational Autoencoders. (arXiv:1801.08702v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/1801.08702</link>
+<description rdf:parseType="Literal">&lt;p&gt;We investigate deep generative models that can exchange multiple modalities
+bi-directionally, e.g., generating images from corresponding texts and vice
+versa. A major approach to achieve this objective is to train a model that
+integrates all the information of different modalities into a joint
+representation and then to generate one modality from the corresponding other
+modality via this joint representation. We simply applied this approach to
+variational autoencoders (VAEs), which we call a joint multimodal variational
+autoencoder (JMVAE). However, we found that when this model attempts to
+generate a large dimensional modality missing at the input, the joint
+representation collapses and this modality cannot be generated successfully.
+Furthermore, we confirmed that this difficulty cannot be resolved even using a
+known solution. Therefore, in this study, we propose two models to prevent this
+difficulty: JMVAE-kl and JMVAE-h. Results of our experiments demonstrate that
+these methods can prevent the difficulty above and that they generate
+modalities bi-directionally with equal or higher likelihood than conventional
+VAE methods, which generate in only one direction. Moreover, we confirm that
+these methods can obtain the joint representation appropriately, so that they
+can generate various variations of modality by moving over the joint
+representation or changing the value of another modality.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Agustsson_E/0/1/0/all/0/1&quot;&gt;Eirikur Agustsson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sage_A/0/1/0/all/0/1&quot;&gt;Alexander Sage&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Timofte_R/0/1/0/all/0/1&quot;&gt;Radu Timofte&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gool_L/0/1/0/all/0/1&quot;&gt;Luc Van Gool&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Suzuki_M/0/1/0/all/0/1&quot;&gt;Masahiro Suzuki&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Nakayama_K/0/1/0/all/0/1&quot;&gt;Kotaro Nakayama&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Matsuo_Y/0/1/0/all/0/1&quot;&gt;Yutaka Matsuo&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1801.08712">
+<title>Classification of sparsely labeled spatio-temporal data through semi-supervised adversarial learning. (arXiv:1801.08712v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/1801.08712</link>
+<description rdf:parseType="Literal">&lt;p&gt;In recent years, Generative Adversarial Networks (GAN) have emerged as a
+powerful method for learning the mapping from noisy latent spaces to realistic
+data samples in high-dimensional space. So far, the development and application
+of GANs have been predominantly focused on spatial data such as images. In this
+project, we aim at modeling of spatio-temporal sensor data instead, i.e.
+dynamic data over time. The main goal is to encode temporal data into a global
+and low-dimensional latent vector that captures the dynamics of the
+spatio-temporal signal. To this end, we incorporate auto-regressive RNNs,
+Wasserstein GAN loss, spectral norm weight constraints and a semi-supervised
+learning scheme into InfoGAN, a method for retrieval of meaningful latents in
+adversarial learning. To demonstrate the modeling capability of our method, we
+encode full-body skeletal human motion from a large dataset representing 60
+classes of daily activities, recorded in a multi-Kinect setup. Initial results
+indicate competitive classification performance of the learned latent
+representations, compared to direct CNN/RNN inference. In future work, we plan
+to apply this method on a related problem in the medical domain, i.e. on
+recovery of meaningful latents in gait analysis of patients with vertigo and
+balance disorders.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Mirchev_A/0/1/0/all/0/1&quot;&gt;Atanas Mirchev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Ahmadi_S/0/1/0/all/0/1&quot;&gt;Seyed-Ahmad Ahmadi&lt;/a&gt;</dc:creator>
 </item></rdf:RDF>
