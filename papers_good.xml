@@ -15,7 +15,7 @@
 <link>http://arxiv.org/</link>
 <description rdf:parseType="Literal">The Good Papers on ML, AI and Statistics</description>
 <dc:language>en-us</dc:language>
-<dc:date>2018-01-28T20:30:00-05:00</dc:date>
+<dc:date>2018-01-29T20:30:00-05:00</dc:date>
 <dc:publisher>help@arxiv.org</dc:publisher>
 <dc:subject>Statistics -- Machine Learning</dc:subject>
 <syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
@@ -23,12 +23,23 @@
 <syn:updatePeriod>daily</syn:updatePeriod>
 <items>
  <rdf:Seq>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.08573"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.07791"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.08459"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.08640"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.08660"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.08702"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.09335"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1703.01127"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.09251"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.09356"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.09547"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.09573"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.09597"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.09626"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1609.05521"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1705.11122"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1711.06922"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.09070"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.09136"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1706.02714"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1711.02653"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1711.07831"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.05922"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.08712"/></rdf:Seq>
 </items>
 <image rdf:resource="http://arxiv.org/icons/sfx.gif" />
@@ -37,130 +48,389 @@
 <title>arXiv.org</title>
 <url>http://arxiv.org/icons/sfx.gif</url>
 <link>http://arxiv.org/</link>
-</image><item rdf:about="http://arxiv.org/abs/1801.08573">
-<title>Etymo: A New Discovery Engine for AI Research. (arXiv:1801.08573v1 [cs.IR])</title>
-<link>http://arxiv.org/abs/1801.08573</link>
-<description rdf:parseType="Literal">&lt;p&gt;We present Etymo (https://etymo.io), a discovery engine to facilitate
-artificial intelligence (AI) research and development. It aims to help readers
-navigate a large number of AI-related papers published every week by using a
-novel form of search that finds relevant papers and displays related papers in
-a graphical interface. Etymo constructs and maintains an adaptive
-similarity-based network of research papers as an all-purpose knowledge graph
-for ranking, recommendation, and visualisation. The network is constantly
-evolving and can learn from user feedback to adjust itself.
+</image><item rdf:about="http://arxiv.org/abs/1801.09335">
+<title>Stochastic Downsampling for Cost-Adjustable Inference and Improved Regularization in Convolutional Networks. (arXiv:1801.09335v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1801.09335</link>
+<description rdf:parseType="Literal">&lt;p&gt;It is desirable to train convolutional networks (CNNs) to run more
+efficiently during inference. In many cases however, the computational budget
+that the system has for inference cannot be known beforehand during training,
+or the inference budget is dependent on the changing real-time resource
+availability. Thus, it is inadequate to train just inference-efficient CNNs,
+whose inference costs are not adjustable and cannot adapt to varied inference
+budgets. We propose a novel approach for cost-adjustable inference in CNNs -
+Stochastic Downsampling Point (SDPoint). During training, SDPoint applies
+feature map downsampling to a random point in the layer hierarchy, with a
+random downsampling ratio. The different stochastic downsampling configurations
+known as SDPoint instances (of the same model) have computational costs
+different from each other, while being trained to minimize the same prediction
+loss. Sharing network parameters across different instances provides
+significant regularization boost. During inference, one may handpick a SDPoint
+instance that best fits the inference budget. The effectiveness of SDPoint, as
+both a cost-adjustable inference approach and a regularizer, is validated
+through extensive experiments on image classification.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_W/0/1/0/all/0/1&quot;&gt;Weijian Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Deakin_J/0/1/0/all/0/1&quot;&gt;Jonathan Deakin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Higham_N/0/1/0/all/0/1&quot;&gt;Nicholas J. Higham&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_S/0/1/0/all/0/1&quot;&gt;Shuaiqiang Wang&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kuen_J/0/1/0/all/0/1&quot;&gt;Jason Kuen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kong_X/0/1/0/all/0/1&quot;&gt;Xiangfei Kong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lin_Z/0/1/0/all/0/1&quot;&gt;Zhe Lin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_G/0/1/0/all/0/1&quot;&gt;Gang Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yin_J/0/1/0/all/0/1&quot;&gt;Jianxiong Yin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+See_S/0/1/0/all/0/1&quot;&gt;Simon See&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tan_Y/0/1/0/all/0/1&quot;&gt;Yap-Peng Tan&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1801.07791">
-<title>PointCNN. (arXiv:1801.07791v3 [cs.CV] UPDATED)</title>
-<link>http://arxiv.org/abs/1801.07791</link>
-<description rdf:parseType="Literal">&lt;p&gt;We present a simple and general framework for feature learning from point
-cloud. The key to the success of CNNs is the convolution operator that is
-capable of leveraging spatially-local correlation in data represented densely
-in grids (e.g. images). However, point cloud are irregular and unordered, thus
-a direct convolving of kernels against the features associated with the points
-will result in deserting the shape information while being variant to the
-orders. To address these problems, we propose to learn a X-transformation from
-the input points, and then use it to simultaneously weight the input features
-associated with the points and permute them into latent potentially canonical
-order, before the element-wise product and sum operations are applied. The
-proposed method is a generalization of typical CNNs into learning features from
-point cloud, thus we call it PointCNN. Experiments show that PointCNN achieves
-on par or better performance than state-of-the-art methods on multiple
-challenging benchmark datasets and tasks.
+<item rdf:about="http://arxiv.org/abs/1703.01127">
+<title>On the Behavior of Convolutional Nets for Feature Extraction. (arXiv:1703.01127v4 [cs.NE] UPDATED)</title>
+<link>http://arxiv.org/abs/1703.01127</link>
+<description rdf:parseType="Literal">&lt;p&gt;Deep neural networks are representation learning techniques. During training,
+a deep net is capable of generating a descriptive language of unprecedented
+size and detail in machine learning. Extracting the descriptive language coded
+within a trained CNN model (in the case of image data), and reusing it for
+other purposes is a field of interest, as it provides access to the visual
+descriptors previously learnt by the CNN after processing millions of images,
+without requiring an expensive training phase. Contributions to this field
+(commonly known as feature representation transfer or transfer learning) have
+been purely empirical so far, extracting all CNN features from a single layer
+close to the output and testing their performance by feeding them to a
+classifier. This approach has provided consistent results, although its
+relevance is limited to classification tasks. In a completely different
+approach, in this paper we statistically measure the discriminative power of
+every single feature found within a deep CNN, when used for characterizing
+every class of 11 datasets. We seek to provide new insights into the behavior
+of CNN features, particularly the ones from convolutional layers, as this can
+be relevant for their application to knowledge representation and reasoning.
+Our results confirm that low and middle level features may behave differently
+to high level features, but only under certain conditions. We find that all CNN
+features can be used for knowledge representation purposes both by their
+presence or by their absence, doubling the information a single CNN feature may
+provide. We also study how much noise these features may include, and propose a
+thresholding approach to discard most of it. All these insights have a direct
+application to the generation of CNN embedding spaces.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_Y/0/1/0/all/0/1&quot;&gt;Yangyan Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bu_R/0/1/0/all/0/1&quot;&gt;Rui Bu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sun_M/0/1/0/all/0/1&quot;&gt;Mingchao Sun&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_B/0/1/0/all/0/1&quot;&gt;Baoquan Chen&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Garcia_Gasulla_D/0/1/0/all/0/1&quot;&gt;Dario Garcia-Gasulla&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pares_F/0/1/0/all/0/1&quot;&gt;Ferran Par&amp;#xe9;s&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Vilalta_A/0/1/0/all/0/1&quot;&gt;Armand Vilalta&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Moreno_J/0/1/0/all/0/1&quot;&gt;Jonatan Moreno&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ayguade_E/0/1/0/all/0/1&quot;&gt;Eduard Ayguad&amp;#xe9;&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Labarta_J/0/1/0/all/0/1&quot;&gt;Jes&amp;#xfa;s Labarta&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cortes_U/0/1/0/all/0/1&quot;&gt;Ulises Cort&amp;#xe9;s&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Suzumura_T/0/1/0/all/0/1&quot;&gt;Toyotaro Suzumura&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1801.08459">
-<title>Finding ReMO (Related Memory Object): A Simple Neural Architecture for Text based Reasoning. (arXiv:1801.08459v2 [cs.AI] UPDATED)</title>
-<link>http://arxiv.org/abs/1801.08459</link>
-<description rdf:parseType="Literal">&lt;p&gt;To solve the text-based question and answering task that requires relational
-reasoning, it is necessary to memorize a large amount of information and find
-out the question relevant information from the memory. Most approaches were
-based on external memory and four components proposed by Memory Network. The
-distinctive component among them was the way of finding the necessary
-information and it contributes to the performance. Recently, a simple but
-powerful neural network module for reasoning called Relation Network (RN) has
-been introduced. We analyzed RN from the view of Memory Network, and realized
-that its MLP component is able to reveal the complicate relation between
-question and object pair. Motivated from it, we introduce which uses MLP to
-find out relevant information on Memory Network architecture. It shows new
-state-of-the-art results in jointly trained bAbI-10k story-based question
-answering tasks and bAbI dialog-based question answering tasks.
+<item rdf:about="http://arxiv.org/abs/1801.09251">
+<title>Multi-Pointer Co-Attention Networks for Recommendation. (arXiv:1801.09251v1 [cs.CL])</title>
+<link>http://arxiv.org/abs/1801.09251</link>
+<description rdf:parseType="Literal">&lt;p&gt;Many recent state-of-the-art recommender systems such as D-ATT, TransNet and
+DeepCoNN exploit reviews for representation learning. This paper proposes a new
+neural architecture for recommendation with reviews. Our model operates on a
+multi-hierarchical paradigm and is based on the intuition that not all reviews
+are created equal, i.e., only a select few are important. The importance,
+however, should be dynamically inferred depending on the current target. To
+this end, we propose a review-by-review pointer-based learning scheme that
+extracts important reviews, subsequently matching them in a word-by-word
+fashion. This enables not only the most informative reviews to be utilized for
+prediction but also a deeper word-level interaction. Our pointer-based method
+operates with a novel gumbel-softmax based pointer mechanism that enables the
+incorporation of discrete vectors within differentiable neural architectures.
+Our pointer mechanism is co-attentive in nature, learning pointers which are
+co-dependent on user-item relationships. Finally, we propose a multi-pointer
+learning scheme that learns to combine multiple views of interactions between
+user and item. Overall, we demonstrate the effectiveness of our proposed model
+via extensive experiments on \textbf{24} benchmark datasets from Amazon and
+Yelp. Empirical results show that our approach significantly outperforms
+existing state-of-the-art, with up to 19% and 71% relative improvement when
+compared to TransNet and DeepCoNN respectively. We study the behavior of our
+multi-pointer learning mechanism, shedding light on evidence aggregation
+patterns in review-based recommender systems.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Moon_J/0/1/0/all/0/1&quot;&gt;Jihyung Moon&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yang_H/0/1/0/all/0/1&quot;&gt;Hyochang Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cho_S/0/1/0/all/0/1&quot;&gt;Sungzoon Cho&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tay_Y/0/1/0/all/0/1&quot;&gt;Yi Tay&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tuan_L/0/1/0/all/0/1&quot;&gt;Luu Anh Tuan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hui_S/0/1/0/all/0/1&quot;&gt;Siu Cheung Hui&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1801.08640">
-<title>Transparent Model Distillation. (arXiv:1801.08640v1 [stat.ML])</title>
-<link>http://arxiv.org/abs/1801.08640</link>
-<description rdf:parseType="Literal">&lt;p&gt;Model distillation was originally designed to distill knowledge from a large,
-complex teacher model to a faster, simpler student model without significant
-loss in prediction accuracy. We investigate model distillation for another goal
--- transparency -- investigating if fully-connected neural networks can be
-distilled into models that are transparent or interpretable in some sense. Our
-teacher models are multilayer perceptrons, and we try two types of student
-models: (1) tree-based generalized additive models (GA2Ms), a type of boosted,
-short tree (2) gradient boosted trees (GBTs). More transparent student models
-are forthcoming. Our results are not yet conclusive. GA2Ms show some promise
-for distilling binary classification teachers, but not yet regression. GBTs are
-not &quot;directly&quot; interpretable but may be promising for regression teachers. GA2M
-models may provide a computationally viable alternative to additive
-decomposition methods for global function approximation.
+<item rdf:about="http://arxiv.org/abs/1801.09356">
+<title>Game of Sketches: Deep Recurrent Models of Pictionary-style Word Guessing. (arXiv:1801.09356v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1801.09356</link>
+<description rdf:parseType="Literal">&lt;p&gt;The ability of intelligent agents to play games in human-like fashion is
+popularly considered a benchmark of progress in Artificial Intelligence.
+Similarly, performance on multi-disciplinary tasks such as Visual Question
+Answering (VQA) is considered a marker for gauging progress in Computer Vision.
+In our work, we bring games and VQA together. Specifically, we introduce the
+first computational model aimed at Pictionary, the popular word-guessing social
+game. We first introduce Sketch-QA, an elementary version of Visual Question
+Answering task. Styled after Pictionary, Sketch-QA uses incrementally
+accumulated sketch stroke sequences as visual data. Notably, Sketch-QA involves
+asking a fixed question (&quot;What object is being drawn?&quot;) and gathering
+open-ended guess-words from human guessers. We analyze the resulting dataset
+and present many interesting findings therein. To mimic Pictionary-style
+guessing, we subsequently propose a deep neural model which generates
+guess-words in response to temporally evolving human-drawn sketches. Our model
+even makes human-like mistakes while guessing, thus amplifying the human
+mimicry factor. We evaluate our model on the large-scale guess-word dataset
+generated via Sketch-QA task and compare with various baselines. We also
+conduct a Visual Turing Test to obtain human impressions of the guess-words
+generated by humans and our model. Experimental results demonstrate the promise
+of our approach for Pictionary and similarly themed games.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Tan_S/0/1/0/all/0/1&quot;&gt;Sarah Tan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Caruana_R/0/1/0/all/0/1&quot;&gt;Rich Caruana&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Hooker_G/0/1/0/all/0/1&quot;&gt;Giles Hooker&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Gordo_A/0/1/0/all/0/1&quot;&gt;Albert Gordo&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sarvadevabhatla_R/0/1/0/all/0/1&quot;&gt;Ravi Kiran Sarvadevabhatla&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Surya_S/0/1/0/all/0/1&quot;&gt;Shiv Surya&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mittal_T/0/1/0/all/0/1&quot;&gt;Trisha Mittal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Radhakrishnan_V/0/1/0/all/0/1&quot;&gt;Venkatesh Babu Radhakrishnan&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1801.08660">
-<title>Context Models for OOV Word Translation in Low-Resource Languages. (arXiv:1801.08660v1 [cs.CL])</title>
-<link>http://arxiv.org/abs/1801.08660</link>
-<description rdf:parseType="Literal">&lt;p&gt;Out-of-vocabulary word translation is a major problem for the translation of
-low-resource languages that suffer from a lack of parallel training data. This
-paper evaluates the contributions of target-language context models towards the
-translation of OOV words, specifically in those cases where OOV translations
-are derived from external knowledge sources, such as dictionaries. We develop
-both neural and non-neural context models and evaluate them within both
-phrase-based and self-attention based neural machine translation systems. Our
-results show that neural language models that integrate additional context
-beyond the current sentence are the most effective in disambiguating possible
-OOV word translations. We present an efficient second-pass lattice-rescoring
-method for wide-context neural language models and demonstrate performance
-improvements over state-of-the-art self-attention based neural MT systems in
-five out of six low-resource language pairs.
+<item rdf:about="http://arxiv.org/abs/1801.09547">
+<title>Improved Tabu Search Heuristics for Static Dial-A-Ride Problem: Faster and Better Convergence. (arXiv:1801.09547v1 [cs.AI])</title>
+<link>http://arxiv.org/abs/1801.09547</link>
+<description rdf:parseType="Literal">&lt;p&gt;Multi-vehicle routing has become increasingly important with the rapid
+development of autonomous vehicle technology. Dial-a-ride problem (DARP), a
+variant of vehicle routing problem (VRP), deals with the allocation of customer
+requests to vehicles, scheduling the pick-up and drop-off times and the
+sequence of serving those requests by ensuring high customer satisfaction with
+minimized travel cost. In this paper, we propose an improved tabu search (ITS)
+heuristic for static DARP with the objective of obtaining high-quality
+solutions in short time. Two new techniques, initialization heuristic, and time
+window adjustment are proposed to achieve faster convergence to the global
+optimum. Various numerical experiments are conducted for the proposed solution
+methodology using DARP test instances from the literature and the convergence
+speed up is validated.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_A/0/1/0/all/0/1&quot;&gt;Angli Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kirchhoff_K/0/1/0/all/0/1&quot;&gt;Katrin Kirchhoff&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ho_S/0/1/0/all/0/1&quot;&gt;Songguang Ho&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nagavarapu_S/0/1/0/all/0/1&quot;&gt;Sarat Chandra Nagavarapu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pandi_R/0/1/0/all/0/1&quot;&gt;Ramesh Ramasamy Pandi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Dauwels_J/0/1/0/all/0/1&quot;&gt;Justin Dauwels&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1801.08702">
-<title>Improving Bi-directional Generation between Different Modalities with Variational Autoencoders. (arXiv:1801.08702v1 [stat.ML])</title>
-<link>http://arxiv.org/abs/1801.08702</link>
-<description rdf:parseType="Literal">&lt;p&gt;We investigate deep generative models that can exchange multiple modalities
-bi-directionally, e.g., generating images from corresponding texts and vice
-versa. A major approach to achieve this objective is to train a model that
-integrates all the information of different modalities into a joint
-representation and then to generate one modality from the corresponding other
-modality via this joint representation. We simply applied this approach to
-variational autoencoders (VAEs), which we call a joint multimodal variational
-autoencoder (JMVAE). However, we found that when this model attempts to
-generate a large dimensional modality missing at the input, the joint
-representation collapses and this modality cannot be generated successfully.
-Furthermore, we confirmed that this difficulty cannot be resolved even using a
-known solution. Therefore, in this study, we propose two models to prevent this
-difficulty: JMVAE-kl and JMVAE-h. Results of our experiments demonstrate that
-these methods can prevent the difficulty above and that they generate
-modalities bi-directionally with equal or higher likelihood than conventional
-VAE methods, which generate in only one direction. Moreover, we confirm that
-these methods can obtain the joint representation appropriately, so that they
-can generate various variations of modality by moving over the joint
-representation or changing the value of another modality.
+<item rdf:about="http://arxiv.org/abs/1801.09573">
+<title>Deep Learning Approach for Very Similar Objects Recognition Application on Chihuahua and Muffin Problem. (arXiv:1801.09573v1 [cs.AI])</title>
+<link>http://arxiv.org/abs/1801.09573</link>
+<description rdf:parseType="Literal">&lt;p&gt;We address the problem to tackle the very similar objects like Chihuahua or
+muffin problem to recognize at least in human vision level. Our regular deep
+structured machine learning still does not solve it. We saw many times for
+about year in our community the problem. Today we proposed the state-of-the-art
+solution for it. Our approach is quite tricky to get the very high accuracy. We
+propose the deep transfer learning method which could be tackled all this type
+of problems not limited to just Chihuahua or muffin problem. It is the best
+method to train with small data set not like require huge amount data.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Suzuki_M/0/1/0/all/0/1&quot;&gt;Masahiro Suzuki&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Nakayama_K/0/1/0/all/0/1&quot;&gt;Kotaro Nakayama&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Matsuo_Y/0/1/0/all/0/1&quot;&gt;Yutaka Matsuo&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Togootogtokh_E/0/1/0/all/0/1&quot;&gt;Enkhtogtokh Togootogtokh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Amartuvshin_A/0/1/0/all/0/1&quot;&gt;Amarzaya Amartuvshin&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1801.09597">
+<title>Deep Reinforcement Learning using Capsules in Advanced Game Environments. (arXiv:1801.09597v1 [cs.AI])</title>
+<link>http://arxiv.org/abs/1801.09597</link>
+<description rdf:parseType="Literal">&lt;p&gt;Reinforcement Learning (RL) is a research area that has blossomed
+tremendously in recent years and has shown remarkable potential for artificial
+intelligence based opponents in computer games. This success is primarily due
+to vast capabilities of Convolutional Neural Networks (ConvNet), enabling
+algorithms to extract useful information from noisy environments. Capsule
+Network (CapsNet) is a recent introduction to the Deep Learning algorithm group
+and has only barely begun to be explored. The network is an architecture for
+image classification, with superior performance for classification of the MNIST
+dataset. CapsNets have not been explored beyond image classification.
+&lt;/p&gt;
+&lt;p&gt;This thesis introduces the use of CapsNet for Q-Learning based game
+algorithms. To successfully apply CapsNet in advanced game play, three main
+contributions follow. First, the introduction of four new game environments as
+frameworks for RL research with increasing complexity, namely Flash RL, Deep
+Line Wars, Deep RTS, and Deep Maze. These environments fill the gap between
+relatively simple and more complex game environments available for RL research
+and are in the thesis used to test and explore the CapsNet behavior.
+&lt;/p&gt;
+&lt;p&gt;Second, the thesis introduces a generative modeling approach to produce
+artificial training data for use in Deep Learning models including CapsNets. We
+empirically show that conditional generative modeling can successfully generate
+game data of sufficient quality to train a Deep Q-Network well.
+&lt;/p&gt;
+&lt;p&gt;Third, we show that CapsNet is a reliable architecture for Deep Q-Learning
+based algorithms for game AI. A capsule is a group of neurons that determine
+the presence of objects in the data and is in the literature shown to increase
+the robustness of training and predictions while lowering the amount training
+data needed. It should, therefore, be ideally suited for game plays.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Andersen_P/0/1/0/all/0/1&quot;&gt;Per-Arne Andersen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1801.09626">
+<title>Human-Machine Inference Networks For Smart Decision Making: Opportunities and Challenges. (arXiv:1801.09626v1 [cs.HC])</title>
+<link>http://arxiv.org/abs/1801.09626</link>
+<description rdf:parseType="Literal">&lt;p&gt;The emerging paradigm of Human-Machine Inference Networks (HuMaINs) combines
+complementary cognitive strengths of humans and machines in an intelligent
+manner to tackle various inference tasks and achieves higher performance than
+either humans or machines by themselves. While inference performance
+optimization techniques for human-only or sensor-only networks are quite
+mature, HuMaINs require novel signal processing and machine learning solutions.
+In this paper, we present an overview of the HuMaINs architecture with a focus
+on three main issues that include architecture design, inference algorithms
+including security/privacy challenges, and application areas/use cases.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Vempaty_A/0/1/0/all/0/1&quot;&gt;Aditya Vempaty&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kailkhura_B/0/1/0/all/0/1&quot;&gt;Bhavya Kailkhura&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Varshney_P/0/1/0/all/0/1&quot;&gt;Pramod K. Varshney&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1609.05521">
+<title>Playing FPS Games with Deep Reinforcement Learning. (arXiv:1609.05521v2 [cs.AI] UPDATED)</title>
+<link>http://arxiv.org/abs/1609.05521</link>
+<description rdf:parseType="Literal">&lt;p&gt;Advances in deep reinforcement learning have allowed autonomous agents to
+perform well on Atari games, often outperforming humans, using only raw pixels
+to make their decisions. However, most of these games take place in 2D
+environments that are fully observable to the agent. In this paper, we present
+the first architecture to tackle 3D environments in first-person shooter games,
+that involve partially observable states. Typically, deep reinforcement
+learning methods only utilize visual input for training. We present a method to
+augment these models to exploit game feature information such as the presence
+of enemies or items, during the training phase. Our model is trained to
+simultaneously learn these features along with minimizing a Q-learning
+objective, which is shown to dramatically improve the training speed and
+performance of our agent. Our architecture is also modularized to allow
+different models to be independently trained for different phases of the game.
+We show that the proposed architecture substantially outperforms built-in AI
+agents of the game as well as humans in deathmatch scenarios.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lample_G/0/1/0/all/0/1&quot;&gt;Guillaume Lample&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chaplot_D/0/1/0/all/0/1&quot;&gt;Devendra Singh Chaplot&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1705.11122">
+<title>Controllable Invariance through Adversarial Feature Learning. (arXiv:1705.11122v3 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/1705.11122</link>
+<description rdf:parseType="Literal">&lt;p&gt;Learning meaningful representations that maintain the content necessary for a
+particular task while filtering away detrimental variations is a problem of
+great interest in machine learning. In this paper, we tackle the problem of
+learning representations invariant to a specific factor or trait of data. The
+representation learning process is formulated as an adversarial minimax game.
+We analyze the optimal equilibrium of such a game and find that it amounts to
+maximizing the uncertainty of inferring the detrimental factor given the
+representation while maximizing the certainty of making task-specific
+predictions. On three benchmark tasks, namely fair and bias-free
+classification, language-independent generation, and lighting-independent image
+classification, we show that the proposed framework induces an invariant
+representation, and leads to better generalization evidenced by the improved
+performance.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xie_Q/0/1/0/all/0/1&quot;&gt;Qizhe Xie&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Dai_Z/0/1/0/all/0/1&quot;&gt;Zihang Dai&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Du_Y/0/1/0/all/0/1&quot;&gt;Yulun Du&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hovy_E/0/1/0/all/0/1&quot;&gt;Eduard Hovy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Neubig_G/0/1/0/all/0/1&quot;&gt;Graham Neubig&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1711.06922">
+<title>Run, skeleton, run: skeletal model in a physics-based simulation. (arXiv:1711.06922v2 [cs.AI] UPDATED)</title>
+<link>http://arxiv.org/abs/1711.06922</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this paper, we present our approach to solve a physics-based reinforcement
+learning challenge &quot;Learning to Run&quot; with objective to train
+physiologically-based human model to navigate a complex obstacle course as
+quickly as possible. The environment is computationally expensive, has a
+high-dimensional continuous action space and is stochastic. We benchmark state
+of the art policy-gradient methods and test several improvements, such as layer
+normalization, parameter noise, action and state reflecting, to stabilize
+training and improve its sample-efficiency. We found that the Deep
+Deterministic Policy Gradient method is the most efficient method for this
+environment and the improvements we have introduced help to stabilize training.
+Learned models are able to generalize to new physical scenarios, e.g. different
+obstacle courses.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pavlov_M/0/1/0/all/0/1&quot;&gt;Mikhail Pavlov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kolesnikov_S/0/1/0/all/0/1&quot;&gt;Sergey Kolesnikov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Plis_S/0/1/0/all/0/1&quot;&gt;Sergey M. Plis&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1801.09070">
+<title>Fast Cosmic Web Simulations with Generative Adversarial Networks. (arXiv:1801.09070v1 [astro-ph.CO])</title>
+<link>http://arxiv.org/abs/1801.09070</link>
+<description rdf:parseType="Literal">&lt;p&gt;Dark matter in the universe evolves through gravity to form a complex network
+of halos, filaments, sheets and voids, that is known as the cosmic web.
+Computational models of the underlying physical processes, such as classical
+N-body simulations, are extremely resource intensive, as they track the action
+of gravity in an expanding universe using billions of particles as tracers of
+the cosmic matter distribution. Therefore, upcoming cosmology experiments will
+face a computational bottleneck that may limit the exploitation of their full
+scientific potential. To address this challenge, we demonstrate the application
+of a machine learning technique called Generative Adversarial Networks (GAN) to
+learn models that can efficiently generate new, physically realistic
+realizations of the cosmic web. Our training set is a small, representative
+sample of 2D image snapshots from N-body simulations of size 500 and 100 Mpc.
+We show that the GAN-produced results are qualitatively and quantitatively very
+similar to the originals. Generation of a new cosmic web realization with a GAN
+takes a fraction of a second, compared to the many hours needed by the N-body
+technique. We anticipate that GANs will therefore play an important role in
+providing extremely fast and precise simulations of cosmic web in the era of
+large cosmological surveys, such as Euclid and LSST.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Rodriguez_A/0/1/0/all/0/1&quot;&gt;Andres C Rodriguez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Kacprzak_T/0/1/0/all/0/1&quot;&gt;Tomasz Kacprzak&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Lucchi_A/0/1/0/all/0/1&quot;&gt;Aurelien Lucchi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Amara_A/0/1/0/all/0/1&quot;&gt;Adam Amara&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Sgier_R/0/1/0/all/0/1&quot;&gt;Raphael Sgier&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Fluri_J/0/1/0/all/0/1&quot;&gt;Janis Fluri&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Hofmann_T/0/1/0/all/0/1&quot;&gt;Thomas Hofmann&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Refregier_A/0/1/0/all/0/1&quot;&gt;Alexandre R&amp;#xe9;fr&amp;#xe9;gier&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1801.09136">
+<title>Gradient descent revisited via an adaptive online learning rate. (arXiv:1801.09136v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/1801.09136</link>
+<description rdf:parseType="Literal">&lt;p&gt;Any gradient descent optimization requires to choose a learning rate. With
+deeper and deeper models, tuning that learning rate can easily become tedious
+and does not necessarily lead to an ideal convergence. We propose a variation
+of the gradient descent algorithm in the which the learning rate is not fixed.
+Instead, we learn the learning rate itself, either by another gradient descent
+(first-order method), or by Newton&apos;s method (second-order). This way, gradient
+descent for any machine learning algorithm can be optimized.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Ravaut_M/0/1/0/all/0/1&quot;&gt;Mathieu Ravaut&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Gorti_S/0/1/0/all/0/1&quot;&gt;Satya Gorti&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1706.02714">
+<title>Deep-Learning the Landscape. (arXiv:1706.02714v3 [hep-th] UPDATED)</title>
+<link>http://arxiv.org/abs/1706.02714</link>
+<description rdf:parseType="Literal">&lt;p&gt;We propose a paradigm to deep-learn the ever-expanding databases which have
+emerged in mathematical physics and particle phenomenology, as diverse as the
+statistics of string vacua or combinatorial and algebraic geometry. As concrete
+examples, we establish multi-layer neural networks as both classifiers and
+predictors and train them with a host of available data ranging from Calabi-Yau
+manifolds and vector bundles, to quiver representations for gauge theories. We
+find that even a relatively simple neural network can learn many significant
+quantities to astounding accuracy in a matter of minutes and can also predict
+hithertofore unencountered results. This paradigm should prove a valuable tool
+in various investigations in landscapes in physics as well as pure mathematics.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+He_Y/0/1/0/all/0/1&quot;&gt;Yang-Hui He&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1711.02653">
+<title>Neural system identification for large populations separating &quot;what&quot; and &quot;where&quot;. (arXiv:1711.02653v2 [stat.ML] UPDATED)</title>
+<link>http://arxiv.org/abs/1711.02653</link>
+<description rdf:parseType="Literal">&lt;p&gt;Neuroscientists classify neurons into different types that perform similar
+computations at different locations in the visual field. Traditional methods
+for neural system identification do not capitalize on this separation of &apos;what&apos;
+and &apos;where&apos;. Learning deep convolutional feature spaces that are shared among
+many neurons provides an exciting path forward, but the architectural design
+needs to account for data limitations: While new experimental techniques enable
+recordings from thousands of neurons, experimental time is limited so that one
+can sample only a small fraction of each neuron&apos;s response space. Here, we show
+that a major bottleneck for fitting convolutional neural networks (CNNs) to
+neural data is the estimation of the individual receptive field locations, a
+problem that has been scratched only at the surface thus far. We propose a CNN
+architecture with a sparse readout layer factorizing the spatial (where) and
+feature (what) dimensions. Our network scales well to thousands of neurons and
+short recordings and can be trained end-to-end. We evaluate this architecture
+on ground-truth data to explore the challenges and limitations of CNN-based
+system identification. Moreover, we show that our network model outperforms
+current state-of-the art system identification models of mouse primary visual
+cortex.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Klindt_D/0/1/0/all/0/1&quot;&gt;David A. Klindt&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Ecker_A/0/1/0/all/0/1&quot;&gt;Alexander S. Ecker&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Euler_T/0/1/0/all/0/1&quot;&gt;Thomas Euler&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Bethge_M/0/1/0/all/0/1&quot;&gt;Matthias Bethge&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1711.07831">
+<title>On Breast Cancer Detection: An Application of Machine Learning Algorithms on the Wisconsin Diagnostic Dataset. (arXiv:1711.07831v2 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/1711.07831</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper presents a comparison of six machine learning (ML) algorithms:
+GRU-SVM (Agarap, 2017), Linear Regression, Multilayer Perceptron (MLP), Nearest
+Neighbor (NN) search, Softmax Regression, and Support Vector Machine (SVM) on
+the Wisconsin Diagnostic Breast Cancer (WDBC) dataset (Wolberg, Street, &amp;amp;
+Mangasarian, 1992) by measuring their classification test accuracy and their
+sensitivity and specificity values. The said dataset consists of features which
+were computed from digitized images of FNA tests on a breast mass (Wolberg,
+Street, &amp;amp; Mangasarian, 1992). For the implementation of the ML algorithms, the
+dataset was partitioned in the following fashion: 70% for training phase, and
+30% for the testing phase. The hyper-parameters used for all the classifiers
+were manually assigned. Results show that all the presented ML algorithms
+performed well (all exceeded 90% test accuracy) on the classification task. The
+MLP algorithm stands out among the implemented algorithms with a test accuracy
+of ~99.04%.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Agarap_A/0/1/0/all/0/1&quot;&gt;Abien Fred Agarap&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1801.05922">
+<title>Graph Based Analysis for Gene Segment Organization In a Scrambled Genome. (arXiv:1801.05922v2 [stat.ML] UPDATED)</title>
+<link>http://arxiv.org/abs/1801.05922</link>
+<description rdf:parseType="Literal">&lt;p&gt;DNA rearrangement processes recombine gene segments that are organized on the
+chromosome in a variety of ways. The segments can overlap, interleave or one
+may be a subsegment of another. We use directed graphs to represent segment
+organizations on a given locus where contigs containing rearranged segments
+represent vertices and the edges correspond to the segment relationships. Using
+graph properties we associate a point in a higher dimensional Euclidean space
+to each graph such that cluster formations and analysis can be performed with
+methods from topological data analysis. The method is applied to a recently
+sequenced model organism \textit{Oxytricha trifallax}, a species of ciliate
+with highly scrambled genome that undergoes massive rearrangement process after
+conjugation. The analysis shows some emerging star-like graph structures
+indicating that segments of a single gene can interleave, or even contain all
+of the segments from fifteen or more other genes in between its segments. We
+also observe that as many as six genes can have their segments mutually
+interleaving or overlapping.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Hajij_M/0/1/0/all/0/1&quot;&gt;Mustafa Hajij&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Jonoska_N/0/1/0/all/0/1&quot;&gt;Nata&amp;#x161;a Jonoska&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Kukushkin_D/0/1/0/all/0/1&quot;&gt;Denys Kukushkin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Saito_M/0/1/0/all/0/1&quot;&gt;Masahico Saito&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1801.08712">
-<title>Classification of sparsely labeled spatio-temporal data through semi-supervised adversarial learning. (arXiv:1801.08712v1 [stat.ML])</title>
+<title>Classification of sparsely labeled spatio-temporal data through semi-supervised adversarial learning. (arXiv:1801.08712v2 [stat.ML] UPDATED)</title>
 <link>http://arxiv.org/abs/1801.08712</link>
 <description rdf:parseType="Literal">&lt;p&gt;In recent years, Generative Adversarial Networks (GAN) have emerged as a
 powerful method for learning the mapping from noisy latent spaces to realistic
