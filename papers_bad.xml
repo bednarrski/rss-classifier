@@ -30,13 +30,11 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.09271"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.09303"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.09317"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.09321"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.09346"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.09354"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.09373"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.09466"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.09496"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.09522"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1703.07758"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1710.07903"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1801.06620"/>
@@ -229,26 +227,6 @@ developing scientific rigor within the field.
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pittman_J/0/1/0/all/0/1&quot;&gt;Jason M. Pittman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Soboleski_C/0/1/0/all/0/1&quot;&gt;Courtney E. Soboleski&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1801.09321">
-<title>Document Image Classification with Intra-Domain Transfer Learning and Stacked Generalization of Deep Convolutional Neural Networks. (arXiv:1801.09321v1 [cs.CV])</title>
-<link>http://arxiv.org/abs/1801.09321</link>
-<description rdf:parseType="Literal">&lt;p&gt;In this work, a region-based Deep Convolutional Neural Network framework is
-proposed for document structure learning. The contribution of this work
-involves efficient training of region based classifiers and effective
-ensembling for document image classification. A primary level of `inter-domain&apos;
-transfer learning is used by exporting weights from a pre-trained VGG16
-architecture on the ImageNet dataset to train a document classifier on whole
-document images. Exploiting the nature of region based influence modelling, a
-secondary level of `intra-domain&apos; transfer learning is used for rapid training
-of deep learning models for image segments. Finally, stacked generalization
-based ensembling is utilized for combining the predictions of the base deep
-neural network models. The proposed method achieves state-of-the-art accuracy
-of 92.2% on the popular RVL-CDIP document image dataset, exceeding benchmarks
-set by existing algorithms.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Das_A/0/1/0/all/0/1&quot;&gt;Arindam Das&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Roy_S/0/1/0/all/0/1&quot;&gt;Saikat Roy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bhattacharya_U/0/1/0/all/0/1&quot;&gt;Ujjwal Bhattacharya&lt;/a&gt;</dc:creator>
-</item>
 <item rdf:about="http://arxiv.org/abs/1801.09346">
 <title>Representing the Insincere: Strategically Robust Proportional Representation. (arXiv:1801.09346v1 [cs.GT])</title>
 <link>http://arxiv.org/abs/1801.09346</link>
@@ -362,30 +340,6 @@ method for a given review.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Singh_G/0/1/0/all/0/1&quot;&gt;Gaurav Singh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Thomas_J/0/1/0/all/0/1&quot;&gt;James Thomas&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shawe_Taylor_J/0/1/0/all/0/1&quot;&gt;John Shawe-Taylor&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1801.09522">
-<title>Multichannel Sound Event Detection Using 3D Convolutional Neural Networks for Learning Inter-channel Features. (arXiv:1801.09522v1 [cs.SD])</title>
-<link>http://arxiv.org/abs/1801.09522</link>
-<description rdf:parseType="Literal">&lt;p&gt;In this paper, we propose a stacked convolutional and recurrent neural
-network (CRNN) with a 3D convolutional neural network (CNN) in the first layer
-for the multichannel sound event detection (SED) task. The 3D CNN enables the
-network to simultaneously learn the inter- and intra-channel features from the
-input multichannel audio. In order to evaluate the proposed method,
-multichannel audio datasets with different number of overlapping sound sources
-are synthesized. Each of this dataset has a four-channel first-order Ambisonic,
-binaural, and single-channel versions, on which the performance of SED using
-the proposed method are compared to study the potential of SED using
-multichannel audio. A similar study is also done with the binaural and
-single-channel versions of the real-life recording TUT-SED 2017 development
-dataset. The proposed method learns to recognize overlapping sound events from
-multichannel features faster and performs better SED with a fewer number of
-training epochs. The results show that on using multichannel Ambisonic audio in
-place of single-channel audio we improve the overall F-score by 7.5%, overall
-error rate by 10% and recognize 15.6% more sound events in time frames with
-four overlapping sound sources.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Adavanne_S/0/1/0/all/0/1&quot;&gt;Sharath Adavanne&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Politis_A/0/1/0/all/0/1&quot;&gt;Archontis Politis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Virtanen_T/0/1/0/all/0/1&quot;&gt;Tuomas Virtanen&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1703.07758">
 <title>Sample and Computationally Efficient Learning Algorithms under S-Concave Distributions. (arXiv:1703.07758v2 [stat.ML] UPDATED)</title>
