@@ -15,7 +15,7 @@
 <link>http://arxiv.org/</link>
 <description rdf:parseType="Literal">The Good Papers on ML, AI and Statistics</description>
 <dc:language>en-us</dc:language>
-<dc:date>2018-01-30T20:30:00-05:00</dc:date>
+<dc:date>2018-01-31T20:30:00-05:00</dc:date>
 <dc:publisher>help@arxiv.org</dc:publisher>
 <dc:subject>Statistics -- Machine Learning</dc:subject>
 <syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
@@ -23,24 +23,14 @@
 <syn:updatePeriod>daily</syn:updatePeriod>
 <items>
  <rdf:Seq>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.09856"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1709.05027"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.04326"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.09848"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1605.06588"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1703.06642"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1706.01284"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.07710"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.09851"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.10033"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1506.08776"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1705.07204"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1706.04499"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1706.05565"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1708.02183"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1708.08819"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.09043"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1801.08284"/></rdf:Seq>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.10546"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.10467"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1711.00066"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.10158"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.10273"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.10402"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1801.10597"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1711.00449"/></rdf:Seq>
 </items>
 <image rdf:resource="http://arxiv.org/icons/sfx.gif" />
 </channel>
@@ -48,444 +38,180 @@
 <title>arXiv.org</title>
 <url>http://arxiv.org/icons/sfx.gif</url>
 <link>http://arxiv.org/</link>
-</image><item rdf:about="http://arxiv.org/abs/1801.09856">
-<title>ReNN: Rule-embedded Neural Networks. (arXiv:1801.09856v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1801.09856</link>
-<description rdf:parseType="Literal">&lt;p&gt;The artificial neural network shows powerful ability of inference, but it is
-still criticized for lack of interpretability and prerequisite needs of big
-dataset. This paper proposes the Rule-embedded Neural Network (ReNN) to
-overcome the shortages. ReNN first makes local-based inferences to detect local
-patterns, and then uses rules based on domain knowledge about the local
-patterns to generate rule-modulated map. After that, ReNN makes global-based
-inferences that synthesizes the local patterns and the rule-modulated map. To
-solve the optimization problem caused by rules, we use a two-stage optimization
-strategy to train the ReNN model. By introducing rules into ReNN, we can
-strengthen traditional neural networks with long-term dependencies which are
-difficult to learn with limited empirical dataset, thus improving inference
-accuracy. The complexity of neural networks can be reduced since long-term
-dependencies are not modeled with neural connections, and thus the amount of
-data needed to optimize the neural networks can be reduced. Besides, inferences
-from ReNN can be analyzed with both local patterns and rules, and thus have
-better interpretability. In this paper, ReNN has been validated with a
-time-series detection problem.
+</image><item rdf:about="http://arxiv.org/abs/1801.10546">
+<title>Multi-Layer Competitive-Cooperative Framework for Performance Enhancement of Differential Evolution. (arXiv:1801.10546v1 [cs.NE])</title>
+<link>http://arxiv.org/abs/1801.10546</link>
+<description rdf:parseType="Literal">&lt;p&gt;Differential Evolution (DE) is one of the most powerful optimizers in the
+evolutionary algorithm (EA) family. In recent years, many DE variants have been
+proposed to enhance performance. However, when compared with each other,
+significant differences in performances are seldomly observed. To meet this
+challenge of a more significant improvement, this paper proposes a multi-layer
+competitive-cooperative (MLCC) framework to combine the advantages of multiple
+DEs. Existing multi-method strategies commonly use a multi-population based
+structure, which classifies the entire population into several subpopulations
+and evolve individuals only in their corresponding subgroups. MLCC proposes to
+implement a parallel structure with the entire population simultaneously
+monitored by multiple DEs assigned in multiple layers. Each individual can
+store, utilize and update its evolution information in different layers by
+using a novel individual preference based layer selecting (IPLS) mechanism and
+a computational resource allocation bias (RAB) mechanism. In IPLS, individuals
+only connect to one favorite layer. While in RAB, high quality solutions are
+evolved by considering all the layers. In this way, the multiple layers work in
+a competitive and cooperative manner. The proposed MLCC framework has been
+implemented on several highly competitive DEs. Experimental studies show that
+MLCC variants significantly outperform the baseline DEs as well as several
+state-of-the-art and up-to-date DEs on the CEC benchmark functions.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_H/0/1/0/all/0/1&quot;&gt;Hu Wang&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_S/0/1/0/all/0/1&quot;&gt;Sheng Xin Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zheng_L/0/1/0/all/0/1&quot;&gt;Li Ming Zheng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tang_K/0/1/0/all/0/1&quot;&gt;Kit Sang Tang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zheng_S/0/1/0/all/0/1&quot;&gt;Shao Yong Zheng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chan_W/0/1/0/all/0/1&quot;&gt;Wing Shing Chan&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1709.05027">
-<title>Learning Intrinsic Sparse Structures within Long Short-Term Memory. (arXiv:1709.05027v6 [cs.LG] UPDATED)</title>
-<link>http://arxiv.org/abs/1709.05027</link>
-<description rdf:parseType="Literal">&lt;p&gt;Model compression is significant for the wide adoption of Recurrent Neural
-Networks (RNNs) in both user devices possessing limited resources and business
-clusters requiring quick responses to large-scale service requests. This work
-aims to learn structurally-sparse Long Short-Term Memory (LSTM) by reducing the
-sizes of basic structures within LSTM units, including input updates, gates,
-hidden states, cell states and outputs. Independently reducing the sizes of
-basic structures can result in inconsistent dimensions among them, and
-consequently, end up with invalid LSTM units. To overcome the problem, we
-propose Intrinsic Sparse Structures (ISS) in LSTMs. Removing a component of ISS
-will simultaneously decrease the sizes of all basic structures by one and
-thereby always maintain the dimension consistency. By learning ISS within LSTM
-units, the obtained LSTMs remain regular while having much smaller basic
-structures. Based on group Lasso regularization, our method achieves 10.59x
-speedup without losing any perplexity of a language modeling of Penn TreeBank
-dataset. It is also successfully evaluated through a compact model with only
-2.69M weights for machine Question Answering of SQuAD dataset. Our approach is
-successfully extended to non- LSTM RNNs, like Recurrent Highway Networks
-(RHNs). Our source code is publicly available at
-https://github.com/wenwei202/iss-rnns
+<item rdf:about="http://arxiv.org/abs/1801.10467">
+<title>Deep Reinforcement Learning for Programming Language Correction. (arXiv:1801.10467v1 [cs.AI])</title>
+<link>http://arxiv.org/abs/1801.10467</link>
+<description rdf:parseType="Literal">&lt;p&gt;Novice programmers often struggle with the formal syntax of programming
+languages. To assist them, we design a novel programming language correction
+framework amenable to reinforcement learning. The framework allows an agent to
+mimic human actions for text navigation and editing. We demonstrate that the
+agent can be trained through self-exploration directly from the raw input, that
+is, program text itself, without any knowledge of the formal syntax of the
+programming language. We leverage expert demonstrations for one tenth of the
+training data to accelerate training. The proposed technique is evaluated on
+6975 erroneous C programs with typographic errors, written by students during
+an introductory programming course. Our technique fixes 14% more programs and
+29% more compiler error messages relative to those fixed by a state-of-the-art
+tool, DeepFix, which uses a fully supervised neural machine translation
+approach.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wen_W/0/1/0/all/0/1&quot;&gt;Wei Wen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+He_Y/0/1/0/all/0/1&quot;&gt;Yuxiong He&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Rajbhandari_S/0/1/0/all/0/1&quot;&gt;Samyam Rajbhandari&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_M/0/1/0/all/0/1&quot;&gt;Minjia Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_W/0/1/0/all/0/1&quot;&gt;Wenhan Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_F/0/1/0/all/0/1&quot;&gt;Fang Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hu_B/0/1/0/all/0/1&quot;&gt;Bin Hu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_Y/0/1/0/all/0/1&quot;&gt;Yiran Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_H/0/1/0/all/0/1&quot;&gt;Hai Li&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gupta_R/0/1/0/all/0/1&quot;&gt;Rahul Gupta&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kanade_A/0/1/0/all/0/1&quot;&gt;Aditya Kanade&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shevade_S/0/1/0/all/0/1&quot;&gt;Shirish Shevade&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1801.04326">
-<title>Not All Ops Are Created Equal!. (arXiv:1801.04326v2 [cs.LG] UPDATED)</title>
-<link>http://arxiv.org/abs/1801.04326</link>
-<description rdf:parseType="Literal">&lt;p&gt;Efficient and compact neural network models are essential for enabling the
-deployment on mobile and embedded devices. In this work, we point out that
-typical design metrics for gauging the efficiency of neural network
-architectures -- total number of operations and parameters -- are not
-sufficient. These metrics may not accurately correlate with the actual
-deployment metrics such as energy and memory footprint. We show that throughput
-and energy varies by up to 5X across different neural network operation types
-on an off-the-shelf Arm Cortex-M7 microcontroller. Furthermore, we show that
-the memory required for activation data also need to be considered, apart from
-the model parameters, for network architecture exploration studies.
+<item rdf:about="http://arxiv.org/abs/1711.00066">
+<title>Fraternal Dropout. (arXiv:1711.00066v3 [stat.ML] UPDATED)</title>
+<link>http://arxiv.org/abs/1711.00066</link>
+<description rdf:parseType="Literal">&lt;p&gt;Recurrent neural networks (RNNs) are important class of architectures among
+neural networks useful for language modeling and sequential prediction.
+However, optimizing RNNs is known to be harder compared to feed-forward neural
+networks. A number of techniques have been proposed in literature to address
+this problem. In this paper we propose a simple technique called fraternal
+dropout that takes advantage of dropout to achieve this goal. Specifically, we
+propose to train two identical copies of an RNN (that share parameters) with
+different dropout masks while minimizing the difference between their
+(pre-softmax) predictions. In this way our regularization encourages the
+representations of RNNs to be invariant to dropout mask, thus being robust. We
+show that our regularization term is upper bounded by the expectation-linear
+dropout objective which has been shown to address the gap due to the difference
+between the train and inference phases of dropout. We evaluate our model and
+achieve state-of-the-art results in sequence modeling tasks on two benchmark
+datasets - Penn Treebank and Wikitext-2. We also show that our approach leads
+to performance improvement by a significant margin in image captioning
+(Microsoft COCO) and semi-supervised (CIFAR-10) tasks.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lai_L/0/1/0/all/0/1&quot;&gt;Liangzhen Lai&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Suda_N/0/1/0/all/0/1&quot;&gt;Naveen Suda&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chandra_V/0/1/0/all/0/1&quot;&gt;Vikas Chandra&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Zolna_K/0/1/0/all/0/1&quot;&gt;Konrad Zolna&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Arpit_D/0/1/0/all/0/1&quot;&gt;Devansh Arpit&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Suhubdy_D/0/1/0/all/0/1&quot;&gt;Dendi Suhubdy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Bengio_Y/0/1/0/all/0/1&quot;&gt;Yoshua Bengio&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1801.09848">
-<title>Over-representation of Extreme Events in Decision-Making: A Rational Metacognitive Account. (arXiv:1801.09848v1 [q-bio.NC])</title>
-<link>http://arxiv.org/abs/1801.09848</link>
-<description rdf:parseType="Literal">&lt;p&gt;The Availability bias, manifested in the over-representation of extreme
-eventualities in decision-making, is a well-known cognitive bias, and is
-generally taken as evidence of human irrationality. In this work, we present
-the first rational, metacognitive account of the Availability bias, formally
-articulated at Marr&apos;s algorithmic level of analysis. Concretely, we present a
-normative, metacognitive model of how a cognitive system should over-represent
-extreme eventualities, depending on the amount of time available at its
-disposal for decision-making. Our model also accounts for two well-known
-framing effects in human decision-making under risk---the fourfold pattern of
-risk preferences in outcome probability (Tversky &amp;amp; Kahneman, 1992) and in
-outcome magnitude (Markovitz, 1952)---thereby providing the first
-metacognitively-rational basis for those effects. Empirical evidence,
-furthermore, confirms an important prediction of our model. Surprisingly, our
-model is unimaginably robust with respect to its focal parameter. We discuss
-the implications of our work for studies on human decision-making, and conclude
-by presenting a counterintuitive prediction of our model, which, if confirmed,
-would have intriguing implications for human decision-making under risk. To our
-knowledge, our model is the first metacognitive, resource-rational process
-model of cognitive biases in decision-making.
+<item rdf:about="http://arxiv.org/abs/1801.10158">
+<title>Learning to Classify from Impure Samples. (arXiv:1801.10158v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/1801.10158</link>
+<description rdf:parseType="Literal">&lt;p&gt;A persistent challenge in practical classification tasks is that labelled
+training sets are not always available. In particle physics, this challenge is
+surmounted by the use of simulations. These simulations accurately reproduce
+most features of data, but cannot be trusted to capture all of the complex
+correlations exploitable by modern machine learning methods. Recent work in
+weakly supervised learning has shown that simple, low-dimensional classifiers
+can be trained using only the impure mixtures present in data. Here, we
+demonstrate that complex, high-dimensional classifiers can also be trained on
+impure mixtures using weak supervision techniques, with performance comparable
+to what could be achieved with pure samples. Using weak supervision will
+therefore allow us to avoid relying exclusively on simulations for
+high-dimensional classification. This work opens the door to a new regime
+whereby complex models are trained directly on data, providing direct access to
+probe the underlying physics.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Nobandegani_A/0/1/0/all/0/1&quot;&gt;Ardavan S. Nobandegani&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Castanheira_K/0/1/0/all/0/1&quot;&gt;Kevin da Silva Castanheira&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Otto_A/0/1/0/all/0/1&quot;&gt;A. Ross Otto&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Shultz_T/0/1/0/all/0/1&quot;&gt;Thomas R. Shultz&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Komiske_P/0/1/0/all/0/1&quot;&gt;Patrick T. Komiske&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Metodiev_E/0/1/0/all/0/1&quot;&gt;Eric M. Metodiev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Nachman_B/0/1/0/all/0/1&quot;&gt;Benjamin Nachman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Schwartz_M/0/1/0/all/0/1&quot;&gt;Matthew D. Schwartz&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1605.06588">
-<title>Optimal Number of Choices in Rating Contexts. (arXiv:1605.06588v6 [cs.AI] UPDATED)</title>
-<link>http://arxiv.org/abs/1605.06588</link>
-<description rdf:parseType="Literal">&lt;p&gt;In many settings people must give numerical scores to entities from a small
-discrete set. For instance, rating physical attractiveness from 1--5 on dating
-sites, or papers from 1--10 for conference reviewing. We study the problem of
-understanding when using a different number of options is optimal. For
-concreteness we assume the true underlying scores are integers from 1--100. We
-consider the case when scores are uniform random and Gaussian. We study when
-using 2, 3, 4, 5, and 10 options is optimal in these models. One may expect
-that using more options would always improve performance in this model, but we
-show that this is not necessarily the case, and that using fewer choices---even
-just two---can surprisingly be optimal in certain situations. While in theory
-for this setting it would be optimal to use all 100 options, in practice this
-is prohibitive, and it is preferable to utilize a smaller number of options due
-to humans&apos; limited computational resources. Our results suggest that using a
-smaller number of options than is typical could be optimal in certain
-situations. This would have many potential applications, as settings requiring
-entities to be ranked by humans are ubiquitous.
+<item rdf:about="http://arxiv.org/abs/1801.10273">
+<title>Kernel Distillation for Gaussian Processes. (arXiv:1801.10273v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/1801.10273</link>
+<description rdf:parseType="Literal">&lt;p&gt;Gaussian processes (GPs) are flexible models that can capture complex
+structure in large-scale dataset due to their non-parametric nature. However,
+the usage of GPs in real-world application is limited due to their high
+computational cost at inference time. In this paper, we introduce a new
+framework, \textit{kernel distillation}, for kernel matrix approximation. The
+idea adopts from knowledge distillation in deep learning community, where we
+approximate a fully trained teacher kernel matrix of size $n\times n$ with a
+student kernel matrix. We combine inducing points method with sparse low-rank
+approximation in the distillation procedure. The distilled student kernel
+matrix only cost $\mathcal{O}(m^2)$ storage where $m$ is the number of inducing
+points and $m \ll n$. We also show that one application of kernel distillation
+is for fast GP prediction, where we demonstrate empirically that our
+approximation provide better balance between the prediction time and the
+predictive performance compared to the alternatives.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ganzfried_S/0/1/0/all/0/1&quot;&gt;Sam Ganzfried&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yusuf_F/0/1/0/all/0/1&quot;&gt;Farzana Yusuf&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Song_C/0/1/0/all/0/1&quot;&gt;Congzheng Song&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Sun_Y/0/1/0/all/0/1&quot;&gt;Yiming Sun&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1703.06642">
-<title>Towards a Quantum World Wide Web. (arXiv:1703.06642v2 [cs.AI] UPDATED)</title>
-<link>http://arxiv.org/abs/1703.06642</link>
-<description rdf:parseType="Literal">&lt;p&gt;We elaborate a quantum model for the meaning associated with corpora of
-written documents, like the pages forming the World Wide Web. To that end, we
-are guided by how physicists constructed quantum theory for microscopic
-entities, which unlike classical objects cannot be fully represented in our
-spatial theater. We suggest that a similar construction needs to be carried out
-by linguists and computational scientists, to capture the full meaning carried
-by collections of documental entities. More precisely, we show how to associate
-a quantum-like &apos;entity of meaning&apos; to a &apos;language entity formed by printed
-documents&apos;, considering the latter as the collection of traces that are left by
-the former, in specific results of search actions that we describe as
-measurements. In other words, we offer a perspective where a collection of
-documents, like the Web, is described as the space of manifestation of a more
-complex entity - the QWeb - which is the object of our modeling, drawing its
-inspiration from previous studies on operational-realistic approaches to
-quantum physics and quantum modeling of human cognition and decision-making. We
-emphasize that a consistent QWeb model needs to account for the observed
-correlations between words appearing in printed documents, e.g.,
-co-occurrences, as the latter would depend on the &apos;meaning connections&apos;
-existing between the concepts that are associated with these words. In that
-respect, we show that both &apos;context and interference (quantum) effects&apos; are
-required to explain the probabilities calculated by counting the relative
-number of documents containing certain words and co-ocurrrences of words.
+<item rdf:about="http://arxiv.org/abs/1801.10402">
+<title>Deep Multi-view Learning to Rank. (arXiv:1801.10402v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1801.10402</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study the problem of learning to rank from multiple sources. Though
+multi-view learning and learning to rank have been studied extensively leading
+to a wide range of applications, multi-view learning to rank as a synergy of
+both topics has received little attention. The aim of the paper is to propose a
+composite ranking method while keeping a close correlation with the individual
+rankings simultaneously. We propose a multi-objective solution to ranking by
+capturing the information of the feature mapping from both within each view as
+well as across views using autoencoder-like networks. Moreover, a novel
+end-to-end solution is introduced to enhance the joint ranking with minimum
+view-specific ranking loss, so that we can achieve the maximum global view
+agreements within a single optimization process. The proposed method is
+validated on a wide variety of ranking problems, including university ranking,
+multi-view lingual text ranking and image data ranking, providing superior
+results.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Aerts_D/0/1/0/all/0/1&quot;&gt;Diederik Aerts&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Arguelles_J/0/1/0/all/0/1&quot;&gt;Jonito Aerts Arguelles&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Beltran_L/0/1/0/all/0/1&quot;&gt;Lester Beltran&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Beltran_L/0/1/0/all/0/1&quot;&gt;Lyneth Beltran&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Distrito_I/0/1/0/all/0/1&quot;&gt;Isaac Distrito&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bianchi_M/0/1/0/all/0/1&quot;&gt;Massimiliano Sassoli de Bianchi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sozzo_S/0/1/0/all/0/1&quot;&gt;Sandro Sozzo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Veloz_T/0/1/0/all/0/1&quot;&gt;Tomas Veloz&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cao_G/0/1/0/all/0/1&quot;&gt;Guanqun Cao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Iosifidis_A/0/1/0/all/0/1&quot;&gt;Alexandros Iosifidis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gabbouj_M/0/1/0/all/0/1&quot;&gt;Moncef Gabbouj&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Raghavan_V/0/1/0/all/0/1&quot;&gt;Vijay Raghavan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gottumukkala_R/0/1/0/all/0/1&quot;&gt;Raju Gottumukkala&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1706.01284">
-<title>Towards Synthesizing Complex Programs from Input-Output Examples. (arXiv:1706.01284v2 [cs.LG] UPDATED)</title>
-<link>http://arxiv.org/abs/1706.01284</link>
-<description rdf:parseType="Literal">&lt;p&gt;In recent years, deep learning techniques have been developed to improve the
-performance of program synthesis from input-output examples. Albeit its
-significant progress, the programs that can be synthesized by state-of-the-art
-approaches are still simple in terms of their complexity. In this work, we move
-a significant step forward along this direction by proposing a new class of
-challenging tasks in the domain of program synthesis from input-output
-examples: learning a context-free parser from pairs of input programs and their
-parse trees. We show that this class of tasks are much more challenging than
-previously studied tasks, and the test accuracy of existing approaches is
-almost 0%.
-&lt;/p&gt;
-&lt;p&gt;We tackle the challenges by developing three novel techniques inspired by
-three novel observations, which reveal the key ingredients of using deep
-learning to synthesize a complex program. First, the use of a
-non-differentiable machine is the key to effectively restrict the search space.
-Thus our proposed approach learns a neural program operating a domain-specific
-non-differentiable machine. Second, recursion is the key to achieve
-generalizability. Thus, we bake-in the notion of recursion in the design of our
-non-differentiable machine. Third, reinforcement learning is the key to learn
-how to operate the non-differentiable machine, but it is also hard to train the
-model effectively with existing reinforcement learning algorithms from a cold
-boot. We develop a novel two-phase reinforcement learning-based search
-algorithm to overcome this issue. In our evaluation, we show that using our
-novel approach, neural parsing programs can be learned to achieve 100% test
-accuracy on test inputs that are 500x longer than the training samples.
+<item rdf:about="http://arxiv.org/abs/1801.10597">
+<title>Model compression for faster structural separation of macromolecules captured by Cellular Electron Cryo-Tomography. (arXiv:1801.10597v1 [q-bio.QM])</title>
+<link>http://arxiv.org/abs/1801.10597</link>
+<description rdf:parseType="Literal">&lt;p&gt;Electron Cryo-Tomography (ECT) enables 3D visualization of macromolecule
+structure inside single cells. Macromolecule classification approaches based on
+convolutional neural networks (CNN) were developed to separate millions of
+macromolecules captured from ECT systematically. However, given the fast
+accumulation of ECT data, it will soon become necessary to use CNN models to
+efficiently and accurately separate substantially more macromolecules at the
+prediction stage, which requires additional computational costs. To speed up
+the prediction, we compress classification models into compact neural networks
+with little in accuracy for deployment. Specifically, we propose to perform
+model compression through knowledge distillation. Firstly, a complex teacher
+network is trained to generate soft labels with better classification
+feasibility followed by training of customized student networks with simple
+architectures using the soft label to compress model complexity. Our tests
+demonstrate that our compressed models significantly reduce the number of
+parameters and time cost while maintaining similar classification accuracy.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_X/0/1/0/all/0/1&quot;&gt;Xinyun Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_C/0/1/0/all/0/1&quot;&gt;Chang Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Song_D/0/1/0/all/0/1&quot;&gt;Dawn Song&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Guo_J/0/1/0/all/0/1&quot;&gt;Jialiang Guo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Zhou_B/0/1/0/all/0/1&quot;&gt;Bo Zhou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Zeng_X/0/1/0/all/0/1&quot;&gt;Xiangrui Zeng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Freyberg_Z/0/1/0/all/0/1&quot;&gt;Zachary Freyberg&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Xu_M/0/1/0/all/0/1&quot;&gt;Min Xu&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1801.07710">
-<title>Bayesian Neural Networks. (arXiv:1801.07710v2 [cs.LG] UPDATED)</title>
-<link>http://arxiv.org/abs/1801.07710</link>
-<description rdf:parseType="Literal">&lt;p&gt;This paper describes and discusses Bayesian Neural Network (BNN). The paper
-showcases a few different applications of them for classification and
-regression problems. BNNs are comprised of a Probabilistic Model and a Neural
-Network. The intent of such a design is to combine the strengths of Neural
-Networks and Stochastic modeling. Neural Networks exhibit continuous function
-approximator capabilities. Stochastic models allow direct specification of a
-model with known interaction between parameters to generate data. During the
-prediction phase, stochastic models generate a complete posterior distribution
-and produce probabilistic guarantees on the predictions. Thus BNNs are a unique
-combination of neural network and stochastic models with the stochastic model
-forming the core of this integration. BNNs can then produce probabilistic
-guarantees on it&apos;s predictions and also generate the distribution of parameters
-that it has learnt from the observations. That means, in the parameter space,
-one can deduce the nature and shape of the neural network&apos;s learnt parameters.
-These two characteristics makes them highly attractive to theoreticians as well
-as practitioners. Recently there has been a lot of activity in this area, with
-the advent of numerous probabilistic programming libraries such as: PyMC3,
-Edward, Stan etc. Further this area is rapidly gaining ground as a standard
-machine learning approach for numerous problems
+<item rdf:about="http://arxiv.org/abs/1711.00449">
+<title>Attacking Binarized Neural Networks. (arXiv:1711.00449v2 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/1711.00449</link>
+<description rdf:parseType="Literal">&lt;p&gt;Neural networks with low-precision weights and activations offer compelling
+efficiency advantages over their full-precision equivalents. The two most
+frequently discussed benefits of quantization are reduced memory consumption,
+and a faster forward pass when implemented with efficient bitwise operations.
+We propose a third benefit of very low-precision neural networks: improved
+robustness against some adversarial attacks, and in the worst case, performance
+that is on par with full-precision models. We focus on the very low-precision
+case where weights and activations are both quantized to $\pm$1, and note that
+stochastically quantizing weights in just one layer can sharply reduce the
+impact of iterative attacks. We observe that non-scaled binary neural networks
+exhibit a similar effect to the original defensive distillation procedure that
+led to gradient masking, and a false notion of security. We address this by
+conducting both black-box and white-box experiments with binary models that do
+not artificially mask gradients.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mullachery_V/0/1/0/all/0/1&quot;&gt;Vikram Mullachery&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Khera_A/0/1/0/all/0/1&quot;&gt;Aniruddh Khera&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Husain_A/0/1/0/all/0/1&quot;&gt;Amir Husain&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1801.09851">
-<title>Cross-type Biomedical Named Entity Recognition with Deep Multi-Task Learning. (arXiv:1801.09851v1 [cs.IR])</title>
-<link>http://arxiv.org/abs/1801.09851</link>
-<description rdf:parseType="Literal">&lt;p&gt;Motivation: Biomedical named entity recognition (BioNER) is the most
-fundamental task in biomedical text mining. State-of-the-art BioNER systems
-often require handcrafted features specifically designed for each type of
-biomedical entities. This feature generation process requires intensive labors
-from biomedical and linguistic experts, and makes it difficult to adapt these
-systems to new biomedical entity types. Although recent studies explored using
-neural network models for BioNER to free experts from manual feature
-generation, these models still require substantial human efforts to annotate
-massive training data.
-&lt;/p&gt;
-&lt;p&gt;Results: We propose a multi-task learning framework for BioNER that is based
-on neural network models to save human efforts. We build a global model by
-collectively training multiple models that share parameters, each model
-capturing the characteristics of a different biomedical entity type. In
-experiments on five BioNER benchmark datasets covering four major biomedical
-entity types, our model outperforms state-of-the-art systems and other neural
-network models by a large margin, even when only limited training data are
-available. Further analysis shows that the large performance gains come from
-sharing character- and word-level information between different biomedical
-entities. The approach creates new opportunities for text-mining approaches to
-help biomedical scientists better exploit knowledge in biomedical literature.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_X/0/1/0/all/0/1&quot;&gt;Xuan Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_Y/0/1/0/all/0/1&quot;&gt;Yu Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ren_X/0/1/0/all/0/1&quot;&gt;Xiang Ren&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_Y/0/1/0/all/0/1&quot;&gt;Yuhao Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zitnik_M/0/1/0/all/0/1&quot;&gt;Marinka Zitnik&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shang_J/0/1/0/all/0/1&quot;&gt;Jingbo Shang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Langlotz_C/0/1/0/all/0/1&quot;&gt;Curtis Langlotz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Han_J/0/1/0/all/0/1&quot;&gt;Jiawei Han&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1801.10033">
-<title>Cardiac Arrhythmia Detection from ECG Combining Convolutional and Long Short-Term Memory Networks. (arXiv:1801.10033v1 [eess.SP])</title>
-<link>http://arxiv.org/abs/1801.10033</link>
-<description rdf:parseType="Literal">&lt;p&gt;Objectives: Atrial fibrillation (AF) is a common heart rhythm disorder
-associated with deadly and debilitating consequences including heart failure,
-stroke, poor mental health, reduced quality of life and death. Having an
-automatic system that diagnoses various types of cardiac arrhythmias would
-assist cardiologists to initiate appropriate preventive measures and to improve
-the analysis of cardiac disease. To this end, this paper introduces a new
-approach to detect and classify automatically cardiac arrhythmias in
-electrocardiograms (ECG) recordings.
-&lt;/p&gt;
-&lt;p&gt;Methods: The proposed approach used a combination of Convolution Neural
-Networks (CNNs) and a sequence of Long Short-Term Memory (LSTM) units, with
-pooling, dropout and normalization techniques to improve their accuracy. The
-network predicted a classification at every 18th input sample and we selected
-the final prediction for classification. Results were cross-validated on the
-Physionet Challenge 2017 training dataset, which contains 8,528 single lead ECG
-recordings lasting from 9s to just over 60s.
-&lt;/p&gt;
-&lt;p&gt;Results: Using the proposed structure and no explicit feature selection,
-10-fold stratified cross-validation gave an overall F-measure of 0.83.10-0.015
-on the held-out test data (mean-standard deviation over all folds) and 0.80 on
-the hidden dataset of the Challenge entry server.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Warrick_P/0/1/0/all/0/1&quot;&gt;Philip Warrick&lt;/a&gt; (1), &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Homsi_M/0/1/0/all/0/1&quot;&gt;Masun Nabhan Homsi&lt;/a&gt; (2) ((1) PeriGen. Inc., Montreal, Canada, (2) Simon Bolivar University, Caracas, Venezuela)</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1506.08776">
-<title>Bayesian Nonparametric Kernel-Learning. (arXiv:1506.08776v2 [stat.ML] UPDATED)</title>
-<link>http://arxiv.org/abs/1506.08776</link>
-<description rdf:parseType="Literal">&lt;p&gt;Kernel methods are ubiquitous tools in machine learning. However, there is
-often little reason for the common practice of selecting a kernel a priori.
-Even if a universal approximating kernel is selected, the quality of the finite
-sample estimator may be greatly affected by the choice of kernel. Furthermore,
-when directly applying kernel methods, one typically needs to compute a $N
-\times N$ Gram matrix of pairwise kernel evaluations to work with a dataset of
-$N$ instances. The computation of this Gram matrix precludes the direct
-application of kernel methods on large datasets, and makes kernel learning
-especially difficult. In this paper we introduce Bayesian nonparmetric
-kernel-learning (BaNK), a generic, data-driven framework for scalable learning
-of kernels. BaNK places a nonparametric prior on the spectral distribution of
-random frequencies allowing it to both learn kernels and scale to large
-datasets. We show that this framework can be used for large scale regression
-and classification tasks. Furthermore, we show that BaNK outperforms several
-other scalable approaches for kernel learning on a variety of real world
-datasets.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Oliva_J/0/1/0/all/0/1&quot;&gt;Junier Oliva&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Dubey_A/0/1/0/all/0/1&quot;&gt;Avinava Dubey&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Wilson_A/0/1/0/all/0/1&quot;&gt;Andrew G. Wilson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Poczos_B/0/1/0/all/0/1&quot;&gt;Barnabas Poczos&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Schneider_J/0/1/0/all/0/1&quot;&gt;Jeff Schneider&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Xing_E/0/1/0/all/0/1&quot;&gt;Eric P. Xing&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1705.07204">
-<title>Ensemble Adversarial Training: Attacks and Defenses. (arXiv:1705.07204v3 [stat.ML] UPDATED)</title>
-<link>http://arxiv.org/abs/1705.07204</link>
-<description rdf:parseType="Literal">&lt;p&gt;Adversarial examples are perturbed inputs designed to fool machine learning
-models. Adversarial training injects such examples into training data to
-increase robustness. To scale this technique to large datasets, perturbations
-are crafted using fast single-step methods that maximize a linear approximation
-of the model&apos;s loss. We show that this form of adversarial training converges
-to a degenerate global minimum, wherein small curvature artifacts near the data
-points obfuscate a linear approximation of the loss. The model thus learns to
-generate weak perturbations, rather than defend against strong ones. As a
-result, we find that adversarial training remains vulnerable to black-box
-attacks, where we transfer perturbations computed on undefended models, as well
-as to a powerful novel single-step attack that escapes the non-smooth vicinity
-of the input data via a small random step. We further introduce Ensemble
-Adversarial Training, a technique that augments training data with
-perturbations transferred from other models. On ImageNet, Ensemble Adversarial
-Training yields models with strong robustness to black-box attacks. In
-particular, our most robust model won the first round of the NIPS 2017
-competition on Defenses against Adversarial Attacks.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Tramer_F/0/1/0/all/0/1&quot;&gt;Florian Tram&amp;#xe8;r&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Kurakin_A/0/1/0/all/0/1&quot;&gt;Alexey Kurakin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Papernot_N/0/1/0/all/0/1&quot;&gt;Nicolas Papernot&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Goodfellow_I/0/1/0/all/0/1&quot;&gt;Ian Goodfellow&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Boneh_D/0/1/0/all/0/1&quot;&gt;Dan Boneh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+McDaniel_P/0/1/0/all/0/1&quot;&gt;Patrick McDaniel&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1706.04499">
-<title>SEARNN: Training RNNs with Global-Local Losses. (arXiv:1706.04499v2 [cs.LG] UPDATED)</title>
-<link>http://arxiv.org/abs/1706.04499</link>
-<description rdf:parseType="Literal">&lt;p&gt;We propose SEARNN, a novel training algorithm for recurrent neural networks
-(RNNs) inspired by the &quot;learning to search&quot; (L2S) approach to structured
-prediction. RNNs have been widely successful in structured prediction
-applications such as machine translation or parsing, and are commonly trained
-using maximum likelihood estimation (MLE). Unfortunately, this training loss is
-not always an appropriate surrogate for the test error: by only maximizing the
-ground truth probability, it fails to exploit the wealth of information offered
-by structured losses. Further, it introduces discrepancies between training and
-predicting (such as exposure bias) that may hurt test performance. Instead,
-SEARNN leverages test-alike search space exploration to introduce global-local
-losses that are closer to the test error. We first demonstrate improved
-performance over MLE on two different tasks: OCR and spelling correction. Then,
-we propose a subsampling strategy to enable SEARNN to scale to large vocabulary
-sizes. This allows us to validate the benefits of our approach on a machine
-translation task.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Leblond_R/0/1/0/all/0/1&quot;&gt;R&amp;#xe9;mi Leblond&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Alayrac_J/0/1/0/all/0/1&quot;&gt;Jean-Baptiste Alayrac&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Osokin_A/0/1/0/all/0/1&quot;&gt;Anton Osokin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lacoste_Julien_S/0/1/0/all/0/1&quot;&gt;Simon Lacoste-Julien&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1706.05565">
-<title>Towards Neural Phrase-based Machine Translation. (arXiv:1706.05565v5 [cs.CL] UPDATED)</title>
-<link>http://arxiv.org/abs/1706.05565</link>
-<description rdf:parseType="Literal">&lt;p&gt;In this paper, we present Neural Phrase-based Machine Translation (NPMT). Our
-method explicitly models the phrase structures in output sequences using
-Sleep-WAke Networks (SWAN), a recently proposed segmentation-based sequence
-modeling method. To mitigate the monotonic alignment requirement of SWAN, we
-introduce a new layer to perform (soft) local reordering of input sequences.
-Different from existing neural machine translation (NMT) approaches, NPMT does
-not use attention-based decoding mechanisms. Instead, it directly outputs
-phrases in a sequential order and can decode in linear time. Our experiments
-show that NPMT achieves superior performances on IWSLT 2014
-German-English/English-German and IWSLT 2015 English-Vietnamese machine
-translation tasks compared with strong NMT baselines. We also observe that our
-method produces meaningful phrases in output languages.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Huang_P/0/1/0/all/0/1&quot;&gt;Po-Sen Huang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_C/0/1/0/all/0/1&quot;&gt;Chong Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Huang_S/0/1/0/all/0/1&quot;&gt;Sitao Huang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhou_D/0/1/0/all/0/1&quot;&gt;Dengyong Zhou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Deng_L/0/1/0/all/0/1&quot;&gt;Li Deng&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1708.02183">
-<title>Multiresolution Kernel Approximation for Gaussian Process Regression. (arXiv:1708.02183v3 [stat.ML] UPDATED)</title>
-<link>http://arxiv.org/abs/1708.02183</link>
-<description rdf:parseType="Literal">&lt;p&gt;Gaussian process regression generally does not scale to beyond a few
-thousands data points without applying some sort of kernel approximation
-method. Most approximations focus on the high eigenvalue part of the spectrum
-of the kernel matrix, $K$, which leads to bad performance when the length scale
-of the kernel is small. In this paper we introduce Multiresolution Kernel
-Approximation (MKA), the first true broad bandwidth kernel approximation
-algorithm. Important points about MKA are that it is memory efficient, and it
-is a direct method, which means that it also makes it easy to approximate
-$K^{-1}$ and $\mathop{\textrm{det}}(K)$.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Ding_Y/0/1/0/all/0/1&quot;&gt;Yi Ding&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Kondor_R/0/1/0/all/0/1&quot;&gt;Risi Kondor&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Eskreis_Winkler_J/0/1/0/all/0/1&quot;&gt;Jonathan Eskreis-Winkler&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1708.08819">
-<title>Coulomb GANs: Provably Optimal Nash Equilibria via Potential Fields. (arXiv:1708.08819v3 [cs.LG] UPDATED)</title>
-<link>http://arxiv.org/abs/1708.08819</link>
-<description rdf:parseType="Literal">&lt;p&gt;Generative adversarial networks (GANs) evolved into one of the most
-successful unsupervised techniques for generating realistic images. Even though
-it has recently been shown that GAN training converges, GAN models often end up
-in local Nash equilibria that are associated with mode collapse or otherwise
-fail to model the target distribution. We introduce Coulomb GANs, which pose
-the GAN learning problem as a potential field of charged particles, where
-generated samples are attracted to training set samples but repel each other.
-The discriminator learns a potential field while the generator decreases the
-energy by moving its samples along the vector (force) field determined by the
-gradient of the potential field. Through decreasing the energy, the GAN model
-learns to generate samples according to the whole target distribution and does
-not only cover some of its modes. We prove that Coulomb GANs possess only one
-Nash equilibrium which is optimal in the sense that the model distribution
-equals the target distribution. We show the efficacy of Coulomb GANs on a
-variety of image datasets. On LSUN and celebA, Coulomb GANs set a new state of
-the art and produce a previously unseen variety of different samples.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Unterthiner_T/0/1/0/all/0/1&quot;&gt;Thomas Unterthiner&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nessler_B/0/1/0/all/0/1&quot;&gt;Bernhard Nessler&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Seward_C/0/1/0/all/0/1&quot;&gt;Calvin Seward&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Klambauer_G/0/1/0/all/0/1&quot;&gt;G&amp;#xfc;nter Klambauer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Heusel_M/0/1/0/all/0/1&quot;&gt;Martin Heusel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ramsauer_H/0/1/0/all/0/1&quot;&gt;Hubert Ramsauer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hochreiter_S/0/1/0/all/0/1&quot;&gt;Sepp Hochreiter&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1712.09043">
-<title>Collaborative Autoencoder for Recommender Systems. (arXiv:1712.09043v2 [cs.LG] UPDATED)</title>
-<link>http://arxiv.org/abs/1712.09043</link>
-<description rdf:parseType="Literal">&lt;p&gt;In recent years, deep neural networks have yielded state-of-the-art
-performance on several tasks. Although some recent works have focused on
-combining deep learning with recommendation, we highlight three issues of
-existing works. First, most works perform deep content feature learning and
-resort to matrix factorization, which cannot effectively model the highly
-complex user-item interaction function. Second, due to the difficulty on
-training deep neural networks, existing models utilize a shallow architecture,
-and thus limit the expressive potential of deep learning. Third, neural network
-models are easy to overfit on the implicit setting, because negative
-interactions are not taken into account. To tackle these issues, we present a
-generic recommender framework called Neural Collaborative Autoencoder (NCAE) to
-perform collaborative filtering, which works well for both explicit feedback
-and implicit feedback. NCAE can effectively capture the relationship between
-interactions via a non-linear matrix factorization process. To optimize the
-deep architecture of NCAE, we develop a three-stage pre-training mechanism that
-combines supervised and unsupervised feature learning. Moreover, to prevent
-overfitting on the implicit setting, we propose an error reweighting module and
-a sparsity-aware data-augmentation strategy. Extensive experiments on three
-real-world datasets demonstrate that NCAE can significantly advance the
-state-of-the-art.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_Q/0/1/0/all/0/1&quot;&gt;Qibing Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zheng_X/0/1/0/all/0/1&quot;&gt;Xiaolin Zheng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wu_X/0/1/0/all/0/1&quot;&gt;Xinyue Wu&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1801.08284">
-<title>DKN: Deep Knowledge-Aware Network for News Recommendation. (arXiv:1801.08284v2 [stat.ML] UPDATED)</title>
-<link>http://arxiv.org/abs/1801.08284</link>
-<description rdf:parseType="Literal">&lt;p&gt;Online news recommender systems aim to address the information explosion of
-news and make personalized recommendation for users. In general, news language
-is highly condensed, full of knowledge entities and common sense. However,
-existing methods are unaware of such external knowledge and cannot fully
-discover latent knowledge-level connections among news. The recommended results
-for a user are consequently limited to simple patterns and cannot be extended
-reasonably. Moreover, news recommendation also faces the challenges of high
-time-sensitivity of news and dynamic diversity of users&apos; interests. To solve
-the above problems, in this paper, we propose a deep knowledge-aware network
-(DKN) that incorporates knowledge graph representation into news
-recommendation. DKN is a content-based deep recommendation framework for
-click-through rate prediction. The key component of DKN is a multi-channel and
-word-entity-aligned knowledge-aware convolutional neural network (KCNN) that
-fuses semantic-level and knowledge-level representations of news. KCNN treats
-words and entities as multiple channels, and explicitly keeps their alignment
-relationship during convolution. In addition, to address users&apos; diverse
-interests, we also design an attention module in DKN to dynamically aggregate a
-user&apos;s history with respect to current candidate news. Through extensive
-experiments on a real online news platform, we demonstrate that DKN achieves
-substantial gains over state-of-the-art deep recommendation models. We also
-validate the efficacy of the usage of knowledge in DKN.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Wang_H/0/1/0/all/0/1&quot;&gt;Hongwei Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Zhang_F/0/1/0/all/0/1&quot;&gt;Fuzheng Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Xie_X/0/1/0/all/0/1&quot;&gt;Xing Xie&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Guo_M/0/1/0/all/0/1&quot;&gt;Minyi Guo&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Galloway_A/0/1/0/all/0/1&quot;&gt;Angus Galloway&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Taylor_G/0/1/0/all/0/1&quot;&gt;Graham W. Taylor&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Moussa_M/0/1/0/all/0/1&quot;&gt;Medhat Moussa&lt;/a&gt;</dc:creator>
 </item></rdf:RDF>
