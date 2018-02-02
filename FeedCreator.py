@@ -16,7 +16,8 @@ import re
 import os
 import pandas as pd
 from time import gmtime, strftime
-from models.RSS_classifier import classify
+from models.RSS_classifier import *
+import numpy as np
 
 def get_articles_and_xml(url):
     page = requests.get(url)
