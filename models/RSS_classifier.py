@@ -73,7 +73,7 @@ def text_to_word_sequence(text,
     return [i for i in seq if i]
 
 def classify(articles_info_pd):
-    with open('models/20180202_1025_ensemble_models_with_manager.pickle', 'rb') as f:
+    with open('/home/piotr.bednarski/Repositories/rss-classifier/models/20180202_1025_ensemble_models_with_manager.pickle', 'rb') as f:
         contents_dict = pickle.load(f)
 
     model_svc = contents_dict['model_svc_sklearn']
@@ -113,7 +113,7 @@ def classify(articles_info_pd):
     
     articles_info_pd['class'] = True
 
-    with open('stopwords/english') as f:
+    with open('/home/piotr.bednarski/Repositories/rss-classifier/stopwords/english') as f:
         stopwords = [line.strip() for line in f]
 
     for i in range(len(articles_info_pd['class'])):
