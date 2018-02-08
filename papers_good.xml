@@ -15,7 +15,7 @@
 <link>http://arxiv.org/</link>
 <description rdf:parseType="Literal">The Good Papers on ML, AI and Statistics</description>
 <dc:language>en-us</dc:language>
-<dc:date>2018-02-06T20:30:00-05:00</dc:date>
+<dc:date>2018-02-07T20:30:00-05:00</dc:date>
 <dc:publisher>help@arxiv.org</dc:publisher>
 <dc:subject>Statistics -- Machine Learning</dc:subject>
 <syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
@@ -23,19 +23,22 @@
 <syn:updatePeriod>daily</syn:updatePeriod>
 <items>
  <rdf:Seq>
-<rdf:li rdf:resource="http://arxiv.org/abs/1802.02006"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1708.04251"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1802.01569"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1802.01604"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1802.02032"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1802.02046"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1711.03678"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1802.01173"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1802.01239"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1709.06171"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1712.06559"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1802.01396"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1802.01528"/></rdf:Seq>
+<rdf:li rdf:resource="http://arxiv.org/abs/1802.02172"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1802.02186"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1802.02209"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1802.02353"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1802.02511"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1802.02147"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1802.02212"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1802.02226"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1802.02436"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1802.02498"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1802.02547"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1802.02548"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1705.10843"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1711.01768"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1802.01448"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1802.01212"/></rdf:Seq>
 </items>
 <image rdf:resource="http://arxiv.org/icons/sfx.gif" />
 </channel>
@@ -43,305 +46,327 @@
 <title>arXiv.org</title>
 <url>http://arxiv.org/icons/sfx.gif</url>
 <link>http://arxiv.org/</link>
-</image><item rdf:about="http://arxiv.org/abs/1802.02006">
-<title>An Adaptive Genetic Algorithm for Solving N-Queens Problem. (arXiv:1802.02006v1 [cs.NE])</title>
-<link>http://arxiv.org/abs/1802.02006</link>
-<description rdf:parseType="Literal">&lt;p&gt;In this paper a Metaheuristic approach for solving the N-Queens Problem is
-introduced to find the best possible solution in a reasonable amount of time.
-Genetic Algorithm is used with a novel fitness function as the Metaheuristic.
-The aim of N-Queens Problem is to place N queens on an N x N chessboard, in a
-way so that no queen is in conflict with the others. Chromosome representation
-and genetic operations like Mutation and Crossover are described in detail.
-Results show that this approach yields promising and satisfactory results in
-less time compared to that obtained from the previous approaches for several
-large values of N.
+</image><item rdf:about="http://arxiv.org/abs/1802.02172">
+<title>Augmented Artificial Intelligence. (arXiv:1802.02172v1 [cs.AI])</title>
+<link>http://arxiv.org/abs/1802.02172</link>
+<description rdf:parseType="Literal">&lt;p&gt;All artificial Intelligence (AI) systems make errors. These errors are
+unexpected, and differ often from the typical human mistakes (&quot;non-human&quot;
+errors). The AI errors should be corrected without damage of existing skills
+and, hopefully, avoiding direct human expertise. This talk presents an initial
+summary report of project taking new and systematic approach to improving the
+intellectual effectiveness of the individual AI by communities of AIs. We
+combine some ideas of learning in heterogeneous multiagent systems with new and
+original mathematical approaches for non-iterative corrections of errors of
+legacy AI systems.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sarkar_U/0/1/0/all/0/1&quot;&gt;Uddalok Sarkar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nag_S/0/1/0/all/0/1&quot;&gt;Sayan Nag&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gorban_A/0/1/0/all/0/1&quot;&gt;Alexander N. Gorban&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tyukin_I/0/1/0/all/0/1&quot;&gt;Ivan Y. Tyukin&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1708.04251">
-<title>A learning framework for winner-take-all networks with stochastic synapses. (arXiv:1708.04251v2 [cs.NE] UPDATED)</title>
-<link>http://arxiv.org/abs/1708.04251</link>
-<description rdf:parseType="Literal">&lt;p&gt;Many recent generative models make use of neural networks to transform the
-probability distribution of a simple low-dimensional noise process into the
-complex distribution of the data. This raises the question of whether
-biological networks operate along similar principles to implement a
-probabilistic model of the environment through transformations of intrinsic
-noise processes. The intrinsic neural and synaptic noise processes in
-biological networks, however, are quite different from the noise processes used
-in current abstract generative networks. This, together with the discrete
-nature of spikes and local circuit interactions among the neurons, raises
-several difficulties when using recent generative modeling frameworks to train
-biologically motivated models. In this paper, we show that a biologically
-motivated model based on multi-layer winner-take-all (WTA) circuits and
-stochastic synapses admits an approximate analytical description. This allows
-us to use the proposed networks in a variational learning setting where
-stochastic backpropagation is used to optimize a lower bound on the data log
-likelihood, thereby learning a generative model of the data. We illustrate the
-generality of the proposed networks and learning technique by using them in a
-structured output prediction task, and in a semi-supervised learning task. Our
-results extend the domain of application of modern stochastic network
-architectures to networks where synaptic transmission failure is the principal
-noise mechanism.
+<item rdf:about="http://arxiv.org/abs/1802.02186">
+<title>FastNet. (arXiv:1802.02186v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1802.02186</link>
+<description rdf:parseType="Literal">&lt;p&gt;Inception and the Resnet family of Convolutional Neural Network
+archi-tectures have broken records in the past few years, but recent state of
+the art models have also incurred very high computational cost in terms of
+training, inference and model size. Making the deployment of these models on
+Edge devices, impractical. In light of this, we present a new novel
+architecture that is designed for high computational efficiency on both GPUs
+and CPUs, and is highly suited for deployment on Mobile Applications, Smart
+Cameras, Iot devices and controllers as well as low cost drones. Our
+architecture boasts competitive accuracies on standard Datasets even
+out-performing the original Resnet. We present below the motivation for this
+research, the architecture of the network, single test accuracies on CIFAR 10
+and CIFAR 100 , a detailed comparison with other well-known architectures and
+link to an implementation in Keras.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mostafa_H/0/1/0/all/0/1&quot;&gt;Hesham Mostafa&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cauwenberghs_G/0/1/0/all/0/1&quot;&gt;Gert Cauwenberghs&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Olafenwa_J/0/1/0/all/0/1&quot;&gt;John Olafenwa&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Olafenwa_M/0/1/0/all/0/1&quot;&gt;Moses Olafenwa&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1802.01569">
-<title>Alleviating catastrophic forgetting using context-dependent gating and synaptic stabilization. (arXiv:1802.01569v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1802.01569</link>
-<description rdf:parseType="Literal">&lt;p&gt;Humans and most animals can learn new tasks without forgetting old ones.
-However, training artificial neural networks (ANNs) on new tasks typically
-cause it to forget previously learned tasks. This phenomenon is the result of
-&quot;catastrophic forgetting&quot;, in which training an ANN disrupts connection weights
-that were important for solving previous tasks, degrading task performance.
-Several recent studies have proposed methods to stabilize connection weights of
-ANNs that are deemed most important for solving a task, which helps alleviate
-catastrophic forgetting. Here, drawing inspiration from algorithms that are
-believed to be implemented in vivo, we propose a complementary method: adding a
-context-dependent gating signal, such that only sparse, mostly non-overlapping
-patterns of units are active for any one task. This method is easy to
-implement, requires little computational overhead, and allows ANNs to maintain
-high performance across large numbers of sequentially presented tasks when
-combined with weight stabilization. This work provides another example of how
-neuroscience-inspired algorithms can benefit ANN design and capability.
+<item rdf:about="http://arxiv.org/abs/1802.02209">
+<title>IONet: Learning to Cure the Curse of Drift in Inertial Odometry. (arXiv:1802.02209v1 [cs.RO])</title>
+<link>http://arxiv.org/abs/1802.02209</link>
+<description rdf:parseType="Literal">&lt;p&gt;Inertial sensors play a pivotal role in indoor localization, which in turn
+lays the foundation for pervasive personal applications. However, low-cost
+inertial sensors, as commonly found in smartphones, are plagued by bias and
+noise, which leads to unbounded growth in error when accelerations are double
+integrated to obtain displacement. Small errors in state estimation propagate
+to make odometry virtually unusable in a matter of seconds. We propose to break
+the cycle of continuous integration, and instead segment inertial data into
+independent windows. The challenge becomes estimating the latent states of each
+window, such as velocity and orientation, as these are not directly observable
+from sensor data. We demonstrate how to formulate this as an optimization
+problem, and show how deep recurrent neural networks can yield highly accurate
+trajectories, outperforming state-of-the-art shallow techniques, on a wide
+range of tests and attachments. In particular, we demonstrate that IONet can
+generalize to estimate odometry for non-periodic motion, such as a shopping
+trolley or baby-stroller, an extremely challenging task for existing
+techniques.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Masse_N/0/1/0/all/0/1&quot;&gt;Nicolas Y. Masse&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Grant_G/0/1/0/all/0/1&quot;&gt;Gregory D. Grant&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Freedman_D/0/1/0/all/0/1&quot;&gt;David J. Freedman&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_C/0/1/0/all/0/1&quot;&gt;Changhao Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lu_X/0/1/0/all/0/1&quot;&gt;Xiaoxuan Lu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Markham_A/0/1/0/all/0/1&quot;&gt;Andrew Markham&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Trigoni_N/0/1/0/all/0/1&quot;&gt;Niki Trigoni&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1802.01604">
-<title>Learning from Richer Human Guidance: Augmenting Comparison-Based Learning with Feature Queries. (arXiv:1802.01604v1 [cs.AI])</title>
-<link>http://arxiv.org/abs/1802.01604</link>
-<description rdf:parseType="Literal">&lt;p&gt;We focus on learning the desired objective function for a robot. Although
-trajectory demonstrations can be very informative of the desired objective,
-they can also be difficult for users to provide. Answers to comparison queries,
-asking which of two trajectories is preferable, are much easier for users, and
-have emerged as an effective alternative. Unfortunately, comparisons are far
-less informative. We propose that there is much richer information that users
-can easily provide and that robots ought to leverage. We focus on augmenting
-comparisons with feature queries, and introduce a unified formalism for
-treating all answers as observations about the true desired reward. We derive
-an active query selection algorithm, and test these queries in simulation and
-on real users. We find that richer, feature-augmented queries can extract more
-information faster, leading to robots that better match user preferences in
-their behavior.
+<item rdf:about="http://arxiv.org/abs/1802.02353">
+<title>Recent Advances in Neural Program Synthesis. (arXiv:1802.02353v1 [cs.AI])</title>
+<link>http://arxiv.org/abs/1802.02353</link>
+<description rdf:parseType="Literal">&lt;p&gt;In recent years, deep learning has made tremendous progress in a number of
+fields that were previously out of reach for artificial intelligence. The
+successes in these problems has led researchers to consider the possibilities
+for intelligent systems to tackle a problem that humans have only recently
+themselves considered: program synthesis. This challenge is unlike others such
+as object recognition and speech translation, since its abstract nature and
+demand for rigor make it difficult even for human minds to attempt. While it is
+still far from being solved or even competitive with most existing methods,
+neural program synthesis is a rapidly growing discipline which holds great
+promise if completely realized. In this paper, we start with exploring the
+problem statement and challenges of program synthesis. Then, we examine the
+fascinating evolution of program induction models, along with how they have
+succeeded, failed and been reimagined since. Finally, we conclude with a
+contrastive look at program synthesis and future research recommendations for
+the field.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Basu_C/0/1/0/all/0/1&quot;&gt;Chandrayee Basu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Singhal_M/0/1/0/all/0/1&quot;&gt;Mukesh Singhal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Dragan_A/0/1/0/all/0/1&quot;&gt;Anca D. Dragan&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kant_N/0/1/0/all/0/1&quot;&gt;Neel Kant&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1802.02032">
-<title>Improving Variational Encoder-Decoders in Dialogue Generation. (arXiv:1802.02032v1 [cs.CL])</title>
-<link>http://arxiv.org/abs/1802.02032</link>
-<description rdf:parseType="Literal">&lt;p&gt;Variational encoder-decoders (VEDs) have shown promising results in dialogue
-generation. However, the latent variable distributions are usually approximated
-by a much simpler model than the powerful RNN structure used for encoding and
-decoding, yielding the KL-vanishing problem and inconsistent training
-objective. In this paper, we separate the training step into two phases: The
-first phase learns to autoencode discrete texts into continuous embeddings,
-from which the second phase learns to generalize latent representations by
-reconstructing the encoded embedding. In this case, latent variables are
-sampled by transforming Gaussian noise through multi-layer perceptrons and are
-trained with a separate VED model, which has the potential of realizing a much
-more flexible distribution. We compare our model with current popular models
-and the experiment demonstrates substantial improvement in both metric-based
-and human evaluations.
+<item rdf:about="http://arxiv.org/abs/1802.02511">
+<title>DeepHeart: Semi-Supervised Sequence Learning for Cardiovascular Risk Prediction. (arXiv:1802.02511v1 [cs.AI])</title>
+<link>http://arxiv.org/abs/1802.02511</link>
+<description rdf:parseType="Literal">&lt;p&gt;We train and validate a semi-supervised, multi-task LSTM on 57,675
+person-weeks of data from off-the-shelf wearable heart rate sensors, showing
+high accuracy at detecting multiple medical conditions, including diabetes
+(0.8451), high cholesterol (0.7441), high blood pressure (0.8086), and sleep
+apnea (0.8298). We compare two semi-supervised train- ing methods,
+semi-supervised sequence learning and heuristic pretraining, and show they
+outperform hand-engineered biomarkers from the medical literature. We believe
+our work suggests a new approach to patient risk stratification based on
+cardiovascular risk scores derived from popular wearables such as Fitbit, Apple
+Watch, or Android Wear.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shen_X/0/1/0/all/0/1&quot;&gt;Xiaoyu Shen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Su_H/0/1/0/all/0/1&quot;&gt;Hui Su&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Niu_S/0/1/0/all/0/1&quot;&gt;Shuzi Niu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Demberg_V/0/1/0/all/0/1&quot;&gt;Vera Demberg&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ballinger_B/0/1/0/all/0/1&quot;&gt;Brandon Ballinger&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hsieh_J/0/1/0/all/0/1&quot;&gt;Johnson Hsieh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Singh_A/0/1/0/all/0/1&quot;&gt;Avesh Singh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sohoni_N/0/1/0/all/0/1&quot;&gt;Nimit Sohoni&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_J/0/1/0/all/0/1&quot;&gt;Jack Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tison_G/0/1/0/all/0/1&quot;&gt;Geoffrey H. Tison&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Marcus_G/0/1/0/all/0/1&quot;&gt;Gregory M. Marcus&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sanchez_J/0/1/0/all/0/1&quot;&gt;Jose M. Sanchez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Maguire_C/0/1/0/all/0/1&quot;&gt;Carol Maguire&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Olgin_J/0/1/0/all/0/1&quot;&gt;Jeffrey E. Olgin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pletcher_M/0/1/0/all/0/1&quot;&gt;Mark J. Pletcher&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1802.02046">
-<title>Neural Network Detection of Data Sequences in Communication Systems. (arXiv:1802.02046v1 [eess.SP])</title>
-<link>http://arxiv.org/abs/1802.02046</link>
-<description rdf:parseType="Literal">&lt;p&gt;We consider detection based on deep learning, and show it is possible to
-train detectors that perform well, without any knowledge of the underlying
-channel models. Moreover, when the channel model is known, we demonstrate that
-it is possible to train detectors that do not require channel state information
-(CSI). In particular, a technique we call sliding bidirectional recurrent
-neural network (SBRNN) is proposed for detection where, after training, the
-detector estimates the data in real-time as the signal stream arrives at the
-receiver. We evaluate this algorithm, as well as other neural network (NN)
-architectures, using the Poisson channel model, which is applicable to both
-optical and chemical communication systems. In addition, we also evaluate the
-performance of this detection method applied to data sent over a chemical
-communication platform, where the channel model is difficult to model
-analytically. We show that SBRNN is computationally efficient, and can perform
-detection under various channel conditions without knowing the underlying
-channel model. We also demonstrate that the bit error rate (BER) performance of
-the proposed SBRNN detector is better than that of a Viterbi detector with
-imperfect CSI as well as that of other NN detectors that have been previously
-proposed.
+<item rdf:about="http://arxiv.org/abs/1802.02147">
+<title>DeepTravel: a Neural Network Based Travel Time Estimation Model with Auxiliary Supervision. (arXiv:1802.02147v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1802.02147</link>
+<description rdf:parseType="Literal">&lt;p&gt;Estimating the travel time of a path is of great importance to smart urban
+mobility. Existing approaches are either based on estimating the time cost of
+each road segment which are not able to capture many cross-segment complex
+factors, or designed heuristically in a non-learning-based way which fail to
+utilize the existing abundant temporal labels of the data, i.e., the time stamp
+of each trajectory point. In this paper, we leverage on new development of deep
+neural networks and propose a novel auxiliary supervision model, namely
+DeepTravel, that can automatically and effectively extract different features,
+as well as make full use of the temporal labels of the trajectory data. We have
+conducted comprehensive experiments on real datasets to demonstrate the
+out-performance of DeepTravel over existing approaches.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Farsad_N/0/1/0/all/0/1&quot;&gt;Nariman Farsad&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Goldsmith_A/0/1/0/all/0/1&quot;&gt;Andrea Goldsmith&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_H/0/1/0/all/0/1&quot;&gt;Hanyuan Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wu_H/0/1/0/all/0/1&quot;&gt;Hao Wu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sun_W/0/1/0/all/0/1&quot;&gt;Weiwei Sun&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zheng_B/0/1/0/all/0/1&quot;&gt;Baihua Zheng&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1711.03678">
-<title>Self-Supervised Intrinsic Image Decomposition. (arXiv:1711.03678v2 [cs.CV] UPDATED)</title>
-<link>http://arxiv.org/abs/1711.03678</link>
-<description rdf:parseType="Literal">&lt;p&gt;Intrinsic decomposition from a single image is a highly challenging task, due
-to its inherent ambiguity and the scarcity of training data. In contrast to
-traditional fully supervised learning approaches, in this paper we propose
-learning intrinsic image decomposition by explaining the input image. Our
-model, the Rendered Intrinsics Network (RIN), joins together an image
-decomposition pipeline, which predicts reflectance, shape, and lighting
-conditions given a single image, with a recombination function, a learned
-shading model used to recompose the original input based off of intrinsic image
-predictions. Our network can then use unsupervised reconstruction error as an
-additional signal to improve its intermediate representations. This allows
-large-scale unlabeled data to be useful during training, and also enables
-transferring learned knowledge to images of unseen object categories, lighting
-conditions, and shapes. Extensive experiments demonstrate that our method
-performs well on both intrinsic image decomposition and knowledge transfer.
+<item rdf:about="http://arxiv.org/abs/1802.02212">
+<title>Classification and Disease Localization in Histopathology Using Only Global Labels: A Weakly-Supervised Approach. (arXiv:1802.02212v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1802.02212</link>
+<description rdf:parseType="Literal">&lt;p&gt;Analysis of histopathology slides is a critical step for many diagnoses, and
+in particular in oncology where it defines the gold standard. In the case of
+digital histopathological analysis, highly trained pathologists must review
+vast whole-slide-images of extreme digital resolution ($100,000^2$ pixels)
+across multiple zoom levels in order to locate abnormal regions of cells, or in
+some cases single cells, out of millions. The application of deep learning to
+this problem is hampered not only by small sample sizes, as typical datasets
+contain only a few hundred samples, but also by the generation of ground-truth
+localized annotations for training interpretable classification and
+segmentation models. We propose a method for disease localization in the
+context of weakly supervised learning, where only image-level labels are
+available during training. Even without pixel-level annotations, we are able to
+demonstrate performance comparable with models trained with strong annotations
+on the Camelyon-16 lymph node metastases detection challenge. We accomplish
+this through the use of pre-trained deep convolutional networks, feature
+embedding, as well as learning via top instances and negative evidence, a
+multiple instance learning technique from the field of semantic segmentation
+and object detection.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Janner_M/0/1/0/all/0/1&quot;&gt;Michael Janner&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wu_J/0/1/0/all/0/1&quot;&gt;Jiajun Wu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kulkarni_T/0/1/0/all/0/1&quot;&gt;Tejas D. Kulkarni&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yildirim_I/0/1/0/all/0/1&quot;&gt;Ilker Yildirim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tenenbaum_J/0/1/0/all/0/1&quot;&gt;Joshua B. Tenenbaum&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Courtiol_P/0/1/0/all/0/1&quot;&gt;Pierre Courtiol&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tramel_E/0/1/0/all/0/1&quot;&gt;Eric W. Tramel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sanselme_M/0/1/0/all/0/1&quot;&gt;Marc Sanselme&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wainrib_G/0/1/0/all/0/1&quot;&gt;Gilles Wainrib&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1802.01173">
-<title>Tunneling Neural Perception and Logic Reasoning through Abductive Learning. (arXiv:1802.01173v2 [cs.AI] UPDATED)</title>
-<link>http://arxiv.org/abs/1802.01173</link>
-<description rdf:parseType="Literal">&lt;p&gt;Perception and reasoning are basic human abilities that are seamlessly
-connected as part of human intelligence. However, in current machine learning
-systems, the perception and reasoning modules are incompatible. Tasks requiring
-joint perception and reasoning ability are difficult to accomplish autonomously
-and still demand human intervention. Inspired by the way language experts
-decoded Mayan scripts by joining two abilities in an abductive manner, this
-paper proposes the abductive learning framework. The framework learns
-perception and reasoning simultaneously with the help of a trial-and-error
-abductive process. We present the Neural-Logical Machine as an implementation
-of this novel learning framework. We demonstrate that--using human-like
-abductive learning--the machine learns from a small set of simple hand-written
-equations and then generalizes well to complex equations, a feat that is beyond
-the capability of state-of-the-art neural network models. The abductive
-learning framework explores a new direction for approaching human-level
-learning ability.
+<item rdf:about="http://arxiv.org/abs/1802.02226">
+<title>Generative Adversarial Networks using Adaptive Convolution. (arXiv:1802.02226v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1802.02226</link>
+<description rdf:parseType="Literal">&lt;p&gt;Most existing GANs architectures that generate images use transposed
+convolution or resize-convolution as their upsampling algorithm from lower to
+higher resolution feature maps in the generator. We argue that this kind of
+fixed operation is problematic for GANs to model objects that have very
+different visual appearances. We propose a novel adaptive convolution method
+that learns the upsampling algorithm based on the local context at each
+location to address this problem. We modify a baseline GANs architecture by
+replacing normal convolutions with adaptive convolutions in the generator.
+Experiments on CIFAR-10 dataset show that our modified models improve the
+baseline model by a large margin. Furthermore, our models achieve
+state-of-the-art performance on CIFAR-10 and STL-10 datasets in the
+unsupervised setting.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Dai_W/0/1/0/all/0/1&quot;&gt;Wang-Zhou Dai&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xu_Q/0/1/0/all/0/1&quot;&gt;Qiu-Ling Xu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yu_Y/0/1/0/all/0/1&quot;&gt;Yang Yu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhou_Z/0/1/0/all/0/1&quot;&gt;Zhi-Hua Zhou&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nguyen_N/0/1/0/all/0/1&quot;&gt;Nhat M. Nguyen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ray_N/0/1/0/all/0/1&quot;&gt;Nilanjan Ray&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1802.01239">
-<title>Counting and Uniform Sampling from Markov Equivalent DAGs. (arXiv:1802.01239v1 [cs.DS] CROSS LISTED)</title>
-<link>http://arxiv.org/abs/1802.01239</link>
-<description rdf:parseType="Literal">&lt;p&gt;We propose an exact solution for the problem of finding the size of a Markov
-equivalence class (MEC). For the bounded degree graphs, the proposed solution
-is capable of computing the size of the MEC in polynomial time. Our proposed
-approach is based on a recursive method for counting the number of the elements
-of the MEC when a specific vertex is set as the source variable. We will
-further use the idea to design a sampler, which is capable of sampling from an
-MEC uniformly in polynomial time.
+<item rdf:about="http://arxiv.org/abs/1802.02436">
+<title>Stochastic Deconvolutional Neural Network Ensemble Training on Generative Pseudo-Adversarial Networks. (arXiv:1802.02436v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/1802.02436</link>
+<description rdf:parseType="Literal">&lt;p&gt;The training of Generative Adversarial Networks is a difficult task mainly
+due to the nature of the networks. One such issue is when the generator and
+discriminator start oscillating, rather than converging to a fixed point.
+Another case can be when one agent becomes more adept than the other which
+results in the decrease of the other agent&apos;s ability to learn, reducing the
+learning capacity of the system as a whole. Additionally, there exists the
+problem of Mode Collapse which involves the generators output collapsing to a
+single sample or a small set of similar samples. To train GANs a careful
+selection of the architecture that is used along with a variety of other
+methods to improve training. Even when applying these methods there is low
+stability of training in relation to the parameters that are chosen. Stochastic
+ensembling is suggested as a method for improving the stability while training
+GANs.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ghassami_A/0/1/0/all/0/1&quot;&gt;AmirEmad Ghassami&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Salehkaleybar_S/0/1/0/all/0/1&quot;&gt;Saber Salehkaleybar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kiyavash_N/0/1/0/all/0/1&quot;&gt;Negar Kiyavash&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Chaplygin_A/0/1/0/all/0/1&quot;&gt;Alexey Chaplygin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Chacksfield_J/0/1/0/all/0/1&quot;&gt;Joshua Chacksfield&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1709.06171">
-<title>Learning Low-Dimensional Metrics. (arXiv:1709.06171v2 [stat.ML] UPDATED)</title>
-<link>http://arxiv.org/abs/1709.06171</link>
-<description rdf:parseType="Literal">&lt;p&gt;This paper investigates the theoretical foundations of metric learning,
-focused on three key questions that are not fully addressed in prior work: 1)
-we consider learning general low-dimensional (low-rank) metrics as well as
-sparse metrics; 2) we develop upper and lower (minimax)bounds on the
-generalization error; 3) we quantify the sample complexity of metric learning
-in terms of the dimension of the feature space and the dimension/rank of the
-underlying metric;4) we also bound the accuracy of the learned metric relative
-to the underlying true generative metric. All the results involve novel
-mathematical approaches to the metric learning problem, and lso shed new light
-on the special case of ordinal embedding (aka non-metric multidimensional
-scaling).
+<item rdf:about="http://arxiv.org/abs/1802.02498">
+<title>Spectral Learning of Binomial HMMs for DNA Methylation Data. (arXiv:1802.02498v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1802.02498</link>
+<description rdf:parseType="Literal">&lt;p&gt;We consider learning parameters of Binomial Hidden Markov Models, which may
+be used to model DNA methylation data. The standard algorithm for the problem
+is EM, which is computationally expensive for sequences of the scale of the
+mammalian genome. Recently developed spectral algorithms can learn parameters
+of latent variable models via tensor decomposition, and are highly efficient
+for large data. However, these methods have only been applied to categorial
+HMMs, and the main challenge is how to extend them to Binomial HMMs while still
+retaining computational efficiency. We address this challenge by introducing a
+new feature-map based approach that exploits specific properties of Binomial
+HMMs. We provide theoretical performance guarantees for our algorithm and
+evaluate it on real DNA methylation data.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Jain_L/0/1/0/all/0/1&quot;&gt;Lalit Jain&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Mason_B/0/1/0/all/0/1&quot;&gt;Blake Mason&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Nowak_R/0/1/0/all/0/1&quot;&gt;Robert Nowak&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_C/0/1/0/all/0/1&quot;&gt;Chicheng Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mukamel_E/0/1/0/all/0/1&quot;&gt;Eran A. Mukamel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chaudhuri_K/0/1/0/all/0/1&quot;&gt;Kamalika Chaudhuri&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1712.06559">
-<title>The Power of Interpolation: Understanding the Effectiveness of SGD in Modern Over-parametrized Learning. (arXiv:1712.06559v2 [cs.LG] UPDATED)</title>
-<link>http://arxiv.org/abs/1712.06559</link>
-<description rdf:parseType="Literal">&lt;p&gt;Stochastic Gradient Descent (SGD) with small mini-batch is a key component in
-modern large-scale learning. However, its efficiency has not been easy to
-analyze as most theoretical results require adaptive rates and show convergence
-rates far slower than that for gradient descent, making computational
-comparisons difficult.
+<item rdf:about="http://arxiv.org/abs/1802.02547">
+<title>Learning One Convolutional Layer with Overlapping Patches. (arXiv:1802.02547v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1802.02547</link>
+<description rdf:parseType="Literal">&lt;p&gt;We give the first provably efficient algorithm for learning a one hidden
+layer convolutional network with respect to a general class of (potentially
+overlapping) patches. Additionally, our algorithm requires only mild conditions
+on the underlying distribution. We prove that our framework captures commonly
+used schemes from computer vision, including one-dimensional and
+two-dimensional &quot;patch and stride&quot; convolutions.
 &lt;/p&gt;
-&lt;p&gt;In this paper we aim to clarify the issue of fast SGD convergence. The key
-observation is that most modern architectures are over-parametrized and are
-trained to interpolate the data by driving the empirical loss close to zero.
-While it is still unclear why these interpolated solutions perform well on test
-data, we show that these regimes allow for very fast convergence of SGD,
-comparable in the number of iterations to full gradient descent.
+&lt;p&gt;Our algorithm-- $Convotron$ -- is inspired by recent work applying isotonic
+regression to learning neural networks. Convotron uses a simple, iterative
+update rule that is stochastic in nature and tolerant to noise (requires only
+that the conditional mean function is a one layer convolutional network, as
+opposed to the realizable setting). In contrast to gradient descent, Convotron
+requires no special initialization or learning-rate tuning to converge to the
+global optimum.
 &lt;/p&gt;
-&lt;p&gt;Specifically, consider the setting with a quadratic objective function, or a
-general objective function in the proximity of a minimum, where the quadratic
-term is dominant. First, we obtain the optimal convergence rate for any
-mini-batch SGD and derive the optimal step size as a function of the batch size
-$m$. Second, we show: (1) $m=1$ is optimal in terms of number of computations
-required to achieve any desired accuracy. (2) There is a critical mini-batch
-size $m^*$ such that: (2a) SGD iteration with batch size $m\leq m^*$ is nearly
-equivalent to $m$ iterations of batch size $1$. (2b) SGD iteration with
-mini-batch $m&amp;gt; m^*$ is nearly equivalent to a full gradient descent iteration.
-&lt;/p&gt;
-&lt;p&gt;The critical mini-batch size can be viewed as the limit for effective
-mini-batch parallelization. It is also nearly independent of the data size,
-implying $O(n)$ acceleration over GD per unit of computation. These theoretical
-analyses are verified by experimental results.
-&lt;/p&gt;
-&lt;p&gt;Finally, we show how the interpolation perspective and our results fit in the
-deep neural networks and discuss connections to adaptive rates for SGD and
-variance reduction.
+&lt;p&gt;We also point out that learning one hidden convolutional layer with respect
+to a Gaussian distribution and just $one$ disjoint patch $P$ (the other patches
+may be arbitrary) is $easy$ in the following sense: Convotron can efficiently
+recover the hidden weight vector by updating $only$ in the direction of $P$.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ma_S/0/1/0/all/0/1&quot;&gt;Siyuan Ma&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bassily_R/0/1/0/all/0/1&quot;&gt;Raef Bassily&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Belkin_M/0/1/0/all/0/1&quot;&gt;Mikhail Belkin&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Goel_S/0/1/0/all/0/1&quot;&gt;Surbhi Goel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Klivans_A/0/1/0/all/0/1&quot;&gt;Adam Klivans&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Meka_R/0/1/0/all/0/1&quot;&gt;Raghu Meka&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1802.01396">
-<title>To understand deep learning we need to understand kernel learning. (arXiv:1802.01396v2 [stat.ML] UPDATED)</title>
-<link>http://arxiv.org/abs/1802.01396</link>
-<description rdf:parseType="Literal">&lt;p&gt;Generalization performance of classifiers in deep learning has recently
-become a subject of intense study. Heavily over-parametrized deep models tend
-to fit training data exactly. Despite overfitting, they perform well on test
-data, a phenomenon not yet fully understood.
-&lt;/p&gt;
-&lt;p&gt;The first point of our paper is that strong performance of overfitted
-classifiers is not a unique feature of deep learning. Using real-world and
-synthetic datasets, we establish that kernel classifiers trained to have zero
-classification error (overfitting) or even zero regression error
-(interpolation) perform very well on test data.
-&lt;/p&gt;
-&lt;p&gt;We proceed to prove lower bounds on the norm of overfitted solutions for
-smooth kernels, showing that they increase nearly exponentially with the data
-size. Since most generalization bounds depend polynomially on the norm of the
-solution, this result implies that they diverge as data increases. Furthermore,
-the existing bounds do not apply to interpolated classifiers.
-&lt;/p&gt;
-&lt;p&gt;We also show experimentally that (non-smooth) Laplacian kernels easily fit
-random labels using a version of SGD, a finding that parallels results reported
-for ReLU neural networks. In contrast, fitting noisy data requires many more
-epochs for smooth Gaussian kernels. The observation that the performance of
-overfitted Laplacian and Gaussian classifiers on the test is quite similar,
-suggests that generalization is tied to the properties of the kernel function
-rather than the optimization process.
-&lt;/p&gt;
-&lt;p&gt;We see that some key phenomena of deep learning are manifested similarly in
-kernel methods in the overfitted regime. We argue that progress on
-understanding deep learning will be difficult, until more analytically
-tractable &quot;shallow&quot; kernel methods are better understood. The experimental and
-theoretical results presented in this paper indicate a need for new theoretical
-ideas for understanding classical kernel methods.
+<item rdf:about="http://arxiv.org/abs/1802.02548">
+<title>Predicting Hurricane Trajectories using a Recurrent Neural Network. (arXiv:1802.02548v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1802.02548</link>
+<description rdf:parseType="Literal">&lt;p&gt;Hurricanes are cyclones circulating about a defined center whose closed wind
+speeds exceed 75 mph originating over tropical and subtropical waters. At
+landfall, hurricanes can result in severe disasters. The accuracy of predicting
+their trajectory paths is critical to reduce economic loss and save human
+lives. Given the complexity and nonlinearity of weather data, a recurrent
+neural network (RNN) could be beneficial in modeling hurricane behavior. We
+propose the application of a fully connected RNN to predict the trajectory of
+hurricanes. We employed the RNN over a fine grid to reduce typical truncation
+errors. We utilized their latitude, longitude, wind speed, and pressure
+publicly provided by the National Hurricane Center (NOAA) to predict the
+trajectory of a hurricane at 6-hour intervals.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Belkin_M/0/1/0/all/0/1&quot;&gt;Mikhail Belkin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Ma_S/0/1/0/all/0/1&quot;&gt;Siyuan Ma&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Mandal_S/0/1/0/all/0/1&quot;&gt;Soumik Mandal&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Alemany_S/0/1/0/all/0/1&quot;&gt;Sheila Alemany&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Beltran_J/0/1/0/all/0/1&quot;&gt;Jonathan Beltran&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Perez_A/0/1/0/all/0/1&quot;&gt;Adrian Perez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ganzfried_S/0/1/0/all/0/1&quot;&gt;Sam Ganzfried&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1802.01528">
-<title>The Matrix Calculus You Need For Deep Learning. (arXiv:1802.01528v2 [cs.LG] UPDATED)</title>
-<link>http://arxiv.org/abs/1802.01528</link>
-<description rdf:parseType="Literal">&lt;p&gt;This paper is an attempt to explain all the matrix calculus you need in order
-to understand the training of deep neural networks. We assume no math knowledge
-beyond what you learned in calculus 1, and provide links to help you refresh
-the necessary math where needed. Note that you do not need to understand this
-material before you start learning to train and use deep learning in practice;
-rather, this material is for those who are already familiar with the basics of
-neural networks, and wish to deepen their understanding of the underlying math.
-Don&apos;t worry if you get stuck at some point along the way---just go back and
-reread the previous section, and try writing down and working through some
-examples. And if you&apos;re still stuck, we&apos;re happy to answer your questions in
-the Theory category at forums.fast.ai. Note: There is a reference section at
-the end of the paper summarizing all the key matrix calculus rules and
-terminology discussed here.
+<item rdf:about="http://arxiv.org/abs/1705.10843">
+<title>Objective-Reinforced Generative Adversarial Networks (ORGAN) for Sequence Generation Models. (arXiv:1705.10843v3 [stat.ML] UPDATED)</title>
+<link>http://arxiv.org/abs/1705.10843</link>
+<description rdf:parseType="Literal">&lt;p&gt;In unsupervised data generation tasks, besides the generation of a sample
+based on previous observations, one would often like to give hints to the model
+in order to bias the generation towards desirable metrics. We propose a method
+that combines Generative Adversarial Networks (GANs) and reinforcement learning
+(RL) in order to accomplish exactly that. While RL biases the data generation
+process towards arbitrary metrics, the GAN component of the reward function
+ensures that the model still remembers information learned from data. We build
+upon previous results that incorporated GANs and RL in order to generate
+sequence data and test this model in several settings for the generation of
+molecules encoded as text sequences (SMILES) and in the context of music
+generation, showing for each case that we can effectively bias the generation
+process towards desired metrics.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Parr_T/0/1/0/all/0/1&quot;&gt;Terence Parr&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Howard_J/0/1/0/all/0/1&quot;&gt;Jeremy Howard&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Guimaraes_G/0/1/0/all/0/1&quot;&gt;Gabriel Lima Guimaraes&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Sanchez_Lengeling_B/0/1/0/all/0/1&quot;&gt;Benjamin Sanchez-Lengeling&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Outeiral_C/0/1/0/all/0/1&quot;&gt;Carlos Outeiral&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Farias_P/0/1/0/all/0/1&quot;&gt;Pedro Luis Cunha Farias&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Aspuru_Guzik_A/0/1/0/all/0/1&quot;&gt;Al&amp;#xe1;n Aspuru-Guzik&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1711.01768">
+<title>Whitening Black-Box Neural Networks. (arXiv:1711.01768v2 [stat.ML] UPDATED)</title>
+<link>http://arxiv.org/abs/1711.01768</link>
+<description rdf:parseType="Literal">&lt;p&gt;Many deployed learned models are black boxes: given input, returns output.
+Internal information about the model, such as the architecture, optimisation
+procedure, or training data, is not disclosed explicitly as it might contain
+proprietary information or make the system more vulnerable. This work shows
+that such attributes of neural networks can be exposed from a sequence of
+queries. This has multiple implications. On the one hand, our work exposes the
+vulnerability of black-box neural networks to different types of attacks -- we
+show that the revealed internal information helps generate more effective
+adversarial examples against the black box model. On the other hand, this
+technique can be used for better protection of private content from automatic
+recognition models using adversarial examples. Our paper suggests that it is
+actually hard to draw a line between white box and black box models.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Oh_S/0/1/0/all/0/1&quot;&gt;Seong Joon Oh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Augustin_M/0/1/0/all/0/1&quot;&gt;Max Augustin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Schiele_B/0/1/0/all/0/1&quot;&gt;Bernt Schiele&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Fritz_M/0/1/0/all/0/1&quot;&gt;Mario Fritz&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1802.01448">
+<title>Hardening Deep Neural Networks via Adversarial Model Cascades. (arXiv:1802.01448v2 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/1802.01448</link>
+<description rdf:parseType="Literal">&lt;p&gt;Deep neural networks (DNNs) have been shown to be vulnerable to adversarial
+examples - malicious inputs which are crafted by the adversary to induce the
+trained model to produce erroneous outputs. This vulnerability has inspired a
+lot of research on how to secure neural networks against these kinds of
+attacks. Although existing techniques increase the robustness of the models
+against white-box attacks, they are ineffective against black-box attacks.
+&lt;/p&gt;
+&lt;p&gt;To address the challenge of black-box adversarial attacks, we propose
+Adversarial Model Cascades (AMC); a framework that performs better than
+existing state-of-the-art defenses, in both black-box and white-box settings
+and is easy to integrate into existing set-ups. Our approach trains a cascade
+of models by injecting images crafted from an already defended proxy model, to
+improve the robustness of the target models against multiple adversarial
+attacks simultaneously, in both white-box and black-box settings. We conducted
+an extensive experimental study to prove the efficiency of our method against
+multiple attacks; comparing it to numerous defenses, both in white-box and
+black-box setups.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Vijaykeerthy_D/0/1/0/all/0/1&quot;&gt;Deepak Vijaykeerthy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Suri_A/0/1/0/all/0/1&quot;&gt;Anshuman Suri&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mehta_S/0/1/0/all/0/1&quot;&gt;Sameep Mehta&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kumaraguru_P/0/1/0/all/0/1&quot;&gt;Ponnurangam Kumaraguru&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1802.01212">
+<title>Non-Gaussian information from weak lensing data via deep learning. (arXiv:1802.01212v2 [astro-ph.CO] CROSS LISTED)</title>
+<link>http://arxiv.org/abs/1802.01212</link>
+<description rdf:parseType="Literal">&lt;p&gt;Weak lensing maps contain information beyond two-point statistics on small
+scales. Much recent work has tried to extract this information through a range
+of different observables or via nonlinear transformations of the lensing field.
+Here we train and apply a 2D convolutional neural network to simulated
+noiseless lensing maps covering 96 different cosmological models over a range
+of {$\Omega_m,\sigma_8$}. Using the area of the confidence contour in the
+{$\Omega_m,\sigma_8$} plane as a figure-of-merit, derived from simulated
+convergence maps smoothed on a scale of 1.0 arcmin, we show that the neural
+network yields $\approx 5 \times$ tighter constraints than the power spectrum,
+and $\approx 4 \times$ tighter than the lensing peaks. Such gains illustrate
+the extent to which weak lensing data encode cosmological information not
+accessible to the power spectrum or even non-Gaussian statistics such as
+lensing peaks.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Gupta_A/0/1/0/all/0/1&quot;&gt;Arushi Gupta&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Matilla_J/0/1/0/all/0/1&quot;&gt;Jos&amp;#xe9; Manuel Zorrilla Matilla&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Hsu_D/0/1/0/all/0/1&quot;&gt;Daniel Hsu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Haiman_Z/0/1/0/all/0/1&quot;&gt;Zolt&amp;#xe1;n Haiman&lt;/a&gt;</dc:creator>
 </item></rdf:RDF>
