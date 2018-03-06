@@ -31,7 +31,6 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1803.01365"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1803.01403"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1803.01648"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1803.01719"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1803.01798"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1705.09382"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1708.01729"/>
@@ -44,6 +43,7 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1803.01216"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1803.01314"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1803.01682"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1803.01719"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1803.01833"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1803.01834"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1706.04499"/>
@@ -227,26 +227,6 @@ open challenges.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gaudl_S/0/1/0/all/0/1&quot;&gt;Swen E. Gaudl&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1803.01719">
-<title>How to Start Training: The Effect of Initialization and Architecture. (arXiv:1803.01719v1 [stat.ML])</title>
-<link>http://arxiv.org/abs/1803.01719</link>
-<description rdf:parseType="Literal">&lt;p&gt;We investigate the effects of initialization and architecture on the start of
-training in deep ReLU nets. We identify two common failure modes for early
-training in which the mean and variance of activations are poorly behaved. For
-each failure mode, we give a rigorous proof of when it occurs at initialization
-and how to avoid it. The first failure mode, exploding/vanishing mean
-activation length, can be avoided by initializing weights from a symmetric
-distribution with variance 2/fan-in. The second failure mode, exponentially
-large variance of activation length, can be avoided by keeping constant the sum
-of the reciprocals of layer widths. We demonstrate empirically the
-effectiveness of our theoretical results in predicting when networks are able
-to start training. In particular, we note that many popular initializations
-fail our criteria, whereas correct initialization and architecture allows much
-deeper networks to be trained.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Hanin_B/0/1/0/all/0/1&quot;&gt;Boris Hanin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Rolnick_D/0/1/0/all/0/1&quot;&gt;David Rolnick&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1803.01798">
 <title>One-Class Adversarial Nets for Fraud Detection. (arXiv:1803.01798v1 [cs.LG])</title>
@@ -484,6 +464,26 @@ while remaining scalable.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Jiang_R/0/1/0/all/0/1&quot;&gt;Ray Jiang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Gowal_S/0/1/0/all/0/1&quot;&gt;Sven Gowal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Mann_T/0/1/0/all/0/1&quot;&gt;Timothy A. Mann&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Rezende_D/0/1/0/all/0/1&quot;&gt;Danilo J. Rezende&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1803.01719">
+<title>How to Start Training: The Effect of Initialization and Architecture. (arXiv:1803.01719v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/1803.01719</link>
+<description rdf:parseType="Literal">&lt;p&gt;We investigate the effects of initialization and architecture on the start of
+training in deep ReLU nets. We identify two common failure modes for early
+training in which the mean and variance of activations are poorly behaved. For
+each failure mode, we give a rigorous proof of when it occurs at initialization
+and how to avoid it. The first failure mode, exploding/vanishing mean
+activation length, can be avoided by initializing weights from a symmetric
+distribution with variance 2/fan-in. The second failure mode, exponentially
+large variance of activation length, can be avoided by keeping constant the sum
+of the reciprocals of layer widths. We demonstrate empirically the
+effectiveness of our theoretical results in predicting when networks are able
+to start training. In particular, we note that many popular initializations
+fail our criteria, whereas correct initialization and architecture allows much
+deeper networks to be trained.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Hanin_B/0/1/0/all/0/1&quot;&gt;Boris Hanin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Rolnick_D/0/1/0/all/0/1&quot;&gt;David Rolnick&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1803.01833">
 <title>Marginal Singularity, and the Benefits of Labels in Covariate-Shift. (arXiv:1803.01833v1 [stat.ML])</title>
