@@ -30,6 +30,7 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.02702"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.02816"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.02827"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1804.02851"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.02393"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.02422"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.02512"/>
@@ -41,7 +42,6 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.02772"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.02792"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.02808"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1804.02851"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.02884"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.02929"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.02952"/>
@@ -235,6 +235,34 @@ results indicate that our algorithm performs the best.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+He_Y/0/1/0/all/0/1&quot;&gt;Yaodong He&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhou_J/0/1/0/all/0/1&quot;&gt;Jianfeng Zhou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yuen_S/0/1/0/all/0/1&quot;&gt;Shiu Yin Yuen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1804.02851">
+<title>Whale swarm algorithm with iterative counter for multimodal function optimization. (arXiv:1804.02851v1 [cs.NE])</title>
+<link>http://arxiv.org/abs/1804.02851</link>
+<description rdf:parseType="Literal">&lt;p&gt;Most real-world optimization problems often come with multiple global optima
+or local optima. Therefore, increasing niching metaheuristic algorithms, which
+devote to finding multiple optima in a single run, are developed to solve these
+multimodal optimization problems. However, there are two difficulties urgently
+to be solved for most existing niching metaheuristic algorithms: how to set the
+optimal values of niching parameters for different optimization problems, and
+how to jump out of the local optima efficiently. These two difficulties limited
+their practicality largely. Based on Whale Swarm Algorithm (WSA) we proposed
+previously, this paper presents a new multimodal optimizer named WSA with
+Iterative Counter (WSA-IC) to address these two difficulties. In the one hand,
+WSA-IC improves the iteration rule of the original WSA for multimodal
+optimization, which removes the need of specifying different values of
+attenuation coefficient for different problems to form multiple subpopulations,
+without introducing any niching parameter. In the other hand, WSA-IC enables
+the identification of extreme point during iterations relying on two new
+parameters (i.e., stability threshold Ts and fitness threshold Tf), to jump out
+of the located extreme point. The proposed WSA-IC is compared with several
+state-of-the-art niching metaheuristic algorithms on CEC2015 niching benchmark
+test functions and five additional classical multimodal functions with high
+dimensions. The experimental results demonstrate that WSA-IC statistically
+outperforms other niching metaheuristic algorithms on most test functions.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zeng_B/0/1/0/all/0/1&quot;&gt;Bing Zeng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_X/0/1/0/all/0/1&quot;&gt;Xinyu Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gao_L/0/1/0/all/0/1&quot;&gt;Liang Gao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_Y/0/1/0/all/0/1&quot;&gt;Yuyan Zhang&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1804.02393">
 <title>Formal Ways for Measuring Relations between Concepts in Conceptual Spaces. (arXiv:1804.02393v1 [cs.AI])</title>
@@ -465,34 +493,6 @@ objectives.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Haarnoja_T/0/1/0/all/0/1&quot;&gt;Tuomas Haarnoja&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hartikainen_K/0/1/0/all/0/1&quot;&gt;Kristian Hartikainen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Abbeel_P/0/1/0/all/0/1&quot;&gt;Pieter Abbeel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Levine_S/0/1/0/all/0/1&quot;&gt;Sergey Levine&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1804.02851">
-<title>Whale swarm algorithm with iterative counter for multimodal function optimization. (arXiv:1804.02851v1 [cs.AI])</title>
-<link>http://arxiv.org/abs/1804.02851</link>
-<description rdf:parseType="Literal">&lt;p&gt;Most real-world optimization problems often come with multiple global optima
-or local optima. Therefore, increasing niching metaheuristic algorithms, which
-devote to finding multiple optima in a single run, are developed to solve these
-multimodal optimization problems. However, there are two difficulties urgently
-to be solved for most existing niching metaheuristic algorithms: how to set the
-optimal values of niching parameters for different optimization problems, and
-how to jump out of the local optima efficiently. These two difficulties limited
-their practicality largely. Based on Whale Swarm Algorithm (WSA) we proposed
-previously, this paper presents a new multimodal optimizer named WSA with
-Iterative Counter (WSA-IC) to address these two difficulties. In the one hand,
-WSA-IC improves the iteration rule of the original WSA for multimodal
-optimization, which removes the need of specifying different values of
-attenuation coefficient for different problems to form multiple subpopulations,
-without introducing any niching parameter. In the other hand, WSA-IC enables
-the identification of extreme point during iterations relying on two new
-parameters (i.e., stability threshold Ts and fitness threshold Tf), to jump out
-of the located extreme point. The proposed WSA-IC is compared with several
-state-of-the-art niching metaheuristic algorithms on CEC2015 niching benchmark
-test functions and five additional classical multimodal functions with high
-dimensions. The experimental results demonstrate that WSA-IC statistically
-outperforms other niching metaheuristic algorithms on most test functions.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zeng_B/0/1/0/all/0/1&quot;&gt;Bing Zeng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_X/0/1/0/all/0/1&quot;&gt;Xinyu Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gao_L/0/1/0/all/0/1&quot;&gt;Liang Gao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_Y/0/1/0/all/0/1&quot;&gt;Yuyan Zhang&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1804.02884">
 <title>Policy Gradient With Value Function Approximation For Collective Multiagent Planning. (arXiv:1804.02884v1 [cs.AI])</title>
