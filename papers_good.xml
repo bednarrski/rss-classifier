@@ -35,7 +35,6 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.07090"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.07152"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.07193"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1804.07270"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1802.02732"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1803.01271"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1803.09681"/>
@@ -48,6 +47,7 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.07169"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.07237"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.07265"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1804.07270"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.07275"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1706.05565"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.03958"/>
@@ -332,28 +332,6 @@ of neural net models during reinforcement learning.
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Asadi_K/0/1/0/all/0/1&quot;&gt;Kavosh Asadi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Misra_D/0/1/0/all/0/1&quot;&gt;Dipendra Misra&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Littman_M/0/1/0/all/0/1&quot;&gt;Michael L. Littman&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1804.07270">
-<title>A Dynamic Boosted Ensemble Learning Based on Random Forest. (arXiv:1804.07270v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1804.07270</link>
-<description rdf:parseType="Literal">&lt;p&gt;We propose Dynamic Boosted Random Forest (DBRF), a novel ensemble algorithm
-that incorporates the notion of hard example mining into Random Forest (RF) and
-thus combines the high accuracy of Boosting algorithm with the strong
-generalization of Bagging algorithm. Specifically, we propose to measure the
-quality of each leaf node of every decision tree in the random forest to
-determine hard examples. By iteratively training and then removing easy
-examples and noise examples from training data, we evolve the random forest to
-focus on hard examples dynamically so as to learn decision boundaries better.
-Data can be cascaded through these random forests learned in each iteration in
-sequence to generate predictions, thus making RF deep. We also propose to use
-evolution mechanism, stacking mechanism and smart iteration mechanism to
-improve the performance of the model. DBRF outperforms RF on three UCI datasets
-and achieved state-of-the-art results compared to other deep models. Moreover,
-we show that DBRF is also a new way of sampling and can be very useful when
-learning from unbalanced data.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ren_X/0/1/0/all/0/1&quot;&gt;Xingzhang Ren&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Long_C/0/1/0/all/0/1&quot;&gt;Chen Long&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_L/0/1/0/all/0/1&quot;&gt;Leilei Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wei_Y/0/1/0/all/0/1&quot;&gt;Ye Wei&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Du_D/0/1/0/all/0/1&quot;&gt;Dongdong Du&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liang_J/0/1/0/all/0/1&quot;&gt;Jingxi Liang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_W/0/1/0/all/0/1&quot;&gt;Weiping Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_S/0/1/0/all/0/1&quot;&gt;Shikun Zhang&lt;/a&gt;</dc:creator>
-</item>
 <item rdf:about="http://arxiv.org/abs/1802.02732">
 <title>The Higher-Order Prover Leo-III (Extended Version). (arXiv:1802.02732v2 [cs.AI] UPDATED)</title>
 <link>http://arxiv.org/abs/1802.02732</link>
@@ -601,6 +579,28 @@ conditions, fault severities and fault types.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Han_T/0/1/0/all/0/1&quot;&gt;Te Han&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_C/0/1/0/all/0/1&quot;&gt;Chao Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yang_W/0/1/0/all/0/1&quot;&gt;Wenguang Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jiang_D/0/1/0/all/0/1&quot;&gt;Dongxiang Jiang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1804.07270">
+<title>A Dynamic Boosted Ensemble Learning Based on Random Forest. (arXiv:1804.07270v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1804.07270</link>
+<description rdf:parseType="Literal">&lt;p&gt;We propose Dynamic Boosted Random Forest (DBRF), a novel ensemble algorithm
+that incorporates the notion of hard example mining into Random Forest (RF) and
+thus combines the high accuracy of Boosting algorithm with the strong
+generalization of Bagging algorithm. Specifically, we propose to measure the
+quality of each leaf node of every decision tree in the random forest to
+determine hard examples. By iteratively training and then removing easy
+examples and noise examples from training data, we evolve the random forest to
+focus on hard examples dynamically so as to learn decision boundaries better.
+Data can be cascaded through these random forests learned in each iteration in
+sequence to generate predictions, thus making RF deep. We also propose to use
+evolution mechanism, stacking mechanism and smart iteration mechanism to
+improve the performance of the model. DBRF outperforms RF on three UCI datasets
+and achieved state-of-the-art results compared to other deep models. Moreover,
+we show that DBRF is also a new way of sampling and can be very useful when
+learning from unbalanced data.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ren_X/0/1/0/all/0/1&quot;&gt;Xingzhang Ren&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Long_C/0/1/0/all/0/1&quot;&gt;Chen Long&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_L/0/1/0/all/0/1&quot;&gt;Leilei Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wei_Y/0/1/0/all/0/1&quot;&gt;Ye Wei&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Du_D/0/1/0/all/0/1&quot;&gt;Dongdong Du&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liang_J/0/1/0/all/0/1&quot;&gt;Jingxi Liang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_W/0/1/0/all/0/1&quot;&gt;Weiping Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_S/0/1/0/all/0/1&quot;&gt;Shikun Zhang&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1804.07275">
 <title>Deep Triplet Ranking Networks for One-Shot Recognition. (arXiv:1804.07275v1 [cs.LG])</title>
