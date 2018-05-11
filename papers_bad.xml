@@ -30,7 +30,6 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1805.03876"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1805.03887"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1805.04032"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1805.04051"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1712.04155"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1805.02861"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1805.03364"/>
@@ -40,6 +39,7 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1805.03901"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1805.03911"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1805.04018"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1805.04051"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1606.06997"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1706.06619"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1709.03528"/>
@@ -214,32 +214,6 @@ applications.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Camacho_Collados_J/0/1/0/all/0/1&quot;&gt;Jose Camacho-Collados&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pilehvar_T/0/1/0/all/0/1&quot;&gt;Taher Pilehvar&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1805.04051">
-<title>Classification of Household Materials via Spectroscopy. (arXiv:1805.04051v1 [cs.RO])</title>
-<link>http://arxiv.org/abs/1805.04051</link>
-<description rdf:parseType="Literal">&lt;p&gt;Recognizing an object&apos;s material can inform a robot on how hard it may grasp
-the object during manipulation, or if the object may be safely heated up. To
-estimate an object&apos;s material during manipulation, many prior works have
-explored the use of haptic sensing. In this paper, we explore a technique for
-robots to estimate the materials of objects using spectroscopy. We demonstrate
-that spectrometers provide several benefits for material recognition, including
-fast sensing times and accurate measurements with low noise. Furthermore,
-spectrometers do not require direct contact with an object. To illustrate this,
-we collected a dataset of spectral measurements from two commercially available
-spectrometers during which a robotic platform interacted with 50 distinct
-objects, and we show that a residual neural network can accurately analyze
-these measurements. Due to the low variance in consecutive spectral
-measurements, our model achieved a material classification accuracy of 97.7%
-when given only one spectral sample per object. Similar to prior works with
-haptic sensors, we found that generalizing material recognition to new objects
-posed a greater challenge, for which we achieved an accuracy of 81.4% via
-leave-one-object-out cross-validation. From this work, we find that
-spectroscopy poses a promising approach for further research in material
-classification during robotic manipulation.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Erickson_Z/0/1/0/all/0/1&quot;&gt;Zackory Erickson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Luskey_N/0/1/0/all/0/1&quot;&gt;Nathan Luskey&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chernova_S/0/1/0/all/0/1&quot;&gt;Sonia Chernova&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kemp_C/0/1/0/all/0/1&quot;&gt;Charles C. Kemp&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1712.04155">
 <title>Toward `verifying&apos; a Water Treatment System. (arXiv:1712.04155v2 [cs.AI] UPDATED)</title>
@@ -418,6 +392,32 @@ times, even exceed the performance of the full-dimensional kernel machines.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Al_M/0/1/0/all/0/1&quot;&gt;Mert Al&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chanyaswad_T/0/1/0/all/0/1&quot;&gt;Thee Chanyaswad&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kung_S/0/1/0/all/0/1&quot;&gt;Sun-Yuan Kung&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1805.04051">
+<title>Classification of Household Materials via Spectroscopy. (arXiv:1805.04051v1 [cs.RO])</title>
+<link>http://arxiv.org/abs/1805.04051</link>
+<description rdf:parseType="Literal">&lt;p&gt;Recognizing an object&apos;s material can inform a robot on how hard it may grasp
+the object during manipulation, or if the object may be safely heated up. To
+estimate an object&apos;s material during manipulation, many prior works have
+explored the use of haptic sensing. In this paper, we explore a technique for
+robots to estimate the materials of objects using spectroscopy. We demonstrate
+that spectrometers provide several benefits for material recognition, including
+fast sensing times and accurate measurements with low noise. Furthermore,
+spectrometers do not require direct contact with an object. To illustrate this,
+we collected a dataset of spectral measurements from two commercially available
+spectrometers during which a robotic platform interacted with 50 distinct
+objects, and we show that a residual neural network can accurately analyze
+these measurements. Due to the low variance in consecutive spectral
+measurements, our model achieved a material classification accuracy of 97.7%
+when given only one spectral sample per object. Similar to prior works with
+haptic sensors, we found that generalizing material recognition to new objects
+posed a greater challenge, for which we achieved an accuracy of 81.4% via
+leave-one-object-out cross-validation. From this work, we find that
+spectroscopy poses a promising approach for further research in material
+classification during robotic manipulation.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Erickson_Z/0/1/0/all/0/1&quot;&gt;Zackory Erickson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Luskey_N/0/1/0/all/0/1&quot;&gt;Nathan Luskey&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chernova_S/0/1/0/all/0/1&quot;&gt;Sonia Chernova&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kemp_C/0/1/0/all/0/1&quot;&gt;Charles C. Kemp&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1606.06997">
 <title>On the uniqueness and stability of dictionaries for sparse representation of noisy signals. (arXiv:1606.06997v3 [stat.ML] UPDATED)</title>
