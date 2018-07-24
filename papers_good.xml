@@ -27,9 +27,7 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.08194"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.08655"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1705.04378"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1807.07963"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.07964"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1807.07998"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.08169"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.08195"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.08217"/>
@@ -47,6 +45,8 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1806.10755"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.07147"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.07959"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1807.07963"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1807.07998"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.08140"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.08197"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.08207"/>
@@ -148,32 +148,6 @@ to predict real-valued time series.
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bianchi_F/0/1/0/all/0/1&quot;&gt;Filippo Maria Bianchi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Maiorino_E/0/1/0/all/0/1&quot;&gt;Enrico Maiorino&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kampffmeyer_M/0/1/0/all/0/1&quot;&gt;Michael C. Kampffmeyer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Rizzi_A/0/1/0/all/0/1&quot;&gt;Antonello Rizzi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jenssen_R/0/1/0/all/0/1&quot;&gt;Robert Jenssen&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1807.07963">
-<title>Deep Transfer Learning for Cross-domain Activity Recognition. (arXiv:1807.07963v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1807.07963</link>
-<description rdf:parseType="Literal">&lt;p&gt;Human activity recognition plays an important role in people&apos;s daily life.
-However, it is often expensive and time-consuming to acquire sufficient labeled
-activity data. To solve this problem, transfer learning leverages the labeled
-samples from the source domain to annotate the target domain which has few or
-none labels. Unfortunately, when there are several source domains available, it
-is difficult to select the right source domains for transfer. The right source
-domain means that it has the most similar properties with the target domain,
-thus their similarity is higher, which can facilitate transfer learning.
-Choosing the right source domain helps the algorithm perform well and prevents
-the negative transfer. In this paper, we propose an effective Unsupervised
-Source Selection algorithm for Activity Recognition (USSAR). USSAR is able to
-select the most similar $K$ source domains from a list of available domains.
-After this, we propose an effective Transfer Neural Network to perform
-knowledge transfer for Activity Recognition (TNNAR). TNNAR could capture both
-the time and spatial relationship between activities while transferring
-knowledge. Experiments on three public activity recognition datasets
-demonstrate that: 1) The USSAR algorithm is effective in selecting the best
-source domains. 2) The TNNAR method can reach high accuracy when performing
-activity knowledge transfer.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_J/0/1/0/all/0/1&quot;&gt;Jindong Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zheng_V/0/1/0/all/0/1&quot;&gt;Vincent W. Zheng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_Y/0/1/0/all/0/1&quot;&gt;Yiqiang Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Huang_M/0/1/0/all/0/1&quot;&gt;Meiyu Huang&lt;/a&gt;</dc:creator>
-</item>
 <item rdf:about="http://arxiv.org/abs/1807.07964">
 <title>Question-Aware Sentence Gating Networks for Question and Answering. (arXiv:1807.07964v1 [cs.CL])</title>
 <link>http://arxiv.org/abs/1807.07964</link>
@@ -192,24 +166,6 @@ neural network-based QA models.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kim_M/0/1/0/all/0/1&quot;&gt;Minjeong Kim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Park_D/0/1/0/all/0/1&quot;&gt;David Keetae Park&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Noh_H/0/1/0/all/0/1&quot;&gt;Hyungjong Noh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lee_Y/0/1/0/all/0/1&quot;&gt;Yeonsoo Lee&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Choo_J/0/1/0/all/0/1&quot;&gt;Jaegul Choo&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1807.07998">
-<title>Convolutional Neural Networks Analyzed via Inverse Problem Theory and Sparse Representations. (arXiv:1807.07998v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1807.07998</link>
-<description rdf:parseType="Literal">&lt;p&gt;Inverse problems in imaging such as denoising, deblurring, superresolution
-(SR) have been addressed for many decades. In recent years, convolutional
-neural networks (CNNs) have been widely used for many inverse problem areas.
-Although their indisputable success, CNNs are not mathematically validated as
-to how and what they learn. In this paper, we prove that during training, CNN
-elements solve for inverse problems which are optimum solutions stored as CNN
-neuron filters. We discuss the necessity of mutual coherence between CNN layer
-elements in order for a network to converge to the optimum solution. We prove
-that required mutual coherence can be provided by the usage of residual
-learning and skip connections. We have set rules over training sets and depth
-of networks for better convergence, i.e. performance.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tarhan_C/0/1/0/all/0/1&quot;&gt;Cem Tarhan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Akar_G/0/1/0/all/0/1&quot;&gt;Gozde Bozdagi Akar&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1807.08169">
 <title>Recent Advances in Deep Learning: An Overview. (arXiv:1807.08169v1 [cs.LG])</title>
@@ -534,7 +490,7 @@ attribute machine generated texts to the target author.
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tikhonov_A/0/1/0/all/0/1&quot;&gt;Alexey Tikhonov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yamshchikov_I/0/1/0/all/0/1&quot;&gt;Ivan P. Yamshchikov&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1807.07959">
-<title>A Fully Convolutional Neural Network Approach to End-to-End Speech Enhancement. (arXiv:1807.07959v1 [eess.AS])</title>
+<title>A Fully Convolutional Neural Network Approach to End-to-End Speech Enhancement. (arXiv:1807.07959v1 [cs.SD])</title>
 <link>http://arxiv.org/abs/1807.07959</link>
 <description rdf:parseType="Literal">&lt;p&gt;This paper will describe a novel approach to the cocktail party problem that
 relies on a fully convolutional neural network (FCN) architecture. The FCN
@@ -549,7 +505,51 @@ an individuals family members and close friends, and deployed onto a hearing
 aid to assist listeners in noisy environments.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Longueira_F/0/1/0/all/0/1&quot;&gt;Frank Longueira&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Keene_S/0/1/0/all/0/1&quot;&gt;Sam Keene&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Longueira_F/0/1/0/all/0/1&quot;&gt;Frank Longueira&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Keene_S/0/1/0/all/0/1&quot;&gt;Sam Keene&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1807.07963">
+<title>Deep Transfer Learning for Cross-domain Activity Recognition. (arXiv:1807.07963v1 [eess.IV])</title>
+<link>http://arxiv.org/abs/1807.07963</link>
+<description rdf:parseType="Literal">&lt;p&gt;Human activity recognition plays an important role in people&apos;s daily life.
+However, it is often expensive and time-consuming to acquire sufficient labeled
+activity data. To solve this problem, transfer learning leverages the labeled
+samples from the source domain to annotate the target domain which has few or
+none labels. Unfortunately, when there are several source domains available, it
+is difficult to select the right source domains for transfer. The right source
+domain means that it has the most similar properties with the target domain,
+thus their similarity is higher, which can facilitate transfer learning.
+Choosing the right source domain helps the algorithm perform well and prevents
+the negative transfer. In this paper, we propose an effective Unsupervised
+Source Selection algorithm for Activity Recognition (USSAR). USSAR is able to
+select the most similar $K$ source domains from a list of available domains.
+After this, we propose an effective Transfer Neural Network to perform
+knowledge transfer for Activity Recognition (TNNAR). TNNAR could capture both
+the time and spatial relationship between activities while transferring
+knowledge. Experiments on three public activity recognition datasets
+demonstrate that: 1) The USSAR algorithm is effective in selecting the best
+source domains. 2) The TNNAR method can reach high accuracy when performing
+activity knowledge transfer.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Wang_J/0/1/0/all/0/1&quot;&gt;Jindong Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Zheng_V/0/1/0/all/0/1&quot;&gt;Vincent W. Zheng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Chen_Y/0/1/0/all/0/1&quot;&gt;Yiqiang Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Huang_M/0/1/0/all/0/1&quot;&gt;Meiyu Huang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1807.07998">
+<title>Convolutional Neural Networks Analyzed via Inverse Problem Theory and Sparse Representations. (arXiv:1807.07998v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1807.07998</link>
+<description rdf:parseType="Literal">&lt;p&gt;Inverse problems in imaging such as denoising, deblurring, superresolution
+(SR) have been addressed for many decades. In recent years, convolutional
+neural networks (CNNs) have been widely used for many inverse problem areas.
+Although their indisputable success, CNNs are not mathematically validated as
+to how and what they learn. In this paper, we prove that during training, CNN
+elements solve for inverse problems which are optimum solutions stored as CNN
+neuron filters. We discuss the necessity of mutual coherence between CNN layer
+elements in order for a network to converge to the optimum solution. We prove
+that required mutual coherence can be provided by the usage of residual
+learning and skip connections. We have set rules over training sets and depth
+of networks for better convergence, i.e. performance.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tarhan_C/0/1/0/all/0/1&quot;&gt;Cem Tarhan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Akar_G/0/1/0/all/0/1&quot;&gt;Gozde Bozdagi Akar&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1807.08140">
 <title>On the Analysis of Trajectories of Gradient Descent in the Optimization of Deep Neural Networks. (arXiv:1807.08140v1 [cs.LG])</title>

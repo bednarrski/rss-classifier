@@ -24,6 +24,7 @@
 <items>
  <rdf:Seq>
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.07979"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1807.08716"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1707.05300"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.07868"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.07984"/>
@@ -40,8 +41,6 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.08447"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.08484"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.08709"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1807.08716"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1807.08725"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1703.00848"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1708.00146"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1802.07846"/>
@@ -62,6 +61,7 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.08465"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.08534"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.08596"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1807.08725"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1605.07272"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1611.02041"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1705.02436"/>
@@ -112,6 +112,24 @@ observed to provide superior performance in unseen scenarios.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chidambaran_S/0/1/0/all/0/1&quot;&gt;Sharat Chidambaran&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Behjat_A/0/1/0/all/0/1&quot;&gt;Amir Behjat&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chowdhury_S/0/1/0/all/0/1&quot;&gt;Souma Chowdhury&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1807.08716">
+<title>NullaNet: Training Deep Neural Networks for Reduced-Memory-Access Inference. (arXiv:1807.08716v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1807.08716</link>
+<description rdf:parseType="Literal">&lt;p&gt;Deep neural networks have been successfully deployed in a wide variety of
+applications including computer vision and speech recognition. However,
+computational and storage complexity of these models has forced the majority of
+computations to be performed on high-end computing platforms or on the cloud.
+To cope with computational and storage complexity of these models, this paper
+presents a training method that enables a radically different approach for
+realization of deep neural networks through Boolean logic minimization. The
+aforementioned realization completely removes the energy-hungry step of
+accessing memory for obtaining model parameters, consumes about two orders of
+magnitude fewer computing resources compared to realizations that use
+floatingpoint operations, and has a substantially lower latency.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nazemi_M/0/1/0/all/0/1&quot;&gt;Mahdi Nazemi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pasandi_G/0/1/0/all/0/1&quot;&gt;Ghasem Pasandi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pedram_M/0/1/0/all/0/1&quot;&gt;Massoud Pedram&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1707.05300">
 <title>Reverse Curriculum Generation for Reinforcement Learning. (arXiv:1707.05300v3 [cs.AI] UPDATED)</title>
@@ -437,7 +455,7 @@ relational learning approaches.
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Trivedi_R/0/1/0/all/0/1&quot;&gt;Rakshit Trivedi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sisman_B/0/1/0/all/0/1&quot;&gt;Bunyamin Sisman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ma_J/0/1/0/all/0/1&quot;&gt;Jun Ma&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Faloutsos_C/0/1/0/all/0/1&quot;&gt;Christos Faloutsos&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zha_H/0/1/0/all/0/1&quot;&gt;Hongyuan Zha&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Dong_X/0/1/0/all/0/1&quot;&gt;Xin Luna Dong&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1807.08484">
-<title>AceKG: A Large-scale Knowledge Graph for Academic Data Mining. (arXiv:1807.08484v1 [cs.AI])</title>
+<title>AceKG: A Large-scale Knowledge Graph for Academic Data Mining. (arXiv:1807.08484v1 [cs.IR])</title>
 <link>http://arxiv.org/abs/1807.08484</link>
 <description rdf:parseType="Literal">&lt;p&gt;Most existing knowledge graphs (KGs) in academic domains suffer from problems
 of insufficient multi-relational information, name ambiguity and improper data
@@ -483,48 +501,6 @@ evaluation.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bellomarini_L/0/1/0/all/0/1&quot;&gt;Luigi Bellomarini&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gottlob_G/0/1/0/all/0/1&quot;&gt;Georg Gottlob&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sallinger_E/0/1/0/all/0/1&quot;&gt;Emanuel Sallinger&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1807.08716">
-<title>NullaNet: Training Deep Neural Networks for Reduced-Memory-Access Inference. (arXiv:1807.08716v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1807.08716</link>
-<description rdf:parseType="Literal">&lt;p&gt;Deep neural networks have been successfully deployed in a wide variety of
-applications including computer vision and speech recognition. However,
-computational and storage complexity of these models has forced the majority of
-computations to be performed on high-end computing platforms or on the cloud.
-To cope with computational and storage complexity of these models, this paper
-presents a training method that enables a radically different approach for
-realization of deep neural networks through Boolean logic minimization. The
-aforementioned realization completely removes the energy-hungry step of
-accessing memory for obtaining model parameters, consumes about two orders of
-magnitude fewer computing resources compared to realizations that use
-floatingpoint operations, and has a substantially lower latency.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nazemi_M/0/1/0/all/0/1&quot;&gt;Mahdi Nazemi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pasandi_G/0/1/0/all/0/1&quot;&gt;Ghasem Pasandi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pedram_M/0/1/0/all/0/1&quot;&gt;Massoud Pedram&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1807.08725">
-<title>Scalable Tensor Completion with Nonconvex Regularization. (arXiv:1807.08725v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1807.08725</link>
-<description rdf:parseType="Literal">&lt;p&gt;Low-rank tensor completion problem aims to recover a tensor from limited
-observations, which has many real-world applications. Due to the easy
-optimization, the convex overlapping nuclear norm has been popularly used for
-tensor completion. However, it over-penalizes top singular values and lead to
-biased estimations. In this paper, we propose to use the nonconvex regularizer,
-which can less penalize large singular values, instead of the convex one for
-tensor completion. However, as the new regularizer is nonconvex and overlapped
-with each other, existing algorithms are either too slow or suffer from the
-huge memory cost. To address these issues, we develop an efficient and scalable
-algorithm, which is based on the proximal average (PA) algorithm, for
-real-world problems. Compared with the direct usage of PA algorithm, the
-proposed algorithm runs orders faster and needs orders less space. We further
-speed up the proposed algorithm with the acceleration technique, and show the
-convergence to critical points is still guaranteed. Experimental comparisons of
-the proposed approach are made with various other tensor completion approaches.
-Empirical results show that the proposed algorithm is very fast and can produce
-much better recovery performance.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yao_Q/0/1/0/all/0/1&quot;&gt;Quanming Yao&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1703.00848">
 <title>Unsupervised Image-to-Image Translation Networks. (arXiv:1703.00848v6 [cs.CV] UPDATED)</title>
@@ -987,6 +963,30 @@ are interested in CNN acceleration.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_Q/0/1/0/all/0/1&quot;&gt;Qianru Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_M/0/1/0/all/0/1&quot;&gt;Meng Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_T/0/1/0/all/0/1&quot;&gt;Tinghuan Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sun_Z/0/1/0/all/0/1&quot;&gt;Zhifei Sun&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ma_Y/0/1/0/all/0/1&quot;&gt;Yuzhe Ma&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yu_B/0/1/0/all/0/1&quot;&gt;Bei Yu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1807.08725">
+<title>Scalable Tensor Completion with Nonconvex Regularization. (arXiv:1807.08725v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1807.08725</link>
+<description rdf:parseType="Literal">&lt;p&gt;Low-rank tensor completion problem aims to recover a tensor from limited
+observations, which has many real-world applications. Due to the easy
+optimization, the convex overlapping nuclear norm has been popularly used for
+tensor completion. However, it over-penalizes top singular values and lead to
+biased estimations. In this paper, we propose to use the nonconvex regularizer,
+which can less penalize large singular values, instead of the convex one for
+tensor completion. However, as the new regularizer is nonconvex and overlapped
+with each other, existing algorithms are either too slow or suffer from the
+huge memory cost. To address these issues, we develop an efficient and scalable
+algorithm, which is based on the proximal average (PA) algorithm, for
+real-world problems. Compared with the direct usage of PA algorithm, the
+proposed algorithm runs orders faster and needs orders less space. We further
+speed up the proposed algorithm with the acceleration technique, and show the
+convergence to critical points is still guaranteed. Experimental comparisons of
+the proposed approach are made with various other tensor completion approaches.
+Empirical results show that the proposed algorithm is very fast and can produce
+much better recovery performance.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yao_Q/0/1/0/all/0/1&quot;&gt;Quanming Yao&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1605.07272">
 <title>Matrix Completion has No Spurious Local Minimum. (arXiv:1605.07272v4 [cs.LG] UPDATED)</title>
