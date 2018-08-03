@@ -27,6 +27,7 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.00597"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.00733"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.00737"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.00783"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.06964"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.00590"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.00677"/>
@@ -34,7 +35,6 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1807.00911"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.00525"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.00529"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.00783"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.00878"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.00931"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1705.06400"/>
@@ -114,6 +114,27 @@ handwritten digits recognition achieving an accuracy of approximately 90%.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Krestinskaya_O/0/1/0/all/0/1&quot;&gt;Olga Krestinskaya&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+James_A/0/1/0/all/0/1&quot;&gt;Alex Pappachen James&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1808.00783">
+<title>The Quest for the Golden Activation Function. (arXiv:1808.00783v1 [cs.NE])</title>
+<link>http://arxiv.org/abs/1808.00783</link>
+<description rdf:parseType="Literal">&lt;p&gt;Deep Neural Networks have been shown to be beneficial for a variety of tasks,
+in particular allowing for end-to-end learning and reducing the requirement for
+manual design decisions. However, still many parameters have to be chosen in
+advance, also raising the need to optimize them. One important, but often
+ignored system parameter is the selection of a proper activation function.
+Thus, in this paper we target to demonstrate the importance of activation
+functions in general and show that for different tasks different activation
+functions might be meaningful. To avoid the manual design or selection of
+activation functions, we build on the idea of genetic algorithms to learn the
+best activation function for a given task. In addition, we introduce two new
+activation functions, ELiSH and HardELiSH, which can easily be incorporated in
+our framework. In this way, we demonstrate for three different image
+classification benchmarks that different activation functions are learned, also
+showing improved results compared to typically used baselines.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Basirat_M/0/1/0/all/0/1&quot;&gt;Mina Basirat&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Roth_P/0/1/0/all/0/1&quot;&gt;Peter M. Roth&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1804.06964">
 <title>GNAS: A Greedy Neural Architecture Search Method for Multi-Attribute Learning. (arXiv:1804.06964v2 [cs.NE] UPDATED)</title>
@@ -266,27 +287,6 @@ the algorithm can be effective and provide a baseline for further advancements.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_S/0/1/0/all/0/1&quot;&gt;Si Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Garrepalli_R/0/1/0/all/0/1&quot;&gt;Risheek Garrepalli&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Dietterich_T/0/1/0/all/0/1&quot;&gt;Thomas G. Dietterich&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Fern_A/0/1/0/all/0/1&quot;&gt;Alan Fern&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hendrycks_D/0/1/0/all/0/1&quot;&gt;Dan Hendrycks&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1808.00783">
-<title>The Quest for the Golden Activation Function. (arXiv:1808.00783v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1808.00783</link>
-<description rdf:parseType="Literal">&lt;p&gt;Deep Neural Networks have been shown to be beneficial for a variety of tasks,
-in particular allowing for end-to-end learning and reducing the requirement for
-manual design decisions. However, still many parameters have to be chosen in
-advance, also raising the need to optimize them. One important, but often
-ignored system parameter is the selection of a proper activation function.
-Thus, in this paper we target to demonstrate the importance of activation
-functions in general and show that for different tasks different activation
-functions might be meaningful. To avoid the manual design or selection of
-activation functions, we build on the idea of genetic algorithms to learn the
-best activation function for a given task. In addition, we introduce two new
-activation functions, ELiSH and HardELiSH, which can easily be incorporated in
-our framework. In this way, we demonstrate for three different image
-classification benchmarks that different activation functions are learned, also
-showing improved results compared to typically used baselines.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Basirat_M/0/1/0/all/0/1&quot;&gt;Mina Basirat&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Roth_P/0/1/0/all/0/1&quot;&gt;Peter M. Roth&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1808.00878">
 <title>Supervised classification for object identification in urban areas using satellite imagery. (arXiv:1808.00878v1 [cs.LG])</title>
