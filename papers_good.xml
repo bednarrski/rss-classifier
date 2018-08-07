@@ -27,7 +27,6 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.01363"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1606.09470"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1805.07531"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.01400"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.01527"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.01552"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.01591"/>
@@ -42,6 +41,7 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1806.02375"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1806.08156"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.01371"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.01400"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.01531"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.01574"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.01630"/>
@@ -159,28 +159,8 @@ within the framework of our new formalism.
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nazarov_M/0/1/0/all/0/1&quot;&gt;M. N. Nazarov&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1808.01400">
-<title>code2seq: Generating Sequences from Structured Representations of Code. (arXiv:1808.01400v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1808.01400</link>
-<description rdf:parseType="Literal">&lt;p&gt;The ability to generate natural language sequences from source code snippets
-can be used for code summarization, documentation, and retrieval.
-Sequence-to-sequence (seq2seq) models, adopted from neural machine translation
-(NMT), have achieved state-of-the-art performance on these tasks by treating
-source code as a sequence of tokens. We present ${\rm {\scriptsize CODE2SEQ}}$:
-an alternative approach that leverages the syntactic structure of programming
-languages to better encode source code. Our model represents a code snippet as
-the set of paths in its abstract syntax tree (AST) and uses attention to select
-the relevant paths during decoding, much like contemporary NMT models. We
-demonstrate the effectiveness of our approach for two tasks, two programming
-languages, and four datasets of up to 16M examples. Our model significantly
-outperforms previous models that were specifically designed for programming
-languages, as well as general state-of-the-art NMT models.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Alon_U/0/1/0/all/0/1&quot;&gt;Uri Alon&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Levy_O/0/1/0/all/0/1&quot;&gt;Omer Levy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yahav_E/0/1/0/all/0/1&quot;&gt;Eran Yahav&lt;/a&gt;</dc:creator>
-</item>
 <item rdf:about="http://arxiv.org/abs/1808.01527">
-<title>Deep Reinforcement One-Shot Learning for Artificially Intelligent Classification Systems. (arXiv:1808.01527v1 [cs.AI])</title>
+<title>Deep Reinforcement One-Shot Learning for Artificially Intelligent Classification Systems. (arXiv:1808.01527v1 [cs.LG])</title>
 <link>http://arxiv.org/abs/1808.01527</link>
 <description rdf:parseType="Literal">&lt;p&gt;In recent years there has been a sharp rise in networking applications, in
 which significant events need to be classified but only a few training
@@ -481,6 +461,26 @@ overnight.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Puri_R/0/1/0/all/0/1&quot;&gt;Raul Puri&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kirby_R/0/1/0/all/0/1&quot;&gt;Robert Kirby&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yakovenko_N/0/1/0/all/0/1&quot;&gt;Nikolai Yakovenko&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Catanzaro_B/0/1/0/all/0/1&quot;&gt;Bryan Catanzaro&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1808.01400">
+<title>code2seq: Generating Sequences from Structured Representations of Code. (arXiv:1808.01400v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1808.01400</link>
+<description rdf:parseType="Literal">&lt;p&gt;The ability to generate natural language sequences from source code snippets
+can be used for code summarization, documentation, and retrieval.
+Sequence-to-sequence (seq2seq) models, adopted from neural machine translation
+(NMT), have achieved state-of-the-art performance on these tasks by treating
+source code as a sequence of tokens. We present ${\rm {\scriptsize CODE2SEQ}}$:
+an alternative approach that leverages the syntactic structure of programming
+languages to better encode source code. Our model represents a code snippet as
+the set of paths in its abstract syntax tree (AST) and uses attention to select
+the relevant paths during decoding, much like contemporary NMT models. We
+demonstrate the effectiveness of our approach for two tasks, two programming
+languages, and four datasets of up to 16M examples. Our model significantly
+outperforms previous models that were specifically designed for programming
+languages, as well as general state-of-the-art NMT models.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Alon_U/0/1/0/all/0/1&quot;&gt;Uri Alon&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Levy_O/0/1/0/all/0/1&quot;&gt;Omer Levy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yahav_E/0/1/0/all/0/1&quot;&gt;Eran Yahav&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1808.01531">
 <title>Global Convergence to the Equilibrium of GANs using Variational Inequalities. (arXiv:1808.01531v1 [cs.LG])</title>
