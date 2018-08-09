@@ -15,7 +15,7 @@
 <link>http://arxiv.org/</link>
 <description rdf:parseType="Literal">The Good Papers on ML, AI and Statistics</description>
 <dc:language>en-us</dc:language>
-<dc:date>2018-08-07T20:30:00-05:00</dc:date>
+<dc:date>2018-08-08T20:30:00-05:00</dc:date>
 <dc:publisher>help@arxiv.org</dc:publisher>
 <dc:subject>Statistics -- Machine Learning</dc:subject>
 <syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
@@ -23,32 +23,19 @@
 <syn:updatePeriod>daily</syn:updatePeriod>
 <items>
  <rdf:Seq>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.02016"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.02234"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.02022"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.02123"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.02291"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.02354"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.02455"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.02473"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1606.05597"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1708.07579"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.02026"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.02061"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.02113"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.02169"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.02180"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.02213"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.02229"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.02240"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.02433"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.02474"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1610.09075"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1802.03184"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1803.03467"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1805.01361"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1805.08809"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1806.01010"/></rdf:Seq>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.02668"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1711.05136"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.01280"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.02550"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.02560"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.02632"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.02510"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.02651"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.02822"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1707.09724"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1804.10023"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1806.03972"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1807.05490"/></rdf:Seq>
 </items>
 <image rdf:resource="http://arxiv.org/icons/sfx.gif" />
 </channel>
@@ -56,550 +43,254 @@
 <title>arXiv.org</title>
 <url>http://arxiv.org/icons/sfx.gif</url>
 <link>http://arxiv.org/</link>
-</image><item rdf:about="http://arxiv.org/abs/1808.02016">
-<title>MCRM: Mother Compact Recurrent Memory A Biologically Inspired Recurrent Neural Network Architecture. (arXiv:1808.02016v1 [cs.NE])</title>
-<link>http://arxiv.org/abs/1808.02016</link>
-<description rdf:parseType="Literal">&lt;p&gt;LSTMs and GRUs are the most common recurrent neural network architectures
-used to solve temporal sequence problems. The two architectures have differing
-data flows dealing with a common component called the cell state also referred
-to as the memory. We attempt to enhance the memory by presenting a biologically
-inspired modification that we call the Mother Compact Recurrent Memory MCRM.
-MCRMs are a type of a nested LSTM-GRU architecture where the cell state is the
-GRU&apos;s hidden state. The relationship between the womb and the fetus is
-analogous to the relationship between the LSTM and GRU inside MCRM in that the
-fetus is connected to its womb through the umbilical cord. The umbilical cord
-consists of two arteries and one vein. The two arteries are considered as an
-input to the fetus which is analogous to the concatenation of the forget gate
-and input gate from the LSTM. The vein is the output from the fetus which plays
-the role of the hidden state of the GRU. Because MCRMs has this type of
-nesting, MCRMs have a compact memory pattern consisting of neurons that act
-explicitly in both long-term and short-term fashions. For some specific tasks,
-empirical results show that MCRMs outperform previously used architectures.
+</image><item rdf:about="http://arxiv.org/abs/1808.02668">
+<title>An Occam&apos;s Razor View on Learning Audiovisual Emotion Recognition with Small Training Sets. (arXiv:1808.02668v1 [cs.AI])</title>
+<link>http://arxiv.org/abs/1808.02668</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper presents a light-weight and accurate deep neural model for
+audiovisual emotion recognition. To design this model, the authors followed a
+philosophy of simplicity, drastically limiting the number of parameters to
+learn from the target datasets, always choosing the simplest earning methods:
+i) transfer learning and low-dimensional space embedding allows to reduce the
+dimensionality of the representations. ii) The isual temporal information is
+handled by a simple score-per-frame selection process, averaged across time.
+iii) A simple frame selection echanism is also proposed to weight the images of
+a sequence. iv) The fusion of the different modalities is performed at
+prediction level (late usion). We also highlight the inherent challenges of the
+AFEW dataset and the difficulty of model selection with as few as 383
+validation equences. The proposed real-time emotion classifier achieved a
+state-of-the-art accuracy of 60.64 % on the test set of AFEW, and ranked 4th at
+he Emotion in the Wild 2018 challenge.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mohamed_A/0/1/0/all/0/1&quot;&gt;Abduallah Mohamed&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Claudel_C/0/1/0/all/0/1&quot;&gt;Christian Claudel&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Vielzeuf_V/0/1/0/all/0/1&quot;&gt;Valentin Vielzeuf&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kervadec_C/0/1/0/all/0/1&quot;&gt;Corentin Kervadec&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pateux_S/0/1/0/all/0/1&quot;&gt;St&amp;#xe9;phane Pateux&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lechervy_A/0/1/0/all/0/1&quot;&gt;Alexis Lechervy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jurie_F/0/1/0/all/0/1&quot;&gt;Fr&amp;#xe9;d&amp;#xe9;ric Jurie&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1808.02234">
-<title>Deep Stacked Stochastic Configuration Networks for Non-Stationary Data Streams. (arXiv:1808.02234v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1808.02234</link>
-<description rdf:parseType="Literal">&lt;p&gt;The concept of stochastic configuration networks (SCNs) others a solid
-framework for fast implementation of feedforward neural networks through
-randomized learning. Unlike conventional randomized approaches, SCNs provide an
-avenue to select appropriate scope of random parameters to ensure the universal
-approximation property. In this paper, a deep version of stochastic
-configuration networks, namely deep stacked stochastic configuration network
-(DSSCN), is proposed for modeling non-stationary data streams. As an extension
-of evolving stochastic connfiguration networks (eSCNs), this work contributes a
-way to grow and shrink the structure of deep stochastic configuration networks
-autonomously from data streams. The performance of DSSCN is evaluated by six
-benchmark datasets. Simulation results, compared with prominent data stream
-algorithms, show that the proposed method is capable of achieving comparable
-accuracy and evolving compact and parsimonious deep stacked network
-architecture.
+<item rdf:about="http://arxiv.org/abs/1711.05136">
+<title>Deep Rewiring: Training very sparse deep networks. (arXiv:1711.05136v5 [cs.NE] UPDATED)</title>
+<link>http://arxiv.org/abs/1711.05136</link>
+<description rdf:parseType="Literal">&lt;p&gt;Neuromorphic hardware tends to pose limits on the connectivity of deep
+networks that one can run on them. But also generic hardware and software
+implementations of deep learning run more efficiently for sparse networks.
+Several methods exist for pruning connections of a neural network after it was
+trained without connectivity constraints. We present an algorithm, DEEP R, that
+enables us to train directly a sparsely connected neural network. DEEP R
+automatically rewires the network during supervised training so that
+connections are there where they are most needed for the task, while its total
+number is all the time strictly bounded. We demonstrate that DEEP R can be used
+to train very sparse feedforward and recurrent neural networks on standard
+benchmark tasks with just a minor loss in performance. DEEP R is based on a
+rigorous theoretical foundation that views rewiring as stochastic sampling of
+network configurations from a posterior.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pratama_M/0/1/0/all/0/1&quot;&gt;Mahardhika Pratama&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_D/0/1/0/all/0/1&quot;&gt;Dianhui Wang&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bellec_G/0/1/0/all/0/1&quot;&gt;Guillaume Bellec&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kappel_D/0/1/0/all/0/1&quot;&gt;David Kappel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Maass_W/0/1/0/all/0/1&quot;&gt;Wolfgang Maass&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Legenstein_R/0/1/0/all/0/1&quot;&gt;Robert Legenstein&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1808.02022">
-<title>Principles for Developing a Knowledge Graph of Interlinked Events from News Headlines on Twitter. (arXiv:1808.02022v1 [cs.CL])</title>
-<link>http://arxiv.org/abs/1808.02022</link>
-<description rdf:parseType="Literal">&lt;p&gt;The ever-growing datasets published on Linked Open Data mainly contain
-encyclopedic information. However, there is a lack of quality structured and
-semantically annotated datasets extracted from unstructured real-time sources.
-In this paper, we present principles for developing a knowledge graph of
-interlinked events using the case study of news headlines published on Twitter
-which is a real-time and eventful source of fresh information. We represent the
-essential pipeline containing the required tasks ranging from choosing
-background data model, event annotation (i.e., event recognition and
-classification), entity annotation and eventually interlinking events. The
-state-of-the-art is limited to domain-specific scenarios for recognizing and
-classifying events, whereas this paper plays the role of a domain-agnostic
-road-map for developing a knowledge graph of interlinked events.
+<item rdf:about="http://arxiv.org/abs/1808.01280">
+<title>Geared Rotationally Identical and Invariant Convolutional Neural Network Systems. (arXiv:1808.01280v2 [cs.NE] UPDATED)</title>
+<link>http://arxiv.org/abs/1808.01280</link>
+<description rdf:parseType="Literal">&lt;p&gt;Theorems and techniques to form different types of transformationally
+invariant processing and to produce the same output quantitatively based on
+either transformationally invariant operators or symmetric operations have
+recently been introduced by the authors. In this study, we further propose to
+compose a geared rotationally identical CNN system (GRI-CNN) with a small step
+angle by connecting networks of participated processes at the first flatten
+layer. Using an ordinary CNN structure as a base, requirements for constructing
+a GRI-CNN include the use of either symmetric input vector or kernels with an
+angle increment that can form a complete cycle as a &quot;gearwheel&quot;. Four basic
+GRI-CNN structures were studied. Each of them can produce quantitatively
+identical output results when a rotation angle of the input vector is evenly
+divisible by the step angle of the gear. Our study showed when a rotated input
+vector does not match to a step angle, the GRI-CNN can also produce a highly
+consistent result. With a design of ultra-fine gear-tooth step angle (e.g., 1
+degree or 0.1 degree), a virtually isotropic CNN system can be constructed.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shekarpour_S/0/1/0/all/0/1&quot;&gt;Saeedeh Shekarpour&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Saxena_A/0/1/0/all/0/1&quot;&gt;Ankita Saxena&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Thirunarayan_K/0/1/0/all/0/1&quot;&gt;Krishnaprasad Thirunarayan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shalin_V/0/1/0/all/0/1&quot;&gt;Valerie L. Shalin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sheth_A/0/1/0/all/0/1&quot;&gt;Amit Sheth&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lo_S/0/1/0/all/0/1&quot;&gt;ShihChung B. Lo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+D%2E_P/0/1/0/all/0/1&quot;&gt;Ph.D.&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Freedman_M/0/1/0/all/0/1&quot;&gt;Matthew T. Freedman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+D%2E_M/0/1/0/all/0/1&quot;&gt;M.D.&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mun_S/0/1/0/all/0/1&quot;&gt;Seong K. Mun&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+D%2E_P/0/1/0/all/0/1&quot;&gt;Ph.D.&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chan_H/0/1/0/all/0/1&quot;&gt;Heang-Ping Chan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+D_P/0/1/0/all/0/1&quot;&gt;Ph.D&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1808.02123">
-<title>Structure Learning for Relational Logistic Regression: An Ensemble Approach. (arXiv:1808.02123v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1808.02123</link>
-<description rdf:parseType="Literal">&lt;p&gt;We consider the problem of learning Relational Logistic Regression (RLR).
-Unlike standard logistic regression, the features of RLRs are first-order
-formulae with associated weight vectors instead of scalar weights. We turn the
-problem of learning RLR to learning these vector-weighted formulae and develop
-a learning algorithm based on the recently successful functional-gradient
-boosting methods for probabilistic logic models. We derive the functional
-gradients and show how weights can be learned simultaneously in an efficient
-manner. Our empirical evaluation on standard and novel data sets demonstrates
-the superiority of our approach over other methods for learning RLR.
+<item rdf:about="http://arxiv.org/abs/1808.02550">
+<title>Collaborative Planning for Mixed-Autonomy Lane Merging. (arXiv:1808.02550v1 [cs.AI])</title>
+<link>http://arxiv.org/abs/1808.02550</link>
+<description rdf:parseType="Literal">&lt;p&gt;Driving is a social activity: drivers often indicate their intent to change
+lanes via motion cues. We consider mixed-autonomy traffic where a Human-driven
+Vehicle (HV) and an Autonomous Vehicle (AV) drive together. We propose a
+planning framework where the degree to which the AV considers the other agent&apos;s
+reward is controlled by a selfishness factor. We test our approach on a
+simulated two-lane highway where the AV and HV merge into each other&apos;s lanes.
+In a user study with 21 subjects and 6 different selfishness factors, we found
+that our planning approach was sound and that both agents had less merging
+times when a factor that balances the rewards for the two agents was chosen.
+Our results on double lane merging suggest it to be a non-zero-sum game and
+encourage further investigation on collaborative decision making algorithms for
+mixed-autonomy traffic.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ramanan_N/0/1/0/all/0/1&quot;&gt;Nandini Ramanan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kunapuli_G/0/1/0/all/0/1&quot;&gt;Gautam Kunapuli&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Khot_T/0/1/0/all/0/1&quot;&gt;Tushar Khot&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Fatemi_B/0/1/0/all/0/1&quot;&gt;Bahare Fatemi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kazemi_S/0/1/0/all/0/1&quot;&gt;Seyed Mehran Kazemi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Poole_D/0/1/0/all/0/1&quot;&gt;David Poole&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kersting_K/0/1/0/all/0/1&quot;&gt;Kristian Kersting&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Natarajan_S/0/1/0/all/0/1&quot;&gt;Sriraam Natarajan&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bansal_S/0/1/0/all/0/1&quot;&gt;Shray Bansal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cosgun_A/0/1/0/all/0/1&quot;&gt;Akansel Cosgun&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nakhaei_A/0/1/0/all/0/1&quot;&gt;Alireza Nakhaei&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Fujimura_K/0/1/0/all/0/1&quot;&gt;Kikuo Fujimura&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1808.02291">
-<title>The Window Validity Problem in Rule-Based Stream Reasoning. (arXiv:1808.02291v1 [cs.AI])</title>
-<link>http://arxiv.org/abs/1808.02291</link>
-<description rdf:parseType="Literal">&lt;p&gt;Rule-based temporal query languages provide the expressive power and
-flexibility required to capture in a natural way complex analysis tasks over
-streaming data. Stream processing applications, however, typically require near
-real-time response using limited resources. In particular, it becomes essential
-that the underpinning query language has favourable computational properties
-and that stream processing algorithms are able to keep only a small number of
-previously received facts in memory at any point in time without sacrificing
-correctness. In this paper, we propose a recursive fragment of temporal Datalog
-with tractable data complexity and study the properties of a generic stream
-reasoning algorithm for this fragment. We focus on the window validity problem
-as a way to minimise the number of time points for which the stream reasoning
-algorithm needs to keep data in memory at any point in time.
+<item rdf:about="http://arxiv.org/abs/1808.02560">
+<title>Belief likelihood function for generalised logistic regression. (arXiv:1808.02560v1 [math.ST])</title>
+<link>http://arxiv.org/abs/1808.02560</link>
+<description rdf:parseType="Literal">&lt;p&gt;The notion of belief likelihood function of repeated trials is introduced,
+whenever the uncertainty for individual trials is encoded by a belief measure
+(a finite random set). This generalises the traditional likelihood function,
+and provides a natural setting for belief inference from statistical data.
+Factorisation results are proven for the case in which conjunctive or
+disjunctive combination are employed, leading to analytical expressions for the
+lower and upper likelihoods of `sharp&apos; samples in the case of Bernoulli trials,
+and to the formulation of a generalised logistic regression framework.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ronca_A/0/1/0/all/0/1&quot;&gt;Alessandro Ronca&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kaminski_M/0/1/0/all/0/1&quot;&gt;Mark Kaminski&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Grau_B/0/1/0/all/0/1&quot;&gt;Bernardo Cuenca Grau&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Horrocks_I/0/1/0/all/0/1&quot;&gt;Ian Horrocks&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Cuzzolin_F/0/1/0/all/0/1&quot;&gt;Fabio Cuzzolin&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1808.02354">
-<title>Objective and Subjective Solomonoff Probabilities in Quantum Mechanics. (arXiv:1808.02354v1 [quant-ph])</title>
-<link>http://arxiv.org/abs/1808.02354</link>
-<description rdf:parseType="Literal">&lt;p&gt;Algorithmic probability has shown some promise in dealing with the
-probability problem in the Everett interpretation, since it provides an
-objective, single-case probability measure. Many find the Everettian cosmology
-to be overly extravagant, however, and algorithmic probability has also
-provided improved models of subjective probability and Bayesian reasoning. I
-attempt here to generalize algorithmic Everettianism to more Bayesian and
-subjectivist interpretations. I present a general framework for applying
-generative probability, of which algorithmic probability can be considered a
-special case. I apply this framework to two commonly vexing thought experiments
-that have immediate application to quantum probability: the Sleeping Beauty and
-Replicator experiments.
+<item rdf:about="http://arxiv.org/abs/1808.02632">
+<title>Question-Guided Hybrid Convolution for Visual Question Answering. (arXiv:1808.02632v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1808.02632</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this paper, we propose a novel Question-Guided Hybrid Convolution (QGHC)
+network for Visual Question Answering (VQA). Most state-of-the-art VQA methods
+fuse the high-level textual and visual features from the neural network and
+abandon the visual spatial information when learning multi-modal features.To
+address these problems, question-guided kernels generated from the input
+question are designed to convolute with visual features for capturing the
+textual and visual relationship in the early stage. The question-guided
+convolution can tightly couple the textual and visual information but also
+introduce more parameters when learning kernels. We apply the group
+convolution, which consists of question-independent kernels and
+question-dependent kernels, to reduce the parameter size and alleviate
+over-fitting. The hybrid convolution can generate discriminative multi-modal
+features with fewer parameters. The proposed approach is also complementary to
+existing bilinear pooling fusion and attention based VQA methods. By
+integrating with them, our method could further boost the performance.
+Extensive experiments on public VQA datasets validate the effectiveness of
+QGHC.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Randall_A/0/1/0/all/0/1&quot;&gt;Allan F. Randall&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gao_P/0/1/0/all/0/1&quot;&gt;Peng Gao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lu_P/0/1/0/all/0/1&quot;&gt;Pan Lu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_H/0/1/0/all/0/1&quot;&gt;Hongsheng Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_S/0/1/0/all/0/1&quot;&gt;Shuang Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_Y/0/1/0/all/0/1&quot;&gt;Yikang Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hoi_S/0/1/0/all/0/1&quot;&gt;Steven Hoi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_X/0/1/0/all/0/1&quot;&gt;Xiaogang Wang&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1808.02455">
-<title>Data augmentation using synthetic data for time series classification with deep residual networks. (arXiv:1808.02455v1 [cs.CV])</title>
-<link>http://arxiv.org/abs/1808.02455</link>
-<description rdf:parseType="Literal">&lt;p&gt;Data augmentation in deep neural networks is the process of generating
-artificial data in order to reduce the variance of the classifier with the goal
-to reduce the number of errors. This idea has been shown to improve deep neural
-network&apos;s generalization capabilities in many computer vision tasks such as
-image recognition and object localization. Apart from these applications, deep
-Convolutional Neural Networks (CNNs) have also recently gained popularity in
-the Time Series Classification (TSC) community. However, unlike in image
-recognition problems, data augmentation techniques have not yet been
-investigated thoroughly for the TSC task. This is surprising as the accuracy of
-deep learning models for TSC could potentially be improved, especially for
-small datasets that exhibit overfitting, when a data augmentation method is
-adopted. In this paper, we fill this gap by investigating the application of a
-recently proposed data augmentation technique based on the Dynamic Time Warping
-distance, for a deep learning model for TSC. To evaluate the potential of
-augmenting the training set, we performed extensive experiments using the UCR
-TSC benchmark. Our preliminary experiments reveal that data augmentation can
-drastically increase deep CNN&apos;s accuracy on some datasets and significantly
-improve the deep model&apos;s accuracy when the method is used in an ensemble
-approach.
+<item rdf:about="http://arxiv.org/abs/1808.02510">
+<title>Message Passing Graph Kernels. (arXiv:1808.02510v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/1808.02510</link>
+<description rdf:parseType="Literal">&lt;p&gt;Graph kernels have recently emerged as a promising approach for tackling the
+graph similarity and learning tasks at the same time. In this paper, we propose
+a general framework for designing graph kernels. The proposed framework
+capitalizes on the well-known message passing scheme on graphs. The kernels
+derived from the framework consist of two components. The first component is a
+kernel between vertices, while the second component is a kernel between graphs.
+The main idea behind the proposed framework is that the representations of the
+vertices are implicitly updated using an iterative procedure. Then, these
+representations serve as the building blocks of a kernel that compares pairs of
+graphs. We derive four instances of the proposed framework, and show through
+extensive experiments that these instances are competitive with
+state-of-the-art methods in various tasks.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Fawaz_H/0/1/0/all/0/1&quot;&gt;Hassan Ismail Fawaz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Forestier_G/0/1/0/all/0/1&quot;&gt;Germain Forestier&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Weber_J/0/1/0/all/0/1&quot;&gt;Jonathan Weber&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Idoumghar_L/0/1/0/all/0/1&quot;&gt;Lhassane Idoumghar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Muller_P/0/1/0/all/0/1&quot;&gt;Pierre-Alain Muller&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Nikolentzos_G/0/1/0/all/0/1&quot;&gt;Giannis Nikolentzos&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Vazirgiannis_M/0/1/0/all/0/1&quot;&gt;Michalis Vazirgiannis&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1808.02473">
-<title>SketchyScene: Richly-Annotated Scene Sketches. (arXiv:1808.02473v1 [cs.CV])</title>
-<link>http://arxiv.org/abs/1808.02473</link>
-<description rdf:parseType="Literal">&lt;p&gt;We contribute the first large-scale dataset of scene sketches, SketchyScene,
-with the goal of advancing research on sketch understanding at both the object
-and scene level. The dataset is created through a novel and carefully designed
-crowdsourcing pipeline, enabling users to efficiently generate large quantities
-of realistic and diverse scene sketches. SketchyScene contains more than 29,000
-scene-level sketches, 7,000+ pairs of scene templates and photos, and 11,000+
-object sketches. All objects in the scene sketches have ground-truth semantic
-and instance masks. The dataset is also highly scalable and extensible, easily
-allowing augmenting and/or changing scene composition. We demonstrate the
-potential impact of SketchyScene by training new computational models for
-semantic segmentation of scene sketches and showing how the new dataset enables
-several applications including image retrieval, sketch colorization, editing,
-and captioning, etc. The dataset and code can be found at
-https://github.com/SketchyScene/SketchyScene.
+<item rdf:about="http://arxiv.org/abs/1808.02651">
+<title>Adversarial Geometry and Lighting using a Differentiable Renderer. (arXiv:1808.02651v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1808.02651</link>
+<description rdf:parseType="Literal">&lt;p&gt;Many machine learning classifiers are vulnerable to adversarial attacks,
+inputs with perturbations designed to intentionally trigger misclassification.
+Modern adversarial methods either directly alter pixel colors, or &quot;paint&quot;
+colors onto a 3D shapes. We propose novel adversarial attacks that directly
+alter the geometry of 3D objects and/or manipulate the lighting in a virtual
+scene. We leverage a novel differentiable renderer that is efficient to
+evaluate and analytically differentiate. Our renderer generates images
+realistic enough for correct classification by common pre-trained models, and
+we use it to design physical adversarial examples that consistently fool these
+models. We conduct qualitative and quantitate experiments to validate our
+adversarial geometry and adversarial lighting attack capabilities.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zou_C/0/1/0/all/0/1&quot;&gt;Changqing Zou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yu_Q/0/1/0/all/0/1&quot;&gt;Qian Yu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Du_R/0/1/0/all/0/1&quot;&gt;Ruofei Du&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mo_H/0/1/0/all/0/1&quot;&gt;Haoran Mo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Song_Y/0/1/0/all/0/1&quot;&gt;Yi-Zhe Song&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xiang_T/0/1/0/all/0/1&quot;&gt;Tao Xiang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gao_C/0/1/0/all/0/1&quot;&gt;Chengying Gao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_B/0/1/0/all/0/1&quot;&gt;Baoquan Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_H/0/1/0/all/0/1&quot;&gt;Hao Zhang&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_H/0/1/0/all/0/1&quot;&gt;Hsueh-Ti Derek Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tao_M/0/1/0/all/0/1&quot;&gt;Michael Tao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_C/0/1/0/all/0/1&quot;&gt;Chun-Liang Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nowrouzezahrai_D/0/1/0/all/0/1&quot;&gt;Derek Nowrouzezahrai&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jacobson_A/0/1/0/all/0/1&quot;&gt;Alec Jacobson&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1606.05597">
-<title>Adding Context to Concept Trees. (arXiv:1606.05597v4 [cs.AI] UPDATED)</title>
-<link>http://arxiv.org/abs/1606.05597</link>
-<description rdf:parseType="Literal">&lt;p&gt;Concept Trees are a type of database that can organise arbitrary textual
-information using a very simple rule. Each tree ideally represents a single
-cohesive concept and the trees can link with each other for navigation and
-semantic purposes. The trees are therefore a type of semantic network and would
-benefit from having a consistent level of context for each of the nodes. The
-tree nodes have a mathematical basis allowing for a consistent build process.
-These would represent nouns or verbs in a text sentence, for example. A basic
-test on text documents shows that the tree structure could be inherent in
-natural language. New to the design can then be lists of descriptive elements
-for each of the nodes. The descriptors can also be weighted, but do not have to
-follow the strict counting rule of the tree nodes. With the new descriptive
-layers, a much richer type of knowledge can be achieved and a consistent method
-for adding context is suggested. It is also suggested to use the linking
-structure of the licas system as a basis for the context links. The
-mathematical model is extended further and to finish, a query language is
-suggested for practical applications.
+<item rdf:about="http://arxiv.org/abs/1808.02822">
+<title>Backprop Evolution. (arXiv:1808.02822v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1808.02822</link>
+<description rdf:parseType="Literal">&lt;p&gt;The back-propagation algorithm is the cornerstone of deep learning. Despite
+its importance, few variations of the algorithm have been attempted. This work
+presents an approach to discover new variations of the back-propagation
+equation. We use a domain specific lan- guage to describe update equations as a
+list of primitive functions. An evolution-based method is used to discover new
+propagation rules that maximize the generalization per- formance after a few
+epochs of training. We find several update equations that can train faster with
+short training times than standard back-propagation, and perform similar as
+standard back-propagation at convergence.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Greer_K/0/1/0/all/0/1&quot;&gt;Kieran Greer&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Alber_M/0/1/0/all/0/1&quot;&gt;Maximilian Alber&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bello_I/0/1/0/all/0/1&quot;&gt;Irwan Bello&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zoph_B/0/1/0/all/0/1&quot;&gt;Barret Zoph&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kindermans_P/0/1/0/all/0/1&quot;&gt;Pieter-Jan Kindermans&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ramachandran_P/0/1/0/all/0/1&quot;&gt;Prajit Ramachandran&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Le_Q/0/1/0/all/0/1&quot;&gt;Quoc Le&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1708.07579">
-<title>Hamiltonian Maker-Breaker games on small graphs. (arXiv:1708.07579v3 [math.CO] UPDATED)</title>
-<link>http://arxiv.org/abs/1708.07579</link>
-<description rdf:parseType="Literal">&lt;p&gt;We look at the unbiased Maker-Breaker Hamiltonicity game played on the edge
-set of a complete graph $K_n$, where Maker&apos;s goal is to claim a Hamiltonian
-cycle. First, we prove that, independent of who starts, Maker can win the game
-for $n = 8$ and $n = 9$. Then we use an inductive argument to show that,
-independent of who starts, Maker can win the game if and only if $n \geq 8$.
-This, in particular, resolves in the affirmative the long-standing conjecture
-of Papaioannou.
-&lt;/p&gt;
-&lt;p&gt;We also study two standard positional games related to Hamiltonicity game.
-For Hamiltonian Path game, we show that Maker can claim a Hamiltonian path if
-and only if $n \geq 5$, independent of who starts. Next, we look at Fixed
-Hamiltonian Path game, where the goal of Maker is to claim a Hamiltonian path
-between two predetermined vertices. We prove that if Maker starts the game, he
-wins if and only if $n \geq 7$, and if Breaker starts, Maker wins if and only
-if $n \geq 8$. Using this result, we are able to improve the previously best
-upper bound on the smallest number of edges a graph on $n$ vertices can have,
-knowing that Maker can win the Maker-Breaker Hamiltonicity game played on its
-edges.
-&lt;/p&gt;
-&lt;p&gt;To resolve the outcomes of the mentioned games on small (finite) boards, we
-devise algorithms for efficiently searching game trees and then obtain our
-results with the help of a computer.
+<item rdf:about="http://arxiv.org/abs/1707.09724">
+<title>Transfer Learning with Label Noise. (arXiv:1707.09724v2 [stat.ML] UPDATED)</title>
+<link>http://arxiv.org/abs/1707.09724</link>
+<description rdf:parseType="Literal">&lt;p&gt;Transfer learning aims to improve learning in target domain by borrowing
+knowledge from a related but different source domain. To reduce the
+distribution shift between source and target domains, recent methods have
+focused on exploring invariant representations that have similar distributions
+across domains. However, when learning this invariant knowledge, existing
+methods assume that the labels in source domain are uncontaminated, while in
+reality, we often have access to source data with noisy labels. In this paper,
+we first show how label noise adversely affect the learning of invariant
+representations and the correcting of label shift in various transfer learning
+scenarios. To reduce the adverse effects, we propose a novel Denoising
+Conditional Invariant Component (DCIC) framework, which provably ensures (1)
+extracting invariant representations given examples with noisy labels in source
+domain and unlabeled examples in target domain; (2) estimating the label
+distribution in target domain with no bias. Experimental results on both
+synthetic and real-world data verify the effectiveness of the proposed method.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Stojakovic_M/0/1/0/all/0/1&quot;&gt;Milo&amp;#x161; Stojakovi&amp;#x107;&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Trkulja_N/0/1/0/all/0/1&quot;&gt;Nikola Trkulja&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Yu_X/0/1/0/all/0/1&quot;&gt;Xiyu Yu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Liu_T/0/1/0/all/0/1&quot;&gt;Tongliang Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Gong_M/0/1/0/all/0/1&quot;&gt;Mingming Gong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Zhang_K/0/1/0/all/0/1&quot;&gt;Kun Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Batmanghelich_K/0/1/0/all/0/1&quot;&gt;Kayhan Batmanghelich&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Tao_D/0/1/0/all/0/1&quot;&gt;Dacheng Tao&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1808.02026">
-<title>Active Learning based on Data Uncertainty and Model Sensitivity. (arXiv:1808.02026v1 [stat.ML])</title>
-<link>http://arxiv.org/abs/1808.02026</link>
-<description rdf:parseType="Literal">&lt;p&gt;Robots can rapidly acquire new skills from demonstrations. However, during
-generalisation of skills or transitioning across fundamentally different
-skills, it is unclear whether the robot has the necessary knowledge to perform
-the task. Failing to detect missing information often leads to abrupt movements
-or to collisions with the environment. Active learning can quantify the
-uncertainty of performing the task and, in general, locate regions of missing
-information. We introduce a novel algorithm for active learning and demonstrate
-its utility for generating smooth trajectories. Our approach is based on deep
-generative models and metric learning in latent spaces. It relies on the
-Jacobian of the likelihood to detect non-smooth transitions in the latent
-space, i.e., transitions that lead to abrupt changes in the movement of the
-robot. When non-smooth transitions are detected, our algorithm asks for an
-additional demonstration from that specific region. The newly acquired
-knowledge modifies the data manifold and allows for learning a latent
-representation for generating smooth movements. We demonstrate the efficacy of
-our approach on generalising elementary skills, transitioning across different
-skills, and implicitly avoiding collisions with the environment. For our
-experiments, we use a simulated pendulum where we observe its motion from
-images and a 7-DoF anthropomorphic arm.
+<item rdf:about="http://arxiv.org/abs/1804.10023">
+<title>Candidate Labeling for Crowd Learning. (arXiv:1804.10023v2 [stat.ML] UPDATED)</title>
+<link>http://arxiv.org/abs/1804.10023</link>
+<description rdf:parseType="Literal">&lt;p&gt;Crowdsourcing has become very popular among the machine learning community as
+a way to obtain labels that allow a ground truth to be estimated for a given
+dataset. In most of the approaches that use crowdsourced labels, annotators are
+asked to provide, for each presented instance, a single class label. Such a
+request could be inefficient, that is, considering that the labelers may not be
+experts, that way to proceed could fail to take real advantage of the knowledge
+of the labelers. In this paper, the use of candidate labeling for crowd
+learning is proposed, where the annotators may provide more than a single label
+per instance to try not to miss the real label. The main hypothesis is that, by
+allowing candidate labeling, knowledge can be extracted from the labelers more
+efficiently by than in the standard crowd learning scenario. Empirical evidence
+which supports that hypothesis is presented.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Chen_N/0/1/0/all/0/1&quot;&gt;Nutan Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Klushyn_A/0/1/0/all/0/1&quot;&gt;Alexej Klushyn&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Paraschos_A/0/1/0/all/0/1&quot;&gt;Alexandros Paraschos&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Benbouzid_D/0/1/0/all/0/1&quot;&gt;Djalel Benbouzid&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Smagt_P/0/1/0/all/0/1&quot;&gt;Patrick van der Smagt&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Benaran_Munoz_I/0/1/0/all/0/1&quot;&gt;Iker Be&amp;#xf1;aran-Mu&amp;#xf1;oz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Hernandez_Gonzalez_J/0/1/0/all/0/1&quot;&gt;Jer&amp;#xf3;nimo Hern&amp;#xe1;ndez-Gonz&amp;#xe1;lez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Perez_A/0/1/0/all/0/1&quot;&gt;Aritz P&amp;#xe9;rez&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1808.02061">
-<title>Semblance: A Rank-Based Kernel on Probability Spaces for Niche Detection. (arXiv:1808.02061v1 [stat.ML])</title>
-<link>http://arxiv.org/abs/1808.02061</link>
-<description rdf:parseType="Literal">&lt;p&gt;Kernel methods provide a principled approach for detecting nonlinear
-relations using well understood linear algorithms. In exploratory data analyses
-when the underlying structure of the data&apos;s probability space is unclear, the
-choice of kernel is often arbitrary. Here, we present a novel kernel,
-Semblance, on a probability feature space. The advantage of Semblance lies in
-its distribution free formulation and its ability to detect niche features by
-placing greater emphasis on similarity between observation pairs that fall at
-the tail ends of a distribution, as opposed to those that fall towards the
-mean. We prove that Semblance is a valid Mercer kernel and illustrate its
-applicability through simulations and real world examples.
+<item rdf:about="http://arxiv.org/abs/1806.03972">
+<title>A Multi-task Deep Learning Architecture for Maritime Surveillance using AIS Data Streams. (arXiv:1806.03972v3 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/1806.03972</link>
+<description rdf:parseType="Literal">&lt;p&gt;In a world of global trading, maritime safety, security and efficiency are
+crucial issues. We propose a multi-task deep learning framework for vessel
+monitoring using Automatic Identification System (AIS) data streams. We combine
+recurrent neural networks with latent variable modeling and an embedding of AIS
+messages to a new representation space to jointly address key issues to be
+dealt with when considering AIS data streams: massive amount of streaming data,
+noisy data and irregular timesampling. We demonstrate the relevance of the
+proposed deep learning framework on real AIS datasets for a three-task setting,
+namely trajectory reconstruction, anomaly detection and vessel type
+identification.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Agarwal_D/0/1/0/all/0/1&quot;&gt;Divyansh Agarwal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Zhang_N/0/1/0/all/0/1&quot;&gt;Nancy Zhang&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nguyen_D/0/1/0/all/0/1&quot;&gt;Duong Nguyen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Vadaine_R/0/1/0/all/0/1&quot;&gt;Rodolphe Vadaine&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hajduch_G/0/1/0/all/0/1&quot;&gt;Guillaume Hajduch&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Garello_R/0/1/0/all/0/1&quot;&gt;Ren&amp;#xe9; Garello&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Fablet_R/0/1/0/all/0/1&quot;&gt;Ronan Fablet&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1808.02113">
-<title>Paying Attention to Attention: Highlighting Influential Samples in Sequential Analysis. (arXiv:1808.02113v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1808.02113</link>
-<description rdf:parseType="Literal">&lt;p&gt;In (Yang et al. 2016), a hierarchical attention network (HAN) is created for
-document classification. The attention layer can be used to visualize text
-influential in classifying the document, thereby explaining the model&apos;s
-prediction. We successfully applied HAN to a sequential analysis task in the
-form of real-time monitoring of turn taking in conversations. However, we
-discovered instances where the attention weights were uniform at the stopping
-point (indicating all turns were equivalently influential to the classifier),
-preventing meaningful visualization for real-time human review or classifier
-improvement. We observed that attention weights for turns fluctuated as the
-conversations progressed, indicating turns had varying influence based on
-conversation state. Leveraging this observation, we develop a method to create
-more informative real-time visuals (as confirmed by human reviewers) in cases
-of uniform attention weights using the changes in turn importance as a
-conversation progresses over time.
+<item rdf:about="http://arxiv.org/abs/1807.05490">
+<title>Semi-Supervised Feature Learning for Off-Line Writer Identifications. (arXiv:1807.05490v2 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/1807.05490</link>
+<description rdf:parseType="Literal">&lt;p&gt;Conventional approaches used supervised learning to estimate off-line writer
+identifications. In this study, we improved the off-line writer identifica-
+tions by semi-supervised feature learning pipeline, which trained the extra
+unla- beled data and the original labeled data simultaneously. In specific, we
+proposed a weighted label smoothing regularization (WLSR) method, which
+assigned the weighted uniform label distribution to the extra unlabeled data.
+We regularized the convolutional neural network (CNN) baseline, which allows
+learning more discriminative features to represent the properties of different
+writing styles. Based on experiments on ICDAR2013, CVL and IAM benchmark
+datasets, our results showed that semi-supervised feature learning improved the
+baseline meas- urement and achieved better performance compared with existing
+writer identifications approaches.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Freeman_C/0/1/0/all/0/1&quot;&gt;Cynthia Freeman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Merriman_J/0/1/0/all/0/1&quot;&gt;Jonathan Merriman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Aggarwal_A/0/1/0/all/0/1&quot;&gt;Abhinav Aggarwal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Beaver_I/0/1/0/all/0/1&quot;&gt;Ian Beaver&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mueen_A/0/1/0/all/0/1&quot;&gt;Abdullah Mueen&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1808.02169">
-<title>Fast Variance Reduction Method with Stochastic Batch Size. (arXiv:1808.02169v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1808.02169</link>
-<description rdf:parseType="Literal">&lt;p&gt;In this paper we study a family of variance reduction methods with randomized
-batch size---at each step, the algorithm first randomly chooses the batch size
-and then selects a batch of samples to conduct a variance-reduced stochastic
-update. We give the linear convergence rate for this framework for composite
-functions, and show that the optimal strategy to achieve the optimal
-convergence rate per data access is to always choose batch size of 1, which is
-equivalent to the SAGA algorithm. However, due to the presence of cache/disk IO
-effect in computer architecture, the number of data access cannot reflect the
-running time because of 1) random memory access is much slower than sequential
-access, 2) when data is too big to fit into memory, disk seeking takes even
-longer time. After taking these into account, choosing batch size of $1$ is no
-longer optimal, so we propose a new algorithm called SAGA++ and show how to
-calculate the optimal average batch size theoretically. Our algorithm
-outperforms SAGA and other existing batched and stochastic solvers on real
-datasets. In addition, we also conduct a precise analysis to compare different
-update rules for variance reduction methods, showing that SAGA++ converges
-faster than SVRG in theory.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_X/0/1/0/all/0/1&quot;&gt;Xuanqing Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hsieh_C/0/1/0/all/0/1&quot;&gt;Cho-Jui Hsieh&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1808.02180">
-<title>Instance-Dependent PU Learning by Bayesian Optimal Relabeling. (arXiv:1808.02180v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1808.02180</link>
-<description rdf:parseType="Literal">&lt;p&gt;When learning from positive and unlabelled data, it is a strong assumption
-that the positive observations are randomly sampled from the distribution of
-$X$ conditional on $Y = 1$, where X stands for the feature and Y the label.
-Most existing algorithms are optimally designed under the assumption. However,
-for many real-world applications, the observed positive examples are dependent
-on the conditional probability $P(Y = 1|X)$ and should be sampled biasedly. In
-this paper, we assume that a positive example with a higher $P(Y = 1|X)$ is
-more likely to be labelled and propose a probabilistic-gap based PU learning
-algorithms. Specifically, by treating the unlabelled data as noisy negative
-examples, we could automatically label a group positive and negative examples
-whose labels are identical to the ones assigned by a Bayesian optimal
-classifier with a consistency guarantee. The relabelled examples have a biased
-domain, which is remedied by the kernel mean matching technique. The proposed
-algorithm is model-free and thus do not have any parameters to tune.
-Experimental results demonstrate that our method works well on both generated
-and real-world datasets.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+He_F/0/1/0/all/0/1&quot;&gt;Fengxiang He&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_T/0/1/0/all/0/1&quot;&gt;Tongliang Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Webb_G/0/1/0/all/0/1&quot;&gt;Geoffrey I Webb&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tao_D/0/1/0/all/0/1&quot;&gt;Dacheng Tao&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1808.02213">
-<title>Importance of the Mathematical Foundations of Machine Learning Methods for Scientific and Engineering Applications. (arXiv:1808.02213v1 [stat.ML])</title>
-<link>http://arxiv.org/abs/1808.02213</link>
-<description rdf:parseType="Literal">&lt;p&gt;There has been a lot of recent interest in adopting machine learning methods
-for scientific and engineering applications. This has in large part been
-inspired by recent successes and advances in the domains of Natural Language
-Processing (NLP) and Image Classification (IC). However, scientific and
-engineering problems have their own unique characteristics and requirements
-raising new challenges for effective design and deployment of machine learning
-approaches. There is a strong need for further mathematical developments on the
-foundations of machine learning methods to increase the level of rigor of
-employed methods and to ensure more reliable and interpretable results. Also as
-reported in the recent literature on state-of-the-art results and indicated by
-the No Free Lunch Theorems of statistical learning theory incorporating some
-form of inductive bias and domain knowledge is essential to success.
-Consequently, even for existing and widely used methods there is a strong need
-for further mathematical work to facilitate ways to incorporate prior
-scientific knowledge and related inductive biases into learning frameworks and
-algorithms. We briefly discuss these topics and discuss some ideas proceeding
-in this direction.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Atzberger_P/0/1/0/all/0/1&quot;&gt;Paul J. Atzberger&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1808.02229">
-<title>Grassmannian Learning: Embedding Geometry Awareness in Shallow and Deep Learning. (arXiv:1808.02229v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1808.02229</link>
-<description rdf:parseType="Literal">&lt;p&gt;Modern machine learning algorithms have been adopted in a range of
-signal-processing applications spanning computer vision, natural language
-processing, and artificial intelligence. Many relevant problems involve
-subspace-structured features, orthogonality constrained or low-rank constrained
-objective functions, or subspace distances. These mathematical characteristics
-are expressed naturally using the Grassmann manifold. Unfortunately, this fact
-is not yet explored in many traditional learning algorithms. In the last few
-years, there have been growing interests in studying Grassmann manifold to
-tackle new learning problems. Such attempts have been reassured by substantial
-performance improvements in both classic learning and learning using deep
-neural networks. We term the former as shallow and the latter deep Grassmannian
-learning. The aim of this paper is to introduce the emerging area of
-Grassmannian learning by surveying common mathematical problems and primary
-solution approaches, and overviewing various applications. We hope to inspire
-practitioners in different fields to adopt the powerful tool of Grassmannian
-learning in their research.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_J/0/1/0/all/0/1&quot;&gt;Jiayao Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhu_G/0/1/0/all/0/1&quot;&gt;Guangxu Zhu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Heath_R/0/1/0/all/0/1&quot;&gt;Robert W. Heath Jr.&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Huang_a/0/1/0/all/0/1&quot;&gt;and Kaibin Huang&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1808.02240">
-<title>Speeding Up Distributed Gradient Descent by Utilizing Non-persistent Stragglers. (arXiv:1808.02240v1 [cs.IT])</title>
-<link>http://arxiv.org/abs/1808.02240</link>
-<description rdf:parseType="Literal">&lt;p&gt;Distributed gradient descent (DGD) is an efficient way of implementing
-gradient descent (GD), especially for large data sets, by dividing the
-computation tasks into smaller subtasks and assigning to different computing
-servers (CSs) to be executed in parallel. In standard parallel execution,
-per-iteration waiting time is limited by the execution time of the straggling
-servers. Coded DGD techniques have been introduced recently, which can tolerate
-straggling servers via assigning redundant computation tasks to the CSs. In
-most of the existing DGD schemes, either with coded computation or coded
-communication, the non-straggling CSs transmit one message per iteration once
-they complete all their assigned computation tasks. However, although the
-straggling servers cannot complete all their assigned tasks, they are often
-able to complete a certain portion of them. In this paper, we allow multiple
-transmissions from each CS at each iteration in order to make sure a maximum
-number of completed computations can be reported to the aggregating server
-(AS), including the straggling servers. We numerically show that the average
-completion time per iteration can be reduced significantly by slightly
-increasing the communication load per server.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ozfaturay_E/0/1/0/all/0/1&quot;&gt;Emre Ozfaturay&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gunduz_D/0/1/0/all/0/1&quot;&gt;Deniz Gunduz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ulukus_S/0/1/0/all/0/1&quot;&gt;Sennur Ulukus&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1808.02433">
-<title>Robust Implicit Backpropagation. (arXiv:1808.02433v1 [stat.ML])</title>
-<link>http://arxiv.org/abs/1808.02433</link>
-<description rdf:parseType="Literal">&lt;p&gt;Arguably the biggest challenge in applying neural networks is tuning the
-hyperparameters, in particular the learning rate. The sensitivity to the
-learning rate is due to the reliance on backpropagation to train the network.
-In this paper we present the first application of Implicit Stochastic Gradient
-Descent (ISGD) to train neural networks, a method known in convex optimization
-to be unconditionally stable and robust to the learning rate. Our key
-contribution is a novel layer-wise approximation of ISGD which makes its
-updates tractable for neural networks. Experiments show that our method is more
-robust to high learning rates and generally outperforms standard
-backpropagation on a variety of tasks.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Fagan_F/0/1/0/all/0/1&quot;&gt;Francois Fagan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Iyengar_G/0/1/0/all/0/1&quot;&gt;Garud Iyengar&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1808.02474">
-<title>Multi-Label Zero-Shot Learning with Transfer-Aware Label Embedding Projection. (arXiv:1808.02474v1 [cs.CV])</title>
-<link>http://arxiv.org/abs/1808.02474</link>
-<description rdf:parseType="Literal">&lt;p&gt;Zero-shot learning transfers knowledge from seen classes to novel unseen
-classes to reduce human labor of labelling data for building new classifiers.
-Much effort on zero-shot learning however has focused on the standard
-multi-class setting, the more challenging multi-label zero-shot problem has
-received limited attention. In this paper we propose a transfer-aware embedding
-projection approach to tackle multi-label zero-shot learning. The approach
-projects the label embedding vectors into a low-dimensional space to induce
-better inter-label relationships and explicitly facilitate information transfer
-from seen labels to unseen labels, while simultaneously learning a max-margin
-multi-label classifier with the projected label embeddings. Auxiliary
-information can be conveniently incorporated to guide the label embedding
-projection to further improve label relation structures for zero-shot knowledge
-transfer. We conduct experiments for zero-shot multi-label image
-classification. The results demonstrate the efficacy of the proposed approach.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ye_M/0/1/0/all/0/1&quot;&gt;Meng Ye&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Guo_Y/0/1/0/all/0/1&quot;&gt;Yuhong Guo&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1610.09075">
-<title>Missing Data Imputation for Supervised Learning. (arXiv:1610.09075v2 [stat.ML] UPDATED)</title>
-<link>http://arxiv.org/abs/1610.09075</link>
-<description rdf:parseType="Literal">&lt;p&gt;Missing data imputation can help improve the performance of prediction models
-in situations where missing data hide useful information. This paper compares
-methods for imputing missing categorical data for supervised classification
-tasks. We experiment on two machine learning benchmark datasets with missing
-categorical data, comparing classifiers trained on non-imputed (i.e., one-hot
-encoded) or imputed data with different levels of additional missing-data
-perturbation. We show imputation methods can increase predictive accuracy in
-the presence of missing-data perturbation, which can actually improve
-prediction accuracy by regularizing the classifier. We achieve the
-state-of-the-art on the Adult dataset with missing-data perturbation and
-k-nearest-neighbors (k-NN) imputation.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Poulos_J/0/1/0/all/0/1&quot;&gt;Jason Poulos&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Valle_R/0/1/0/all/0/1&quot;&gt;Rafael Valle&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1802.03184">
-<title>Self-Bounded Prediction Suffix Tree via Approximate String Matching. (arXiv:1802.03184v2 [cs.LG] UPDATED)</title>
-<link>http://arxiv.org/abs/1802.03184</link>
-<description rdf:parseType="Literal">&lt;p&gt;Prediction suffix trees (PST) provide an effective tool for sequence
-modelling and prediction. Current prediction techniques for PSTs rely on exact
-matching between the suffix of the current sequence and the previously observed
-sequence. We present a provably correct algorithm for learning a PST with
-approximate suffix matching by relaxing the exact matching condition. We then
-present a self-bounded enhancement of our algorithm where the depth of suffix
-tree grows automatically in response to the model performance on a training
-sequence. Through experiments on synthetic datasets as well as three real-world
-datasets, we show that the approximate matching PST results in better
-predictive performance than the other variants of PST.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kim_D/0/1/0/all/0/1&quot;&gt;Dongwoo Kim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Walder_C/0/1/0/all/0/1&quot;&gt;Christian Walder&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1803.03467">
-<title>RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender Systems. (arXiv:1803.03467v3 [cs.IR] UPDATED)</title>
-<link>http://arxiv.org/abs/1803.03467</link>
-<description rdf:parseType="Literal">&lt;p&gt;To address the sparsity and cold start problem of collaborative filtering,
-researchers usually make use of side information, such as social networks or
-item attributes, to improve recommendation performance. This paper considers
-the knowledge graph as the source of side information. To address the
-limitations of existing embedding-based and path-based methods for
-knowledge-graph-aware recommendation, we propose Ripple Network, an end-to-end
-framework that naturally incorporates the knowledge graph into recommender
-systems. Similar to actual ripples propagating on the surface of water, Ripple
-Network stimulates the propagation of user preferences over the set of
-knowledge entities by automatically and iteratively extending a user&apos;s
-potential interests along links in the knowledge graph. The multiple &quot;ripples&quot;
-activated by a user&apos;s historically clicked items are thus superposed to form
-the preference distribution of the user with respect to a candidate item, which
-could be used for predicting the final clicking probability. Through extensive
-experiments on real-world datasets, we demonstrate that Ripple Network achieves
-substantial gains in a variety of scenarios, including movie, book and news
-recommendation, over several state-of-the-art baselines.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_H/0/1/0/all/0/1&quot;&gt;Hongwei Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_F/0/1/0/all/0/1&quot;&gt;Fuzheng Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_J/0/1/0/all/0/1&quot;&gt;Jialin Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhao_M/0/1/0/all/0/1&quot;&gt;Miao Zhao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_W/0/1/0/all/0/1&quot;&gt;Wenjie Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xie_X/0/1/0/all/0/1&quot;&gt;Xing Xie&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Guo_M/0/1/0/all/0/1&quot;&gt;Minyi Guo&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1805.01361">
-<title>Machine learning regression on hyperspectral data to estimate multiple water parameters. (arXiv:1805.01361v2 [cs.CV] UPDATED)</title>
-<link>http://arxiv.org/abs/1805.01361</link>
-<description rdf:parseType="Literal">&lt;p&gt;In this paper, we present a regression framework involving several machine
-learning models to estimate water parameters based on hyperspectral data.
-Measurements from a multi-sensor field campaign, conducted on the River Elbe,
-Germany, represent the benchmark dataset. It contains hyperspectral data and
-the five water parameters chlorophyll a, green algae, diatoms, CDOM and
-turbidity. We apply a PCA for the high-dimensional data as a possible
-preprocessing step. Then, we evaluate the performance of the regression
-framework with and without this preprocessing step. The regression results of
-the framework clearly reveal the potential of estimating water parameters based
-on hyperspectral data with machine learning. The proposed framework provides
-the basis for further investigations, such as adapting the framework to
-estimate water parameters of different inland waters.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Maier_P/0/1/0/all/0/1&quot;&gt;Philipp M. Maier&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Keller_S/0/1/0/all/0/1&quot;&gt;Sina Keller&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1805.08809">
-<title>Infinite-Task Learning with Vector-Valued RKHSs. (arXiv:1805.08809v2 [cs.LG] UPDATED)</title>
-<link>http://arxiv.org/abs/1805.08809</link>
-<description rdf:parseType="Literal">&lt;p&gt;Machine learning has witnessed the tremendous success of solving tasks
-depending on a hyperparameter. While multi-task learning is celebrated for its
-capacity to solve jointly a finite number of tasks, learning a continuum of
-tasks for various loss functions is still a challenge. A promising approach,
-called Parametric Task Learning, has paved the way in the case of
-piecewise-linear loss functions. We propose a generic approach, called
-Infinite-Task Learning, to solve jointly a continuum of tasks via vector-valued
-RKHSs. We provide generalization guarantees to the suggested scheme and
-illustrate its efficiency in cost-sensitive classification, quantile regression
-and density level set estimation.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Brault_R/0/1/0/all/0/1&quot;&gt;Romain Brault&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lambert_A/0/1/0/all/0/1&quot;&gt;Alex Lambert&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Szabo_Z/0/1/0/all/0/1&quot;&gt;Zolt&amp;#xe1;n Szab&amp;#xf3;&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sangnier_M/0/1/0/all/0/1&quot;&gt;Maxime Sangnier&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+dAlche_Buc_F/0/1/0/all/0/1&quot;&gt;Florence d&amp;#x27;Alch&amp;#xe9;-Buc&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1806.01010">
-<title>Meta Learner with Linear Nulling. (arXiv:1806.01010v2 [cs.LG] UPDATED)</title>
-<link>http://arxiv.org/abs/1806.01010</link>
-<description rdf:parseType="Literal">&lt;p&gt;We propose a meta learning algorithm utilizing a linear transformer that
-carries out null-space projection of neural network outputs. The main idea is
-to construct a classification space such that the error signals during few-shot
-training are zero-forced on that space. The final decision on a test sample is
-obtained utilizing a null-space-projected distance measure between the network
-output and label-dependent weights that have been trained in the initial meta
-learning phase. Our meta learner achieves the best or near-best accuracies
-among known methods in few-shot image classification tasks with Omniglot and
-miniImageNet. In particular, our method shows stronger relative performance by
-significant margins as the classification task becomes more complicated.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yoon_S/0/1/0/all/0/1&quot;&gt;Sung Whan Yoon&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Seo_J/0/1/0/all/0/1&quot;&gt;Jun Seo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Moon_J/0/1/0/all/0/1&quot;&gt;Jaekyun Moon&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_S/0/1/0/all/0/1&quot;&gt;Shiming Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_Y/0/1/0/all/0/1&quot;&gt;Yisong Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lin_C/0/1/0/all/0/1&quot;&gt;Chin-Teng Lin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cao_Z/0/1/0/all/0/1&quot;&gt;Zehong Cao&lt;/a&gt;</dc:creator>
 </item></rdf:RDF>
