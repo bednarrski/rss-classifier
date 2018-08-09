@@ -24,6 +24,7 @@
 <items>
  <rdf:Seq>
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.02668"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.02822"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1711.05136"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.01280"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.02550"/>
@@ -31,7 +32,6 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.02632"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.02510"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1808.02651"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.02822"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1707.09724"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1804.10023"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1806.03972"/>
@@ -63,6 +63,22 @@ he Emotion in the Wild 2018 challenge.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Vielzeuf_V/0/1/0/all/0/1&quot;&gt;Valentin Vielzeuf&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kervadec_C/0/1/0/all/0/1&quot;&gt;Corentin Kervadec&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pateux_S/0/1/0/all/0/1&quot;&gt;St&amp;#xe9;phane Pateux&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lechervy_A/0/1/0/all/0/1&quot;&gt;Alexis Lechervy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jurie_F/0/1/0/all/0/1&quot;&gt;Fr&amp;#xe9;d&amp;#xe9;ric Jurie&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1808.02822">
+<title>Backprop Evolution. (arXiv:1808.02822v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1808.02822</link>
+<description rdf:parseType="Literal">&lt;p&gt;The back-propagation algorithm is the cornerstone of deep learning. Despite
+its importance, few variations of the algorithm have been attempted. This work
+presents an approach to discover new variations of the back-propagation
+equation. We use a domain specific lan- guage to describe update equations as a
+list of primitive functions. An evolution-based method is used to discover new
+propagation rules that maximize the generalization per- formance after a few
+epochs of training. We find several update equations that can train faster with
+short training times than standard back-propagation, and perform similar as
+standard back-propagation at convergence.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Alber_M/0/1/0/all/0/1&quot;&gt;Maximilian Alber&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bello_I/0/1/0/all/0/1&quot;&gt;Irwan Bello&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zoph_B/0/1/0/all/0/1&quot;&gt;Barret Zoph&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kindermans_P/0/1/0/all/0/1&quot;&gt;Pieter-Jan Kindermans&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ramachandran_P/0/1/0/all/0/1&quot;&gt;Prajit Ramachandran&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Le_Q/0/1/0/all/0/1&quot;&gt;Quoc Le&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1711.05136">
 <title>Deep Rewiring: Training very sparse deep networks. (arXiv:1711.05136v5 [cs.NE] UPDATED)</title>
@@ -200,22 +216,6 @@ adversarial geometry and adversarial lighting attack capabilities.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_H/0/1/0/all/0/1&quot;&gt;Hsueh-Ti Derek Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tao_M/0/1/0/all/0/1&quot;&gt;Michael Tao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_C/0/1/0/all/0/1&quot;&gt;Chun-Liang Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nowrouzezahrai_D/0/1/0/all/0/1&quot;&gt;Derek Nowrouzezahrai&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jacobson_A/0/1/0/all/0/1&quot;&gt;Alec Jacobson&lt;/a&gt;</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1808.02822">
-<title>Backprop Evolution. (arXiv:1808.02822v1 [cs.LG])</title>
-<link>http://arxiv.org/abs/1808.02822</link>
-<description rdf:parseType="Literal">&lt;p&gt;The back-propagation algorithm is the cornerstone of deep learning. Despite
-its importance, few variations of the algorithm have been attempted. This work
-presents an approach to discover new variations of the back-propagation
-equation. We use a domain specific lan- guage to describe update equations as a
-list of primitive functions. An evolution-based method is used to discover new
-propagation rules that maximize the generalization per- formance after a few
-epochs of training. We find several update equations that can train faster with
-short training times than standard back-propagation, and perform similar as
-standard back-propagation at convergence.
-&lt;/p&gt;
-</description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Alber_M/0/1/0/all/0/1&quot;&gt;Maximilian Alber&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bello_I/0/1/0/all/0/1&quot;&gt;Irwan Bello&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zoph_B/0/1/0/all/0/1&quot;&gt;Barret Zoph&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kindermans_P/0/1/0/all/0/1&quot;&gt;Pieter-Jan Kindermans&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ramachandran_P/0/1/0/all/0/1&quot;&gt;Prajit Ramachandran&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Le_Q/0/1/0/all/0/1&quot;&gt;Quoc Le&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1707.09724">
 <title>Transfer Learning with Label Noise. (arXiv:1707.09724v2 [stat.ML] UPDATED)</title>
