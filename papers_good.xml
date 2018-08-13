@@ -15,7 +15,7 @@
 <link>http://arxiv.org/</link>
 <description rdf:parseType="Literal">The Good Papers on ML, AI and Statistics</description>
 <dc:language>en-us</dc:language>
-<dc:date>2018-08-09T20:30:00-05:00</dc:date>
+<dc:date>2018-08-12T20:30:00-05:00</dc:date>
 <dc:publisher>help@arxiv.org</dc:publisher>
 <dc:subject>Statistics -- Machine Learning</dc:subject>
 <syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
@@ -23,13 +23,20 @@
 <syn:updatePeriod>daily</syn:updatePeriod>
 <items>
  <rdf:Seq>
-<rdf:li rdf:resource="http://arxiv.org/abs/1710.11160"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1804.06896"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1807.01183"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1807.01763"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.01741"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1807.10668"/>
-<rdf:li rdf:resource="http://arxiv.org/abs/1808.02240"/></rdf:Seq>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.03357"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.03471"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.01280"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.03420"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.03454"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1803.02906"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1805.08592"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1512.08048"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.03314"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.03408"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.03425"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.03578"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1808.03620"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1803.01840"/></rdf:Seq>
 </items>
 <image rdf:resource="http://arxiv.org/icons/sfx.gif" />
 </channel>
@@ -37,141 +44,303 @@
 <title>arXiv.org</title>
 <url>http://arxiv.org/icons/sfx.gif</url>
 <link>http://arxiv.org/</link>
-</image><item rdf:about="http://arxiv.org/abs/1710.11160">
-<title>Exponential improvements for quantum-accessible reinforcement learning. (arXiv:1710.11160v3 [quant-ph] UPDATED)</title>
-<link>http://arxiv.org/abs/1710.11160</link>
-<description rdf:parseType="Literal">&lt;p&gt;Quantum computers can offer dramatic improvements over classical devices for
-data analysis tasks such as prediction and classification. However, less is
-known about the advantages that quantum computers may bring in the setting of
-reinforcement learning, where learning is achieved via interaction with a task
-environment. Here, we consider a special case of reinforcement learning, where
-the task environment allows quantum access. In addition, we impose certain
-&quot;naturalness&quot; conditions on the task environment, which rule out the kinds of
-oracle problems that are studied in quantum query complexity (and for which
-quantum speedups are well-known). Within this framework of quantum-accessible
-reinforcement learning environments, we demonstrate that quantum agents can
-achieve exponential improvements in learning efficiency, surpassing previous
-results that showed only quadratic improvements. A key step in the proof is to
-construct task environments that encode well-known oracle problems, such as
-Simon&apos;s problem and Recursive Fourier Sampling, while satisfying the above
-&quot;naturalness&quot; conditions for reinforcement learning. Our results suggest that
-quantum agents may perform well in certain game-playing scenarios, where the
-game has recursive structure, and the agent can learn by playing against
-itself.
+</image><item rdf:about="http://arxiv.org/abs/1808.03357">
+<title>Error Forward-Propagation: Reusing Feedforward Connections to Propagate Errors in Deep Learning. (arXiv:1808.03357v1 [cs.NE])</title>
+<link>http://arxiv.org/abs/1808.03357</link>
+<description rdf:parseType="Literal">&lt;p&gt;We introduce Error Forward-Propagation, a biologically plausible mechanism to
+propagate error feedback forward through the network. Architectural constraints
+on connectivity are virtually eliminated for error feedback in the brain;
+systematic backward connectivity is not used or needed to deliver error
+feedback. Feedback as a means of assigning credit to neurons earlier in the
+forward pathway for their contribution to the final output is thought to be
+used in learning in the brain. How the brain solves the credit assignment
+problem is unclear. In machine learning, error backpropagation is a highly
+successful mechanism for credit assignment in deep multilayered networks.
+Backpropagation requires symmetric reciprocal connectivity for every neuron.
+From a biological perspective, there is no evidence of such an architectural
+constraint, which makes backpropagation implausible for learning in the brain.
+This architectural constraint is reduced with the use of random feedback
+weights. Models using random feedback weights require backward connectivity
+patterns for every neuron, but avoid symmetric weights and reciprocal
+connections. In this paper, we practically remove this architectural
+constraint, requiring only a backward loop connection for effective error
+feedback. We propose reusing the forward connections to deliver the error
+feedback by feeding the outputs into the input receiving layer. This mechanism,
+Error Forward-Propagation, is a plausible basis for how error feedback occurs
+deep in the brain independent of and yet in support of the functionality
+underlying intricate network architectures. We show experimentally that
+recurrent neural networks with two and three hidden layers can be trained using
+Error Forward-Propagation on the MNIST and Fashion MNIST datasets, achieving
+$1.90\%$ and $11\%$ generalization errors respectively.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Dunjko_V/0/1/0/all/0/1&quot;&gt;Vedran Dunjko&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Liu_Y/0/1/0/all/0/1&quot;&gt;Yi-Kai Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Wu_X/0/1/0/all/0/1&quot;&gt;Xingyao Wu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Taylor_J/0/1/0/all/0/1&quot;&gt;Jacob M. Taylor&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kohan_A/0/1/0/all/0/1&quot;&gt;Adam A. Kohan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Rietman_E/0/1/0/all/0/1&quot;&gt;Edward A. Rietman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Siegelmann_H/0/1/0/all/0/1&quot;&gt;Hava T. Siegelmann&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1804.06896">
-<title>A Multi-task Selected Learning Approach for Solving New Type 3D Bin Packing Problem. (arXiv:1804.06896v2 [cs.LG] UPDATED)</title>
-<link>http://arxiv.org/abs/1804.06896</link>
-<description rdf:parseType="Literal">&lt;p&gt;This paper studies a new type of 3D bin packing problem (BPP), in which a
-number of cuboid-shaped items must be put into a bin one by one orthogonally.
-The objective is to find a way to place these items that can minimize the
-surface area of the bin. This problem is based on the fact that there is no
-fixed-sized bin in many real business scenarios and the cost of a bin is
-proportional to its surface area. Based on previous research on 3D BPP, the
-surface area is determined by the sequence, spatial locations and orientations
-of items. It is a new NP-hard combinatorial optimization problem on
-unfixed-sized bin packing, for which we propose a multi-task framework based on
-Selected Learning, generating the sequence and orientations of items packed
-into the bin simultaneously. During training steps, Selected Learning chooses
-one of loss functions derived from Deep Reinforcement Learning and Supervised
-Learning corresponding to the training procedure. Numerical results show that
-the method proposed significantly outperforms Lego baselines by a substantial
-gain of 7.52%. Moreover, we produce large scale 3D Bin Packing order data set
-for studying bin packing problems and will release it to the research
-community.
+<item rdf:about="http://arxiv.org/abs/1808.03471">
+<title>The Evolution of Sex Chromosomes through the Baldwin Effect. (arXiv:1808.03471v1 [q-bio.PE])</title>
+<link>http://arxiv.org/abs/1808.03471</link>
+<description rdf:parseType="Literal">&lt;p&gt;It has recently been suggested that the fundamental haploid-diploid cycle of
+eukaryotic sex exploits a rudimentary form of the Baldwin effect. Thereafter
+the other associated phenomena can be explained as evolution tuning the amount
+and frequency of learning experienced by an organism. Using the well-known NK
+model of fitness landscapes it is here shown that the emergence of sex
+determination systems can also be explained under this view of eukaryotic
+evolution.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hu_H/0/1/0/all/0/1&quot;&gt;Haoyuan Hu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Duan_L/0/1/0/all/0/1&quot;&gt;Lu Duan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gong_Y/0/1/0/all/0/1&quot;&gt;Yu Gong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhu_K/0/1/0/all/0/1&quot;&gt;Kenny Zhu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_X/0/1/0/all/0/1&quot;&gt;Xiaodong Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xu_Y/0/1/0/all/0/1&quot;&gt;Yinghui Xu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wei_J/0/1/0/all/0/1&quot;&gt;Jiangwen Wei&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Bull_L/0/1/0/all/0/1&quot;&gt;Larry Bull&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1807.01183">
-<title>Quantified Markov Logic Networks. (arXiv:1807.01183v2 [cs.AI] UPDATED)</title>
-<link>http://arxiv.org/abs/1807.01183</link>
-<description rdf:parseType="Literal">&lt;p&gt;Markov Logic Networks (MLNs) are well-suited for expressing statistics such
-as &quot;with high probability a smoker knows another smoker&quot; but not for expressing
-statements such as &quot;there is a smoker who knows most other smokers&quot;, which is
-necessary for modeling, e.g. influencers in social networks. To overcome this
-shortcoming, we study quantified MLNs which generalize MLNs by introducing
-statistical universal quantifiers, allowing to express also the latter type of
-statistics in a principled way. Our main technical contribution is to show that
-the standard reasoning tasks in quantified MLNs, maximum a posteriori and
-marginal inference, can be reduced to their respective MLN counterparts in
-polynomial time.
+<item rdf:about="http://arxiv.org/abs/1808.01280">
+<title>Geared Rotationally Identical and Invariant Convolutional Neural Network Systems. (arXiv:1808.01280v3 [cs.NE] UPDATED)</title>
+<link>http://arxiv.org/abs/1808.01280</link>
+<description rdf:parseType="Literal">&lt;p&gt;Theorems and techniques to form different types of transformationally
+invariant processing and to produce the same output quantitatively based on
+either transformationally invariant operators or symmetric operations have
+recently been introduced by the authors. In this study, we further propose to
+compose a geared rotationally identical CNN system (GRI-CNN) with a small step
+angle by connecting networks of participated processes at the first flatten
+layer. Using an ordinary CNN structure as a base, requirements for constructing
+a GRI-CNN include the use of either symmetric input vector or kernels with an
+angle increment that can form a complete cycle as a &quot;gearwheel&quot;. Four basic
+GRI-CNN structures were studied. Each of them can produce quantitatively
+identical output results when a rotation angle of the input vector is evenly
+divisible by the step angle of the gear. Our study showed when an input vector
+rotated with an angle does not match to a step angle, the GRI-CNN can also
+produce a highly consistent result. With a design of using an ultra-fine
+gear-tooth step angle (e.g., 1 degree or 0.1 degree), all four GRI-CNN systems
+can be constructed virtually isotropically.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gutierrez_Basulto_V/0/1/0/all/0/1&quot;&gt;V&amp;#xed;ctor Guti&amp;#xe9;rrez-Basulto&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jung_J/0/1/0/all/0/1&quot;&gt;Jean Christoph Jung&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kuzelka_O/0/1/0/all/0/1&quot;&gt;Ondrej Kuzelka&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lo_S/0/1/0/all/0/1&quot;&gt;ShihChung B. Lo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+D%2E_P/0/1/0/all/0/1&quot;&gt;Ph.D.&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Freedman_M/0/1/0/all/0/1&quot;&gt;Matthew T. Freedman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+D%2E_M/0/1/0/all/0/1&quot;&gt;M.D.&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mun_S/0/1/0/all/0/1&quot;&gt;Seong K. Mun&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+D%2E_P/0/1/0/all/0/1&quot;&gt;Ph.D.&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chan_H/0/1/0/all/0/1&quot;&gt;Heang-Ping Chan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+D_P/0/1/0/all/0/1&quot;&gt;Ph.D&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1807.01763">
-<title>Seq2RDF: An end-to-end application for deriving Triples from Natural Language Text. (arXiv:1807.01763v3 [cs.CL] UPDATED)</title>
-<link>http://arxiv.org/abs/1807.01763</link>
-<description rdf:parseType="Literal">&lt;p&gt;We present an end-to-end approach that takes unstructured textual input and
-generates structured output compliant with a given vocabulary. Inspired by
-recent successes in neural machine translation, we treat the triples within a
-given knowledge graph as an independent graph language and propose an
-encoder-decoder framework with an attention mechanism that leverages knowledge
-graph embeddings. Our model learns the mapping from natural language text to
-triple representation in the form of subject-predicate-object using the
-selected knowledge graph vocabulary. Experiments on three different data sets
-show that we achieve competitive F1-Measures over the baselines using our
-simple yet effective approach. A demo video is included.
+<item rdf:about="http://arxiv.org/abs/1808.03420">
+<title>Hierarchical Block Sparse Neural Networks. (arXiv:1808.03420v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1808.03420</link>
+<description rdf:parseType="Literal">&lt;p&gt;Sparse deep neural networks(DNNs) are efficient in both memory and compute
+when compared to dense DNNs. But due to irregularity in computation of sparse
+DNNs, their efficiencies are much lower than that of dense DNNs on general
+purpose hardwares. This leads to poor/no performance benefits for sparse DNNs.
+Performance issue for sparse DNNs can be alleviated by bringing structure to
+the sparsity and leveraging it for improving runtime efficiency. But such
+structural constraints often lead to sparse models with suboptimal accuracies.
+In this work, we jointly address both accuracy and performance of sparse DNNs
+using our proposed class of neural networks called HBsNN ( Hierarchical Block
+Sparse Neural Networks).
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_Y/0/1/0/all/0/1&quot;&gt;Yue Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_T/0/1/0/all/0/1&quot;&gt;Tongtao Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liang_Z/0/1/0/all/0/1&quot;&gt;Zhicheng Liang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ji_H/0/1/0/all/0/1&quot;&gt;Heng Ji&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+McGuinness_D/0/1/0/all/0/1&quot;&gt;Deborah L. McGuinness&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Vooturi_D/0/1/0/all/0/1&quot;&gt;Dharma Teja Vooturi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mudigree_D/0/1/0/all/0/1&quot;&gt;Dheevatsa Mudigree&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Avancha_S/0/1/0/all/0/1&quot;&gt;Sasikanth Avancha&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1808.01741">
-<title>Logical Semantics and Commonsense Knowledge: Where Did we Go Wrong, and How to Go Forward, Again. (arXiv:1808.01741v2 [cs.AI] UPDATED)</title>
-<link>http://arxiv.org/abs/1808.01741</link>
-<description rdf:parseType="Literal">&lt;p&gt;We argue that logical semantics might have faltered due to its failure in
-distinguishing between two fundamentally very different types of concepts:
-ontological concepts, that should be types in a strongly-typed ontology, and
-logical concepts, that are predicates corresponding to properties of and
-relations between objects of various ontological types. We will then show that
-accounting for these differences amounts to the integration of lexical and
-compositional semantics in one coherent framework, and to an embedding in our
-logical semantics of a strongly-typed ontology that reflects our commonsense
-view of the world and the way we talk about it in ordinary language. We will
-show that in such a framework a number of challenges in natural language
-semantics can be adequately and systematically treated.
+<item rdf:about="http://arxiv.org/abs/1808.03454">
+<title>AIQ: Measuring Intelligence of Business AI Software. (arXiv:1808.03454v1 [cs.AI])</title>
+<link>http://arxiv.org/abs/1808.03454</link>
+<description rdf:parseType="Literal">&lt;p&gt;Focusing on Business AI, this article introduces the AIQ quadrant that
+enables us to measure AI for business applications in a relative comparative
+manner, i.e. to judge that software A has more or less intelligence than
+software B. Recognizing that the goal of Business software is to maximize value
+in terms of business results, the dimensions of the quadrant are the key
+factors that determine the business value of AI software: Level of Output
+Quality (Smartness) and Level of Automation. The use of the quadrant is
+illustrated by several software solutions to support the real life business
+challenge of field service scheduling. The role of machine learning and
+conversational digital assistants in increasing the business value are also
+discussed and illustrated with a recent integration of existing intelligent
+digital assistants for factory floor decision making with the new version of
+Google Glass. Such hands free AI solutions elevate the AIQ level to its
+ultimate position.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Saba_W/0/1/0/all/0/1&quot;&gt;Walid S. Saba&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+BenBassat_M/0/1/0/all/0/1&quot;&gt;Moshe BenBassat&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1807.10668">
-<title>On the overfly algorithm in deep learning of neural networks. (arXiv:1807.10668v3 [cs.LG] UPDATED)</title>
-<link>http://arxiv.org/abs/1807.10668</link>
-<description rdf:parseType="Literal">&lt;p&gt;In this paper we investigate the supervised backpropagation training of
-multilayer neural networks from a dynamical systems point of view. We discuss
-some links with the qualitative theory of differential equations and introduce
-the overfly algorithm to tackle the local minima problem. Our approach is based
-on the existence of first integrals of the generalised gradient system with
-build-in dissipation.
+<item rdf:about="http://arxiv.org/abs/1803.02906">
+<title>Simultaneous Task Allocation and Planning Under Uncertainty. (arXiv:1803.02906v2 [cs.AI] UPDATED)</title>
+<link>http://arxiv.org/abs/1803.02906</link>
+<description rdf:parseType="Literal">&lt;p&gt;We propose novel techniques for task allocation and planning in multi-robot
+systems operating in uncertain environments. Task allocation is performed
+simultaneously with planning, which provides more detailed information about
+individual robot behaviour, but also exploits independence between tasks to do
+so efficiently. We use Markov decision processes to model robot behaviour and
+linear temporal logic to specify tasks and safety constraints. Building upon
+techniques and tools from formal verification, we show how to generate a
+sequence of multi-robot policies, iteratively refining them to reallocate tasks
+if individual robots fail, and providing probabilistic guarantees on the
+performance (and safe operation) of the team of robots under the resulting
+policy. We implement our approach and evaluate it on a benchmark multi-robot
+example.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tsygvintsev_A/0/1/0/all/0/1&quot;&gt;Alexei Tsygvintsev&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Faruq_F/0/1/0/all/0/1&quot;&gt;Fatma Faruq&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lacerda_B/0/1/0/all/0/1&quot;&gt;Bruno Lacerda&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hawes_N/0/1/0/all/0/1&quot;&gt;Nick Hawes&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Parker_D/0/1/0/all/0/1&quot;&gt;David Parker&lt;/a&gt;</dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1808.02240">
-<title>Speeding Up Distributed Gradient Descent by Utilizing Non-persistent Stragglers. (arXiv:1808.02240v2 [cs.IT] UPDATED)</title>
-<link>http://arxiv.org/abs/1808.02240</link>
-<description rdf:parseType="Literal">&lt;p&gt;Distributed gradient descent (DGD) is an efficient way of implementing
-gradient descent (GD), especially for large data sets, by dividing the
-computation tasks into smaller subtasks and assigning to different computing
-servers (CSs) to be executed in parallel. In standard parallel execution,
-per-iteration waiting time is limited by the execution time of the straggling
-servers. Coded DGD techniques have been introduced recently, which can tolerate
-straggling servers via assigning redundant computation tasks to the CSs. In
-most of the existing DGD schemes, either with coded computation or coded
-communication, the non-straggling CSs transmit one message per iteration once
-they complete all their assigned computation tasks. However, although the
-straggling servers cannot complete all their assigned tasks, they are often
-able to complete a certain portion of them. In this paper, we allow multiple
-transmissions from each CS at each iteration in order to make sure a maximum
-number of completed computations can be reported to the aggregating server
-(AS), including the straggling servers. We numerically show that the average
-completion time per iteration can be reduced significantly by slightly
-increasing the communication load per server.
+<item rdf:about="http://arxiv.org/abs/1805.08592">
+<title>Computable Variants of AIXI which are More Powerful than AIXItl. (arXiv:1805.08592v2 [cs.AI] UPDATED)</title>
+<link>http://arxiv.org/abs/1805.08592</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper presents Unlimited Computable AI, or UCAI, that is a family of
+computable variants of AIXI. UCAI is more powerful than AIXItl, that is a
+conventional family of computable variants of AIXI, in the following ways: 1)
+UCAI supports models of terminating computation, including typed lambda
+calculus, while AIXItl only supports Turing machine with timeout t, which can
+be simulated by typed lambda calculus for any t; 2) unlike UCAI, AIXItl limits
+the program length to l.
 &lt;/p&gt;
 </description>
-<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ozfatura_E/0/1/0/all/0/1&quot;&gt;Emre Ozfatura&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gunduz_D/0/1/0/all/0/1&quot;&gt;Deniz Gunduz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ulukus_S/0/1/0/all/0/1&quot;&gt;Sennur Ulukus&lt;/a&gt;</dc:creator>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Katayama_S/0/1/0/all/0/1&quot;&gt;Susumu Katayama&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1512.08048">
+<title>Using Data Analytics to Detect Anomalous States in Vehicles. (arXiv:1512.08048v1 [cs.AI] CROSS LISTED)</title>
+<link>http://arxiv.org/abs/1512.08048</link>
+<description rdf:parseType="Literal">&lt;p&gt;Vehicles are becoming more and more connected, this opens up a larger attack
+surface which not only affects the passengers inside vehicles, but also people
+around them. These vulnerabilities exist because modern systems are built on
+the comparatively less secure and old CAN bus framework which lacks even basic
+authentication. Since a new protocol can only help future vehicles and not
+older vehicles, our approach tries to solve the issue as a data analytics
+problem and use machine learning techniques to secure cars. We develop a Hidden
+Markov Model to detect anomalous states from real data collected from vehicles.
+Using this model, while a vehicle is in operation, we are able to detect and
+issue alerts. Our model could be integrated as a plug-n-play device in all new
+and old cars.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Narayanan_S/0/1/0/all/0/1&quot;&gt;Sandeep Nair Narayanan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mittal_S/0/1/0/all/0/1&quot;&gt;Sudip Mittal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Joshi_A/0/1/0/all/0/1&quot;&gt;Anupam Joshi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1808.03314">
+<title>Fundamentals of Recurrent Neural Network (RNN) and Long Short-Term Memory (LSTM) Network. (arXiv:1808.03314v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1808.03314</link>
+<description rdf:parseType="Literal">&lt;p&gt;Because of their effectiveness in broad practical applications, LSTM networks
+have received a wealth of coverage in scientific journals, technical blogs, and
+implementation guides. However, in most articles, the inference formulas for
+the LSTM network and its parent, RNN, are stated axiomatically, while the
+training formulas are omitted altogether. In addition, the technique of
+&quot;unrolling&quot; an RNN is routinely presented without justification throughout the
+literature. The goal of this paper is to explain the essential RNN and LSTM
+fundamentals in a single document. Drawing from concepts in signal processing,
+we formally derive the canonical RNN formulation from differential equations.
+We then propose and prove a precise statement, which yields the RNN unrolling
+technique. We also review the difficulties with training the standard RNN and
+address them by transforming the RNN into the &quot;Vanilla LSTM&quot; network through a
+series of logical arguments. We provide all equations pertaining to the LSTM
+system together with detailed descriptions of its constituent entities. Albeit
+unconventional, our choice of notation and the method for presenting the LSTM
+system emphasizes ease of understanding. As part of the analysis, we identify
+new opportunities to enrich the LSTM system and incorporate these extensions
+into the Vanilla LSTM network, producing the most general LSTM variant to date.
+The target reader has already been exposed to RNNs and LSTM networks through
+numerous available resources and is open to an alternative pedagogical
+approach. A Machine Learning practitioner seeking guidance for implementing our
+new augmented LSTM model in software for experimentation and research will find
+the insights and derivations in this tutorial valuable as well.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sherstinsky_A/0/1/0/all/0/1&quot;&gt;Alex Sherstinsky&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1808.03408">
+<title>On the Convergence of AdaGrad with Momentum for Training Deep Neural Networks. (arXiv:1808.03408v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1808.03408</link>
+<description rdf:parseType="Literal">&lt;p&gt;Adaptive stochastic gradient descent methods, such as AdaGrad, Adam,
+AdaDelta, Nadam, AMSGrad, \textit{etc.}, have been demonstrated efficacious in
+solving non-convex stochastic optimization, such as training deep neural
+networks. However, their convergence rates have not been touched under the
+non-convex stochastic circumstance except recent breakthrough results on
+AdaGrad \cite{ward2018adagrad} and perturbed AdaGrad \cite{li2018convergence}.
+In this paper, we propose two new adaptive stochastic gradient methods called
+AdaHB and AdaNAG which integrate coordinate-wise AdaGrad with heavy ball
+momentum and Nesterov accelerated gradient momentum, respectively. The
+$\mathcal{O}(\frac{\log{T}}{\sqrt{T}})$ non-asymptotic convergence rates of
+AdaHB and AdaNAG in non-convex stochastic setting are also jointly
+characterized by leveraging a newly developed unified formulation of these two
+momentum mechanisms. In particular, when momentum term vanishes we obtain
+convergence rate of coordinate-wise AdaGrad in non-convex stochastic setting as
+a byproduct.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zou_F/0/1/0/all/0/1&quot;&gt;Fangyu Zou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shen_L/0/1/0/all/0/1&quot;&gt;Li Shen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1808.03425">
+<title>Learning and Inference on Generative Adversarial Quantum Circuits. (arXiv:1808.03425v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/1808.03425</link>
+<description rdf:parseType="Literal">&lt;p&gt;Quantum mechanics is inherently probabilistic in light of Born&apos;s rule. Using
+quantum circuits as probabilistic generative models for classical data exploits
+their superior expressibility and efficient direct sampling ability. However,
+training of quantum circuits can be more challenging compared to classical
+neural networks due to lack of efficient differentiable learning algorithm. We
+devise an adversarial quantum-classical hybrid training scheme via coupling a
+quantum circuit generator and a classical neural network discriminator
+together. After training, the quantum circuit generative model can infer
+missing data with quadratic speed up via amplitude amplification. We
+numerically simulate the learning and inference of generative adversarial
+quantum circuit using the prototypical Bars-and-Stripes dataset. Generative
+adversarial quantum circuits is a fresh approach to machine learning which may
+enjoy the practically useful quantum advantage on near-term quantum devices.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Zeng_J/0/1/0/all/0/1&quot;&gt;Jinfeng Zeng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Wu_Y/0/1/0/all/0/1&quot;&gt;Yufeng Wu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Liu_J/0/1/0/all/0/1&quot;&gt;Jin-Guo Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Wang_L/0/1/0/all/0/1&quot;&gt;Lei Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Hu_J/0/1/0/all/0/1&quot;&gt;Jiangping Hu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1808.03578">
+<title>Dropout is a special case of the stochastic delta rule: faster and more accurate deep learning. (arXiv:1808.03578v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1808.03578</link>
+<description rdf:parseType="Literal">&lt;p&gt;Multi-layer neural networks have lead to remarkable performance on many kinds
+of benchmark tasks in text, speech and image processing. Nonlinear parameter
+estimation in hierarchical models is known to be subject to overfitting. One
+approach to this overfitting and related problems (local minima, colinearity,
+feature discovery etc.) is called dropout (Srivastava, et al 2014, Baldi et al
+2016). This method removes hidden units with a Bernoulli random variable with
+probability $p$ over updates. In this paper we will show that Dropout is a
+special case of a more general model published originally in 1990 called the
+stochastic delta rule ( SDR, Hanson, 1990). SDR parameterizes each weight in
+the network as a random variable with mean $\mu_{w_{ij}}$ and standard
+deviation $\sigma_{w_{ij}}$. These random variables are sampled on each forward
+activation, consequently creating an exponential number of potential networks
+with shared weights. Both parameters are updated according to prediction error,
+thus implementing weight noise injections that reflect a local history of
+prediction error and efficient model averaging. SDR therefore implements a
+local gradient-dependent simulated annealing per weight converging to a bayes
+optimal network. Tests on standard benchmarks (CIFAR) using a modified version
+of DenseNet shows the SDR outperforms standard dropout in error by over 50% and
+in loss by over 50%. Furthermore, the SDR implementation converges on a
+solution much faster, reaching a training error of 5 in just 15 epochs with
+DenseNet-40 compared to standard DenseNet-40&apos;s 94 epochs.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Frazier_Logue_N/0/1/0/all/0/1&quot;&gt;Noah Frazier-Logue&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hanson_S/0/1/0/all/0/1&quot;&gt;Stephen Jos&amp;#xe9; Hanson&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1808.03620">
+<title>Ensemble Kalman Inversion: A Derivative-Free Technique For Machine Learning Tasks. (arXiv:1808.03620v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1808.03620</link>
+<description rdf:parseType="Literal">&lt;p&gt;The standard probabilistic perspective on machine learning gives rise to
+empirical risk-minimization tasks that are frequently solved by stochastic
+gradient descent (SGD) and variants thereof. We present a formulation of these
+tasks as classical inverse or filtering problems and, furthermore, we propose
+an efficient, gradient-free algorithm for finding a solution to these problems
+using ensemble Kalman inversion (EKI). Applications of our approach include
+offline and online supervised learning with deep neural networks, as well as
+graph-based semi-supervised learning. The essence of the EKI procedure is an
+ensemble based approximate gradient descent in which derivatives are replaced
+by differences from within the ensemble. We suggest several modifications to
+the basic method, derived from empirically successful heuristics developed in
+the context of SGD. Numerical results demonstrate wide applicability and
+robustness of the proposed algorithm.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kovachki_N/0/1/0/all/0/1&quot;&gt;Nikola B. Kovachki&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Stuart_A/0/1/0/all/0/1&quot;&gt;Andrew M. Stuart&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1803.01840">
+<title>TACO: Learning Task Decomposition via Temporal Alignment for Control. (arXiv:1803.01840v2 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/1803.01840</link>
+<description rdf:parseType="Literal">&lt;p&gt;Many advanced Learning from Demonstration (LfD) methods consider the
+decomposition of complex, real-world tasks into simpler sub-tasks. By reusing
+the corresponding sub-policies within and between tasks, they provide training
+data for each policy from different high-level tasks and compose them to
+perform novel ones. Existing approaches to modular LfD focus either on learning
+a single high-level task or depend on domain knowledge and temporal
+segmentation. In contrast, we propose a weakly supervised, domain-agnostic
+approach based on task sketches, which include only the sequence of sub-tasks
+performed in each demonstration. Our approach simultaneously aligns the
+sketches with the observed demonstrations and learns the required sub-policies.
+This improves generalisation in comparison to separate optimisation procedures.
+We evaluate the approach on multiple domains, including a simulated 3D robot
+arm control task using purely image-based observations. The results show that
+our approach performs commensurately with fully supervised approaches, while
+requiring significantly less annotation effort.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shiarlis_K/0/1/0/all/0/1&quot;&gt;Kyriacos Shiarlis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wulfmeier_M/0/1/0/all/0/1&quot;&gt;Markus Wulfmeier&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Salter_S/0/1/0/all/0/1&quot;&gt;Sasha Salter&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Whiteson_S/0/1/0/all/0/1&quot;&gt;Shimon Whiteson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Posner_I/0/1/0/all/0/1&quot;&gt;Ingmar Posner&lt;/a&gt;</dc:creator>
 </item></rdf:RDF>
