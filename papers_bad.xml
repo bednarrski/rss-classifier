@@ -27,6 +27,7 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1809.02651"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1809.02721"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1809.02942"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1809.03055"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1809.03142"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1809.03330"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1809.02753"/>
@@ -39,6 +40,7 @@
 <rdf:li rdf:resource="http://arxiv.org/abs/1809.02927"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1809.03001"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1809.03044"/>
+<rdf:li rdf:resource="http://arxiv.org/abs/1809.03057"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1809.03073"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1809.03075"/>
 <rdf:li rdf:resource="http://arxiv.org/abs/1809.03084"/>
@@ -229,6 +231,24 @@ when learned by neural networks.
 &lt;/p&gt;
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/nlin/1/au:+Gilpin_W/0/1/0/all/0/1&quot;&gt;William Gilpin&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1809.03055">
+<title>LDW-SCSA: Logistic Dynamic Weight based Sine Cosine Search Algorithm for Numerical Functions Optimization. (arXiv:1809.03055v1 [cs.NE])</title>
+<link>http://arxiv.org/abs/1809.03055</link>
+<description rdf:parseType="Literal">&lt;p&gt;Particle swarm optimization (PSO) and Sine Cosine algorithm (SCA) have been
+widely used optimization methods but these methods have some disadvantages such
+as trapped local optimum point. In order to solve this problem and obtain more
+successful results than others, a novel logistic dynamic weight based sine
+cosine search algorithm (LDW-SCSA) is presented in this paper. In the LDW-SCSA
+method, logistic map is used as dynamic weight generator. Logistic map is one
+of the famous and widely used chaotic map in the literature. Search process of
+SCA is modified in the LDW-SCSA. To evaluate performance of the LDW-SCSA, the
+widely used numerical benchmark functions were utilized as test suite and other
+swarm optimization methods were used to obtain the comparison results. Superior
+performances of the LDW-SCSA are proved success of this method.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tuncer_T/0/1/0/all/0/1&quot;&gt;Turker Tuncer&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1809.03142">
 <title>Fast and Efficient Information Transmission with Burst Spikes in Deep Spiking Neural Networks. (arXiv:1809.03142v1 [cs.NE])</title>
@@ -510,6 +530,30 @@ limitations.
 </description>
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kuhnle_A/0/1/0/all/0/1&quot;&gt;Alexander Kuhnle&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xie_H/0/1/0/all/0/1&quot;&gt;Huiyuan Xie&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Copestake_A/0/1/0/all/0/1&quot;&gt;Ann Copestake&lt;/a&gt;</dc:creator>
 </item>
+<item rdf:about="http://arxiv.org/abs/1809.03057">
+<title>Variance Reduction in Monte Carlo Counterfactual Regret Minimization (VR-MCCFR) for Extensive Form Games using Baselines. (arXiv:1809.03057v1 [cs.GT])</title>
+<link>http://arxiv.org/abs/1809.03057</link>
+<description rdf:parseType="Literal">&lt;p&gt;Learning strategies for imperfect information games from samples of
+interaction is a challenging problem. A common method for this setting, Monte
+Carlo Counterfactual Regret Minimization (MCCFR), can have slow long-term
+convergence rates due to high variance. In this paper, we introduce a variance
+reduction technique (VR-MCCFR) that applies to any sampling variant of MCCFR.
+Using this technique, per-iteration estimated values and updates are
+reformulated as a function of sampled values and state-action baselines,
+similar to their use in policy gradient reinforcement learning. The new
+formulation allows estimates to be bootstrapped from other estimates within the
+same episode, propagating the benefits of baselines along the sampled
+trajectory; the estimates remain unbiased even when bootstrapping from other
+estimates. Finally, we show that given a perfect baseline, the variance of the
+value estimates can be reduced to zero. Experimental evaluation shows that
+VR-MCCFR brings an order of magnitude speedup, while the empirical variance
+decreases by three orders of magnitude. The decreased variance allows for the
+first time CFR+ to be used with sampling, increasing the speedup to two orders
+of magnitude.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Schmid_M/0/1/0/all/0/1&quot;&gt;Martin Schmid&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Burch_N/0/1/0/all/0/1&quot;&gt;Neil Burch&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lanctot_M/0/1/0/all/0/1&quot;&gt;Marc Lanctot&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Moravcik_M/0/1/0/all/0/1&quot;&gt;Matej Moravcik&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kadlec_R/0/1/0/all/0/1&quot;&gt;Rudolf Kadlec&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bowling_M/0/1/0/all/0/1&quot;&gt;Michael Bowling&lt;/a&gt;</dc:creator>
+</item>
 <item rdf:about="http://arxiv.org/abs/1809.03073">
 <title>Sample Complexity of Nonparametric Semi-Supervised Learning. (arXiv:1809.03073v1 [cs.LG])</title>
 <link>http://arxiv.org/abs/1809.03073</link>
@@ -602,7 +646,7 @@ performed using TSMC 0.18um CMOS technology and HP memristor model.
 <dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Adam_K/0/1/0/all/0/1&quot;&gt;Kazybek Adam&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Smagulova_K/0/1/0/all/0/1&quot;&gt;Kamilya Smagulova&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+James_A/0/1/0/all/0/1&quot;&gt;Alex Pappachen James&lt;/a&gt;</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1809.03149">
-<title>Learning to Advertise with Adaptive Exposure via Constrained Two-Level Reinforcement Learning. (arXiv:1809.03149v1 [cs.AI])</title>
+<title>Learning to Advertise with Adaptive Exposure via Constrained Two-Level Reinforcement Learning. (arXiv:1809.03149v1 [cs.LG])</title>
 <link>http://arxiv.org/abs/1809.03149</link>
 <description rdf:parseType="Literal">&lt;p&gt;For online advertising in e-commerce, the traditional problem is to assign
 the right ad to the right user on fixed ad slots. In this paper, we investigate
